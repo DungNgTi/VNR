@@ -61,8 +61,8 @@
       "Description": "",
       "Data": "SO_SANH_XUAT_KHAU_VA_NHAP_KHAU_QUOC_TE",
       "Config": {
-        "From": "TRUOC_DOI_MOI",
-        "To": "SAU_DOI_MOI"
+        "FromIndex": [0],
+        "ToIndex": [1,2,3,4,5,6]
       }
     },
     {

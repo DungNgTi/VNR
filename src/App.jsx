@@ -5,6 +5,7 @@ import AppAppBar from './components/AppAppBar';
 import MainContent from './components/MainContent';
 import Latest from './components/Latest';
 import Footer from './components/Footer';
+import Page from './components/Page';
 
 export default function Blog(props) {
   return (
@@ -12,14 +13,14 @@ export default function Blog(props) {
       <CssBaseline enableColorScheme />
       <AppAppBar />
       <Container
-        maxWidth="lg"
+        maxWidth="xl"
         component="main"
-        sx={{ display: 'flex', flexDirection: 'column', my: 16, gap: 4 }}
+        sx={{ display: 'flex', flexDirection: 'column', my: 9, gap: 4 }}
       >
-        <MainContent />
-        <Latest />
+        <Page src="/config/default.json" />
+        {/* <Latest /> */}
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </AppTheme>
   );
 }

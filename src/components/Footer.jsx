@@ -12,22 +12,88 @@ import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
-import SitemarkIcon from './SitemarkIcon';
 
-function Copyright() {
+function Copyright({ name, url }) {
   return (
     <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
       {'Copyright © '}
-      <Link color="text.secondary" href="https://mui.com/">
-        Sitemark
+      <Link color="text.secondary" href={url ?? '#'}>
+        {name ?? 'Sitemark'}
       </Link>
-      &nbsp;
-      {new Date().getFullYear()}
+      &nbsp;{new Date().getFullYear()}
     </Typography>
   );
 }
 
-export default function Footer() {
+const footerProps = {
+  Brand: {
+    Logo: null,           // React component or null
+    Name: 'Sitemark',
+    Url: '/',
+  },
+  Newsletter: {
+    Enabled: true,
+    Title: 'Join the newsletter',
+    Description: 'Subscribe for weekly updates. No spams ever!',
+    Placeholder: 'Your email address',
+    ButtonLabel: 'Subscribe',
+    onSubmit: null,       // (email) => void
+  },
+  Columns: [
+    {
+      Title: 'Product',
+      Links: [
+        { Label: 'Features', Url: '#' },
+        { Label: 'Testimonials', Url: '#' },
+        { Label: 'Pricing', Url: '#' },
+        { Label: 'FAQs', Url: '#' },
+      ],
+    },
+    {
+      Title: 'Company',
+      Links: [
+        { Label: 'About us', Url: '#' },
+        { Label: 'Careers', Url: '#' },
+        { Label: 'Press', Url: '#' },
+      ],
+    },
+    {
+      Title: 'Legal',
+      Links: [
+        { Label: 'Terms', Url: '#' },
+        { Label: 'Privacy', Url: '#' },
+        { Label: 'Contact', Url: '#' },
+      ],
+    },
+  ],
+  Legal: {
+    Links: [
+      { Label: 'Privacy Policy', Url: '#' },
+      { Label: 'Terms of Service', Url: '#' },
+    ],
+  },
+  Socials: [
+    { Icon: 'github',   Url: 'https://github.com/mui',                        Label: 'GitHub' },
+    { Icon: 'twitter',  Url: 'https://x.com/MaterialUI',                      Label: 'X' },
+    { Icon: 'linkedin', Url: 'https://www.linkedin.com/company/mui/',          Label: 'LinkedIn' },
+  ],
+}
+
+const SOCIAL_ICONS = {
+  github:   <GitHubIcon />,
+  twitter:  <TwitterIcon />,
+  linkedin: <LinkedInIcon />,
+}
+
+export default function Footer({ config = footerProps }) {
+  const { Brand, Newsletter, Columns, Legal, Socials } = config
+  const [email, setEmail] = React.useState('')
+
+  const handleSubscribe = () => {
+    Newsletter?.onSubmit?.(email)
+    setEmail('')
+  }
+
   return (
     <React.Fragment>
       <Divider />
@@ -47,124 +113,69 @@ export default function Footer() {
             flexDirection: { xs: 'column', sm: 'row' },
             width: '100%',
             justifyContent: 'space-between',
+            gap: 4,
           }}
         >
-          <Box
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 4,
-              minWidth: { xs: '100%', sm: '60%' },
-            }}
-          >
+          {/* Brand + Newsletter */}
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4, minWidth: { xs: '100%', sm: '60%' } }}>
             <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
-              <SitemarkIcon />
-              <Typography
-                variant="body2"
-                gutterBottom
-                sx={{ fontWeight: 600, mt: 2 }}
-              >
-                Join the newsletter
-              </Typography>
-              <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
-                Subscribe for weekly updates. No spams ever!
-              </Typography>
-              <InputLabel htmlFor="email-newsletter">Email</InputLabel>
-              <Stack direction="row" spacing={1} useFlexGap>
-                <TextField
-                  id="email-newsletter"
-                  hiddenLabel
-                  size="small"
-                  variant="outlined"
-                  fullWidth
-                  aria-label="Enter your email address"
-                  placeholder="Your email address"
-                  slotProps={{
-                    htmlInput: {
-                      autoComplete: 'off',
-                      'aria-label': 'Enter your email address',
-                    },
-                  }}
-                  sx={{ width: '250px' }}
-                />
-                <Button
-                  variant="contained"
-                  color="primary"
-                  size="small"
-                  sx={{ flexShrink: 0 }}
-                >
-                  Subscribe
-                </Button>
-              </Stack>
+              {Brand?.Logo && <Brand.Logo />}
+              {Brand?.Name && !Brand?.Logo && (
+                <Typography variant="h6" fontWeight={700}>{Brand.Name}</Typography>
+              )}
+
+              {Newsletter?.Enabled && (
+                <>
+                  <Typography variant="body2" gutterBottom sx={{ fontWeight: 600, mt: 2 }}>
+                    {Newsletter.Title}
+                  </Typography>
+                  <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
+                    {Newsletter.Description}
+                  </Typography>
+                  <InputLabel htmlFor="email-newsletter">Email</InputLabel>
+                  <Stack direction="row" spacing={1} useFlexGap>
+                    <TextField
+                      id="email-newsletter"
+                      hiddenLabel
+                      size="small"
+                      variant="outlined"
+                      fullWidth
+                      placeholder={Newsletter.Placeholder}
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      onKeyDown={(e) => e.key === 'Enter' && handleSubscribe()}
+                      slotProps={{ htmlInput: { autoComplete: 'off' } }}
+                      sx={{ width: '250px' }}
+                    />
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      size="small"
+                      sx={{ flexShrink: 0 }}
+                      onClick={handleSubscribe}
+                    >
+                      {Newsletter.ButtonLabel}
+                    </Button>
+                  </Stack>
+                </>
+              )}
             </Box>
           </Box>
-          <Box
-            sx={{
-              display: { xs: 'none', sm: 'flex' },
-              flexDirection: 'column',
-              gap: 1,
-            }}
-          >
-            <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-              Product
-            </Typography>
-            <Link color="text.secondary" variant="body2" href="#">
-              Features
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              Testimonials
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              Highlights
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              Pricing
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              FAQs
-            </Link>
-          </Box>
-          <Box
-            sx={{
-              display: { xs: 'none', sm: 'flex' },
-              flexDirection: 'column',
-              gap: 1,
-            }}
-          >
-            <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-              Company
-            </Typography>
-            <Link color="text.secondary" variant="body2" href="#">
-              About us
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              Careers
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              Press
-            </Link>
-          </Box>
-          <Box
-            sx={{
-              display: { xs: 'none', sm: 'flex' },
-              flexDirection: 'column',
-              gap: 1,
-            }}
-          >
-            <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-              Legal
-            </Typography>
-            <Link color="text.secondary" variant="body2" href="#">
-              Terms
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              Privacy
-            </Link>
-            <Link color="text.secondary" variant="body2" href="#">
-              Contact
-            </Link>
-          </Box>
+
+          {/* Nav Columns */}
+          {Columns?.map((col, i) => (
+            <Box key={i} sx={{ display: { xs: 'none', sm: 'flex' }, flexDirection: 'column', gap: 1 }}>
+              <Typography variant="body2" sx={{ fontWeight: 'medium' }}>{col.Title}</Typography>
+              {col.Links?.map((link, j) => (
+                <Link key={j} color="text.secondary" variant="body2" href={link.Url}>
+                  {link.Label}
+                </Link>
+              ))}
+            </Box>
+          ))}
         </Box>
+
+        {/* Bottom Bar */}
         <Box
           sx={{
             display: 'flex',
@@ -176,53 +187,36 @@ export default function Footer() {
           }}
         >
           <div>
-            <Link color="text.secondary" variant="body2" href="#">
-              Privacy Policy
-            </Link>
-            <Typography sx={{ display: 'inline', mx: 0.5, opacity: 0.5 }}>
-              &nbsp;•&nbsp;
-            </Typography>
-            <Link color="text.secondary" variant="body2" href="#">
-              Terms of Service
-            </Link>
-            <Copyright />
+            {Legal?.Links?.map((link, i) => (
+              <React.Fragment key={i}>
+                {i > 0 && (
+                  <Typography sx={{ display: 'inline', mx: 0.5, opacity: 0.5 }}>&nbsp;•&nbsp;</Typography>
+                )}
+                <Link color="text.secondary" variant="body2" href={link.Url}>
+                  {link.Label}
+                </Link>
+              </React.Fragment>
+            ))}
+            <Copyright name={Brand?.Name} url={Brand?.Url} />
           </div>
-          <Stack
-            direction="row"
-            spacing={1}
-            useFlexGap
-            sx={{ justifyContent: 'left', color: 'text.secondary' }}
-          >
-            <IconButton
-              color="inherit"
-              size="small"
-              href="https://github.com/mui"
-              aria-label="GitHub"
-              sx={{ alignSelf: 'center' }}
-            >
-              <GitHubIcon />
-            </IconButton>
-            <IconButton
-              color="inherit"
-              size="small"
-              href="https://x.com/MaterialUI"
-              aria-label="X"
-              sx={{ alignSelf: 'center' }}
-            >
-              <TwitterIcon />
-            </IconButton>
-            <IconButton
-              color="inherit"
-              size="small"
-              href="https://www.linkedin.com/company/mui/"
-              aria-label="LinkedIn"
-              sx={{ alignSelf: 'center' }}
-            >
-              <LinkedInIcon />
-            </IconButton>
+
+          {/* Socials */}
+          <Stack direction="row" spacing={1} useFlexGap sx={{ color: 'text.secondary' }}>
+            {Socials?.map((social, i) => (
+              <IconButton
+                key={i}
+                color="inherit"
+                size="small"
+                href={social.Url}
+                aria-label={social.Label}
+                sx={{ alignSelf: 'center' }}
+              >
+                {SOCIAL_ICONS[social.Icon] ?? null}
+              </IconButton>
+            ))}
           </Stack>
         </Box>
       </Container>
     </React.Fragment>
-  );
+  )
 }
