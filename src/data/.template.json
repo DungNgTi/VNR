@@ -1,0 +1,364 @@
+{
+  "Layout": [
+    {
+      "ModuleType": "HERO",
+      "Title": "",
+      "Description": "",
+      "Data": "HERO_DAI_HOI_VI",
+      "Config": {
+        "Size": "Large",
+        "Alignment": "Center"
+      }
+    },
+    {
+      "ModuleType": "CARD",
+      "Title": "",
+      "Description": "",
+      "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+      "Config": {
+        "Searchable": "",
+        "Categories": [
+          "Tag1",
+          "Tag2"
+        ]
+      }
+    },
+    {
+      "ModuleType": "STATISTIC",
+      "Title": "",
+      "Description": "",
+      "Data": "BIEU_DO_THONG_KE_LAM_PHAT",
+      "Config": {
+        "Variant": "Bar",
+        "Alignment": "Left"
+      }
+    },
+    {
+      "ModuleType": "TIMELINE",
+      "Title": "",
+      "Description": "",
+      "Data": "DONG_THOI_GIAN_SU_KIEN",
+      "Config": {
+        "Direction": "Vertical",
+        "Alignment": "Left"
+      }
+    },
+    {
+      "ModuleType": "PROFILE",
+      "Title": "",
+      "Description": "",
+      "Data": "PROFILE_DAI_BIEU_THAM_GIA_DAI_HOI",
+      "Config": {
+        "Scroll": {
+          "Direction": "Horizontal",
+          "Parallax": true
+        }
+      }
+    },
+    {
+      "ModuleType": "COMPARISON",
+      "Title": "",
+      "Description": "",
+      "Data": "SO_SANH_XUAT_KHAU_VA_NHAP_KHAU_QUOC_TE",
+      "Config": {
+        "From": "TRUOC_DOI_MOI",
+        "To": "SAU_DOI_MOI"
+      }
+    },
+    {
+      "ModuleType": "TABLE",
+      "Title": "",
+      "Description": "",
+      "Data": "BANG_SO_LIEU_KINH_TE",
+      "Config": {
+        "Columns": [],
+        "Sortable": true,
+        "Striped": true
+      }
+    },
+    {
+      "ModuleType": "ACCORDION",
+      "Title": "",
+      "Description": "",
+      "Data": "CAC_NGUYEN_TAC_DOI_MOI",
+      "Config": {
+        "DefaultExpanded": 0,
+        "Alignment": "Left"
+      }
+    }
+  ],
+  "Data": {
+    "HERO_DAI_HOI_VI": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "",
+        "Description": "",
+        "Content": "",
+        "Tags": [
+          ""
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 1,
+        "Alignment": "Center",
+        "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      }
+    ],
+    "BLOG_CAC_THONG_TIN_CHUNG": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "",
+        "Description": "",
+        "Content": "",
+        "Tags": [
+          ""
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_blank"
+        }
+      }
+    ],
+    "BIEU_DO_THONG_KE_LAM_PHAT": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "",
+        "Description": "",
+        "Content": "",
+        "Tags": [
+          ""
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_blank"
+        }
+      }
+    ],
+    "DONG_THOI_GIAN_SU_KIEN": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "",
+        "Description": "",
+        "Content": "",
+        "Tags": [
+          ""
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_blank"
+        }
+      }
+    ],
+    "PROFILE_DAI_BIEU_THAM_GIA_DAI_HOI": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "",
+        "Description": "",
+        "Content": "",
+        "Tags": [
+          ""
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      }
+    ],
+    "SO_SANH_XUAT_KHAU_VA_NHAP_KHAU_QUOC_TE": {
+      "TRUOC_DOI_MOI": [
+        {
+          "Image": [],
+          "Video": {
+            "Src": "",
+            "Type": "youtube | file",
+            "Poster": ""
+          },
+          "Title": "",
+          "Description": "",
+          "Content": "",
+          "Tags": [
+            ""
+          ],
+          "Author": [
+            {
+              "Name": "",
+              "Image": ""
+            }
+          ],
+          "Scale": 0.5,
+          "Alignment": "Left",
+          "Date": "",
+          "Link": {
+            "Href": "",
+            "Title": "",
+            "Target": "_blank"
+          }
+        }
+      ],
+      "SAU_DOI_MOI": [
+        {
+          "Image": [],
+          "Video": {
+            "Src": "",
+            "Type": "youtube | file",
+            "Poster": ""
+          },
+          "Title": "",
+          "Description": "",
+          "Content": "",
+          "Tags": [
+            ""
+          ],
+          "Author": [
+            {
+              "Name": "",
+              "Image": ""
+            }
+          ],
+          "Scale": 0.5,
+          "Alignment": "Left",
+          "Date": "",
+          "Link": {
+            "Href": "",
+            "Title": "",
+            "Target": "_blank"
+          }
+        }
+      ]
+    },
+    "BANG_SO_LIEU_KINH_TE": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "",
+        "Description": "",
+        "Content": "",
+        "Tags": [
+          ""
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_blank"
+        }
+      }
+    ],
+    "CAC_NGUYEN_TAC_DOI_MOI": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "",
+        "Description": "",
+        "Content": "",
+        "Tags": [
+          ""
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_blank"
+        }
+      }
+    ]
+  }
+}
