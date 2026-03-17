@@ -1,7 +1,7 @@
 import { Box, useColorScheme } from "@mui/material"
 
 export default function Background({ config }) {
-    const { Color, Image, Gradient, Blur = 0, Overlay } = config.Background ?? {}
+    const { Color, Image, Gradient, Blur = 0, Overlay, Parallax = false } = config.Background ?? {}
     const { mode } = useColorScheme()
 
     if (!Color && !Image && !Gradient) return null
@@ -11,13 +11,14 @@ export default function Background({ config }) {
             {/* Image layer */}
             {Image && (
                 <Box sx={{
-                    position:           "fixed",
+                    position:           Parallax ? "fixed" : "absolute",
                     inset:              0,
                     zIndex:             -2,
                     backgroundImage:    `url(${Image})`,
-                    backgroundSize:     "cover",
+                    backgroundSize:     Parallax ? "cover" : "cover",
                     backgroundPosition: "center",
                     backgroundRepeat:   "no-repeat",
+                    backgroundAttachment: Parallax ? "fixed" : "scroll",
                     filter:             Blur ? `blur(${Blur}px)` : "none",
                     transform:          Blur ? "scale(1.05)" : "none", // prevent blur edge bleed
                 }} />

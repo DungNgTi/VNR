@@ -41,7 +41,21 @@ export const profileProps = {
         Scroll: {
             Direction: "Horizontal",
             Parallax: true,
+            ShowDots: true,
         }
+    }
+}
+
+export const scrollerProps = {
+    ...generalDefaultProps,
+    Config: {
+        Direction: "Horizontal",
+        Parallax: false,
+        ShowDots: true,
+        FreeMode: true,
+        SpaceBetween: 16,
+        SlidesPerView: "auto",
+        UseNative: false,
     }
 }
 

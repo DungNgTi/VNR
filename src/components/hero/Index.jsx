@@ -53,6 +53,8 @@ export default function HeroModule({
                         height: "100%",
                         objectFit: "cover",
                         zIndex: 0,
+                        filter: "blur(8px)",
+                        transform: "scale(1.1)",
                     }}
                 />
             )}

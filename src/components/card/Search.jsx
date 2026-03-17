@@ -12,14 +12,14 @@ export const filterData = (data, query, category) =>
 export function Search({ query, placeholder, onSearch, category, onCategory, categories = [] }) {
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: 2 }}>
-      <Box sx={{ display: 'flex', gap: 1, overflow: 'auto' }}>
+      <Box sx={{ display: 'flex', gap: 1, overflow: 'auto', alignItems: 'center' }}>
         {['All', ...categories].map(c => (
-          <Chip 
-            key={c} 
-            label={c} 
-            onClick={() => onCategory(c)} 
-            color={category === c ? 'primary' : 'default'} 
-            variant={category === c ? 'filled' : 'outlined'} 
+          <Chip
+            key={c}
+            label={c}
+            onClick={() => onCategory(c)}
+            color={category === c ? 'primary' : 'default'}
+            variant={category === c ? 'filled' : 'outlined'}
           />
         ))}
       </Box>
