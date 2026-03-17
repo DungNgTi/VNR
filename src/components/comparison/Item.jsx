@@ -14,7 +14,11 @@ const StyledCard = styled(Card)(({ theme }) => ({
   padding: 0,
   height: '100%',
   backgroundColor: (theme.vars || theme).palette.background.paper,
-  '&:hover': { backgroundColor: 'transparent', cursor: 'pointer' },
+  '&:hover': { 
+    backgroundColor: (theme.vars || theme).palette.background.paper,
+    cursor: 'pointer',
+    boxShadow: theme.shadows[4],
+  },
   '&:focus-visible': { outline: '3px solid', outlineColor: 'hsla(210, 98%, 48%, 0.5)', outlineOffset: '2px' },
 }));
 
@@ -46,7 +50,6 @@ export default function Item({ item = dataItemProps }) {
 
   return (
     <StyledCard
-      variant="outlined"
       onClick={handleClick}
       onFocus={() => setFocused(true)}
       onBlur={() => setFocused(false)}

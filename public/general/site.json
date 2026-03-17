@@ -1,0 +1,109 @@
+{
+    "Name": "Đại hội VI",
+    "Logo": null,
+    "Background": {
+        "Color": null,
+        "Image": "https://picsum.photos/seed/bg1/1920/1080",
+        "Gradient": null,
+        "Blur": 6,
+        "Overlay": "rgba(255, 255, 255, 0.7)"
+    },
+    "Header": {
+        "Enabled": true,
+        "Transparent": true,
+        "Links": [
+            {
+                "Label": "Tổng quan",
+                "Path": "/"
+            },
+            {
+                "Label": "Kinh tế",
+                "Path": "/kinh-te"
+            },
+            {
+                "Label": "Sự kiện",
+                "Path": "/su-kien"
+            },
+            {
+                "Label": "Đại biểu",
+                "Path": "/dai-bieu"
+            }
+        ]
+    },
+    "Footer": {
+        "Enabled": true,
+        "Brand": {
+            "Logo": null,
+            "Name": "Đại hội VI",
+            "Url": "/"
+        },
+        "Newsletter": {
+            "Enabled": false,
+            "Title": "Đăng ký nhận tin",
+            "Description": "Cập nhật thông tin mới nhất về Đại hội.",
+            "Placeholder": "Email của bạn",
+            "ButtonLabel": "Đăng ký"
+        },
+        "Columns": [
+            {
+                "Title": "Nội dung",
+                "Links": [
+                    {
+                        "Label": "Tổng quan",
+                        "Url": "/"
+                    },
+                    {
+                        "Label": "Kinh tế",
+                        "Url": "/kinh-te"
+                    },
+                    {
+                        "Label": "Sự kiện",
+                        "Url": "/su-kien"
+                    }
+                ]
+            },
+            {
+                "Title": "Tài liệu",
+                "Links": [
+                    {
+                        "Label": "Nghị quyết",
+                        "Url": "#"
+                    },
+                    {
+                        "Label": "Báo cáo",
+                        "Url": "#"
+                    }
+                ]
+            }
+        ],
+        "Legal": {
+            "Links": [
+                {
+                    "Label": "Chính sách",
+                    "Url": "#"
+                },
+                {
+                    "Label": "Điều khoản",
+                    "Url": "#"
+                }
+            ]
+        },
+        "Socials": [
+            {
+                "Icon": "github",
+                "Url": "",
+                "Label": "GitHub"
+            },
+            {
+                "Icon": "twitter",
+                "Url": "",
+                "Label": "Twitter"
+            },
+            {
+                "Icon": "linkedin",
+                "Url": "",
+                "Label": "LinkedIn"
+            }
+        ]
+    }
+}
