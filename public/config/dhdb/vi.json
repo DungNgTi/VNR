@@ -1,0 +1,733 @@
+{
+  "Layout": [
+    {
+      "ModuleType": "HERO",
+      "Title": "Đại hội VI - Bước Ngoặt Đổi Mới 1986",
+      "Description": "Từ khủng hoảng 774% lạm phát đến công cuộc Đổi mới toàn diện",
+      "Data": "HERO_DAI_HOI_VI",
+      "Config": {
+        "Size": "Large",
+        "Alignment": "Center"
+      }
+    },
+    {
+      "ModuleType": "TIMELINE",
+      "Title": "Hành Trình Đổi Mới",
+      "Description": "Từ cuộc cải cách Giá-Lương-Tiền 1985 thất bại với lạm phát 774% (1986), qua Đại hội VI khởi xướng Đổi mới (12/1986), đến những thành công ban đầu 1991 với lạm phát giảm còn 67.1%. Hành trình 40+ quyết định cải cách thể chế, xóa bỏ bao cấp, xây dựng kinh tế thị trường nhiều thành phần.",
+      "Data": "DONG_THOI_GIAN_SU_KIEN",
+      "Config": {
+        "Direction": "Vertical",
+        "Alignment": "Center"
+      }
+    },
+    {
+      "ModuleType": "CARD",
+      "Title": "Góc Nhìn Đổi Mới",
+      "Description": "Câu chuyện đời sống, nhân vật và bài học từ thời kỳ Đổi mới",
+      "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+      "Config": {
+        "Searchable": true,
+        "Categories": ["Đời sống", "Nhân vật", "Bài học"]
+      }
+    },
+    {
+      "ModuleType": "STATISTIC",
+      "Title": "Số Liệu Ấn Tượng",
+      "Description": "Lạm phát, tăng trưởng và các chỉ tiêu kinh tế thời kỳ Đổi mới",
+      "Data": "BIEU_DO_THONG_KE_LAM_PHAT",
+      "Config": {
+        "Variant": "Bar",
+        "Alignment": "Left"
+      }
+    },
+    {
+      "ModuleType": "ACCORDION",
+      "Title": "Nguyên Tắc & Chính Sách",
+      "Description": "6 nguyên tắc chỉ đạo đổi mới, 4 bài học quý báu, 5 phương hướng kinh tế, chính sách xã hội, đối ngoại và công tác xây dựng Đảng từ Đại hội VI",
+      "Data": "CAC_NGUYEN_TAC_DOI_MOI",
+      "Config": {
+        "DefaultExpanded": 0,
+        "Alignment": "Left"
+      }
+    },
+    {
+      "ModuleType": "PROFILE",
+      "Title": "Lãnh Đạo & Nhân Vật",
+      "Description": "Những người lãnh đạo và chuyên gia trong thời kỳ Đổi mới",
+      "Data": "PROFILE_DAI_BIEU_THAM_GIA_DAI_HOI",
+      "Config": {
+        "Scroll": {
+          "Direction": "Horizontal",
+          "Parallax": true
+        }
+      }
+    }
+  ],
+  "Data": {
+    "HERO_DAI_HOI_VI": [
+      {
+        "Image": [
+          "/resource/vi/Quang cảnh Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
+        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội đại biểu toàn quốc lần thứ VI của Đảng (15-18/12/1986)",
+        "Description": "1.129 đại biểu thay mặt gần 2 triệu đảng viên | 32 đoàn quốc tế | Khởi xướng đường lối Đổi mới toàn diện | Bầu Ban Chấp hành Trung ương 124 ủy viên | Bộ Chính trị 13 ủy viên",
+        "Tags": ["Đại hội VI", "Đổi mới", "1986", "Nguyễn Văn Linh", "Đảng Cộng sản Việt Nam"],
+        "Author": [
+          {
+            "Name": "Đảng Cộng sản Việt Nam",
+            "Image": ""
+          }
+        ],
+        "Scale": 1,
+        "Alignment": "Center",
+        "Date": "1986-12-15",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [
+          "/resource/vi/Đồng chí Nguyễn Văn Linh đọc diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
+        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Tổng Bí thư Nguyễn Văn Linh",
+        "Description": "Được bầu làm Tổng Bí thư tại Đại hội VI | Người lãnh đạo công cuộc Đổi mới toàn diện đất nước | Hà Nội, tháng 12/1986",
+        "Tags": ["Nguyễn Văn Linh", "Tổng Bí thư", "Đại hội VI", "Lãnh đạo", "Đổi mới"],
+        "Author": [
+          {
+            "Name": "Đảng Cộng sản Việt Nam",
+            "Image": ""
+          }
+        ],
+        "Scale": 1,
+        "Alignment": "Center",
+        "Date": "1986-12-18",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      }
+    ],
+    "DONG_THOI_GIAN_SU_KIEN": [
+      {
+        "Image": ["/resource/vi/Bộ tiền giấy của nước Cộng hòa xã hội chủ nghĩa Việt Nam phát hành lần đổi tiền năm 1985..webp", "/resource/vi/Cuộc đổi tiền năm 1985 vẫn hằn sâu trong ký ức nhiều người.webp"],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Cải cách Giá – Lương – Tiền (1985)",
+        "Description": "<p>Cuộc cải cách kinh tế nhằm <strong>xóa bỏ cơ chế tập trung quan liêu bao cấp</strong>, chuyển hẳn sang hạch toán kinh doanh xã hội chủ nghĩa theo <strong>Nghị quyết Trung ương 8 khóa V</strong>.</p><p><strong>Mục tiêu:</strong> Tính đủ chi phí hợp lý vào sản xuất, thực hiện cơ chế một giá. Tất cả quy ra thóc (<strong>25 đồng/kg</strong>), lương tăng <strong>100%</strong> để bù lạm phát.</p><p><strong>Tài chính:</strong> Ngân sách cần 120 tỷ đồng. Phát hành tiền mới mệnh giá thấp hơn 10 lần.</p><p class='highlight'>Tiền mới phát hành 1,4 lần so với 1978.</p><p><strong>Thất bại:</strong> Cải cách không đi liền với thúc đẩy sản xuất nên hàng hóa không có thêm, dẫn đến lạm phát 774% (1986). Tuy nhiên tạo tiền đề cho Đổi mới.</p>",
+        "Tags": ["Giá-Lương-Tiền", "1985", "Cải cách", "Bao cấp", "Nghị quyết Trung ương 8", "Thất bại"],
+        "Author": [{"Name": "Wikipedia", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Right",
+        "Date": "1985",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": ["/resource/vi/Bàn đổi tiền ở khu phố Hàng Buồm, Hà Nội, năm 1985.webp"],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Đổi tiền 14/9/1985",
+        "Description": "<p><strong>14/9/1985</strong>: Đổi 4 loại tiền mệnh giá lớn: <strong>100, 50, 30, 20 đồng</strong>.</p><ul><li>Mỗi gia đình đổi tối đa <strong>1.500-2.000đ</strong></li><li>Hộ kinh doanh bậc cao <strong>5.000đ</strong></li></ul><p>Mọi hoạt động sản xuất, kinh doanh, học tập ngưng trệ khi toàn xã hội tập trung đổi tiền.</p><p>Sau 3 tháng, lượng tiền đưa vào lưu thông tương đương <strong>1,4 lần</strong> cuộc đổi tiền 1978.</p>",
+        "Tags": ["Đổi tiền", "1985", "Hàng Buồm", "Hà Nội", "14/9"],
+        "Author": [{"Name": "Tuổi Trẻ", "Image": ""}],
+        "Scale": 0.4,
+        "Alignment": "Left",
+        "Date": "1985-09-14",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": ["/resource/vi/Quang cảnh Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg", "/resource/vi/Đồng chí Nguyễn Văn Linh đọc diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Đại hội VI (15-18/12/1986) - Khởi xướng Đổi mới toàn diện",
+        "Description": "<p>Diễn ra tại <strong>Hà Nội</strong> trong bối cảnh:</p><ul><li>Cuộc cách mạng khoa học - kỹ thuật phát triển mạnh</li><li>Xu thế đối thoại thay thế đối đầu trên thế giới</li><li>Đổi mới trở thành xu thế thời đại</li><li>Liên Xô và các nước XHCN tiến hành cải tổ</li><li>Việt Nam bị bao vây, cấm vận</li><li>Khủng hoảng kinh tế - xã hội: lạm phát <span class='highlight'>774%</span> (1986)</li><li>Đổi mới là đòi hỏi bức thiết của đất nước</li></ul><p><strong>1.129 đại biểu</strong> (gần 2 triệu đảng viên) | <strong>32 đoàn</strong> quốc tế</p><p>Bầu <strong>Nguyễn Văn Linh</strong> làm Tổng Bí thư | BCH Trung ương <strong>124 ủy viên</strong> | Bộ Chính trị <strong>13 ủy viên</strong></p><p class='highlight'>Nhìn thẳng sự thật, đánh giá đúng sự thật, nói rõ sự thật</p><p><strong>Tự phê bình:</strong> Sai lầm nghiêm trọng về chủ trương | Bệnh chủ quan duy ý chí | Tư tưởng tiểu tư sản vừa tả khuynh vừa hữu khuynh</p><p><strong>4 bài học:</strong> Lấy dân làm gốc | Tôn trọng quy luật khách quan | Kết hợp dân tộc-thời đại | Xây dựng Đảng ngang tầm đảng cầm quyền</p>",
+        "Tags": ["Đại hội VI", "1986", "Hà Nội", "Nguyễn Văn Linh", "Đổi mới", "1129 đại biểu", "Bối cảnh"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.6,
+        "Alignment": "Right",
+        "Date": "1986-12-15",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": ["/resource/vi/Quốc hội khóa VIII- Quốc hội đầu tiên của thời kỳ đổi mới với 496 đại biểu..jpg"],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "1987 - Năm đầu triển khai Nghị quyết Đại hội VI",
+        "Description": "<p><strong>29/6:</strong> HĐBT chỉ đạo <strong>3 chương trình kinh tế lớn</strong>: lương thực, hàng tiêu dùng, hàng xuất khẩu</p><p><strong>3/7:</strong> QĐ 218-CT làm thử chuyển ngành Ngân hàng sang hạch toán kinh doanh XHCN</p><p><strong>20-28/8:</strong> TW3 khóa VI thông qua nghị quyết <strong>'Chuyển hoạt động của các đơn vị kinh tế cơ sở quốc doanh sang kinh doanh XHCN, đổi mới quản lý Nhà nước về kinh tế'</strong></p><p><strong>9/10:</strong> Chính sách khuyến khích sản xuất vụ đông</p><p><strong>3/11:</strong> QĐ 209a-HĐBT chuyển ngành lương thực sang hạch toán</p><p><strong>14/11:</strong> QĐ 217-HĐBT trao quyền tự chủ sản xuất, kinh doanh cho xí nghiệp quốc doanh</p><p><strong>29/12:</strong> Quốc hội khóa VIII thông qua <strong>Luật đất đai, Luật đầu tư nước ngoài</strong></p><p><strong>31/12:</strong> QĐ 231-HĐBT chuyển ngành vật tư sang hạch toán</p>",
+        "Tags": ["1987", "Triển khai", "QĐ 217", "QĐ 218", "Luật đất đai", "Quốc hội khóa VIII", "3 chương trình kinh tế"],
+        "Author": [{"Name": "Chính phủ", "Image": ""}],
+        "Scale": 0.4,
+        "Alignment": "Left",
+        "Date": "1987",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": ["/resource/vi/Máy tuốt lúa được phân phối cho xã viên hợp tác xã ở Hà Bắc (cũ).webp"],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "1988 - Năm đột phá: Khoán 10 và kinh tế nhiều thành phần",
+        "Description": "<p><strong>9/3:</strong> Nghị định 27, 28, 29-HĐBT về chính sách kinh tế cá thể, tư doanh, tập thể, gia đình</p><p><strong>10/3:</strong> Chủ tịch HĐBT Phạm Hùng từ trần, Võ Văn Kiệt quyền Chủ tịch</p><p><strong>24/3:</strong> Nghị quyết 66-NQ/HĐNN8 kiện toàn cơ quan HĐBT</p><p><strong>5/4:</strong> <span class='highlight'>NQ 10-NQ/TW (Khoán 10)</span> - nông dân nhận khoán canh tác <strong>15 năm</strong>, thu nhập <strong>40% sản lượng</strong></p><p><strong>20/4:</strong> Chỉ thị 67-HĐBT triển khai NQ 10</p><p><strong>22/6:</strong> Đỗ Mười bầu làm Chủ tịch HĐBT, Quốc hội thông qua Luật quốc tịch, Bộ Luật tố tụng hình sự</p><p><strong>6/8:</strong> Thành lập ủy ban Nhà nước về Hợp tác và Đầu tư</p><p><strong>14/11:</strong> Nghị định 169, 170, 171-HĐBT về quản lý kinh tế nông nghiệp</p><p><strong>20/12:</strong> QĐ 183-HĐBT đổi mới hoạt động thương nghiệp quốc doanh</p>",
+        "Tags": ["1988", "Khoán 10", "Nông nghiệp", "Phạm Hùng", "Võ Văn Kiệt", "Đỗ Mười", "Kinh tế nhiều thành phần"],
+        "Author": [{"Name": "Bộ Chính trị", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Right",
+        "Date": "1988",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "1989 - Củng cố và mở rộng: TW6 và 6 nguyên tắc chỉ đạo",
+        "Description": "<p><strong>1/2:</strong> QĐ 13-HĐBT giải quyết vấn đề cấp bách về ruộng đất</p><p><strong>9/3:</strong> QĐ 23-HĐBT về công tác giáo dục và đào tạo</p><p><strong>20-29/3:</strong> <span class='highlight'>Hội nghị TW6 khóa VI</span> kiểm điểm 2 năm thực hiện, tạo bước ngoặt với chủ trương:</p><ul><li>Phát triển thị trường thống nhất</li><li>Chấp nhận cơ chế thị trường</li><li>Khẳng định kinh tế nhiều thành phần là chiến lược lâu dài</li></ul><p><strong>6 nguyên tắc:</strong></p><ol><li>Đi lên CNXH tất yếu</li><li>Chủ nghĩa Mác-Lênin nền tảng</li><li>Đổi mới hệ thống chính trị</li><li>Lãnh đạo Đảng quyết định</li><li>Dân chủ XHCN mục tiêu-động lực</li><li>Kết hợp yêu nước+quốc tế vô sản</li></ol><p><strong>10/4:</strong> QĐ 38-HĐBT về chính sách liên kết kinh tế</p><p><strong>28/4:</strong> Chỉ thị 46-HĐBT bảo hộ sản xuất trong nước</p><p><strong>24/5:</strong> QĐ 139-CT cho phép kinh doanh vàng bạc, đá quý</p><p><strong>10/6:</strong> Nghị định 64-HĐBT về xuất nhập khẩu</p><p><strong>30/6:</strong> Quốc hội chia các tỉnh: Nghĩa Bình, Phú Khánh, Bình Trị Thiên</p><p><strong>29/9:</strong> Hoàn thành rút quân Campuchia</p><p><strong>11/12:</strong> Nghị định 196-HĐBT quy định nhiệm vụ, quyền hạn các Bộ</p><p><strong>28/12:</strong> Quốc hội thông qua <strong>Luật Báo chí</strong></p>",
+        "Tags": ["1989", "TW6", "6 nguyên tắc", "Rút quân Campuchia", "Luật Báo chí", "Cơ chế thị trường"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "1990 - Hoàn thiện thể chế và công tác tư tưởng",
+        "Description": "<p><strong>4/1:</strong> QĐ 07-HĐBT thành lập <strong>Kho bạc Nhà nước</strong></p><p><strong>31/3:</strong> Kiện toàn cơ quan HĐBT:</p><ul><li>Thành lập Bộ Văn hoá - Thông tin - Thể thao và Du lịch</li><li>Thành lập Bộ Thương nghiệp</li><li>Đổi tên Bộ Cơ khí và Luyện kim thành Bộ Công nghiệp nặng</li><li>Đổi tên Bộ Giao thông vận tải thành Bộ Giao thông vận tải và Bưu điện</li></ul><p><strong>26/6:</strong> QĐ 240-HĐBT về đấu tranh chống tham nhũng</p><p><strong>30/6:</strong> Quốc hội thông qua <strong>Luật Công đoàn, Luật thuế</strong></p><p><strong>1/9:</strong> QĐ 315-HĐBT chấn chỉnh sản xuất kinh doanh khu vực quốc doanh</p><p><strong>12:</strong> Quốc hội thông qua <strong>Luật doanh nghiệp tư nhân, Luật công ty</strong></p><p class='highlight'>Hội nghị TW8 (3/1990) phân tích khủng hoảng XHCN: nguyên nhân sâu xa là mô hình CNXH có nhược điểm (nóng vội, hành chính mệnh lệnh, phủ nhận kinh tế hàng hóa, tập trung quan liêu).</p>",
+        "Tags": ["1990", "Thể chế", "Kho bạc", "Luật Công đoàn", "Luật thuế", "TW8", "Chống tham nhũng"],
+        "Author": [{"Name": "Quốc hội", "Image": ""}],
+        "Scale": 0.4,
+        "Alignment": "Right",
+        "Date": "1990",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": ["/resource/vi/Tốc độ tăng tổng sản phẩm trong nước (gdp) của việt nam trong 10 năm (1986 - 1995).webp"],
+        "Video": {"Src": "/resource/vi/Những hình ảnh Hà Nội thời kỳ đổi mới - VnExpress.mp4", "Type": "file", "Poster": ""},
+        "Title": "Kết quả 1991 - Từ khủng hoảng đến thành công ban đầu",
+        "Description": "<p><strong>Các chủ trương thể hiện tư duy đổi mới quan trọng và đã có kết quả nhanh chóng:</strong></p><p>Lạm phát giảm từ <span class='highlight'>774%</span> (1986) còn <span class='highlight'>67.1%</span> (1991).</p><p><strong>Cuối 1988:</strong> Xóa bỏ chế độ tem phiếu</p><p><strong>Lương thực:</strong> Từ nhập hơn <strong>40 vạn tấn</strong> gạo (1988) → đáp ứng nhu cầu, có dự trữ và <strong>xuất khẩu</strong> (1989).</p><p><strong>Hàng tiêu dùng:</strong> Đa dạng, lưu thông tương đối thuận lợi</p><p><strong>Kinh tế nhiều thành phần:</strong> Vận động theo cơ chế thị trường có sự quản lý của Nhà nước bước đầu hình thành</p><p><strong>Kinh tế đối ngoại:</strong> Phát triển nhanh hơn trước</p><p><strong>Kế hoạch 5 năm 1986-1990:</strong></p><ul><li>Thu nhập quốc dân: <strong>6-7%/năm</strong></li><li>Lương thực: <strong>22-23 triệu tấn</strong> (1990)</li><li>Hàng tiêu dùng: <strong>13-15%/năm</strong></li><li>Xuất khẩu: <strong>+70%</strong> so với 1981-1985</li><li>Dân số: <strong>1.7%</strong> (1990)</li></ul>",
+        "Tags": ["1991", "Kết quả", "Lạm phát", "Xuất khẩu", "GDP", "Thành công", "Kinh tế nhiều thành phần"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 0.6,
+        "Alignment": "Left",
+        "Date": "1991",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      }
+    ],
+    "BLOG_CAC_THONG_TIN_CHUNG": [
+      {
+        "Image": [
+          "/resource/vi/Cảnh chật vật mua nhu yếu phẩm là chuyện cơm bữa những năm 1980..webp",
+          "/resource/vi/Thời tem phiếu ngày xưa.webp",
+          "/resource/vi/Bơm mực bút bi - nghề chỉ có trong thời bao cấp.webp"
+        ],
+        "Video": {"Src": "/resource/vi/Một thời bao cấp trong 2.000 tấm tem phiếu.mp4", "Type": "file", "Poster": ""},
+        "Title": "Ám ảnh thời bao cấp",
+        "Description": "<p><strong>'Ám ảnh'</strong> là 2 từ bà <strong>Nguyễn Thị Phượng</strong> (Ngô Quyền, Hải Phòng) dùng mỗi khi nhớ về đời sống gia đình những năm đầu thập niên 80.</p><p>Là công nhân bậc 3 tại Nhà máy Sắt tráng men nhôm, lương tháng của bà khi ấy được <strong>56 đồng</strong>.</p><blockquote>'Một chiếc quạt cóc cũng có giá 35 đồng, nếu mua thì nhà nhịn ăn cả tháng. Dành dụm nửa năm, tôi mới mua được chiếc quạt dùng cho bọn nhỏ' - bà Phượng kể.</blockquote><p><strong>Tem phiếu</strong> là biểu tượng của thời kỳ này: tem gạo, tem thịt, tem vải, tem xăng... Mọi nhu yếu phẩm đều phải mua bằng tem, xếp hàng là chuyện cơm bữa.</p><p><em>'Bơm mực bút bi'</em> - nghề chỉ có trong thời bao cấp.</p><p class='highlight'>Khan hiếm khắp nơi. Người ta thèm cả bát cơm trắng, chiếc bút trơn tru, tờ giấy trắng, chiếc lốp xe chưa vá, chiếc xích xe còn mới...</p><p>Nhà nước thu mua hàng hóa từ nhà sản xuất ở giá thật thấp, gây bất mãn. Người sản xuất muốn bán giá cao hơn phải bán ra chợ đen. Nhà nông chỉ được giữ 60% sản lượng, còn 40% phải bán cho nhà nước với giá rẻ theo dạng 'thu mua' - dân gian gọi là <strong>'mua như cướp'</strong>.</p><p>Ngay cả những nông phẩm căn bản là gạo cũng thiếu hụt trầm trọng khiến dân chúng phải ăn độn bằng những thực phẩm trước kia chỉ dùng nuôi gia súc.</p>",
+        "Tags": ["Đời sống", "Bao cấp", "Tem phiếu", "Bà Phượng", "Khan hiếm", "Hải Phòng"],
+        "Author": [{"Name": "VnExpress", "Image": ""}],
+        "Scale": 0.33,
+        "Alignment": "Left",
+        "Date": "1975-1986",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [
+          "/resource/vi/Bơm mực bút bi - nghề chỉ có trong thời bao cấp.webp"
+        ],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Bài học xương máu từ chuyên gia",
+        "Description": "<p>Là người chứng kiến và trải qua thời kỳ cải cách giá – lương – tiền, <strong>Tiến sĩ Lê Đăng Doanh</strong> - nguyên Viện trưởng Viện Nghiên cứu quản lý kinh tế Trung ương gọi đây là một <strong>'chính sách thất bại'</strong>:</p><blockquote>'Điểm cơ bản là cải cách này không đi liền với động lực thúc đẩy sản xuất nên hàng hóa không có thêm. Công thức tiền bằng giá nhân với hàng hóa đã được áp dụng quá máy móc. Đó là bài học xương máu'.</blockquote><p><strong>Tiến sĩ Nguyễn Đức Kiên</strong> - Phó chủ nhiệm Ủy ban Kinh tế của Quốc hội cũng đánh giá cuộc cải cách giá - lương - tiền năm 1985 là <strong>'khuyết điểm, sai lầm lớn'</strong> của chính sách quản lý điều hành trước Đổi mới:</p><blockquote>'Trong lúc đầu ra cho sản xuất công nghiệp không có, nguyên liệu đầu vào dựa chủ yếu vào nước ngoài, mô hình hợp tác xã không còn phù hợp… thì những thay đổi khi đó có thể coi là quan hệ sản xuất đã đi quá xa so với lực lượng sản xuất'.</blockquote><p><strong>Cố Giáo sư Đặng Phong</strong> khi đánh giá cuộc cải cách này đã chỉ ra nguyên nhân sâu xa của 'sự trục trặc' trong công cuộc tổng điều chỉnh giá – lương – tiền năm 1985 là thực tiễn kinh tế và đời sống lúc đó chưa chịu đựng nổi những cú sốc của cuộc cải cách:</p><blockquote>'Thực tiễn đã quen với căn bệnh bao cấp từ nhiều thập kỷ, không dễ chấp nhận một liều thuốc mới của cơ chế thị trường'.</blockquote><p class='highlight'>'Thành công chính của giai đoạn Đổi mới sau này là thị trường có thêm hàng hóa. Cải cách mà không có hàng hóa là thất bại'.</p>",
+        "Tags": ["Bài học", "Lê Đăng Doanh", "Nguyễn Đức Kiên", "Đặng Phong", "Chuyên gia", "Thất bại"],
+        "Author": [{"Name": "Tuổi Trẻ", "Image": ""}],
+        "Scale": 0.33,
+        "Alignment": "Left",
+        "Date": "1985-1986",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [
+          "/resource/vi/Bộ tiền giấy của nước Cộng hòa xã hội chủ nghĩa Việt Nam phát hành lần đổi tiền năm 1985..webp",
+          "/resource/vi/Bàn đổi tiền ở khu phố Hàng Buồm, Hà Nội, năm 1985.webp"
+        ],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Con trâu → Con gà: Bài học đổi tiền 1985",
+        "Description": "<p><strong>14/9/1985</strong>: Cuộc đổi tiền được tiến hành trong ngày với 4 loại tiền mệnh giá lớn đang lưu hành là <strong>100, 50, 30 và 20 đồng</strong>. Các loại tiền từ 10 đồng trở xuống tạm thời lưu hành song song.</p><p>Theo quy định:</p><ul><li>Mỗi gia đình chỉ được đổi tối đa <strong>1.500-2.000đ</strong></li><li>Hộ kinh doanh công thương nghiệp có môn bài bậc cao được đổi tối đa <strong>5.000đ</strong></li></ul><p>Mọi hoạt động sản xuất, kinh doanh, học tập... gần như ngưng trệ, khi toàn xã hội tập trung cho việc đổi tiền.</p><p>Ông <strong>Cao Sỹ Kiêm</strong> nhớ lại:</p><blockquote>'Thế mới có chuyện người ta dành dụm cả đời gửi tiết kiệm thì gửi vào một con trâu, lấy ra chỉ được một con gà. Đấy là một bài học đau đớn'.</blockquote><p>Sau hơn 3 tháng, Chính phủ và Ngân hàng Nhà nước đã đưa vào lưu thông một khối lượng tiền tương đương gần <strong>1,4 lần</strong> con số ghi nhận trong lần đổi tiền gần nhất (năm 1978) để phục vụ công cuộc cải cách lương và giá.</p><p>Đồng tiền mới mất giá mạnh. Lạm phát bùng nổ.</p>",
+        "Tags": ["Nhân vật", "Ông Cao Sỹ Kiêm", "Đổi tiền", "1985", "Bài học", "Hàng Buồm"],
+        "Author": [{"Name": "Tuổi Trẻ", "Image": ""}],
+        "Scale": 0.33,
+        "Alignment": "Right",
+        "Date": "1985-09-14",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [
+          "/resource/vi/Giao thông Hà Nội chủ yếu bằng xe đạp và tàu điện không màu.webp"
+        ],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Hà Nội thời bao cấp",
+        "Description": "<p>Giao thông Hà Nội chủ yếu bằng <strong>xe đạp</strong> và <strong>tàu điện không màu</strong>.</p><p>Đời sống đơn sơ, giản dị nhưng đầy khó khăn. Khan hiếm hàng hóa, mọi thứ đều phải tem phiếu, xếp hàng.</p><p>Ông <strong>Nguyễn Văn Bình</strong> (quận Cầu Giấy, Hà Nội) nhớ lại:</p><blockquote>'Thời bao cấp là thời điểm lịch sử. Ai cũng phải lao động sản xuất tạo ra sản phẩm. Thời bao cấp không được luân chuyển, lưu chuyển, hạn chế rất nhiều. Chính vì thế xóa bỏ bao cấp đáp ứng được đời sống lao động của nhân dân'.</blockquote><p>Đã 34 năm trôi qua nhưng đến nay nhiều người vẫn còn giữ những tờ tem phiếu, sổ gạo ngả màu ố vàng như để nhắc về quãng thời gian mà người ta quen gọi là <strong>'thời bao cấp'</strong>.</p>",
+        "Tags": ["Đời sống", "Hà Nội", "Xe đạp", "Tàu điện", "Bao cấp", "Tem phiếu"],
+        "Author": [{"Name": "Tư liệu", "Image": ""}],
+        "Scale": 0.45,
+        "Alignment": "Right",
+        "Date": "1980-1986",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tố Hữu và trách nhiệm chính sách Giá-Lương-Tiền",
+        "Description": "<p>Sau này, người ta cứ đổ qua đổ lại thất bại của chính sách giá – lương – tiền, của cuộc đổi tiền năm 1985 tối tăm trời đất cho ông <strong>Tố Hữu</strong>, nhà thơ làm kinh tế.</p><p>Đành là ông Tố Hữu cũng có trách nhiệm bởi ông ấy làm <strong>Phó chủ tịch thường trực Hội đồng Bộ trưởng</strong> (tức Phó thủ tướng thứ nhất) chuyên trách về kinh tế, nhưng trút hết rác rưởi vào ông nhà thơ là hành vi tầm thường, tiểu nhân.</p><p>Chủ tịch Hội đồng Bộ trưởng (thủ tướng) khi đó là ông <strong>Phạm Văn Đồng</strong>, Tổng bí thư là ông <strong>Lê Duẩn</strong>, rồi còn đám ông <strong>Đỗ Mười, Phạm Hùng, Trường Chinh</strong>, bao nhiêu ông thét ra lửa, cuối cùng chạy tội, né tránh cả.</p><p>Đến đại hội 6 vào tháng 12.1986, ông Tố Hữu bị văng ra, và người ta xoa tay coi như đã làm hả hê lòng dân chúng khi trị tội một kẻ đã đẩy nền kinh tế của đất nước, cuộc sống của mấy chục triệu người đến bờ vực thẳm.</p><p>Sau năm 1986, Việt Nam tiến hành Đổi mới nhằm thoát khỏi khủng hoảng kinh tế. Do phải chịu một phần trách nhiệm trong những vụ khủng hoảng tiền tệ những năm 1980 nên ông bị miễn nhiệm các chức vụ về quản lý hành chính, chỉ còn giữ chức danh Ủy viên Bộ Chính trị khoá V (cho đến đại hội VI) và đại biểu quốc hội và các chức danh lãnh đạo về lĩnh vực văn học nghệ thuật.</p><p>Trong dân gian, sau thất bại, xuất hiện nhiều lời đồn, câu nói mỉa mai:</p><blockquote>'Nhà thơ lo làm thơ, sao lại đi điều hành kinh tế?'</blockquote><p>Có người nói: <em>'Thơ của ông hay, nhưng kinh tế thì không thể làm bằng thơ.'</em></p><p>Dân gian vẫn truyền tụng câu: <strong>Tố Hữu phá lương; Trần Phương phá giá; Duy Gia phá tiền.</strong></p><p>Trong giới cán bộ, nhiều ý kiến coi đây là minh chứng cho tình trạng <strong>'cán bộ không đúng chuyên môn, bố trí theo cơ cấu chính trị hơn là năng lực thực tế'</strong>.</p>",
+        "Tags": ["Nhân vật", "Tố Hữu", "Chính trị", "Giá-Lương-Tiền", "1985"],
+        "Author": [{"Name": "Facebook Phan Thế Hải", "Image": ""}],
+        "Scale": 0.45,
+        "Alignment": "Left",
+        "Date": "1985-1986",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      }
+    ],
+    "BIEU_DO_THONG_KE_LAM_PHAT": [
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1986",
+        "Description": "<p>Tăng trưởng thấp: <span class='highlight'>3,4%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1986", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 3.4,
+        "Alignment": "Left",
+        "Date": "1986",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1987",
+        "Description": "<p>Giảm nhẹ: <span class='highlight'>2,5%</span> (mức thấp nhất)</p>",
+        "Tags": ["GDP", "Tăng trưởng", "1987", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 2.5,
+        "Alignment": "Left",
+        "Date": "1987",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1988",
+        "Description": "<p>Bắt đầu tăng mạnh: <span class='highlight'>5,1%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1988", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 5.1,
+        "Alignment": "Left",
+        "Date": "1988",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1989",
+        "Description": "<p>Tăng trưởng cao: <span class='highlight'>7,8%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1989", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 7.8,
+        "Alignment": "Left",
+        "Date": "1989",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1990",
+        "Description": "<p>Giảm xuống: <span class='highlight'>5,0%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1990", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 5.0,
+        "Alignment": "Left",
+        "Date": "1990",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1991",
+        "Description": "<p>Nhích lên: <span class='highlight'>5,8%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1991", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 5.8,
+        "Alignment": "Left",
+        "Date": "1991",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1992",
+        "Description": "<p>Giai đoạn ổn định: <span class='highlight'>8,7%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1992", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 8.7,
+        "Alignment": "Left",
+        "Date": "1992",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1993",
+        "Description": "<p>Duy trì cao: <span class='highlight'>8,1%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1993", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 8.1,
+        "Alignment": "Left",
+        "Date": "1993",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1994",
+        "Description": "<p>Tăng trưởng cao: <span class='highlight'>8,8%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1994", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 8.8,
+        "Alignment": "Left",
+        "Date": "1994",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Tăng trưởng GDP 1995",
+        "Description": "<p>Cao nhất: <span class='highlight'>9,5%</span></p>",
+        "Tags": ["GDP", "Tăng trưởng", "1995", "Kinh tế"],
+        "Author": [{"Name": "Tổng cục Thống kê", "Image": ""}],
+        "Scale": 9.5,
+        "Alignment": "Left",
+        "Date": "1995",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      }
+    ],
+    "CAC_NGUYEN_TAC_DOI_MOI": [
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Nguyên tắc 1: Đi lên CNXH",
+        "Content": "<p>Đi lên chủ nghĩa xã hội là con đường tất yếu ở nước ta, là sự lựa chọn sáng suốt của Bác Hồ, là mục tiêu, là lý tưởng của Đảng và nhân dân ta.</p><p class='highlight'>Đổi mới không phải là thay đổi mục tiêu xã hội chủ nghĩa, mà làm cho mục tiêu đó được thực hiện tốt hơn bằng quan niệm đúng đắn, hình thức, biện pháp và bước đi thích hợp.</p>",
+        "Tags": ["6 nguyên tắc", "CNXH", "TW6", "1989"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Nguyên tắc 2: Chủ nghĩa Mác-Lênin",
+        "Content": "<p>Chủ nghĩa Mác-Lênin là nền tảng tư tưởng của Đảng, chỉ đạo toàn bộ sự nghiệp cách mạng của nhân dân ta.</p><p class='highlight'>Đổi mới là vận dụng sáng tạo và phát triển chứ không phải xa rời những nguyên lý của chủ nghĩa Mác-Lênin.</p>",
+        "Tags": ["6 nguyên tắc", "Mác-Lênin", "TW6", "1989"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Nguyên tắc 3: Đổi mới hệ thống chính trị",
+        "Content": "<p>Đổi mới tổ chức và phương thức hoạt động của hệ thống chính trị là nhằm tăng cường vai trò lãnh đạo của Đảng, hiệu lực quản lý của Nhà nước, phát huy quyền làm chủ của nhân dân.</p>",
+        "Tags": ["6 nguyên tắc", "Hệ thống chính trị", "TW6", "1989"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Nguyên tắc 4: Sự lãnh đạo của Đảng",
+        "Content": "<p>Sự lãnh đạo của Đảng là điều kiện quyết định thắng lợi sự nghiệp xây dựng và bảo vệ Tổ quốc xã hội chủ nghĩa của nhân dân ta.</p>",
+        "Tags": ["6 nguyên tắc", "Lãnh đạo Đảng", "TW6", "1989"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Nguyên tắc 5: Dân chủ XHCN",
+        "Content": "<p>Xây dựng nền dân chủ xã hội chủ nghĩa là mục tiêu, là động lực của sự nghiệp xây dựng xã hội chủ nghĩa.</p><p class='highlight'>Dân chủ phải có lãnh đạo, lãnh đạo phải trên cơ sở dân chủ; dân chủ với nhân dân, nhưng phải chuyên chính với kẻ địch.</p>",
+        "Tags": ["6 nguyên tắc", "Dân chủ", "TW6", "1989"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Nguyên tắc 6: Yêu nước + Quốc tế",
+        "Content": "<p>Kết hợp chủ nghĩa yêu nước với chủ nghĩa quốc tế vô sản và quốc tế xã hội chủ nghĩa, kết hợp sức mạnh dân tộc với sức mạnh thời đại.</p>",
+        "Tags": ["6 nguyên tắc", "Yêu nước", "Quốc tế", "TW6", "1989"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Bài học 1: Lấy dân làm gốc",
+        "Content": "<p>Trong toàn bộ hoạt động của mình, Đảng phải quán triệt tư tưởng <strong>'lấy dân làm gốc'</strong>.</p>",
+        "Tags": ["4 bài học", "Dân làm gốc", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Bài học 2: Quy luật khách quan",
+        "Content": "<p>Đảng phải luôn luôn xuất phát từ thực tế, tôn trọng và hành động theo quy luật khách quan.</p>",
+        "Tags": ["4 bài học", "Quy luật", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Bài học 3: Dân tộc + Thời đại",
+        "Content": "<p>Phải biết kết hợp sức mạnh dân tộc với sức mạnh thời đại trong điều kiện mới.</p>",
+        "Tags": ["4 bài học", "Dân tộc", "Thời đại", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Bài học 4: Xây dựng Đảng",
+        "Content": "<p>Chăm lo xây dựng Đảng ngang tầm với một đảng cầm quyền lãnh đạo nhân dân tiến hành cách mạng xã hội chủ nghĩa.</p>",
+        "Tags": ["4 bài học", "Xây dựng Đảng", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Phương hướng 1: Bố trí lại cơ cấu sản xuất",
+        "Content": "<p><strong>Năm phương hướng lớn phát triển kinh tế:</strong></p><ol><li>Bố trí lại cơ cấu sản xuất</li><li>Điều chỉnh cơ cấu đầu tư xây dựng và củng cố quan hệ sản xuất xã hội chủ nghĩa</li><li>Sử dụng và cải tạo đúng đắn các thành phần kinh tế</li><li>Đổi mới cơ chế quản lý kinh tế, phát huy mạnh mẽ động lực khoa học - kỹ thuật</li><li>Mở rộng và nâng cao hiệu quả kinh tế đối ngoại</li></ol><p class='highlight'>Tư tưởng chỉ đạo: Giải phóng mọi năng lực sản xuất hiện có, khai thác mọi khả năng tiềm tàng của đất nước.</p>",
+        "Tags": ["5 phương hướng", "Kinh tế", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Chính sách xã hội",
+        "Content": "<p><strong>Bốn nhóm chính sách xã hội:</strong></p><ol><li>Kế hoạch hóa dân số, giải quyết việc làm cho người lao động</li><li>Thực hiện công bằng xã hội, bảo đảm an toàn xã hội, khôi phục trật tự, kỷ cương</li><li>Chăm lo đáp ứng nhu cầu giáo dục, văn hóa, bảo vệ và tăng cường sức khỏe nhân dân</li><li>Xây dựng chính sách bảo trợ xã hội</li></ol><p>Đề cao cảnh giác, tăng cường quốc phòng và an ninh, quyết đánh thắng các kiểu chiến tranh phá hoại.</p>",
+        "Tags": ["Chính sách xã hội", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Đối ngoại Đại hội VI",
+        "Content": "<p><strong>Bốn trọng tâm đối ngoại:</strong></p><ol><li>Tăng cường hữu nghị và hợp tác toàn diện với Liên Xô và các nước XHCN</li><li>Bình thường hóa quan hệ với Trung Quốc vì lợi ích nhân dân hai nước, vì hòa bình Đông Nam Á</li><li>Kết hợp sức mạnh dân tộc với sức mạnh thời đại, giữ vững hòa bình ở Đông Dương, Đông Nam Á</li><li>Tăng cường quan hệ đặc biệt giữa ba nước Đông Dương</li></ol>",
+        "Tags": ["Đối ngoại", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Đổi mới sự lãnh đạo của Đảng",
+        "Content": "<p><strong>Năm nội dung đổi mới:</strong></p><ol><li>Đổi mới tư duy, trước hết là tư duy kinh tế</li><li>Đổi mới công tác tư tưởng</li><li>Đổi mới công tác cán bộ và phong cách làm việc</li><li>Giữ vững các nguyên tắc tổ chức và sinh hoạt Đảng</li><li>Tăng cường đoàn kết nhất trí trong Đảng</li></ol><p class='highlight'>Thực hiện 'dân biết, dân bàn, dân làm, dân kiểm tra'.</p>",
+        "Tags": ["Xây dựng Đảng", "Đại hội VI", "1986"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Công tác tư tưởng - TW8 (3/1990)",
+        "Content": "<p><strong>Nguyên nhân khủng hoảng các nước XHCN:</strong></p><ol><li>Cải tạo XHCN nóng vội, hình thức sở hữu thiếu đa dạng</li><li>Cơ chế quản lý tập trung nặng về hành chính mệnh lệnh và bao cấp</li><li>Phủ nhận hoặc coi nhẹ kinh tế hàng hóa</li><li>Hệ thống chính trị tập trung quan liêu làm suy yếu dân chủ XHCN</li></ol><p><strong>Hai nguyên nhân trực tiếp:</strong></p><ol><li>Quan điểm sai lầm, hữu khuynh của lãnh đạo Liên Xô</li><li>Đế quốc và phản động quốc tế khai thác sai lầm, thực hiện 'diễn biến hòa bình'</li></ol>",
+        "Tags": ["TW8", "Công tác tư tưởng", "1990", "XHCN"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1990-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Bài học từ khủng hoảng XHCN",
+        "Content": "<p><strong>Tác động đến Việt Nam:</strong> Làm một số người hoài nghi chủ nghĩa xã hội, giảm lòng tin đối với Đảng và Nhà nước. Một số phần tử cơ hội đòi đa nguyên chính trị, đa đảng.</p><p class='highlight'>Ba bài học cho Đảng Cộng sản Việt Nam:</p><ol><li>Đổi mới nhận thức về mô hình và con đường xây dựng CNXH</li><li>Đảng phải tích cực đổi mới, nâng cao trình độ lãnh đạo và sức chiến đấu</li><li>Cảnh giác và kiên quyết chống âm mưu 'diễn biến hòa bình' của đế quốc</li></ol>",
+        "Tags": ["Bài học", "TW8", "1990", "XHCN"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1990-03",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Đổi mới đối ngoại (từ 1990)",
+        "Content": "<p><strong>Phương châm:</strong> Thêm bạn, bớt thù, giữ vững hòa bình để xây dựng và bảo vệ Tổ quốc.</p><p><strong>Ưu tiên:</strong></p><ul><li>Bình thường hóa quan hệ Việt-Trung</li><li>Bình thường hóa quan hệ Việt-Mỹ</li><li>Xây dựng hợp tác với các nước Đông Nam Á</li><li>Thiết lập quan hệ ngoại giao với các nước châu Âu</li></ul><p><strong>Nguyên tắc:</strong> Kiên trì độc lập, chủ quyền và toàn vẹn lãnh thổ.</p><p><strong>Thực hiện:</strong> Rút quân tình nguyện khỏi Campuchia (1989), sớm hơn 1 năm so với kế hoạch.</p>",
+        "Tags": ["Đối ngoại", "1990", "Bình thường hóa"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1990",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Đổi mới xây dựng Đảng",
+        "Content": "<p><strong>Sáu nội dung cấp bách:</strong></p><ol><li>Đổi mới tư duy, nhất là tư duy kinh tế</li><li>Tăng cường nghiên cứu lý luận và thực tiễn</li><li>Đổi mới công tác giáo dục chính trị, tư tưởng</li><li>Tăng cường công tác tổ chức, xây dựng đội ngũ cán bộ</li><li>Nâng cao chất lượng đảng viên và sức chiến đấu tổ chức cơ sở đảng</li><li>Đổi mới và tăng cường sự lãnh đạo của Đảng đối với công tác quần chúng</li></ol><p class='highlight'>Giữ vững mối liên hệ mật thiết giữa Đảng với nhân dân là nhân tố quyết định thắng lợi.</p>",
+        "Tags": ["Xây dựng Đảng", "TW6", "TW8", "1989-1990"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1989-1990",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Kết quả Đổi Mới",
+        "Content": "<p><strong>Ba thành tựu kinh tế:</strong></p><ol><li>Tạo vai trò lớn hơn cho lực lượng thị trường trong phối hợp hoạt động kinh tế</li><li>Cho phép sở hữu tư nhân các doanh nghiệp nhỏ</li><li>Tạo sàn giao dịch chứng khoán cho doanh nghiệp nhà nước và ngoài quốc doanh</li></ol><p><strong>Kinh tế thị trường định hướng XHCN:</strong> Sản phẩm của thời kỳ Đổi Mới, thay thế nền kinh tế kế hoạch bằng nền kinh tế hỗn hợp hoạt động theo cơ chế thị trường.</p><p><strong>Đặc trưng:</strong> Nhiều thành phần | Nhà nước giữ vai trò chủ đạo | Mục tiêu xây dựng CNXH.</p>",
+        "Tags": ["Kết quả", "Kinh tế thị trường", "Đổi Mới"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-1991",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      }
+    ],
+    "PROFILE_DAI_BIEU_THAM_GIA_DAI_HOI": [
+      {
+        "Image": ["/resource/vi/Đồng chí Nguyễn Văn Linh đọc diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Nguyễn Văn Linh",
+        "Description": "<p><strong>Tổng Bí thư</strong> (1986-1991)</p><p>Người lãnh đạo công cuộc Đổi mới toàn diện đất nước</p>",
+        "Tags": ["Lãnh đạo", "Tổng Bí thư", "Đại hội VI"],
+        "Author": [{"Name": "Đảng Cộng sản Việt Nam", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Center",
+        "Date": "1986-12",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Phạm Hùng",
+        "Description": "<p><strong>Chủ tịch HĐBT</strong> (1987-1988)</p><p>Từ trần ngày 10/3/1988</p>",
+        "Tags": ["Lãnh đạo", "Chủ tịch HĐBT", "1988"],
+        "Author": [{"Name": "Chính phủ", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Center",
+        "Date": "1987-1988",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Võ Văn Kiệt",
+        "Description": "<p><strong>Quyền Chủ tịch HĐBT</strong> (3-6/1988)</p><p>Sau là Thủ tướng (1991-1997)</p>",
+        "Tags": ["Lãnh đạo", "Thủ tướng", "1988"],
+        "Author": [{"Name": "Chính phủ", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Center",
+        "Date": "1988",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Đỗ Mười",
+        "Description": "<p><strong>Chủ tịch HĐBT</strong> (1988-1991)</p><p>Sau là Tổng Bí thư (1991-1997)</p>",
+        "Tags": ["Lãnh đạo", "Tổng Bí thư", "1988"],
+        "Author": [{"Name": "Chính phủ", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Center",
+        "Date": "1988-1991",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "TS Lê Đăng Doanh",
+        "Description": "<p><strong>Nguyên Viện trưởng Viện NCKT TW</strong></p><blockquote>'Cải cách không đi liền với sản xuất nên hàng hóa không có - bài học xương máu'</blockquote>",
+        "Tags": ["Chuyên gia", "Kinh tế", "Bài học"],
+        "Author": [{"Name": "Tuổi Trẻ", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Center",
+        "Date": "1985-1986",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "Ông Cao Sỹ Kiêm",
+        "Description": "<p><strong>Chứng kiến đổi tiền 1985</strong></p><blockquote>'Gửi tiết kiệm con trâu, rút ra con gà - bài học đau đớn'</blockquote>",
+        "Tags": ["Nhân vật", "Đổi tiền", "1985"],
+        "Author": [{"Name": "Tuổi Trẻ", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Center",
+        "Date": "1985",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      },
+      {
+        "Image": [],
+        "Video": {"Src": "", "Type": "file", "Poster": ""},
+        "Title": "GS Đặng Phong",
+        "Description": "<p><strong>Cố Giáo sư Kinh tế</strong></p><blockquote>'Thực tiễn chưa chịu đựng nổi cú sốc cải cách'</blockquote>",
+        "Tags": ["Chuyên gia", "Kinh tế", "1985"],
+        "Author": [{"Name": "Tuổi Trẻ", "Image": ""}],
+        "Scale": 0.5,
+        "Alignment": "Center",
+        "Date": "1985-1986",
+        "Link": {"Href": "", "Title": "", "Target": "_blank"}
+      }
+    ]
+  }
+}

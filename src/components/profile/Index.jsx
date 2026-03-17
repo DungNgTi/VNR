@@ -15,8 +15,8 @@ export default function ProfileModule({ data = [], config = profileProps }) {
 
   return (
     <Box sx={{ width: "100%" }}>
-      {Title && <Typography variant="h4">{Title}</Typography>}
-      {Description && <Typography variant="body1" sx={{ mb: 2 }}>{Description}</Typography>}
+      {Title && <Typography variant="h4" dangerouslySetInnerHTML={{ __html: Title }} />}
+      {Description && <Typography variant="body1" sx={{ mb: 2 }} dangerouslySetInnerHTML={{ __html: Description }} />}
 
       <Swiper
         onSwiper={setSwiperRef}
@@ -30,7 +30,7 @@ export default function ProfileModule({ data = [], config = profileProps }) {
         style={{ width: "100%", paddingBottom: isHorizontal ? "40px" : 0 }}
       >
         {data.map((item, index) => (
-          <SwiperSlide key={index} style={{ width: "auto" }} data-swiper-parallax={index % 2 === 0 ? "-100" : "100"}>
+          <SwiperSlide key={index} style={{ width: "auto", height: "auto", display: "flex" }} data-swiper-parallax={index % 2 === 0 ? "-100" : "100"}>
             <ProfileCard item={item} />
           </SwiperSlide>
         ))}

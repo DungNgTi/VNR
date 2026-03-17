@@ -1,6 +1,7 @@
 import AccordionSummary from '@mui/material/AccordionSummary'
 import AccordionDetails from '@mui/material/AccordionDetails'
 import Typography from '@mui/material/Typography'
+import Box from '@mui/material/Box'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import { dataItemProps } from '../../schemas/data'
 
@@ -16,18 +17,26 @@ export default ({ item = dataItemProps, index = 0 }) => {
             </AccordionSummary>
             <AccordionDetails>
                 {item.Description && (
-                    <Typography
-                        variant="body2"
-                        color="text.secondary"
-                        gutterBottom
-                    >
-                        {item.Description}
-                    </Typography>
+                    <Box
+                        sx={{ 
+                            typography: 'body2', 
+                            color: 'text.secondary', 
+                            mb: 1,
+                            '& p': { mb: 1 }, // Thêm khoảng cách hợp lý cho đoạn văn
+                            '& *:last-child': { mb: 0 } 
+                        }}
+                        dangerouslySetInnerHTML={{ __html: item.Description }}
+                    />
                 )}
                 {item.Content && (
-                    <Typography variant="body2">
-                        {item.Content}
-                    </Typography>
+                    <Box
+                        sx={{ 
+                            typography: 'body2',
+                            '& p': { mb: 1 },
+                            '& *:last-child': { mb: 0 }
+                        }}
+                        dangerouslySetInnerHTML={{ __html: item.Content }}
+                    />
                 )}
             </AccordionDetails>
         </>

@@ -45,21 +45,15 @@ function TimelineCard({ item, alignment }) {
             )}
 
             {Title && (
-                <Typography variant="h6" fontWeight={700} sx={{ mt: 0.5 }}>
-                    {Title}
-                </Typography>
+                <Typography variant="h6" fontWeight={700} sx={{ mt: 0.5 }} dangerouslySetInnerHTML={{ __html: Title }} />
             )}
 
             {Description && (
-                <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
-                    {Description}
-                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }} dangerouslySetInnerHTML={{ __html: Description }} />
             )}
 
             {Content && (
-                <Typography variant="body2" sx={{ mt: 1 }}>
-                    {Content}
-                </Typography>
+                <Typography variant="body2" sx={{ mt: 1 }} dangerouslySetInnerHTML={{ __html: Content }} />
             )}
 
             {Tags?.length > 0 && (
@@ -155,15 +149,11 @@ export default function TimelineModule({
         <Box sx={{ width: "100%" }}>
 
             {Title && (
-                <Typography variant="h4" sx={{ mb: 1 }}>
-                    {Title}
-                </Typography>
+                <Typography variant="h4" sx={{ mb: 1 }} dangerouslySetInnerHTML={{ __html: Title }} />
             )}
 
             {Description && (
-                <Typography variant="body1" sx={{ mb: 3 }}>
-                    {Description}
-                </Typography>
+                <Typography variant="body1" sx={{ mb: 3 }} dangerouslySetInnerHTML={{ __html: Description }} />
             )}
 
             <VerticalTimeline data={data} alignment={Alignment} />

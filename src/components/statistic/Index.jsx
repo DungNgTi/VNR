@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material"
+import { Box, Typography, useTheme } from "@mui/material"
 import { statisticProps } from "../../schemas/layout"
 import { dataItemProps } from "../../schemas/data"
 import {
@@ -11,9 +11,9 @@ import {
     XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
 } from "recharts"
 
-const COLORS = [
-    "#2563eb", "#070a08", "#dc2626", "#d97706",
-    "#7c3aed", "#0891b2", "#db2777", "#65a30d"
+const DEFAULT_COLORS = [
+    "#2563eb", "#dc2626", "#d97706", "#65a30d",
+    "#7c3aed", "#0891b2", "#db2777", "#070a08"
 ]
 
 const alignmentMap = {
@@ -22,109 +22,38 @@ const alignmentMap = {
     Right: "flex-end",
 }
 
-function renderChart(variant, chartData, keys) {
-    const commonProps = {
-        data: chartData,
-        margin: { top: 8, right: 16, left: 0, bottom: 8 }
-    }
-
-    switch (variant) {
-        case "Line":
-            return (
-                <LineChart {...commonProps}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    {keys.map((key, i) => (
-                        <Line key={key} type="monotone" dataKey={key} stroke={COLORS[i % COLORS.length]} dot={false} />
-                    ))}
-                </LineChart>
-            )
-
-        case "Area":
-            return (
-                <AreaChart {...commonProps}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    {keys.map((key, i) => (
-                        <Area key={key} type="monotone" dataKey={key} stroke={COLORS[i % COLORS.length]} fill={COLORS[i % COLORS.length]} fillOpacity={0.2} />
-                    ))}
-                </AreaChart>
-            )
-
-        case "Pie":
-            return (
-                <PieChart>
-                    <Tooltip />
-                    <Legend />
-                    <Pie data={chartData} dataKey={keys[0]} nameKey="name" cx="50%" cy="50%" outerRadius={140} label>
-                        {chartData.map((_, i) => (
-                            <Cell key={i} fill={COLORS[i % COLORS.length]} />
-                        ))}
-                    </Pie>
-                </PieChart>
-            )
-
-        case "Radar":
-            return (
-                <RadarChart cx="50%" cy="50%" outerRadius={140} data={chartData}>
-                    <PolarGrid />
-                    <PolarAngleAxis dataKey="name" />
-                    <Tooltip />
-                    <Legend />
-                    {keys.map((key, i) => (
-                        <Radar key={key} dataKey={key} stroke={COLORS[i % COLORS.length]} fill={COLORS[i % COLORS.length]} fillOpacity={0.2} />
-                    ))}
-                </RadarChart>
-            )
-
-        case "Scatter":
-            return (
-                <ScatterChart {...commonProps}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    {keys.map((key, i) => (
-                        <Scatter key={key} name={key} data={chartData} dataKey={key} fill={COLORS[i % COLORS.length]} />
-                    ))}
-                </ScatterChart>
-            )
-
-        case "Bar":
-        default:
-            return (
-                <BarChart {...commonProps}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    {keys.map((key, i) => (
-                        <Bar key={key} dataKey={key} fill={COLORS[i % COLORS.length]} radius={[4, 4, 0, 0]} />
-                    ))}
-                </BarChart>
-            )
-    }
-}
-
-function parseData(data) {
-    // Expects item.Title as x-axis label, item.Content as JSON values
-    // e.g. Content: '{"GDP": 3.2, "CPI": 1.8}'
-    // Falls back to Scale as single value key "Value"
+function parseData(data, configKeys) {
     return data.map(item => {
         let values = {}
+        const content = item.Content
+
         try {
-            values = item.Content ? JSON.parse(item.Content) : { Value: item.Scale ?? 0 }
+            // 1. Try JSON
+            const parsed = JSON.parse(content)
+            if (typeof parsed === "object" && parsed !== null) {
+                values = parsed
+            } else {
+                values = { [configKeys?.[0] || "Value"]: parsed }
+            }
         } catch {
-            values = { Value: item.Scale ?? 0 }
+            // 2. Try Pipe-separated (e.g., "774.7 | 3.4")
+            if (typeof content === "string" && content.includes("|")) {
+                const parts = content.split("|").map(p => {
+                    // Extract number from string like "8.2%/năm" or "774.7"
+                    const num = parseFloat(p.replace(/[^0-9.-]/g, ""))
+                    return isNaN(num) ? 0 : num
+                })
+                parts.forEach((val, i) => {
+                    const key = configKeys?.[i] || `Value ${i + 1}`
+                    values[key] = val
+                })
+            } else {
+                // 3. Fallback to Scale or Number in Content
+                const num = parseFloat(String(content).replace(/[^0-9.-]/g, ""))
+                values = { [configKeys?.[0] || "Value"]: !isNaN(num) ? num : (item.Scale ?? 0) }
+            }
         }
+
         return { name: item.Title || item.Date || "", ...values }
     })
 }
@@ -137,26 +66,118 @@ function extractKeys(chartData) {
     return [...keys]
 }
 
+function renderChart(variant, chartData, keys, colors, isStacked) {
+    const commonProps = {
+        data: chartData,
+        margin: { top: 10, right: 10, left: -20, bottom: 0 }
+    }
+
+    switch (variant) {
+        case "Line":
+            return (
+                <LineChart {...commonProps}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} opacity={0.5} />
+                    <XAxis dataKey="name" fontSize={12} tickLine={false} axisLine={false} />
+                    <YAxis fontSize={12} tickLine={false} axisLine={false} />
+                    <Tooltip />
+                    <Legend iconType="circle" />
+                    {keys.map((key, i) => (
+                        <Line key={key} type="monotone" dataKey={key} stroke={colors[i % colors.length]} strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
+                    ))}
+                </LineChart>
+            )
+
+        case "Area":
+            return (
+                <AreaChart {...commonProps}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} opacity={0.5} />
+                    <XAxis dataKey="name" fontSize={12} tickLine={false} axisLine={false} />
+                    <YAxis fontSize={12} tickLine={false} axisLine={false} />
+                    <Tooltip />
+                    <Legend iconType="circle" />
+                    {keys.map((key, i) => (
+                        <Area key={key} type="monotone" dataKey={key} stackId={isStacked ? "1" : undefined} stroke={colors[i % colors.length]} fill={colors[i % colors.length]} fillOpacity={0.4} />
+                    ))}
+                </AreaChart>
+            )
+
+        case "Pie":
+            return (
+                <PieChart>
+                    <Tooltip />
+                    <Legend />
+                    <Pie data={chartData} dataKey={keys[0]} nameKey="name" cx="50%" cy="50%" outerRadius="80%" label>
+                        {chartData.map((_, i) => (
+                            <Cell key={i} fill={colors[i % colors.length]} />
+                        ))}
+                    </Pie>
+                </PieChart>
+            )
+
+        case "Bar":
+        default:
+            return (
+                <BarChart {...commonProps}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} opacity={0.5} />
+                    <XAxis dataKey="name" fontSize={12} tickLine={false} axisLine={false} />
+                    <YAxis fontSize={12} tickLine={false} axisLine={false} />
+                    <Tooltip cursor={{fill: 'transparent'}} />
+                    <Legend iconType="circle" />
+                    {keys.map((key, i) => (
+                        <Bar key={key} dataKey={key} stackId={isStacked ? "a" : undefined} fill={colors[i % colors.length]} radius={isStacked ? 0 : [4, 4, 0, 0]} barSize={30} />
+                    ))}
+                </BarChart>
+            )
+    }
+}
+
 export default function StatisticModule({
     data = [dataItemProps],
     config = statisticProps
 }) {
+    const theme = useTheme()
     const { Title, Description } = config
-    const { Variant = "Bar", Alignment = "Left" } = config.Config || {}
+    const { 
+        Variant = "Bar", 
+        Alignment = "Left", 
+        Height = 400, 
+        Keys = [], 
+        Colors = [], 
+        Stacked = false 
+    } = config.Config || {}
 
-    const chartData = parseData(data)
+    const chartColors = Colors.length > 0 ? Colors : DEFAULT_COLORS
+    const chartData = parseData(data, Keys)
     const keys = extractKeys(chartData)
 
     return (
-        <Box sx={{ width: "100%", display: "flex", flexDirection: "column", alignItems: alignmentMap[Alignment] ?? "flex-start", gap: 2 }}>
+        <Box sx={{ 
+            width: "100%", 
+            display: "flex", 
+            flexDirection: "column", 
+            alignItems: alignmentMap[Alignment] ?? "flex-start", 
+            gap: 1 
+        }}>
+            {Title && (
+                <Typography variant="h4" sx={{ mb: 0.5 }} dangerouslySetInnerHTML={{ __html: Title }} />
+            )}
+            {Description && (
+                <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }} dangerouslySetInnerHTML={{ __html: Description }} />
+            )}
 
-            {Title && <Typography variant="h4">{Title}</Typography>}
-            {Description && <Typography variant="body1">{Description}</Typography>}
-
-            <ResponsiveContainer width="100%" height={400}>
-                {renderChart(Variant, chartData, keys)}
-            </ResponsiveContainer>
-
+            <Box sx={{ 
+                width: "100%", 
+                height: Height, 
+                backgroundColor: "background.paper", 
+                p: 2, 
+                borderRadius: 2, 
+                border: "1px solid", 
+                borderColor: "divider" 
+            }}>
+                <ResponsiveContainer width="100%" height="100%">
+                    {renderChart(Variant, chartData, keys, chartColors, Stacked)}
+                </ResponsiveContainer>
+            </Box>
         </Box>
     )
 }

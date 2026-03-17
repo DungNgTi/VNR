@@ -91,15 +91,11 @@ export default function HeroModule({
                 )}
 
                 {(item?.Title || Title) && (
-                    <Typography variant={titleVariant} fontWeight={700} color="white">
-                        {item?.Title || Title}
-                    </Typography>
+                    <Typography variant={titleVariant} fontWeight={700} color="white" dangerouslySetInnerHTML={{ __html: item?.Title || Title }} />
                 )}
 
                 {(item?.Description || Description) && (
-                    <Typography variant={descVariant} color="rgba(255,255,255,0.85)">
-                        {item?.Description || Description}
-                    </Typography>
+                    <Typography variant={descVariant} color="rgba(255,255,255,0.85)" dangerouslySetInnerHTML={{ __html: item?.Description || Description }} />
                 )}
 
                 {item?.Author?.length > 0 && (

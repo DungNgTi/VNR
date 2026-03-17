@@ -3,39 +3,63 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import { accordionProps } from "../../schemas/layout"
 import { dataItemProps } from "../../schemas/data"
 
-export default function AccordionModule({ data = dataItemProps, config = accordionProps }) {
+export default function AccordionModule({ data = [dataItemProps], config = accordionProps }) {
     const { Title, Description } = config;
     const { DefaultExpanded = 0, Alignment = "Left" } = config.Config || {}
 
-    const getAlignment = (alignment) => {
-        switch (alignment) {
-            case "Center":
-                return "center"
-            case "Right":
-                return "flex-end"
-            default:
-                return "flex-start"
-        }
-    }
-
     return (
-        <Box sx={{ width: "100%" }}>
-            {Title && <Typography variant="h4">{Title}</Typography>}
-            {Description && <Typography variant="body1">{Description}</Typography>}
-            <br></br>
-            {data?.map((item, index) => (
-                <Accordion key={index} defaultExpanded={index === DefaultExpanded}>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        sx={{ justifyContent: getAlignment(Alignment) }}
+        <Box sx={{ width: "100%", textAlign: Alignment === "Center" ? "center" : "left" }}>
+            {Title && (
+                <Typography variant="h4" sx={{ mb: 1 }} dangerouslySetInnerHTML={{ __html: Title }} />
+            )}
+            {Description && (
+                <Typography variant="body1" sx={{ mb: 3 }} dangerouslySetInnerHTML={{ __html: Description }} />
+            )}
+
+            <Box sx={{ maxWidth: "1000px", mx: Alignment === "Center" ? "auto" : 0 }}>
+                {data?.map((item, index) => (
+                    <Accordion 
+                        key={index} 
+                        defaultExpanded={index === DefaultExpanded}
+                        variant="outlined"
+                        sx={{
+                            borderLeft: "none",
+                            borderRight: "none",
+                            borderTop: index === 0 ? "1px solid" : "none",
+                            borderColor: "divider",
+                            "&:before": { display: "none" },
+                        }}
                     >
-                        {item.Title}
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        {item.Content}
-                    </AccordionDetails>
-                </Accordion>
-            ))}
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                            <Typography component="span" fontWeight={600} dangerouslySetInnerHTML={{ __html: item.Title }} />
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            {item.Description && (
+                                <Box
+                                    sx={{ 
+                                        typography: 'body2', 
+                                        color: 'text.secondary', 
+                                        mb: 1,
+                                        '& p': { mb: 1.5 },
+                                        '& *:last-child': { mb: 0 } 
+                                    }}
+                                    dangerouslySetInnerHTML={{ __html: item.Description }}
+                                />
+                            )}
+                            {item.Content && (
+                                <Box
+                                    sx={{ 
+                                        typography: 'body2',
+                                        '& p': { mb: 1.5 },
+                                        '& *:last-child': { mb: 0 }
+                                    }}
+                                    dangerouslySetInnerHTML={{ __html: item.Content }}
+                                />
+                            )}
+                        </AccordionDetails>
+                    </Accordion>
+                ))}
+            </Box>
         </Box>
     )
 }

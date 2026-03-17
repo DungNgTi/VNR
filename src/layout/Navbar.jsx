@@ -1,5 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom"
 import { AppBar, Box, Button, Container, Stack, Toolbar, Typography } from "@mui/material"
+import ColorModeIconDropdown from "../shared-theme/ColorModeIconDropdown"
 
 export default function Navbar({ config }) {
     const navigate = useNavigate()
@@ -53,6 +54,7 @@ export default function Navbar({ config }) {
                             )
                         })}
                     </Stack>
+                    <ColorModeIconDropdown />
                 </Toolbar>
             </Container>
         </AppBar>

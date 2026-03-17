@@ -8,6 +8,7 @@ export function ProfileCard({ item, parallaxOffset = 0, parallax = false }) {
             sx={{
                 flexShrink: 0,
                 width: { xs: 240, md: 280 },
+                height: "100%", // Đảm bảo chiếm trọn chiều cao của slide
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
@@ -28,21 +29,15 @@ export function ProfileCard({ item, parallaxOffset = 0, parallax = false }) {
             />
 
             {Title && (
-                <Typography variant="h6" fontWeight={700} textAlign="center">
-                    {Title}
-                </Typography>
+                <Typography variant="h6" fontWeight={700} textAlign="center" dangerouslySetInnerHTML={{ __html: Title }} />
             )}
 
             {Description && (
-                <Typography variant="body2" color="text.secondary" textAlign="center">
-                    {Description}
-                </Typography>
+                <Typography variant="body2" color="text.secondary" textAlign="center" dangerouslySetInnerHTML={{ __html: Description }} />
             )}
 
             {Content && (
-                <Typography variant="caption" color="text.secondary" textAlign="center">
-                    {Content}
-                </Typography>
+                <Typography variant="caption" color="text.secondary" textAlign="center" dangerouslySetInnerHTML={{ __html: Content }} />
             )}
 
             {Tags?.length > 0 && (

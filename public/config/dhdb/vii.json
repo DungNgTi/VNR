@@ -1,0 +1,1381 @@
+{
+    "Layout": [
+        {
+            "ModuleType": "HERO",
+            "Title": "Đại hội Đại biểu toàn quốc lần thứ VII (1991–1996)",
+            "Description": "Đại hội của Trí tuệ – Đổi mới, Dân chủ – Kỷ cương – Đoàn kết",
+            "Data": "HERO_DAI_HOI_VII",
+            "Config": {
+                "Size": "Large",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "CARD",
+            "Title": "Thông tin chung về Đại hội VII",
+            "Description": "Các thông tin cơ bản, bối cảnh và ý nghĩa lịch sử",
+            "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+            "Config": {
+                "Searchable": true,
+                "Alignment": "Center",
+                "Categories": [
+                    "Bối cảnh lịch sử",
+                    "Kết quả Đại hội",
+                    "Văn kiện quan trọng",
+                    "Đối ngoại"
+                ]
+            }
+        },
+        {
+            "ModuleType": "STATISTIC",
+            "Title": "Biểu đồ lạm phát & tăng trưởng GDP (1986–1995)",
+            "Description": "Hành trình kiềm chế siêu lạm phát và đưa đất nước thoát khủng hoảng",
+            "Data": "BIEU_DO_THONG_KE_LAM_PHAT",
+            "Config": {
+                "Variant": "Bar",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "TIMELINE",
+            "Title": "Dòng thời gian sự kiện 1991–1996",
+            "Description": "Các mốc lịch sử quan trọng trong nhiệm kỳ Đại hội VII",
+            "Data": "DONG_THOI_GIAN_SU_KIEN",
+            "Config": {
+                "Direction": "Vertical",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "PROFILE",
+            "Title": "Lãnh đạo chủ chốt nhiệm kỳ VII",
+            "Description": "Bộ ba lãnh đạo: Tổng Bí thư, Thủ tướng và Chủ tịch nước",
+            "Data": "PROFILE_LANH_DAO_DAI_HOI_VII",
+            "Config": {
+                "Scroll": {
+                    "Direction": "Horizontal",
+                    "Parallax": true
+                }
+            }
+        },
+        {
+            "ModuleType": "COMPARISON",
+            "Title": "So sánh xuất – nhập khẩu trước và sau Đổi mới",
+            "Description": "Tác động của đường lối Đại hội VII lên hoạt động thương mại quốc tế",
+            "Data": "SO_SANH_XUAT_KHAU_VA_NHAP_KHAU_QUOC_TE",
+            "Config": {
+                "FromIndex": [
+                    0
+                ],
+                "ToIndex": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "ModuleType": "TABLE",
+            "Title": "Bảng số liệu kinh tế – xã hội 1991–1995",
+            "Description": "Các chỉ tiêu chủ yếu của kế hoạch 5 năm và kết quả thực hiện",
+            "Data": "BANG_SO_LIEU_KINH_TE",
+            "Config": {
+                "Columns": [
+                    "Chỉ tiêu",
+                    "Kế hoạch",
+                    "Thực hiện",
+                    "Đánh giá"
+                ],
+                "Sortable": true,
+                "Striped": true
+            }
+        },
+        {
+            "ModuleType": "ACCORDION",
+            "Title": "Cương lĩnh 1991: Các nguyên tắc & phương hướng đổi mới",
+            "Description": "Nội dung cốt lõi của Cương lĩnh xây dựng đất nước thời kỳ quá độ",
+            "Data": "CAC_NGUYEN_TAC_DOI_MOI",
+            "Config": {
+                "DefaultExpanded": 0,
+                "Alignment": "Left"
+            }
+        }
+    ],
+    "Data": {
+        "HERO_DAI_HOI_VII": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Đại hội Đại biểu toàn quốc lần thứ VII (1991–1996)",
+                "Description": "Đại hội của Trí tuệ – Đổi mới, Dân chủ – Kỷ cương – Đoàn kết. Lần đầu tiên Đảng thông qua Cương lĩnh xây dựng đất nước thời kỳ quá độ lên CNXH và giương cao ngọn cờ tư tưởng Hồ Chí Minh.",
+                "Content": "Đại hội họp tại Hà Nội từ ngày 24 đến 27/6/1991. Dự Đại hội có 1.176 đại biểu, thay mặt cho trên 2 triệu đảng viên cả nước. Đây là cột mốc lịch sử đánh dấu bước trưởng thành mới của Đảng, hoạch định con đường quá độ lên CNXH phù hợp với đặc điểm Việt Nam.",
+                "Tags": [
+                    "Đại hội VII",
+                    "Đổi mới",
+                    "Cương lĩnh 1991",
+                    "Lịch sử Đảng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Ban Chấp hành Trung ương Đảng khóa VII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 1,
+                "Alignment": "Center",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "https://tulieuvankien.dangcongsan.vn",
+                    "Title": "Xem văn kiện Đại hội",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BLOG_CAC_THONG_TIN_CHUNG": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Bối cảnh lịch sử – Trong nước và Quốc tế",
+                "Description": "Đại hội VII diễn ra trong bối cảnh Liên Xô và các nước XHCN Đông Âu sụp đổ, Mỹ vẫn duy trì cấm vận. Trong nước: lạm phát 67,1%, GDP đầu người chỉ 98 USD (1990) – thấp hơn cả Lào (186 USD) và Campuchia (191 USD).",
+                "Content": "Áp lực kép từ suy thoái XHCN thế giới và khủng hoảng kinh tế nội tại buộc Đảng phải xác lập đường lối mới có tính nền tảng lâu dài.",
+                "Tags": [
+                    "Bối cảnh lịch sử"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia – Kinh tế Việt Nam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-06-24",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Kết quả nhân sự – BCH Trung ương & Bộ Chính trị",
+                "Description": "Bầu 146 Ủy viên TW, Bộ Chính trị 13 ủy viên, Ban Bí thư 9 ủy viên. Đỗ Mười làm Tổng Bí thư. Ba cố vấn: Nguyễn Văn Linh, Phạm Văn Đồng, Võ Chí Công.",
+                "Content": "Lần đầu tiên Quốc hội đưa ra hai ứng cử viên Thủ tướng (Đỗ Mười và Võ Văn Kiệt). Sau Đại hội: Võ Văn Kiệt – Thủ tướng (8/1991), Lê Đức Anh – Chủ tịch nước. Bộ ba đại diện cải cách–bảo thủ–quân sự.",
+                "Tags": [
+                    "Kết quả Đại hội"
+                ],
+                "Author": [
+                    {
+                        "Name": "Tư liệu Văn kiện Đảng + Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Hai văn kiện nền tảng của Đại hội VII",
+                "Description": "Lần đầu thông qua Cương lĩnh 1991 và Chiến lược ổn định & phát triển KT-XH đến năm 2000. Mục tiêu GDP tăng gấp đôi năm 1990 – đạt vào 2000 (thực tế gấp 2,07 lần).",
+                "Content": "Cương lĩnh tổng kết 60+ năm cách mạng, xác định 6 đặc trưng XHCN, 7 phương hướng lớn và 5 bài học. Chiến lược là văn kiện lập kế hoạch dài hạn đầu tiên trong thời kỳ Đổi mới.",
+                "Tags": [
+                    "Văn kiện quan trọng"
+                ],
+                "Author": [
+                    {
+                        "Name": "GSO – Tổng cục Thống kê",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Đột phá đối ngoại – Phá thế bao vây cấm vận",
+                "Description": "Bình thường hóa với TQ (11/1991). Gia nhập ASEAN thứ 7 (28/7/1995). Quan hệ ngoại giao Việt–Mỹ (11/7/1995). Đến cuối 1995: 160 nước, thương mại >100 nước, FDI từ 50+ nước.",
+                "Content": "Ký Hiệp định với EU (17/7/1995). Phê chuẩn Công ước Luật Biển LHQ 1982 (28/7/1994). Tổng kim ngạch ngoại thương 2000 đạt 29,5 tỷ USD – gấp 5,7 lần 1990.",
+                "Tags": [
+                    "Đối ngoại"
+                ],
+                "Author": [
+                    {
+                        "Name": "GSO – KT-XH 1991-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-07-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BIEU_DO_THONG_KE_LAM_PHAT": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1986",
+                "Description": "Siêu lạm phát đỉnh điểm",
+                "Content": "774.7",
+                "Tags": [
+                    "Lạm phát",
+                    "1986"
+                ],
+                "Author": [
+                    {
+                        "Name": "Vietnamnet",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1986-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1988",
+                "Description": "Vẫn ở mức báo động",
+                "Content": "398.3",
+                "Tags": [
+                    "Lạm phát",
+                    "1988"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1988-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1990",
+                "Description": "Bước đầu kiềm chế",
+                "Content": "67.4",
+                "Tags": [
+                    "Lạm phát",
+                    "1990"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1990-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1991",
+                "Description": "Năm Đại hội VII",
+                "Content": "67.1",
+                "Tags": [
+                    "Lạm phát",
+                    "1991"
+                ],
+                "Author": [
+                    {
+                        "Name": "laichau.gov.vn",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1992",
+                "Description": "Kiềm chế mạnh",
+                "Content": "17.5",
+                "Tags": [
+                    "Lạm phát",
+                    "1992"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH 1996-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1992-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1993",
+                "Description": "Thấp nhất giai đoạn",
+                "Content": "5.2",
+                "Tags": [
+                    "Lạm phát",
+                    "1993"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH 1996-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1993-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1994",
+                "Description": "Tăng nhẹ do đẩy mạnh đầu tư",
+                "Content": "14.4",
+                "Tags": [
+                    "Lạm phát",
+                    "1994"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH 1996-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1994-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "1995",
+                "Description": "Kết thúc nhiệm kỳ – ổn định",
+                "Content": "12.7",
+                "Tags": [
+                    "Lạm phát",
+                    "1995"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình + CL PTKT-XH",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-01-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "DONG_THOI_GIAN_SU_KIEN": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Đại hội VII khai mạc tại Hà Nội",
+                "Description": "1.176 đại biểu, 2 triệu đảng viên. Thông qua Cương lĩnh 1991 & Chiến lược đến 2000. Đỗ Mười làm Tổng Bí thư. Lần đầu tiên giương cao tư tưởng Hồ Chí Minh.",
+                "Content": "Đây là lần đầu tiên Đảng thông qua Cương lĩnh xây dựng đất nước – văn kiện nền tảng cho toàn bộ thời kỳ quá độ.",
+                "Tags": [
+                    "Đại hội"
+                ],
+                "Author": [
+                    {
+                        "Name": "Tư liệu VK Đảng",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-06-24",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Bình thường hóa Việt Nam – Trung Quốc",
+                "Description": "Chấm dứt hơn 10 năm thù địch. Đỗ Mười và Võ Văn Kiệt thăm chính thức Bắc Kinh, mở đầu chiến lược đa phương hóa quan hệ đối ngoại.",
+                "Content": "Bình thường hóa với Trung Quốc mở cửa biên giới phía Bắc, thúc đẩy thương mại biên giới và du lịch.",
+                "Tags": [
+                    "Đối ngoại"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia – Đỗ Mười",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-11-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Quốc hội thông qua Hiến pháp 1992",
+                "Description": "Kỳ họp 11 QH khóa VIII. Thể chế hóa kinh tế hàng hóa nhiều thành phần, Nhà nước pháp quyền XHCN và hội nhập quốc tế theo tinh thần Đại hội VII.",
+                "Content": "Hiến pháp 1992 là bước đột phá về tư duy pháp lý: lần đầu thừa nhận đa thành phần kinh tế, quyền sở hữu tư nhân hợp pháp.",
+                "Tags": [
+                    "Hiến pháp"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1992-04-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Hội nghị TW5 – Đổi mới nông nghiệp nông thôn",
+                "Description": "NQ 05-NQ/TW (10/6/1993): ba mục tiêu xây dựng nông thôn mới – kinh tế, dân chủ, quốc phòng. Khơi dậy toàn bộ tiềm năng nội lực nông dân.",
+                "Content": "Tiếp nối khoán 10 (1988), đây là chính sách toàn diện nhất cho nông nghiệp nông thôn từ trước đến lúc đó.",
+                "Tags": [
+                    "Nông nghiệp"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1993-06-10",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Hội nghị đại biểu giữa nhiệm kỳ khóa VII",
+                "Description": "647 đại biểu tại Hà Nội. Lần đầu nhận diện 4 nguy cơ lớn. Lần đầu khẳng định xây dựng Nhà nước pháp quyền. Đánh dấu trưởng thành trong phương pháp lãnh đạo của Đảng.",
+                "Content": "Hội nghị giữa nhiệm kỳ là thiết chế mới trong lịch sử Đảng, thể hiện tinh thần chủ động, không chờ đến Đại hội mới điều chỉnh đường lối.",
+                "Tags": [
+                    "Hội nghị GNK"
+                ],
+                "Author": [
+                    {
+                        "Name": "daihoidang.bacgiang.gov.vn",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1994-01-20",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Đường dây tải điện 500kV Bắc – Nam khánh thành",
+                "Description": "Hoàn thành trong 2 năm (1992–1994), nối Hòa Bình–TP.HCM. Công trình hạ tầng chiến lược lớn nhất Việt Nam thời điểm đó, dấu ấn của Thủ tướng Võ Văn Kiệt.",
+                "Content": "Sự kiện tượng trưng cho sức mạnh đổi mới: hoàn thành công trình khổng lồ với tiến độ chưa từng có trong lịch sử Việt Nam.",
+                "Tags": [
+                    "Hạ tầng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Tiểu sử VVK",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1994-05-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Bình thường hóa Việt Nam – Hoa Kỳ",
+                "Description": "11/7/1995: kết thúc 20 năm thù địch và cấm vận sau 1975. Mở ra thị trường khổng lồ và nguồn đầu tư chiến lược. Nền tảng cho BTA 2000 và WTO 2007.",
+                "Content": "Sự kiện ngoại giao quan trọng nhất nhiệm kỳ VII, đánh dấu Việt Nam hội nhập đầy đủ vào cộng đồng quốc tế.",
+                "Tags": [
+                    "Mỹ",
+                    "Đối ngoại"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia – VVK",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-07-11",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Việt Nam gia nhập ASEAN",
+                "Description": "28/7/1995: thành viên thứ 7 của ASEAN – cột mốc phá vỡ hoàn toàn thế bao vây, cô lập khu vực. Ký Hiệp định với EU (17/7/1995).",
+                "Content": "Chỉ trong tháng 7/1995, Việt Nam đồng thời bình thường hóa với Mỹ, ký hiệp định EU và gia nhập ASEAN – tháng đột phá ngoại giao vĩ đại nhất trong lịch sử hiện đại.",
+                "Tags": [
+                    "ASEAN"
+                ],
+                "Author": [
+                    {
+                        "Name": "GSO",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-07-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "PROFILE_LANH_DAO_DAI_HOI_VII": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Đỗ Mười – Tổng Bí thư (1991–1997)",
+                "Description": "Sinh 1917 tại Hà Đông. Tham gia cách mạng 1939. Tổng Bí thư khóa VII & VIII. Nhấn mạnh ổn định chính trị, kiềm chế lạm phát, thu hút FDI và xuất khẩu.",
+                "Content": "Đại diện cánh bảo thủ. Dưới thời ông, ≥3 Hội nghị TW/năm – đưa vào nề nếp kỷ luật Đảng. Cùng VVK thăm Trung Quốc 11/1991, mở đầu bình thường hóa. Về hưu 12/1997, làm Cố vấn đến 2000. Mất 2018.",
+                "Tags": [
+                    "Tổng Bí thư"
+                ],
+                "Author": [
+                    {
+                        "Name": "Báo CP – Tiểu sử Đỗ Mười",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "https://daihoidang.vn/nhan-su/do-muoi-1097.vnp",
+                    "Title": "Xem tiểu sử",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Võ Văn Kiệt – Thủ tướng (1991–1997)",
+                "Description": "Sinh 1922 tại Vĩnh Long. Bí danh Sáu Dân. 'Tổng công trình sư' Đổi mới: đường điện 500kV, Khu CN Dung Quất, bình thường hóa Mỹ. Đại diện cánh cải cách.",
+                "Content": "Thúc đẩy tư nhân hóa và mở rộng đối ngoại. 'Nụ cười Võ Văn Kiệt' – biểu tượng ngoại giao VN. Cùng Đỗ Mười và Lê Đức Anh đồng thời về hưu 1997. Mất 2008 – Quốc tang 2 ngày.",
+                "Tags": [
+                    "Thủ tướng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia + Tư liệu VK Đảng",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-08-08",
+                "Link": {
+                    "Href": "https://tulieuvankien.dangcongsan.vn/lanh-dao-dang-nha-nuoc/thu-tuong-chinh-phu/dong-chi-vo-van-kiet-55",
+                    "Title": "Xem tiểu sử",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Lê Đức Anh – Chủ tịch nước (1992–1997)",
+                "Description": "Đại tướng QĐNDVN. Chủ tịch nước 9/1992–9/1997. Đại diện phái quân sự trong bộ ba lãnh đạo. Giữ vững ổn định chính trị và quốc phòng trong thời kỳ hội nhập.",
+                "Content": "Cùng Đỗ Mười và Võ Văn Kiệt tạo thành bộ ba đặc trưng: bảo thủ–cải cách–quân sự. Ba ông đồng thời về hưu 12/1997 trong một sự chuyển giao quyền lực hiếm có.",
+                "Tags": [
+                    "Chủ tịch nước"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia EN – Võ Văn Kiệt",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1992-09-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Văn Linh – Cố vấn TW (1991–1998)",
+                "Description": "Tổng Bí thư khóa VI (1986–1991) – người khởi xướng Đổi mới. Rút lui vì sức khỏe tại ĐH VII, trở thành Cố vấn cùng Phạm Văn Đồng và Võ Chí Công.",
+                "Content": "Ba Cố vấn BCH TW là thiết chế đặc biệt để các lãnh đạo kỳ cựu tiếp tục đóng góp. Nguyễn Văn Linh đặt nền móng cho mọi thành tựu mà Đại hội VII kế thừa và phát triển.",
+                "Tags": [
+                    "Cố vấn"
+                ],
+                "Author": [
+                    {
+                        "Name": "daihoidang.bacgiang.gov.vn",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "SO_SANH_XUAT_KHAU_VA_NHAP_KHAU_QUOC_TE": {
+            "TRUOC_DOI_MOI": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube",
+                        "Poster": ""
+                    },
+                    "Title": "Thương mại quốc tế TRƯỚC Đại hội VII (đến 1990)",
+                    "Description": "Phụ thuộc hoàn toàn vào khối đồng Rúp (Liên Xô & Đông Âu). Tổng ngoại thương đồng Rúp 1990: ~2.430 triệu rúp. Chịu cấm vận Mỹ và phương Tây. GDP đầu người 98 USD. Quan hệ thương mại chỉ với ~50 nước.",
+                    "Content": "Khi Liên Xô tan rã cuối 1991, thương mại đồng Rúp sụp đổ: còn 366,4 triệu rúp – chỉ bằng 15,1% năm 1990. Xuất khẩu sang khu vực này giảm còn 7,3%. Đây là cuộc khủng hoảng thương mại nghiêm trọng buộc VN phải tái cơ cấu nhanh.",
+                    "Tags": [
+                        "Trước Đổi mới"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "GSO – KT-XH 1991-2000",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Center",
+                    "Date": "1990-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                }
+            ],
+            "SAU_DOI_MOI": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube",
+                        "Poster": ""
+                    },
+                    "Title": "1991 – Bình thường hóa TQ, xuất khẩu dầu thô bù thiếu hụt",
+                    "Description": "Dầu thô (xuất khẩu từ 1989) trở thành nguồn thu ngoại tệ lớn nhất. Thị trường USD bắt đầu thay thế đồng Rúp. Nhanh chóng mở rộng quan hệ thương mại sang các thị trường mới.",
+                    "Content": "Sự linh hoạt trong chuyển dịch thị trường năm 1991 là minh chứng cho năng lực thích ứng của đường lối Đại hội VII.",
+                    "Tags": [
+                        "1991"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Wikipedia",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Center",
+                    "Date": "1991-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube",
+                        "Poster": ""
+                    },
+                    "Title": "1993 – ODA quốc tế nối lại",
+                    "Description": "Từ 10/1993 cộng đồng tài trợ nối lại hợp tác. 8 Hội nghị ODA: cam kết 17,5 tỷ USD + 1,2 tỷ USD cải cách. Ký hiệp định khung EU (17/7/1995).",
+                    "Content": "ODA trở thành nguồn vốn bổ sung quan trọng cho phát triển hạ tầng và cải cách thể chế.",
+                    "Tags": [
+                        "ODA",
+                        "1993"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "GSO",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Center",
+                    "Date": "1993-10-01",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube",
+                        "Poster": ""
+                    },
+                    "Title": "1991–1995 – Xuất khẩu vượt kế hoạch 13–40%",
+                    "Description": "Tổng XK 5 năm >17 tỷ USD (kế hoạch 12–15 tỷ). Tăng bình quân 19,6%/năm. Gạo, dầu thô, dệt may là mặt hàng chủ lực. Xuất khẩu/GDP đạt 24% năm 1995.",
+                    "Content": "Gạo Việt Nam từ nhập khẩu (trước 1989) → xuất khẩu lớn thứ 3 thế giới, nhờ khoán 10 và cải cách thị trường.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "1991-1995"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "CL PTKT-XH",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Center",
+                    "Date": "1995-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube",
+                        "Poster": ""
+                    },
+                    "Title": "1995 – Tháng 7 đột phá ngoại giao",
+                    "Description": "Gia nhập ASEAN (28/7) + Bình thường hóa Mỹ (11/7) + Ký hiệp định EU (17/7): ba đột phá lịch sử trong một tháng. Quan hệ thương mại: >100 nước.",
+                    "Content": "Sự kiện tượng trưng cho thành công của chính sách đa phương hóa. Từ đây, cấm vận Mỹ chấm dứt và thị trường xuất khẩu mở rộng không giới hạn.",
+                    "Tags": [
+                        "1995",
+                        "ASEAN",
+                        "Mỹ"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Tạp chí KH&CN",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Center",
+                    "Date": "1995-07-28",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube",
+                        "Poster": ""
+                    },
+                    "Title": "1991–2000 – FDI: 2.940 dự án, 37,3 tỷ USD",
+                    "Description": "10 năm thu hút FDI từ 50+ nước/vùng lãnh thổ. Vốn đầu tư/GDP tăng từ 15,8% (1990) → 27,4% (1995) → 20-30% cuối thập kỷ. FDI đóng góp lớn vào XK và tạo việc làm.",
+                    "Content": "Luật Đầu tư nước ngoài 1987 (Đại hội VI) cộng với đường lối Đại hội VII tạo môi trường pháp lý thu hút FDI hiệu quả.",
+                    "Tags": [
+                        "FDI"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "GSO",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Center",
+                    "Date": "2000-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube",
+                        "Poster": ""
+                    },
+                    "Title": "2000 – Tổng kết: Ngoại thương gấp 5,7 lần 1990",
+                    "Description": "Tổng ngoại thương 2000: 29,5 tỷ USD (×5,7). Xuất khẩu: 14,3 tỷ (×6). Nhập khẩu: 15,2 tỷ (×5,5). Xuất khẩu đầu người 184,2 USD – thoát danh sách ngoại thương kém phát triển.",
+                    "Content": "GDP 2000 gấp 2,07 lần 1990, vượt mục tiêu Chiến lược. Tăng trưởng bình quân 7,56%/năm. VN đứng vào nhóm các nền kinh tế tăng trưởng cao nhất khu vực thập niên 90.",
+                    "Tags": [
+                        "2000",
+                        "Tổng kết"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "GSO",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Center",
+                    "Date": "2000-12-31",
+                    "Link": {
+                        "Href": "https://www.gso.gov.vn/du-lieu-va-so-lieu-thong-ke/2020/10/tinh-hinh-kinh-te-xa-hoi-10-nam-1991-2000/",
+                        "Title": "Báo cáo GSO",
+                        "Target": "_blank"
+                    }
+                }
+            ]
+        },
+        "BANG_SO_LIEU_KINH_TE": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP bình quân 1991–1995",
+                "Description": "Kế hoạch: 5,5–6,5%/năm",
+                "Content": "Thực hiện: 8,2%/năm | Đánh giá:  Vượt kế hoạch 1,7–2,7 điểm %",
+                "Tags": [
+                    "GDP"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH + Vietnamnet",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng Công nghiệp 1991–1995",
+                "Description": "Kế hoạch: 7,5–8,5%/năm",
+                "Content": "Thực hiện: 13,3%/năm | Đánh giá:  Vượt kế hoạch gần gấp đôi",
+                "Tags": [
+                    "Công nghiệp"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH 1996-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng Dịch vụ 1990–1995",
+                "Description": "Kế hoạch: ~10%/năm",
+                "Content": "Thực hiện: 12%/năm (+80% so 1990) | Đánh giá:  Vượt kế hoạch; du lịch & bưu điện ×10",
+                "Tags": [
+                    "Dịch vụ"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH 1996-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Lạm phát 1991 → 1995",
+                "Description": "Mục tiêu: kiềm chế dưới 20%",
+                "Content": "67,1% (1991) → 17,5% (1992) → 5,2% (1993) → 14,4% (1994) → 12,7% (1995) | Đánh giá:  Kiềm chế thành công, ổn định bền vững",
+                "Tags": [
+                    "Lạm phát"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH + Vietnamnet",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Tổng kim ngạch xuất khẩu 1991–1995",
+                "Description": "Kế hoạch: 12–15 tỷ USD",
+                "Content": "Thực hiện: >17 tỷ USD | Đánh giá:  Vượt kế hoạch ~13–42%; xuất khẩu/GDP = 24%",
+                "Tags": [
+                    "Xuất khẩu"
+                ],
+                "Author": [
+                    {
+                        "Name": "CL PTKT-XH 1996-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "Đầu tư toàn xã hội / GDP",
+                "Description": "1990: 15,8% GDP",
+                "Content": "1995: 27,4% GDP | Đánh giá:  Tăng 73%, phản ánh niềm tin vào nền kinh tế và hiệu quả thu hút FDI",
+                "Tags": [
+                    "Đầu tư"
+                ],
+                "Author": [
+                    {
+                        "Name": "Vietnamnet – Bài học ĐM 1986",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "1995-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "GDP mục tiêu đến năm 2000",
+                "Description": "Mục tiêu Chiến lược: gấp 2 lần năm 1990",
+                "Content": "Thực hiện: gấp 2,07 lần (GDP theo giá hiện hành gấp 10,3 lần) | Đánh giá:  Hoàn thành và vượt mục tiêu",
+                "Tags": [
+                    "GDP",
+                    "2000"
+                ],
+                "Author": [
+                    {
+                        "Name": "GSO – KT-XH 1991-2000",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Center",
+                "Date": "2000-12-31",
+                "Link": {
+                    "Href": "https://www.gso.gov.vn/du-lieu-va-so-lieu-thong-ke/2020/10/tinh-hinh-kinh-te-xa-hoi-10-nam-1991-2000/",
+                    "Title": "Nguồn GSO",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "CAC_NGUYEN_TAC_DOI_MOI": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "5 Bài học lớn của Cương lĩnh 1991",
+                "Description": "Tổng kết hơn 60 năm Đảng lãnh đạo cách mạng Việt Nam (Văn kiện Đảng toàn tập, t.51, tr.134)",
+                "Content": "1. Nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội.\n2. Sự nghiệp cách mạng là của nhân dân, do nhân dân, vì nhân dân.\n3. Không ngừng củng cố, tăng cường đoàn kết: toàn Đảng – toàn dân – dân tộc – quốc tế.\n4. Kết hợp sức mạnh dân tộc với sức mạnh thời đại.\n5. Sự lãnh đạo đúng đắn của Đảng là nhân tố hàng đầu bảo đảm thắng lợi.",
+                "Tags": [
+                    "Bài học",
+                    "Cương lĩnh"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đảng toàn tập, t.51",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "6 Đặc trưng xã hội XHCN",
+                "Description": "Xác định mô hình xã hội mà nhân dân Việt Nam xây dựng trong thời kỳ quá độ",
+                "Content": "1. Do nhân dân lao động làm chủ.\n2. Kinh tế phát triển cao dựa trên LLSX hiện đại và chế độ công hữu về TLSX chủ yếu.\n3. Văn hóa tiên tiến, đậm đà bản sắc dân tộc.\n4. Con người giải phóng khỏi áp bức, bất công; làm theo năng lực, hưởng theo lao động.\n5. Các dân tộc bình đẳng, đoàn kết, giúp đỡ nhau cùng tiến bộ.\n6. Quan hệ hữu nghị và hợp tác với nhân dân tất cả các nước.",
+                "Tags": [
+                    "Đặc trưng XHCN"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đảng toàn tập, t.51",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "7 Phương hướng lớn xây dựng CNXH",
+                "Description": "Định hướng chiến lược toàn diện cho thời kỳ quá độ lên CNXH",
+                "Content": "1. Xây dựng Nhà nước XHCN của dân – do dân – vì dân.\n2. CNH gắn với nông nghiệp toàn diện là nhiệm vụ trung tâm.\n3. Quan hệ sản xuất XHCN từ thấp đến cao, đa dạng hình thức sở hữu.\n4. Kinh tế hàng hóa nhiều thành phần, vận hành theo cơ chế thị trường có quản lý Nhà nước.\n5. Cách mạng tư tưởng – văn hóa: HCM & Mác-Lênin giữ vị trí chủ đạo.\n6. Chính sách đại đoàn kết dân tộc.\n7. Hai nhiệm vụ chiến lược: xây dựng và bảo vệ Tổ quốc.",
+                "Tags": [
+                    "Phương hướng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình + Studocu",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "1991-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "5 Bài học Đổi mới từ 5 năm 1991–1995",
+                "Description": "Tổng kết kinh nghiệm thực tiễn trong nhiệm kỳ Đại hội VII",
+                "Content": "1. Giữ vững định hướng XHCN, kiên định nguyên tắc + linh hoạt sách lược.\n2. Đổi mới toàn diện, đồng bộ, triệt để nhưng có bước đi phù hợp.\n3. Kinh tế nhiều thành phần + tăng cường quản lý Nhà nước.\n4. Dân chủ XHCN rộng rãi nhưng phải được lãnh đạo tốt.\n5. Dự báo tình hình, giải quyết vấn đề mới trên tinh thần kiên định đổi mới.",
+                "Tags": [
+                    "Bài học đổi mới"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình Lịch sử Đảng",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "1996-06-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube",
+                    "Poster": ""
+                },
+                "Title": "4 Nguy cơ nhận diện – Hội nghị giữa nhiệm kỳ (1/1994)",
+                "Description": "Nhận thức mới mang tính tiên phong: lần đầu tiên Đảng chủ động nhận diện thách thức mang tính hệ thống",
+                "Content": "1. Nguy cơ tụt hậu xa hơn về kinh tế so với khu vực và thế giới.\n2. Nguy cơ chệch hướng XHCN nếu không khắc phục lệch lạc trong chủ trương.\n3. Nguy cơ tham nhũng và tệ quan liêu.\n4. Nguy cơ 'diễn biến hòa bình' của các thế lực thù địch.\n\nĐây là khung phân tích chiến lược nổi tiếng nhất của Đảng, được tái khẳng định ở mọi Đại hội sau đó.",
+                "Tags": [
+                    "4 nguy cơ",
+                    "Hội nghị GNK"
+                ],
+                "Author": [
+                    {
+                        "Name": "Giáo trình + daihoidang.bacgiang",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "1994-01-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ]
+    }
+}
