@@ -2,68 +2,102 @@
   "Layout": [
     {
       "ModuleType": "HERO",
-      "Title": "Đại hội Đảng lần thứ VI",
-      "Description": "Bước ngoặt lịch sử của công cuộc Đổi Mới",
-      "Data": "HERO_DAI_HOI_VI",
+      "Title": "Nghịch lý đổi mới: \"Càng đổi mới càng giữ\"",
+      "Description": "Nhìn nhận 35 năm trở mình từ đáy khủng hoảng của quốc gia",
+      "Data": "HERO_LANDING",
       "Config": {
         "Size": "Large",
         "Alignment": "Center"
       }
     },
     {
-      "ModuleType": "CARD",
-      "Title": "Thông tin chung",
-      "Description": "Các bài viết và tài liệu liên quan",
-      "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+      "ModuleType": "STATISTIC",
+      "Title": "35 Năm Đổi Mới — Những Con Số Biết Nói",
+      "Description": "Hành trình từ một trong những nước nghèo nhất thế giới đến nền kinh tế thứ 32 toàn cầu",
+      "Data": "STAT_35_NAM_DOI_MOI",
       "Config": {
-        "Searchable": true,
+        "Variant": "Grid",
+        "Alignment": "Center"
+      }
+    },
+    {
+      "ModuleType": "CARD",
+      "Title": "Hành Trình 8 Kỳ Đại Hội",
+      "Description": "Mỗi Đại hội là một bước ngoặt trong công cuộc Đổi Mới và xây dựng đất nước",
+      "Data": "BLOG_8_DAI_HOI",
+      "Config": {
+        "Searchable": false,
         "Placeholder": "Tìm kiếm...",
         "Categories": [
+          "Tổng quan",
           "Kinh tế",
           "Chính trị",
-          "Xã hội"
+          "Hội nhập"
         ]
       }
     },
     {
       "ModuleType": "TIMELINE",
-      "Title": "Dòng thời gian sự kiện",
-      "Description": "Các mốc lịch sử quan trọng",
-      "Data": "DONG_THOI_GIAN_SU_KIEN",
+      "Title": "Dòng Thời Gian 35 Năm",
+      "Description": "Những cột mốc lịch sử quan trọng từ 1986 đến 2021",
+      "Data": "DONG_THOI_GIAN_35_NAM",
       "Config": {
         "Direction": "Vertical",
+        "Alignment": "Center"
+      }
+    },
+    {
+      "ModuleType": "COMPARISON",
+      "Title": "Việt Nam Trước và Sau Đổi Mới",
+      "Description": "Sự chuyển mình ngoạn mục từ khủng hoảng đến phát triển",
+      "Data": "SO_SANH_TRUOC_SAU_DOI_MOI",
+      "Config": {
+        "FromIndex": [0],
+        "ToIndex": [1, 2, 3, 4, 5, 6]
+      }
+    },
+    {
+      "ModuleType": "ACCORDION",
+      "Title": "Bài Học & Nghịch Lý Đổi Mới",
+      "Description": "Những thành tựu vĩ đại và những thách thức còn tồn đọng sau 35 năm",
+      "Data": "BAI_HOC_NGHICH_LY",
+      "Config": {
+        "DefaultExpanded": 0,
         "Alignment": "Center"
       }
     }
   ],
   "Data": {
-    "HERO_DAI_HOI_VI": [
+    "HERO_LANDING": [
       {
         "Image": [
-          "https://picsum.photos/seed/hero1/1600/900"
+          "https://picsum.photos/seed/landing-hero/1920/1080"
         ],
         "Video": {
-          "Src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "Type": "youtube",
-          "Poster": "https://picsum.photos/seed/vidposter/1600/900"
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
         },
-        "Title": "Đại hội Đại biểu toàn quốc lần thứ VI",
-        "Description": "Tháng 12 năm 1986, Đại hội VI của Đảng Cộng sản Việt Nam đã mở ra thời kỳ Đổi Mới toàn diện, đưa đất nước bước vào kỷ nguyên phát triển mới.",
-        "Content": "",
+        "Title": "Nghịch lý đổi mới: \"Càng đổi mới càng giữ\"",
+        "Description": "35 năm nhìn lại — Từ đáy khủng hoảng lạm phát 774% (1986) đến nền kinh tế thứ 32 thế giới (2024). Một hành trình đầy nghịch lý: càng đổi mới kinh tế, càng giữ vững định hướng xã hội chủ nghĩa; càng hội nhập quốc tế, càng nhấn mạnh độc lập tự chủ.",
+        "Content": "Đại hội VI (1986) khởi xướng Đổi Mới trong bối cảnh đất nước kiệt quệ sau chiến tranh và khủng hoảng kinh tế trầm trọng. Qua 8 kỳ Đại hội (VI-XIII), Việt Nam đã thực hiện một cuộc chuyển mình lịch sử: từ nước nghèo thu nhập thấp trở thành nước thu nhập trung bình cao; từ bị bao vây cấm vận đến đối tác chiến lược của 17 nước; từ sản xuất nhỏ lẻ đến nền kinh tế có quy mô $476 tỷ (2024). Nhưng Đổi Mới cũng để lại những nghịch lý chưa giải đáp: tăng trưởng cao đi kèm bất bình đẳng gia tăng; hội nhập sâu rộng nhưng thể chế chậm đổi mới; kinh tế thị trường nhưng doanh nghiệp nhà nước vẫn giữ vai trò chủ đạo. Website này tổng hợp thông tin về 8 kỳ Đại hội qua 35 năm Đổi Mới, giúp bạn đọc có cái nhìn toàn diện về hành trình 'trở mình từ đáy khủng hoảng' của quốc gia.",
         "Tags": [
           "Đổi Mới",
+          "35 năm",
+          "Đại hội VI-XIII",
           "Lịch sử",
-          "1986"
+          "Kinh tế",
+          "Hội nhập"
         ],
         "Author": [
           {
             "Name": "Ban biên tập",
-            "Image": "https://picsum.photos/seed/author0/100/100"
+            "Image": ""
           }
         ],
         "Scale": 1,
         "Alignment": "Center",
-        "Date": "18/12/1986",
+        "Date": "1986-12-18",
         "Link": {
           "Href": "",
           "Title": "",
@@ -71,176 +105,363 @@
         }
       }
     ],
-    "BLOG_CAC_THONG_TIN_CHUNG": [
+    "STAT_35_NAM_DOI_MOI": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "GDP 1986",
+        "Description": "~$6 tỷ USD",
+        "Content": "Một trong những nước nghèo nhất thế giới",
+        "Tags": ["Kinh tế", "1986"],
+        "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "1986-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "GDP 2024",
+        "Description": "~$476 tỷ USD",
+        "Content": "Nền kinh tế thứ 32 thế giới (nominal), thứ 21 (PPP)",
+        "Tags": ["Kinh tế", "2024"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Lạm phát 1986",
+        "Description": "774.7%",
+        "Content": "Siêu lạm phát đỉnh điểm của khủng hoảng",
+        "Tags": ["Kinh tế", "1986"],
+        "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "1986-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Lạm phát 2024",
+        "Description": "~3-4%",
+        "Content": "Ổn định vĩ mô thành công",
+        "Tags": ["Kinh tế", "2024"],
+        "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Thu nhập bình quân 1986",
+        "Description": "<$100 USD/năm",
+        "Content": "Nước thu nhập thấp",
+        "Tags": ["Kinh tế", "1986"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "1986-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Thu nhập bình quân 2024",
+        "Description": "~$4,300 USD/năm",
+        "Content": "Nước thu nhập trung bình cao",
+        "Tags": ["Kinh tế", "2024"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Tỷ lệ nghèo 1993",
+        "Description": "~80%",
+        "Content": "Một trong những nước nghèo nhất",
+        "Tags": ["Xã hội", "1993"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "1993-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Tỷ lệ nghèo 2024",
+        "Description": "<3%",
+        "Content": "Thành tựu giảm nghèo được thế giới ghi nhận",
+        "Tags": ["Xã hội", "2024"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      }
+    ],
+    "BLOG_8_DAI_HOI": [
       {
         "Image": [
-          "https://picsum.photos/seed/blog1/800/450"
+          "https://picsum.photos/seed/dh6/800/450"
         ],
-        "Title": "Bối cảnh lịch sử trước Đổi Mới",
-        "Description": "Những khó khăn kinh tế - xã hội của Việt Nam giai đoạn 1975–1985 đã đặt ra yêu cầu cấp thiết cho sự thay đổi.",
-        "Content": "",
-        "Tags": [
-          "Kinh tế"
-        ],
-        "Author": [
-          {
-            "Name": "Nguyễn Văn An",
-            "Image": "https://picsum.photos/seed/a1/100/100"
-          }
-        ],
-        "Scale": 0.2,
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội VI (1986) — Khởi xướng Đổi Mới",
+        "Description": "Đại hội của 'nhìn thẳng sự thật' — Khởi đầu công cuộc Đổi Mới toàn diện từ đáy khủng hoảng lạm phát 774%",
+        "Content": "Diễn ra ngày 15-18/12/1986 tại Hà Nội với 1.129 đại biểu. Tổng Bí thư: Nguyễn Văn Linh. Đại hội thừa nhận những sai lầm nghiêm trọng về chủ trương, bệnh chủ quan duy ý chí. Đề ra 6 nguyên tắc chỉ đạo Đổi Mới và 4 bài học kinh nghiệm. Mở đầu cho quá trình chuyển đổi từ kinh tế kế hoạch hóa tập trung sang kinh tế thị trường định hướng XHCN.",
+        "Tags": ["Đại hội VI", "1986", "Khởi xướng", "Nguyễn Văn Linh"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
         "Alignment": "Left",
-        "Date": "01/01/2024",
+        "Date": "1986-12-15",
         "Link": {
-          "Href": "#",
-          "Title": "Đọc thêm",
-          "Target": "_blank"
+          "Href": "/config/dhdb/vi.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
         }
       },
       {
         "Image": [
-          "https://picsum.photos/seed/blog2/800/450"
+          "https://picsum.photos/seed/dh7/800/450"
         ],
-        "Title": "Tư duy mới về kinh tế thị trường",
-        "Description": "Đại hội VI lần đầu tiên thừa nhận nền kinh tế nhiều thành phần vận hành theo cơ chế thị trường có sự quản lý của Nhà nước.",
-        "Content": "",
-        "Tags": [
-          "Chính trị"
-        ],
-        "Author": [
-          {
-            "Name": "Trần Thị Bình",
-            "Image": "https://picsum.photos/seed/a2/100/100"
-          }
-        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội VII (1991) — Cương lĩnh 1991",
+        "Description": "Đại hội của Trí tuệ – Đổi mới, Dân chủ – Kỷ cương – Đoàn kết. Lần đầu thông qua Cương lĩnh xây dựng đất nước thời kỳ quá độ",
+        "Content": "Diễn ra ngày 24-27/6/1991 với 1.176 đại biểu. Tổng Bí thư: Đỗ Mười. Thông qua Cương lĩnh 1991 — văn kiện nền tảng xác định 6 đặc trưng CNXH, 7 phương hướng lớn. Chiến lược ổn định & phát triển KT-XH đến năm 2000. Bình thường hóa quan hệ với Trung Quốc (11/1991), gia nhập ASEAN (1995), bình thường hóa quan hệ với Mỹ (1995).",
+        "Tags": ["Đại hội VII", "1991", "Cương lĩnh", "Đỗ Mười"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
         "Scale": 0.5,
         "Alignment": "Left",
-        "Date": "05/02/2024",
+        "Date": "1991-06-24",
         "Link": {
-          "Href": "#",
-          "Title": "Đọc thêm",
-          "Target": "_blank"
+          "Href": "/config/dhdb/vii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
         }
       },
       {
         "Image": [
-          "https://picsum.photos/seed/blog3/800/450"
+          "https://picsum.photos/seed/dh8/800/450"
         ],
-        "Title": "Đổi Mới trong lĩnh vực nông nghiệp",
-        "Description": "Khoán 10 và các chính sách giải phóng sức sản xuất trong nông nghiệp đã tạo ra bước đột phá quan trọng đầu tiên.",
-        "Content": "",
-        "Tags": [
-          "Xã hội"
-        ],
-        "Author": [
-          {
-            "Name": "Lê Minh Châu",
-            "Image": "https://picsum.photos/seed/a3/100/100"
-          }
-        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội VIII (1996) — Công nghiệp hóa, Hiện đại hóa",
+        "Description": "Đại hội đánh dấu bước ngoặt đưa Việt Nam sang thời kỳ đẩy mạnh CNH-HĐH. Bổ sung mục tiêu 'Dân giàu, nước mạnh'",
+        "Content": "Diễn ra ngày 28/6-1/7/1996 với 1.198 đại biểu. Tổng Bí thư: Đỗ Mười (nhiệm kỳ 2). Sau 10 năm Đổi Mới, đất nước ra khỏi khủng hoảng KT-XH. Đề ra mục tiêu đến 2020 cơ bản trở thành nước công nghiệp. Đối mặt khủng hoảng tài chính châu Á 1997 nhưng duy trì tăng trưởng dương.",
+        "Tags": ["Đại hội VIII", "1996", "CNH-HĐH", "Khủng hoảng 1997"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
         "Scale": 0.5,
         "Alignment": "Left",
-        "Date": "10/03/2024",
+        "Date": "1996-06-28",
         "Link": {
-          "Href": "#",
-          "Title": "Đọc thêm",
-          "Target": "_blank"
+          "Href": "/config/dhdb/viii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
         }
       },
       {
         "Image": [
-          "https://picsum.photos/seed/blog4/800/450"
+          "https://picsum.photos/seed/dh9/800/450"
         ],
-        "Title": "Mở cửa và hội nhập quốc tế",
-        "Description": "Chính sách đối ngoại rộng mở sau Đổi Mới đã giúp Việt Nam bình thường hóa quan hệ và gia nhập ASEAN năm 1995.",
-        "Content": "",
-        "Tags": [
-          "Kinh tế"
-        ],
-        "Author": [
-          {
-            "Name": "Phạm Quốc Hùng",
-            "Image": "https://picsum.photos/seed/a4/100/100"
-          }
-        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội IX (2001) — Kinh tế thị trường XHCN",
+        "Description": "Đại hội mở đầu thế kỷ XXI. Xác định mô hình kinh tế thị trường định hướng XHCN. Tư tưởng Hồ Chí Minh là nền tảng tư tưởng",
+        "Content": "Diễn ra ngày 19-22/4/2001 với 1.168 đại biểu. Tổng Bí thư: Nông Đức Mạnh. Lần đầu khẳng định kinh tế thị trường định hướng XHCN là mô hình kinh tế tổng quát. Tư tưởng Hồ Chí Minh chính thức là nền tảng tư tưởng. Ký BTA với Mỹ (2000), chuẩn bị gia nhập WTO.",
+        "Tags": ["Đại hội IX", "2001", "Kinh tế thị trường", "Nông Đức Mạnh"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
         "Scale": 0.5,
         "Alignment": "Left",
-        "Date": "15/04/2024",
+        "Date": "2001-04-19",
         "Link": {
-          "Href": "#",
-          "Title": "Đọc thêm",
-          "Target": "_blank"
+          "Href": "/config/dhdb/ix.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
         }
       },
       {
         "Image": [
-          "https://picsum.photos/seed/blog5/800/450"
+          "https://picsum.photos/seed/dh10/800/450"
         ],
-        "Title": "Thành tựu 10 năm Đổi Mới",
-        "Description": "Từ một nước thiếu lương thực, Việt Nam trở thành nước xuất khẩu gạo lớn thứ hai thế giới chỉ sau một thập kỷ.",
-        "Content": "",
-        "Tags": [
-          "Xã hội"
-        ],
-        "Author": [
-          {
-            "Name": "Hoàng Thị Mai",
-            "Image": "https://picsum.photos/seed/a5/100/100"
-          }
-        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội X (2006) — 20 năm Đổi Mới & WTO",
+        "Description": "Đại hội 20 năm Đổi Mới. Bổ sung 'Dân chủ' và 'Nhà nước pháp quyền' vào đặc trưng CNXH. Cho phép đảng viên làm kinh tế tư nhân",
+        "Content": "Diễn ra ngày 18-25/4/2006 với 1.176 đại biểu. Tổng Bí thư: Nông Đức Mạnh (nhiệm kỳ 2). Gia nhập WTO (2007). Bổ sung 2 đặc trưng mới: 'dân chủ' và 'Nhà nước pháp quyền XHCN'. Lần đầu cho phép đảng viên làm kinh tế tư nhân. GDP 2008 đạt mức thu nhập trung bình.",
+        "Tags": ["Đại hội X", "2006", "WTO", "20 năm Đổi Mới"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
         "Scale": 0.5,
         "Alignment": "Left",
-        "Date": "20/05/2024",
+        "Date": "2006-04-18",
         "Link": {
-          "Href": "#",
-          "Title": "Đọc thêm",
-          "Target": "_blank"
+          "Href": "/config/dhdb/x.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
         }
       },
       {
         "Image": [
-          "https://picsum.photos/seed/blog6/800/450"
+          "https://picsum.photos/seed/dh11/800/450"
         ],
-        "Title": "Di sản của Đại hội VI",
-        "Description": "Những quyết sách mang tính lịch sử tại Đại hội VI vẫn còn nguyên giá trị định hướng cho sự phát triển của Việt Nam đến ngày nay.",
-        "Content": "",
-        "Tags": [
-          "Chính trị"
-        ],
-        "Author": [
-          {
-            "Name": "Vũ Đức Thắng",
-            "Image": "https://picsum.photos/seed/a6/100/100"
-          }
-        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội XI (2011) — Cương lĩnh 2011",
+        "Description": "Đại hội bổ sung, phát triển Cương lĩnh 1991. Thông qua Chiến lược 2011-2020 với 3 đột phá chiến lược",
+        "Content": "Diễn ra ngày 12-19/1/2011 với 1.377 đại biểu. Tổng Bí thư: Nguyễn Phú Trọng. Cương lĩnh 2011 bổ sung 'dân chủ' vào mục tiêu. 3 đột phá chiến lược: thể chế, nhân lực, hạ tầng. Lần đầu BCT công khai tự phê bình và nhận lỗi trước TW về tham nhũng (2012).",
+        "Tags": ["Đại hội XI", "2011", "Cương lĩnh 2011", "Nguyễn Phú Trọng"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
         "Scale": 0.5,
         "Alignment": "Left",
-        "Date": "01/06/2024",
+        "Date": "2011-01-12",
         "Link": {
-          "Href": "#",
-          "Title": "Đọc thêm",
-          "Target": "_blank"
+          "Href": "/config/dhdb/xi.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [
+          "https://picsum.photos/seed/dh12/800/450"
+        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội XII (2016) — 30 năm Đổi Mới & Đốt Lò",
+        "Description": "Đại hội 30 năm Đổi Mới. Khởi động chiến dịch chống tham nhũng 'Đốt Lò' chưa từng có. CPTPP và EVFTA",
+        "Content": "Diễn ra ngày 20-28/1/2016 với hơn 1.510 đại biểu. Tổng Bí thư: Nguyễn Phú Trọng (nhiệm kỳ 2). NQ TW4 về xây dựng Đảng với 27 biểu hiện 'tự diễn biến, tự chuyển hóa'. Chiến dịch 'Đốt Lò' khiến hàng nghìn cán bộ cấp cao bị xử lý. Ký CPTPP (2018), EVFTA (2019).",
+        "Tags": ["Đại hội XII", "2016", "Đốt Lò", "30 năm Đổi Mới", "CPTPP"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2016-01-20",
+        "Link": {
+          "Href": "/config/dhdb/xii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [
+          "https://picsum.photos/seed/dh13/800/450"
+        ],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội XIII (2021) — Khát vọng 2045",
+        "Description": "Đại hội 35 năm Đổi Mới. Tầm nhìn đến 2045: nước phát triển, thu nhập cao. Chuyển đổi số quốc gia là đột phá chiến lược",
+        "Content": "Diễn ra ngày 25/1-1/2/2021 với 1.587 đại biểu. Tổng Bí thư: Nguyễn Phú Trọng (nhiệm kỳ 3). Tầm nhìn 3 mốc: 2025 thoát thu nhập trung bình thấp; 2030 thu nhập trung bình cao; 2045 nước phát triển. Bổ sung quan hệ lớn thứ 10: 'dân chủ và pháp chế'. TBT Nguyễn Phú Trọng từ trần (7/2024), Tô Lâm kế nhiệm.",
+        "Tags": ["Đại hội XIII", "2021", "Khát vọng 2045", "Chuyển đổi số"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2021-01-25",
+        "Link": {
+          "Href": "/config/dhdb/xiii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
         }
       }
     ],
-    "DONG_THOI_GIAN_SU_KIEN": [
+    "DONG_THOI_GIAN_35_NAM": [
       {
-        "Image": [
-          "https://picsum.photos/seed/tl1/200/200"
-        ],
-        "Title": "Thống nhất đất nước",
-        "Description": "Việt Nam hoàn toàn thống nhất sau chiến tranh.",
-        "Content": "Ngày 30/4/1975 đánh dấu sự kết thúc của chiến tranh và khởi đầu kỷ nguyên xây dựng đất nước.",
-        "Tags": [
-          "Lịch sử"
-        ],
-        "Date": "30/04/1975",
-        "Author": [
-          {
-            "Name": "",
-            "Image": ""
-          }
-        ],
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội VI — Khởi xướng Đổi Mới",
+        "Description": "15-18/12/1986: Đại hội của 'nhìn thẳng sự thật' với 1.129 đại biểu. Tổng Bí thư Nguyễn Văn Linh. Thừa nhận sai lầm nghiêm trọng, đề ra 6 nguyên tắc Đổi Mới",
+        "Content": "Diễn ra trong bối cảnh lạm phát 774%, kinh tế kiệt quệ. Đại hội mở đầu công cuộc Đổi Mới toàn diện, chuyển từ kinh tế kế hoạch hóa tập trung sang kinh tế hàng hóa nhiều thành phần.",
+        "Tags": ["Đại hội VI", "1986", "Khởi xướng"],
+        "Date": "1986-12-15",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/vi.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Khoán 10 — Giải phóng nông nghiệp",
+        "Description": "5/4/1988: Nghị quyết 10-NQ/TW về khoán sản phẩm trong nông nghiệp. Nông dân nhận khoán 15 năm, thu nhập 40% sản lượng",
+        "Content": "Chính sách đột phá giải phóng sức sản xuất nông nghiệp. Đưa Việt Nam từ nước nhập khẩu gạo thành nước xuất khẩu gạo lớn thứ hai thế giới.",
+        "Tags": ["Khoán 10", "Nông nghiệp", "1988"],
+        "Date": "1988-04-05",
+        "Author": [{ "Name": "", "Image": "" }],
         "Link": {
           "Href": "",
           "Title": "",
@@ -248,22 +469,37 @@
         }
       },
       {
-        "Image": [
-          "https://picsum.photos/seed/tl2/200/200"
-        ],
-        "Title": "Đại hội Đảng lần thứ IV",
-        "Description": "Xác định con đường đi lên chủ nghĩa xã hội.",
-        "Content": "Đại hội IV đề ra đường lối xây dựng kinh tế theo mô hình kế hoạch hóa tập trung.",
-        "Tags": [
-          "Chính trị"
-        ],
-        "Date": "12/1976",
-        "Author": [
-          {
-            "Name": "",
-            "Image": ""
-          }
-        ],
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội VII — Cương lĩnh 1991",
+        "Description": "24-27/6/1991: 1.176 đại biểu. Tổng Bí thư Đỗ Mười. Thông qua Cương lĩnh xây dựng đất nước thời kỳ quá độ",
+        "Content": "Lần đầu thông qua Cương lĩnh 1991 với 6 đặc trưng CNXH, 7 phương hướng lớn. Chiến lược phát triển KT-XH đến năm 2000.",
+        "Tags": ["Đại hội VII", "1991", "Cương lĩnh"],
+        "Date": "1991-06-24",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/vii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Bình thường hóa quan hệ Việt-Trung",
+        "Description": "11/1991: Chấm dứt hơn 10 năm thù địch. Đỗ Mười và Võ Văn Kiệt thăm Bắc Kinh",
+        "Content": "Bình thường hóa với Trung Quốc mở cửa biên giới phía Bắc, thúc đẩy thương mại biên giới.",
+        "Tags": ["Đối ngoại", "Trung Quốc", "1991"],
+        "Date": "1991-11-01",
+        "Author": [{ "Name": "", "Image": "" }],
         "Link": {
           "Href": "",
           "Title": "",
@@ -271,22 +507,18 @@
         }
       },
       {
-        "Image": [
-          "https://picsum.photos/seed/tl3/200/200"
-        ],
-        "Title": "Khủng hoảng kinh tế trầm trọng",
-        "Description": "Siêu lạm phát và thiếu hụt lương thực nghiêm trọng.",
-        "Content": "Giai đoạn 1979–1985 chứng kiến nền kinh tế kiệt quệ với lạm phát lên tới hàng trăm phần trăm.",
-        "Tags": [
-          "Kinh tế"
-        ],
-        "Date": "1979–1985",
-        "Author": [
-          {
-            "Name": "",
-            "Image": ""
-          }
-        ],
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Gia nhập ASEAN",
+        "Description": "28/7/1995: Việt Nam trở thành thành viên thứ 7 của ASEAN",
+        "Content": "Bước ngoặt hội nhập khu vực, mở đường cho các FTA sau này.",
+        "Tags": ["ASEAN", "Hội nhập", "1995"],
+        "Date": "1995-07-28",
+        "Author": [{ "Name": "", "Image": "" }],
         "Link": {
           "Href": "",
           "Title": "",
@@ -294,23 +526,18 @@
         }
       },
       {
-        "Image": [
-          "https://picsum.photos/seed/tl4/200/200"
-        ],
-        "Title": "Đại hội Đảng lần thứ VI – Đổi Mới",
-        "Description": "Nghị quyết lịch sử mở đầu công cuộc Đổi Mới toàn diện.",
-        "Content": "Đại hội VI chính thức xác lập đường lối Đổi Mới, chuyển từ cơ chế tập trung bao cấp sang kinh tế thị trường định hướng xã hội chủ nghĩa.",
-        "Tags": [
-          "Đổi Mới",
-          "Lịch sử"
-        ],
-        "Date": "18/12/1986",
-        "Author": [
-          {
-            "Name": "",
-            "Image": ""
-          }
-        ],
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Bình thường hóa quan hệ Việt-Mỹ",
+        "Description": "11/7/1995: Kết thúc 20 năm thù địch sau 1975. Tổng thống Bill Clinton tuyên bố bình thường hóa",
+        "Content": "Sự kiện ngoại giao quan trọng nhất thập kỷ 1990, mở ra thị trường khổng lồ và nguồn đầu tư chiến lược.",
+        "Tags": ["Mỹ", "Đối ngoại", "1995"],
+        "Date": "1995-07-11",
+        "Author": [{ "Name": "", "Image": "" }],
         "Link": {
           "Href": "",
           "Title": "",
@@ -318,22 +545,37 @@
         }
       },
       {
-        "Image": [
-          "https://picsum.photos/seed/tl5/200/200"
-        ],
-        "Title": "Khoán 10 trong nông nghiệp",
-        "Description": "Giải phóng sức sản xuất nông nghiệp.",
-        "Content": "Chính sách Khoán 10 trao quyền tự chủ cho hộ nông dân, đưa Việt Nam từ thiếu gạo trở thành nước xuất khẩu gạo.",
-        "Tags": [
-          "Nông nghiệp"
-        ],
-        "Date": "1988",
-        "Author": [
-          {
-            "Name": "",
-            "Image": ""
-          }
-        ],
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội VIII — CNH-HĐH",
+        "Description": "28/6-1/7/1996: 1.198 đại biểu. Tổng Bí thư Đỗ Mười (nhiệm kỳ 2). Đẩy mạnh công nghiệp hóa, hiện đại hóa",
+        "Content": "Sau 10 năm Đổi Mới, đất nước ra khỏi khủng hoảng. Đề ra mục tiêu đến 2020 cơ bản trở thành nước công nghiệp.",
+        "Tags": ["Đại hội VIII", "1996", "CNH-HĐH"],
+        "Date": "1996-06-28",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/viii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Khủng hoảng tài chính châu Á",
+        "Description": "7/1997: Đồng Baht Thái mất giá kích hoạt khủng hoảng toàn khu vực. Việt Nam duy trì tăng trưởng dương",
+        "Content": "Tăng trưởng giảm từ 9,34% (1996) xuống 4,77% (1999) nhưng vẫn dương — thành tựu kiểm soát vĩ mô quan trọng.",
+        "Tags": ["Khủng hoảng 1997", "Kinh tế"],
+        "Date": "1997-07-01",
+        "Author": [{ "Name": "", "Image": "" }],
         "Link": {
           "Href": "",
           "Title": "",
@@ -341,22 +583,37 @@
         }
       },
       {
-        "Image": [
-          "https://picsum.photos/seed/tl6/200/200"
-        ],
-        "Title": "Bình thường hóa quan hệ Mỹ – Việt",
-        "Description": "Mở ra kỷ nguyên hội nhập quốc tế.",
-        "Content": "Ngày 11/7/1995, Tổng thống Bill Clinton tuyên bố bình thường hóa quan hệ ngoại giao với Việt Nam.",
-        "Tags": [
-          "Ngoại giao"
-        ],
-        "Date": "11/07/1995",
-        "Author": [
-          {
-            "Name": "",
-            "Image": ""
-          }
-        ],
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội IX — Kinh tế thị trường XHCN",
+        "Description": "19-22/4/2001: 1.168 đại biểu. Tổng Bí thư Nông Đức Mạnh. Xác định mô hình kinh tế thị trường định hướng XHCN",
+        "Content": "Lần đầu khẳng định kinh tế thị trường định hướng XHCN là mô hình kinh tế tổng quát. Tư tưởng Hồ Chí Minh là nền tảng tư tưởng.",
+        "Tags": ["Đại hội IX", "2001", "Kinh tế thị trường"],
+        "Date": "2001-04-19",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/ix.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Ký BTA Việt-Mỹ",
+        "Description": "7/2000: Hiệp định Thương mại Song phương Việt-Mỹ được ký kết, có hiệu lực 12/2001",
+        "Content": "Mở ra giai đoạn xuất khẩu bùng nổ, tạo nền tảng cho gia nhập WTO sau này.",
+        "Tags": ["BTA", "Mỹ", "Thương mại", "2000"],
+        "Date": "2000-07-01",
+        "Author": [{ "Name": "", "Image": "" }],
         "Link": {
           "Href": "",
           "Title": "",
@@ -364,27 +621,457 @@
         }
       },
       {
-        "Image": [
-          "https://picsum.photos/seed/tl7/200/200"
-        ],
-        "Title": "Việt Nam gia nhập ASEAN",
-        "Description": "Hội nhập khu vực Đông Nam Á.",
-        "Content": "Ngày 28/7/1995, Việt Nam chính thức trở thành thành viên thứ 7 của ASEAN.",
-        "Tags": [
-          "Hội nhập"
-        ],
-        "Date": "28/07/1995",
-        "Author": [
-          {
-            "Name": "",
-            "Image": ""
-          }
-        ],
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Gia nhập WTO",
+        "Description": "7/11/2006: Đại hội đồng WTO phê chuẩn gói gia nhập của Việt Nam. Thành viên thứ 150",
+        "Content": "Sau 11 năm đàm phán, Việt Nam chính thức hội nhập kinh tế toàn cầu. Mở ra kỷ nguyên xuất khẩu và FDI bùng nổ.",
+        "Tags": ["WTO", "Hội nhập", "2006"],
+        "Date": "2006-11-07",
+        "Author": [{ "Name": "", "Image": "" }],
         "Link": {
           "Href": "",
           "Title": "",
           "Target": "_self"
         }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội X — 20 năm Đổi Mới",
+        "Description": "18-25/4/2006: 1.176 đại biểu. Tổng Bí thư Nông Đức Mạnh (nhiệm kỳ 2). Bổ sung 'Dân chủ' và 'Nhà nước pháp quyền'",
+        "Content": "20 năm Đổi Mới đạt thành tựu to lớn. Bổ sung 2 đặc trưng CNXH mới. Lần đầu cho phép đảng viên làm kinh tế tư nhân.",
+        "Tags": ["Đại hội X", "2006", "20 năm Đổi Mới"],
+        "Date": "2006-04-18",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/x.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Việt Nam ra khỏi nhóm nước nghèo",
+        "Description": "2008: Chính thức trở thành nước thu nhập trung bình theo chuẩn World Bank",
+        "Content": "Thành tựu 22 năm Đổi Mới: GDP bình quân đầu người vượt ngưỡng $1,000 USD.",
+        "Tags": ["Kinh tế", "2008", "Thành tựu"],
+        "Date": "2008-12-31",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội XI — Cương lĩnh 2011",
+        "Description": "12-19/1/2011: 1.377 đại biểu. Tổng Bí thư Nguyễn Phú Trọng. Cương lĩnh bổ sung, phát triển năm 2011",
+        "Content": "Cương lĩnh 2011 với 8 đặc trưng CNXH, 8 phương hướng, 10 mối quan hệ lớn. 3 đột phá chiến lược: thể chế, nhân lực, hạ tầng.",
+        "Tags": ["Đại hội XI", "2011", "Cương lĩnh 2011"],
+        "Date": "2011-01-12",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/xi.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "TW4 Khóa XI — Chống tham nhũng",
+        "Description": "1/2012: NQ 12 về 3 vấn đề cấp bách xây dựng Đảng. Lần đầu BCT công khai tự phê bình và nhận lỗi trước TW",
+        "Content": "Mở đầu chiến dịch chống tham nhũng mạnh mẽ. Thành lập Ban Chỉ đạo Trung ương về PCT do TBT làm Trưởng ban.",
+        "Tags": ["Chống tham nhũng", "2012", "Xây dựng Đảng"],
+        "Date": "2012-01-16",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Hiến pháp 2013",
+        "Description": "28/11/2013: Quốc hội thông qua Hiến pháp mới. Ghi nhận kinh tế thị trường định hướng XHCN và quyền con người",
+        "Content": "Bản hiến pháp tiến bộ nhất với chương về quyền con người mở rộng, ghi nhận kinh tế thị trường và kiểm soát quyền lực nhà nước.",
+        "Tags": ["Hiến pháp", "2013", "Pháp lý"],
+        "Date": "2013-11-28",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội XII — 30 năm Đổi Mới & Đốt Lò",
+        "Description": "20-28/1/2016: Hơn 1.510 đại biểu. Tổng Bí thư Nguyễn Phú Trọng (nhiệm kỳ 2). NQ TW4 với 27 biểu hiện 'tự diễn biến'",
+        "Content": "30 năm Đổi Mới với thành tựu to lớn. Chiến dịch 'Đốt Lò' chống tham nhũng chưa từng có. CPTPP (2018), EVFTA (2019).",
+        "Tags": ["Đại hội XII", "2016", "Đốt Lò", "30 năm Đổi Mới"],
+        "Date": "2016-01-20",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/xii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "CPTPP có hiệu lực",
+        "Description": "14/1/2019: Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương có hiệu lực với Việt Nam",
+        "Content": "FTA thế hệ mới quy mô lớn nhất — 11 nước chiếm 13% GDP toàn cầu. Đòi hỏi cải cách thể chế sâu rộng.",
+        "Tags": ["CPTPP", "FTA", "2019"],
+        "Date": "2019-01-14",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "EVFTA có hiệu lực",
+        "Description": "1/8/2020: Hiệp định Thương mại Tự do Việt Nam-EU chính thức có hiệu lực",
+        "Content": "FTA với thị trường 500 triệu dân, GDP $17,000 tỷ. Xóa bỏ 99% dòng thuế. Đòn bẩy xuất khẩu vào EU.",
+        "Tags": ["EVFTA", "EU", "FTA", "2020"],
+        "Date": "2020-08-01",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Đại hội XIII — Khát vọng 2045",
+        "Description": "25/1-1/2/2021: 1.587 đại biểu. Tổng Bí thư Nguyễn Phú Trọng (nhiệm kỳ 3). Tầm nhìn 2025-2030-2045",
+        "Content": "35 năm Đổi Mới với 'cơ đồ, tiềm lực, vị thế chưa từng có'. Tầm nhìn: 2025 thoát thu nhập trung bình thấp; 2030 thu nhập trung bình cao; 2045 nước phát triển.",
+        "Tags": ["Đại hội XIII", "2021", "Khát vọng 2045"],
+        "Date": "2021-01-25",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "/config/dhdb/xiii.json",
+          "Title": "Xem chi tiết",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "RCEP có hiệu lực",
+        "Description": "1/1/2022: Hiệp định Đối tác Kinh tế Toàn diện Khu vực có hiệu lực. FTA lớn nhất thế giới (30% GDP toàn cầu)",
+        "Content": "15 nước thành viên, dân số 2.3 tỷ. Củng cố vị thế Việt Nam trong chuỗi cung ứng khu vực.",
+        "Tags": ["RCEP", "FTA", "2022"],
+        "Date": "2022-01-01",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "TBT Nguyễn Phú Trọng từ trần",
+        "Description": "19/7/2024: TBT Nguyễn Phú Trọng từ trần, thọ 80 tuổi. Đại tướng Tô Lâm được bầu làm TBT ngày 3/8/2024",
+        "Content": "Sau 13 năm làm TBT ba nhiệm kỳ liên tiếp — nhà lãnh đạo có ảnh hưởng nhất Việt Nam kể từ Hồ Chí Minh.",
+        "Tags": ["Nguyễn Phú Trọng", "2024", "Chuyển giao"],
+        "Date": "2024-07-19",
+        "Author": [{ "Name": "", "Image": "" }],
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_self"
+        }
+      }
+    ],
+    "SO_SANH_TRUOC_SAU_DOI_MOI": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Việt Nam 1986",
+        "Description": "Đáy khủng hoảng — Lạm phát 774%, GDP $6 tỷ, thu nhập <$100, bị bao vây cấm vận",
+        "Content": "Kinh tế kế hoạch hóa tập trung, tem phiếu, thiếu lương thực nghiêm trọng. Một trong những nước nghèo nhất thế giới.",
+        "Tags": ["1986", "Trước Đổi Mới"],
+        "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1986-12-31",
+        "Link": { "Href": "/config/dhdb/vi.json", "Title": "Đại hội VI", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "GDP",
+        "Description": "$6 tỷ (1986) → $476 tỷ (2024)",
+        "Content": "Tăng gần 80 lần sau 38 năm",
+        "Tags": ["Kinh tế", "GDP"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Thu nhập bình quân",
+        "Description": "<$100 (1986) → ~$4,300 (2024)",
+        "Content": "Từ nước thu nhập thấp lên thu nhập trung bình cao",
+        "Tags": ["Kinh tế", "Thu nhập"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Lạm phát",
+        "Description": "774% (1986) → ~3-4% (2024)",
+        "Content": "Từ siêu lạm phát đến ổn định vĩ mô",
+        "Tags": ["Kinh tế", "Lạm phát"],
+        "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Tỷ lệ nghèo",
+        "Description": "~80% (1993) → <3% (2024)",
+        "Content": "Thành tựu giảm nghèo được thế giới ghi nhận",
+        "Tags": ["Xã hội", "Nghèo"],
+        "Author": [{ "Name": "World Bank", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Xuất khẩu",
+        "Description": "$0.3 tỷ (1986) → ~$400 tỷ (2024)",
+        "Content": "Từ không có gì đến top 25 thế giới",
+        "Tags": ["Kinh tế", "Xuất khẩu"],
+        "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Quan hệ quốc tế",
+        "Description": "Bị bao vây (1986) → 193 nước, 17 đối tác chiến lược (2024)",
+        "Content": "Từ cô lập đến hội nhập toàn cầu sâu rộng",
+        "Tags": ["Đối ngoại", "Hội nhập"],
+        "Author": [{ "Name": "Bộ Ngoại giao", "Image": "" }],
+        "Scale": 0.25,
+        "Alignment": "Center",
+        "Date": "2024-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      }
+    ],
+    "BAI_HOC_NGHICH_LY": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Thành tựu vĩ đại 35 năm",
+        "Description": "Từ đáy khủng hoảng đến 'cơ đồ, tiềm lực, vị thế chưa từng có'",
+        "Content": "Sau 35 năm Đổi Mới (1986-2021), Việt Nam đạt những thành tựu to lớn: (1) GDP tăng từ $6 tỷ lên $271 tỷ (2020), 2024 đạt $476 tỷ — nền kinh tế thứ 32 thế giới; (2) Thu nhập bình quân từ <$100 lên $2,779 (2020), 2024 ~$4,300; (3) Tỷ lệ nghèo từ 80% (1993) xuống <3% (2020); (4) Từ bị bao vây cấm vận đến đối tác chiến lược của 17 nước, đối tác toàn diện của 13 nước; (5) Thành viên ASEAN, WTO, CPTPP, EVFTA, RCEP; (6) Ổn định chính trị-xã hội trong khu vực nhiều biến động.",
+        "Tags": ["Thành tựu", "35 năm", "Kinh tế"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2021-02-01",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Nghịch lý: 'Càng đổi mới càng giữ'",
+        "Description": "Càng đổi mới kinh tế, càng nhấn mạnh định hướng XHCN; càng hội nhập, càng đề cao độc lập tự chủ",
+        "Content": "Suốt 35 năm Đổi Mới tồn tại nghịch lý: (1) Kinh tế: Chuyển sang kinh tế thị trường nhưng 'kinh tế nhà nước giữ vai trò chủ đạo' được nhấn mạnh hơn; (2) Sở hữu: Thừa nhận kinh tế tư nhân là 'động lực quan trọng' (Đại hội XII) nhưng doanh nghiệp nhà nước vẫn được ưu tiên; (3) Hội nhập: Ký 16+ FTA thế hệ mới nhưng kiểm soát chặt tổ chức xã hội dân sự; (4) Chính trị: Đổi mới kinh tế sâu rộng nhưng hệ thống chính trị ít thay đổi; (5) Tư tưởng: Kinh tế thị trường nhưng 'kiên định chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh'. Đây vừa là bản sắc, vừa là thách thức cho tương lai.",
+        "Tags": ["Nghịch lý", "Định hướng XHCN", "Lý luận"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2021-02-01",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Thách thức tồn đọng",
+        "Description": "Bất bình đẳng gia tăng, thể chế chậm đổi mới, tham nhũng phức tạp, môi trường suy thoái",
+        "Content": "Bên cạnh thành tựu, Đổi Mới để lại thách thức lớn: (1) Bất bình đẳng: Hệ số GINI tăng từ 0.35 (1993) lên 0.42 (2020); khoảng cách giàu-nghèo gia tăng; (2) Thể chế: Chậm đổi mới so với kinh tế, chi phí tuân thủ cao, minh bạch thấp; (3) Tham nhũng: Dù 'Đốt Lò' mạnh mẽ nhưng vẫn phức tạp, tinh vi; (4) Môi trường: Ô nhiễm, suy thoái tài nguyên, ảnh hưởng biến đổi khí hậu; (5) Giáo dục-y tế: Chất lượng chưa đáp ứng yêu cầu; (6) Hạ tầng: Yếu kém, nghẽn cổ tăng trưởng; (7) Năng suất: Thấp so khu vực, tăng trưởng chủ yếu theo chiều rộng.",
+        "Tags": ["Thách thức", "Bất bình đẳng", "Thể chế"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2021-02-01",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "5 Bài học kinh nghiệm",
+        "Description": "Những bài học đúc kết từ 35 năm Đổi Mới",
+        "Content": "Đại hội XIII tổng kết 5 bài học: (1) Lấy dân làm gốc — mọi chính sách phải vì lợi ích nhân dân; (2) Tôn trọng quy luật khách quan — đặc biệt quy luật thị trường; (3) Kết hợp sức mạnh dân tộc và thời đại — nội lực là quyết định, ngoại lực là quan trọng; (4) Đảng lãnh đạo đúng đắn là nhân tố hàng đầu quyết định thắng lợi; (5) Sức mạnh đại đoàn kết toàn dân tộc. Tuy nhiên, thực tiễn cũng đặt ra bài học mới: (a) Đổi mới phải đồng bộ kinh tế-chính trị; (b) Tăng trưởng phải bền vững, bao trùm; (c) Hội nhập phải giữ vững độc lập tự chủ; (d) Phát triển kinh tế đi đôi với bảo vệ môi trường.",
+        "Tags": ["Bài học", "Kinh nghiệm", "Lý luận"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2021-02-01",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Tầm nhìn 2045",
+        "Description": "Mục tiêu: Nước phát triển, thu nhập cao vào năm 2045 (kỷ niệm 100 năm thành lập nước)",
+        "Content": "Đại hội XIII (2021) đặt tầm nhìn 3 mốc: (1) 2025: Nước đang phát triển, công nghiệp hiện đại, vượt thu nhập trung bình thấp (kỷ niệm 50 năm thống nhất); (2) 2030: Nước đang phát triển, công nghiệp hiện đại, thu nhập trung bình cao (kỷ niệm 100 năm Đảng); (3) 2045: Nước phát triển, thu nhập cao (kỷ niệm 100 năm nước). Để đạt được, cần: (a) Tăng trưởng 6.5-7%/năm; (b) Năng suất lao động tăng 6-6.5%/năm; (c) Đô thị hóa 50% (2030); (d) Tuổi thọ 75 tuổi; (e) 60% lao động qua đào tạo. Thách thức: Bẫy thu nhập trung bình, già hóa dân số, CMCN 4.0, biến đổi khí hậu.",
+        "Tags": ["Tầm nhìn 2045", "Mục tiêu", "Chiến lược"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2021-02-01",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "file",
+          "Poster": ""
+        },
+        "Title": "Di sản Nguyễn Phú Trọng",
+        "Description": "13 năm Tổng Bí thư (2011-2024) — 'Đốt Lò' và lý luận về CNXH",
+        "Content": "TBT Nguyễn Phú Trọng (2011-2024) để lại di sản lớn: (1) Chống tham nhũng: 'Đốt Lò' xử lý hàng nghìn cán bộ, bao gồm 3 Ủy viên BCT, nhiều Bộ trưởng, Tướng lĩnh; (2) Lý luận: Phát triển hệ thống lý luận về CNXH, 10 mối quan hệ lớn; (3) Đối ngoại: 'Ngoại giao Cây Tre' — linh hoạt nhưng kiên định, nâng cấp quan hệ với Mỹ, Nhật, Hàn; (4) Xây dựng Đảng: NQ TW4 các khóa XI, XII, XIII về chỉnh đốn Đảng. Tranh luận: Một số cho rằng 'Đốt Lò' làm nhụt chí cán bộ; others cho rằng đây là điều kiện để làm trong sạch Đảng. Di sản này sẽ ảnh hưởng lâu dài đến chính trị Việt Nam.",
+        "Tags": ["Nguyễn Phú Trọng", "Đốt Lò", "Di sản"],
+        "Author": [{ "Name": "Ban biên tập", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "2024-07-19",
+        "Link": { "Href": "", "Title": "", "Target": "_self" }
       }
     ]
   }

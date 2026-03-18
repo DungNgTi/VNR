@@ -19,6 +19,10 @@ export default function Navbar({ config }) {
                 borderBottom: Header.Transparent ? "none" : "1px solid",
                 borderColor: "divider",
                 color: "text.primary",
+                borderRadius: 2,
+                mt: 1,
+                mx: 1,
+                width: "calc(100% - 2px)",
             }}
         >
             <Container maxWidth="lg">

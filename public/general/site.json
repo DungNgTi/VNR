@@ -1,9 +1,9 @@
 {
-    "Name": "Đại hội Đại biểu",
+    "Name": "Việt Nam Sử Ký",
     "Logo": null,
     "Background": {
         "Color": null,
-        "Image": "https://picsum.photos/seed/bg1/1920/1080",
+        "Image": "/resource/vi/Tổng Bí thư Trường Chinh với các đại biểu dự Đại hội toàn quốc lần thứ VI của Đảng, năm 1986.jpg",
         "Gradient": null,
         "Blur": 6,
         "Overlay": "rgba(255, 255, 255, 0.7)",
@@ -14,20 +14,36 @@
         "Transparent": true,
         "Links": [
             {
-                "Label": "Tổng quan",
-                "Path": "/"
+                "Label": "Đại hội VI",
+                "Path": "/dhdb/vi"
             },
             {
-                "Label": "Kinh tế",
-                "Path": "/kinh-te"
+                "Label": "Đại hội VII",
+                "Path": "/dhdb/vii"
             },
             {
-                "Label": "Sự kiện",
-                "Path": "/su-kien"
+                "Label": "Đại hội VIII",
+                "Path": "/dhdb/viii"
             },
             {
-                "Label": "Đại biểu",
-                "Path": "/dai-bieu"
+                "Label": "Đại hội IX",
+                "Path": "/dhdb/ix"
+            },
+            {
+                "Label": "Đại hội X",
+                "Path": "/dhdb/x"
+            },
+            {
+                "Label": "Đại hội XI",
+                "Path": "/dhdb/xi"
+            },
+            {
+                "Label": "Đại hội XII",
+                "Path": "/dhdb/xii"
+            },
+            {
+                "Label": "Đại hội XIII",
+                "Path": "/dhdb/xiii"
             }
         ]
     },
@@ -35,7 +51,7 @@
         "Enabled": true,
         "Brand": {
             "Logo": null,
-            "Name": "Đại hội VI",
+            "Name": "Đổi Mới 35 Năm",
             "Url": "/"
         },
         "Newsletter": {
@@ -47,32 +63,44 @@
         },
         "Columns": [
             {
-                "Title": "Nội dung",
+                "Title": "Các kỳ Đại hội",
                 "Links": [
                     {
-                        "Label": "Tổng quan",
-                        "Url": "/"
+                        "Label": "Đại hội VI (1986)",
+                        "Url": "/config/dhdb/vi.json"
                     },
                     {
-                        "Label": "Kinh tế",
-                        "Url": "/kinh-te"
+                        "Label": "Đại hội VII (1991)",
+                        "Url": "/config/dhdb/vii.json"
                     },
                     {
-                        "Label": "Sự kiện",
-                        "Url": "/su-kien"
+                        "Label": "Đại hội VIII (1996)",
+                        "Url": "/config/dhdb/viii.json"
+                    },
+                    {
+                        "Label": "Đại hội IX (2001)",
+                        "Url": "/config/dhdb/ix.json"
                     }
                 ]
             },
             {
-                "Title": "Tài liệu",
+                "Title": "Các kỳ Đại hội (tiếp)",
                 "Links": [
                     {
-                        "Label": "Nghị quyết",
-                        "Url": "#"
+                        "Label": "Đại hội X (2006)",
+                        "Url": "/config/dhdb/x.json"
                     },
                     {
-                        "Label": "Báo cáo",
-                        "Url": "#"
+                        "Label": "Đại hội XI (2011)",
+                        "Url": "/config/dhdb/xi.json"
+                    },
+                    {
+                        "Label": "Đại hội XII (2016)",
+                        "Url": "/config/dhdb/xii.json"
+                    },
+                    {
+                        "Label": "Đại hội XIII (2021)",
+                        "Url": "/config/dhdb/xiii.json"
                     }
                 ]
             }
