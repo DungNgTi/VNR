@@ -30,7 +30,12 @@
       "Data": "BIEU_DO_THONG_KE_LAM_PHAT",
       "Config": {
         "Variant": "Bar",
-        "Alignment": "Left"
+        "Alignment": "Left",
+        "Height": 400,
+        "Keys": [],
+        "Metrics": [],
+        "Colors": [],
+        "Stacked": false
       }
     },
     {
@@ -171,6 +176,64 @@
         "Scale": 0.5,
         "Alignment": "Left",
         "Date": "",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_blank"
+        }
+      }
+    ],
+    "BIEU_DO_THONG_KE_NHIEU_CHI_SO": [
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "Chỉ số 1",
+        "Description": "Giá trị: 100 | Tăng trưởng: 5.2%",
+        "Content": "100 | 5.2",
+        "Tags": [
+          "Kinh tế"
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 100,
+        "Alignment": "Left",
+        "Date": "2024-01-01",
+        "Link": {
+          "Href": "",
+          "Title": "",
+          "Target": "_blank"
+        }
+      },
+      {
+        "Image": [],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "Chỉ số 2",
+        "Description": "Giá trị: 150 | Tăng trưởng: 7.8%",
+        "Content": "150 | 7.8",
+        "Tags": [
+          "Kinh tế"
+        ],
+        "Author": [
+          {
+            "Name": "",
+            "Image": ""
+          }
+        ],
+        "Scale": 150,
+        "Alignment": "Left",
+        "Date": "2024-01-01",
         "Link": {
           "Href": "",
           "Title": "",

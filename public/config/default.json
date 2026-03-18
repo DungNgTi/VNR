@@ -17,7 +17,13 @@
       "Data": "STAT_35_NAM_DOI_MOI",
       "Config": {
         "Variant": "Grid",
-        "Alignment": "Center"
+        "Alignment": "Center",
+        "Metrics": [
+          {
+            "Field": "Scale",
+            "Key": "Giá trị"
+          }
+        ]
       }
     },
     {
@@ -71,7 +77,7 @@
     "HERO_LANDING": [
       {
         "Image": [
-          "https://picsum.photos/seed/landing-hero/1920/1080"
+          "resource/vi/Đồng chí Nguyễn Văn Linh đọc diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -118,7 +124,7 @@
         "Content": "Một trong những nước nghèo nhất thế giới",
         "Tags": ["Kinh tế", "1986"],
         "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 6,
         "Alignment": "Center",
         "Date": "1986-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -135,7 +141,7 @@
         "Content": "Nền kinh tế thứ 32 thế giới (nominal), thứ 21 (PPP)",
         "Tags": ["Kinh tế", "2024"],
         "Author": [{ "Name": "World Bank", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 476,
         "Alignment": "Center",
         "Date": "2024-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -152,7 +158,7 @@
         "Content": "Siêu lạm phát đỉnh điểm của khủng hoảng",
         "Tags": ["Kinh tế", "1986"],
         "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 774.7,
         "Alignment": "Center",
         "Date": "1986-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -169,7 +175,7 @@
         "Content": "Ổn định vĩ mô thành công",
         "Tags": ["Kinh tế", "2024"],
         "Author": [{ "Name": "Tổng cục Thống kê", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 3.5,
         "Alignment": "Center",
         "Date": "2024-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -186,7 +192,7 @@
         "Content": "Nước thu nhập thấp",
         "Tags": ["Kinh tế", "1986"],
         "Author": [{ "Name": "World Bank", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 100,
         "Alignment": "Center",
         "Date": "1986-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -203,7 +209,7 @@
         "Content": "Nước thu nhập trung bình cao",
         "Tags": ["Kinh tế", "2024"],
         "Author": [{ "Name": "World Bank", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 4300,
         "Alignment": "Center",
         "Date": "2024-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -220,7 +226,7 @@
         "Content": "Một trong những nước nghèo nhất",
         "Tags": ["Xã hội", "1993"],
         "Author": [{ "Name": "World Bank", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 80,
         "Alignment": "Center",
         "Date": "1993-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -237,7 +243,7 @@
         "Content": "Thành tựu giảm nghèo được thế giới ghi nhận",
         "Tags": ["Xã hội", "2024"],
         "Author": [{ "Name": "World Bank", "Image": "" }],
-        "Scale": 0.25,
+        "Scale": 3,
         "Alignment": "Center",
         "Date": "2024-12-31",
         "Link": { "Href": "", "Title": "", "Target": "_self" }
@@ -262,7 +268,7 @@
         "Alignment": "Left",
         "Date": "1986-12-15",
         "Link": {
-          "Href": "/config/dhdb/vi.json",
+          "Href": "/dhdb/vi",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -285,7 +291,7 @@
         "Alignment": "Left",
         "Date": "1991-06-24",
         "Link": {
-          "Href": "/config/dhdb/vii.json",
+          "Href": "/dhdb/vii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -308,7 +314,7 @@
         "Alignment": "Left",
         "Date": "1996-06-28",
         "Link": {
-          "Href": "/config/dhdb/viii.json",
+          "Href": "/dhdb/viii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -331,7 +337,7 @@
         "Alignment": "Left",
         "Date": "2001-04-19",
         "Link": {
-          "Href": "/config/dhdb/ix.json",
+          "Href": "/dhdb/ix",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -354,7 +360,7 @@
         "Alignment": "Left",
         "Date": "2006-04-18",
         "Link": {
-          "Href": "/config/dhdb/x.json",
+          "Href": "/dhdb/x",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -377,7 +383,7 @@
         "Alignment": "Left",
         "Date": "2011-01-12",
         "Link": {
-          "Href": "/config/dhdb/xi.json",
+          "Href": "/dhdb/xi",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -400,7 +406,7 @@
         "Alignment": "Left",
         "Date": "2016-01-20",
         "Link": {
-          "Href": "/config/dhdb/xii.json",
+          "Href": "/dhdb/xii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -423,7 +429,7 @@
         "Alignment": "Left",
         "Date": "2021-01-25",
         "Link": {
-          "Href": "/config/dhdb/xiii.json",
+          "Href": "/dhdb/xiii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -444,7 +450,7 @@
         "Date": "1986-12-15",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/vi.json",
+          "Href": "/dhdb/vi",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -482,7 +488,7 @@
         "Date": "1991-06-24",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/vii.json",
+          "Href": "/dhdb/vii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -558,7 +564,7 @@
         "Date": "1996-06-28",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/viii.json",
+          "Href": "/dhdb/viii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -596,7 +602,7 @@
         "Date": "2001-04-19",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/ix.json",
+          "Href": "/dhdb/ix",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -653,7 +659,7 @@
         "Date": "2006-04-18",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/x.json",
+          "Href": "/dhdb/x",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -691,7 +697,7 @@
         "Date": "2011-01-12",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/xi.json",
+          "Href": "/dhdb/xi",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -748,7 +754,7 @@
         "Date": "2016-01-20",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/xii.json",
+          "Href": "/dhdb/xii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -805,7 +811,7 @@
         "Date": "2021-01-25",
         "Author": [{ "Name": "", "Image": "" }],
         "Link": {
-          "Href": "/config/dhdb/xiii.json",
+          "Href": "/dhdb/xiii",
           "Title": "Xem chi tiết",
           "Target": "_self"
         }
@@ -865,7 +871,7 @@
         "Scale": 0.5,
         "Alignment": "Left",
         "Date": "1986-12-31",
-        "Link": { "Href": "/config/dhdb/vi.json", "Title": "Đại hội VI", "Target": "_self" }
+        "Link": { "Href": "/dhdb/vi", "Title": "Đại hội VI", "Target": "_self" }
       },
       {
         "Image": [],

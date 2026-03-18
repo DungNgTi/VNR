@@ -107,7 +107,9 @@
     "Data": {
         "HERO_DAI_HOI_VII": [
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Đại hội đại biểu toàn quốc lần thứ VII của Đảng (tháng 6-1991).jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -140,7 +142,9 @@
         ],
         "BLOG_CAC_THONG_TIN_CHUNG": [
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Đồng chí Đỗ Mười và các đại biểu dự Đại hội VII của Đảng.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -168,7 +172,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Đại hội Đảng lần thứ VII (24 - 2761991).jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -224,7 +230,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Chủ tịch nước Lê Đức Anh và Chủ tịch Trung Quốc Giang Trạch Dân duyệt đội danh dự tại Lễ đón ở Đại Lễ đường nhân dân, thủ đô Bắc Kinh, ngày 9111993, trong chuyến thăm hữu nghị chính thức Trung Quốc từ 9 - 1511199.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -488,7 +496,9 @@
         ],
         "DONG_THOI_GIAN_SU_KIEN": [
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Đại hội đại biểu toàn quốc lần thứ VII của Đảng (tháng 6-1991).jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -516,7 +526,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Tổng Bí thư, Chủ tịch Trung Quốc Giang Trạch Dân đón, hội đàm với Tổng Bí thư Đỗ Mười tại Bắc Kinh, sáng 6111991.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -628,7 +640,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Nhà máy Thủy điện Hòa Bình chính thức khánh thành ngày 20121994.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -656,7 +670,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Đêm 1171995, Tổng thống Hoa Kỳ Bill Clinton đọc tuyên bố bình thường hóa quan hệ với Việt Nam.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -685,7 +701,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/ác Bộ trưởng Ngoại giao ASEAN và Tổng Thư ký ASEAN Dato Ajit Singh chào mừng Việt Nam trở thành thành viên chính thức thứ 7 của ASEAN.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -715,7 +733,9 @@
         ],
         "PROFILE_LANH_DAO_DAI_HOI_VII": [
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Đồng chí Đỗ Mười và các đại biểu dự Đại hội VII của Đảng.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -743,7 +763,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Tổng thống Hàn Quốc Kim Young-sam hội đàm với Tổng Bí thư Đỗ Mười thăm chính thức Hàn Quốc, tháng 41995.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -771,7 +793,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Chủ tịch nước Lê Đức Anh và Chủ tịch Trung Quốc Giang Trạch Dân duyệt đội danh dự tại Lễ đón ở Đại Lễ đường nhân dân, thủ đô Bắc Kinh, ngày 9111993, trong chuyến thăm hữu nghị chính thức Trung Quốc từ 9 - 1511199.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -860,7 +884,9 @@
             ],
             "SAU_DOI_MOI": [
                 {
-                    "Image": [],
+                    "Image": [
+                        "/resource/vii/Từ năm 1993, Tập đoàn kinh doanh đa ngành nghề Charoen Pokphand (C.P) của Thái Lan đã đầu tư vào Việt Nam với việc thành lập Công ty TNHH Chăn nuôi C.P Việt Nam.jpg"
+                    ],
                     "Video": {
                         "Src": "",
                         "Type": "youtube",
@@ -946,7 +972,9 @@
                     }
                 },
                 {
-                    "Image": [],
+                    "Image": [
+                        "/resource/vii/ác Bộ trưởng Ngoại giao ASEAN và Tổng Thư ký ASEAN Dato Ajit Singh chào mừng Việt Nam trở thành thành viên chính thức thứ 7 của ASEAN.jpg"
+                    ],
                     "Video": {
                         "Src": "",
                         "Type": "youtube",
@@ -1004,7 +1032,9 @@
                     }
                 },
                 {
-                    "Image": [],
+                    "Image": [
+                        "/resource/vii/Nhà máy Thủy điện Hòa Bình chính thức khánh thành ngày 20121994.jpg"
+                    ],
                     "Video": {
                         "Src": "",
                         "Type": "youtube",
@@ -1036,7 +1066,9 @@
         },
         "BANG_SO_LIEU_KINH_TE": [
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Nhà máy Thủy điện Hòa Bình chính thức khánh thành ngày 20121994.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -1204,7 +1236,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Năm 1994, UNESCO công nhận vịnh Hạ Long là Di sản thiên nhiên thế giới và đến năm 2000 tiếp tục được vinh danh lần thứ hai là Di sản địa chất thế giới vì những giá trị về địa chất, địa mạo.jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -1235,7 +1269,9 @@
         ],
         "CAC_NGUYEN_TAC_DOI_MOI": [
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/Đại hội đại biểu toàn quốc lần thứ VII của Đảng (tháng 6-1991).jpg"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",

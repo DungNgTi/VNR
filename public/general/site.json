@@ -67,19 +67,19 @@
                 "Links": [
                     {
                         "Label": "Đại hội VI (1986)",
-                        "Url": "/config/dhdb/vi.json"
+                        "Url": "/dhdb/vi"
                     },
                     {
                         "Label": "Đại hội VII (1991)",
-                        "Url": "/config/dhdb/vii.json"
+                        "Url": "/dhdb/vii"
                     },
                     {
                         "Label": "Đại hội VIII (1996)",
-                        "Url": "/config/dhdb/viii.json"
+                        "Url": "/dhdb/viii"
                     },
                     {
                         "Label": "Đại hội IX (2001)",
-                        "Url": "/config/dhdb/ix.json"
+                        "Url": "/dhdb/ix"
                     }
                 ]
             },
@@ -88,19 +88,19 @@
                 "Links": [
                     {
                         "Label": "Đại hội X (2006)",
-                        "Url": "/config/dhdb/x.json"
+                        "Url": "/dhdb/x"
                     },
                     {
                         "Label": "Đại hội XI (2011)",
-                        "Url": "/config/dhdb/xi.json"
+                        "Url": "/dhdb/xi"
                     },
                     {
                         "Label": "Đại hội XII (2016)",
-                        "Url": "/config/dhdb/xii.json"
+                        "Url": "/dhdb/xii"
                     },
                     {
                         "Label": "Đại hội XIII (2021)",
-                        "Url": "/config/dhdb/xiii.json"
+                        "Url": "/dhdb/xiii"
                     }
                 ]
             }

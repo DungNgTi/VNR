@@ -22,36 +22,75 @@ const alignmentMap = {
     Right: "flex-end",
 }
 
-function parseData(data, configKeys) {
+function parseData(data, configKeys, metricsConfig) {
     return data.map(item => {
         let values = {}
         const content = item.Content
+        const description = item.Description
 
-        try {
-            // 1. Try JSON
-            const parsed = JSON.parse(content)
-            if (typeof parsed === "object" && parsed !== null) {
-                values = parsed
-            } else {
-                values = { [configKeys?.[0] || "Value"]: parsed }
+        // If Metrics config is provided, extract specific metrics
+        if (metricsConfig && metricsConfig.length > 0) {
+            metricsConfig.forEach((metric, index) => {
+                const { Field, Key, ExtractPattern } = metric
+                const key = Key || `Metric ${index + 1}`
+                const field = Field || "Content"
+                
+                // Get source value - handle Scale as a number field
+                let sourceValue
+                if (field === "Scale") {
+                    sourceValue = item.Scale
+                } else {
+                    sourceValue = item[field] || item.Content
+                }
+
+                if (typeof sourceValue === "string") {
+                    if (ExtractPattern) {
+                        // Use regex pattern to extract number
+                        const regex = new RegExp(ExtractPattern)
+                        const match = sourceValue.match(regex)
+                        values[key] = match ? parseFloat(match[1] || match[0].replace(/[^0-9.-]/g, "")) : 0
+                    } else {
+                        // Extract number from string
+                        const num = parseFloat(sourceValue.replace(/[^0-9.-]/g, ""))
+                        values[key] = isNaN(num) ? 0 : num
+                    }
+                } else if (typeof sourceValue === "number") {
+                    values[key] = sourceValue
+                } else {
+                    values[key] = item.Scale ?? 0
+                }
+            })
+        } else if (configKeys && configKeys.length > 0) {
+            // Use original Keys-based parsing
+            try {
+                // 1. Try JSON
+                const parsed = JSON.parse(content)
+                if (typeof parsed === "object" && parsed !== null) {
+                    values = parsed
+                } else {
+                    values = { [configKeys?.[0] || "Value"]: parsed }
+                }
+            } catch {
+                // 2. Try Pipe-separated (e.g., "774.7 | 3.4")
+                if (typeof content === "string" && content.includes("|")) {
+                    const parts = content.split("|").map(p => {
+                        // Extract number from string like "8.2%/năm" or "774.7"
+                        const num = parseFloat(p.replace(/[^0-9.-]/g, ""))
+                        return isNaN(num) ? 0 : num
+                    })
+                    parts.forEach((val, i) => {
+                        const key = configKeys?.[i] || `Value ${i + 1}`
+                        values[key] = val
+                    })
+                } else {
+                    // 3. Fallback to Scale or Number in Content
+                    const num = parseFloat(String(content).replace(/[^0-9.-]/g, ""))
+                    values = { [configKeys?.[0] || "Value"]: !isNaN(num) ? num : (item.Scale ?? 0) }
+                }
             }
-        } catch {
-            // 2. Try Pipe-separated (e.g., "774.7 | 3.4")
-            if (typeof content === "string" && content.includes("|")) {
-                const parts = content.split("|").map(p => {
-                    // Extract number from string like "8.2%/năm" or "774.7"
-                    const num = parseFloat(p.replace(/[^0-9.-]/g, ""))
-                    return isNaN(num) ? 0 : num
-                })
-                parts.forEach((val, i) => {
-                    const key = configKeys?.[i] || `Value ${i + 1}`
-                    values[key] = val
-                })
-            } else {
-                // 3. Fallback to Scale or Number in Content
-                const num = parseFloat(String(content).replace(/[^0-9.-]/g, ""))
-                values = { [configKeys?.[0] || "Value"]: !isNaN(num) ? num : (item.Scale ?? 0) }
-            }
+        } else {
+            // Default: use Scale value
+            values = { Value: item.Scale ?? 0 }
         }
 
         return { name: item.Title || item.Date || "", ...values }
@@ -114,6 +153,47 @@ function renderChart(variant, chartData, keys, colors, isStacked) {
                 </PieChart>
             )
 
+        case "Grid":
+        case "Card":
+            return (
+                <Box sx={{
+                    display: "grid",
+                    gridTemplateColumns: { xs: "1fr", sm: "repeat(2, 1fr)", md: "repeat(4, 1fr)" },
+                    gap: 2,
+                    width: "100%"
+                }}>
+                    {chartData.map((row, i) => (
+                        <Box key={i} sx={{
+                            p: 2,
+                            borderRadius: 2,
+                            border: "1px solid",
+                            borderColor: "divider",
+                            backgroundColor: "background.paper",
+                            textAlign: "center"
+                        }}>
+                            <Typography variant="h6" sx={{ mb: 1, fontSize: "0.9rem" }}>{row.name}</Typography>
+                            {keys.map((key, j) => (
+                                <Box key={key}>
+                                    <Typography
+                                        variant="h4"
+                                        sx={{
+                                            color: colors[j % colors.length],
+                                            fontWeight: "bold",
+                                            fontSize: { xs: "1.25rem", sm: "1.5rem" }
+                                        }}
+                                    >
+                                        {typeof row[key] === "number" ? row[key].toLocaleString() : row[key]}
+                                    </Typography>
+                                    <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 0.5 }}>
+                                        {key}
+                                    </Typography>
+                                </Box>
+                            ))}
+                        </Box>
+                    ))}
+                </Box>
+            )
+
         case "Bar":
         default:
             return (
@@ -137,26 +217,28 @@ export default function StatisticModule({
 }) {
     const theme = useTheme()
     const { Title, Description } = config
-    const { 
-        Variant = "Bar", 
-        Alignment = "Left", 
-        Height = 400, 
-        Keys = [], 
-        Colors = [], 
-        Stacked = false 
+    const {
+        Variant = "Bar",
+        Alignment = "Left",
+        Height = 400,
+        Keys = [],
+        Metrics = [],
+        Colors = [],
+        Stacked = false
     } = config.Config || {}
 
     const chartColors = Colors.length > 0 ? Colors : DEFAULT_COLORS
-    const chartData = parseData(data, Keys)
+    const chartData = parseData(data, Keys, Metrics)
     const keys = extractKeys(chartData)
+    const isGridVariant = Variant === "Grid" || Variant === "Card"
 
     return (
-        <Box sx={{ 
-            width: "100%", 
-            display: "flex", 
-            flexDirection: "column", 
-            alignItems: alignmentMap[Alignment] ?? "flex-start", 
-            gap: 1 
+        <Box sx={{
+            width: "100%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: alignmentMap[Alignment] ?? "flex-start",
+            gap: 1
         }}>
             {Title && (
                 <Typography variant="h4" sx={{ mb: 0.5 }} dangerouslySetInnerHTML={{ __html: Title }} />
@@ -165,18 +247,22 @@ export default function StatisticModule({
                 <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }} dangerouslySetInnerHTML={{ __html: Description }} />
             )}
 
-            <Box sx={{ 
-                width: "100%", 
-                height: Height, 
-                backgroundColor: "background.paper", 
-                p: 2, 
-                borderRadius: 2, 
-                border: "1px solid", 
-                borderColor: "divider" 
+            <Box sx={{
+                width: "100%",
+                height: isGridVariant ? "auto" : Height,
+                backgroundColor: "background.paper",
+                p: isGridVariant ? 0 : 2,
+                borderRadius: 2,
+                border: "1px solid",
+                borderColor: "divider"
             }}>
-                <ResponsiveContainer width="100%" height="100%">
-                    {renderChart(Variant, chartData, keys, chartColors, Stacked)}
-                </ResponsiveContainer>
+                {isGridVariant ? (
+                    renderChart(Variant, chartData, keys, chartColors, Stacked)
+                ) : (
+                    <ResponsiveContainer width="100%" height="100%">
+                        {renderChart(Variant, chartData, keys, chartColors, Stacked)}
+                    </ResponsiveContainer>
+                )}
             </Box>
         </Box>
     )

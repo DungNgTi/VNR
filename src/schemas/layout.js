@@ -24,6 +24,11 @@ export const statisticProps = {
     Config: {
         Variant: "Bar",
         Alignment: "Left",
+        Height: 400,
+        Keys: [],
+        Metrics: [],
+        Colors: [],
+        Stacked: false
     }
 }
 
