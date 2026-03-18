@@ -77,7 +77,7 @@
     "HERO_LANDING": [
       {
         "Image": [
-          "resource/vi/Đồng chí Nguyễn Văn Linh đọc diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
+          "/resource/vi/Đồng chí Nguyễn Văn Linh đọc diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -113,7 +113,9 @@
     ],
     "STAT_35_NAM_DOI_MOI": [
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Biểu đồ tốc độ tăng GDP Việt Nam 1986-1995.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -130,7 +132,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Công trình điện lực thời kỳ đổi mới.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -147,7 +151,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Bộ tiền giấy của nước Cộng hòa xã hội chủ nghĩa Việt Nam phát hành lần đổi tiền năm 1985..webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -164,7 +170,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Biểu đồ tốc độ tăng GDP Việt Nam 1986-1995.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -181,7 +189,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Cảnh chật vật mua nhu yếu phẩm là chuyện cơm bữa những năm 1980..webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -198,7 +208,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Giao thông Hà Nội thời bao cấp.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -215,7 +227,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Thời tem phiếu ngày xưa.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -232,7 +246,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Chợ Đồng Xuân thời kỳ đổi mới.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -252,7 +268,7 @@
     "BLOG_8_DAI_HOI": [
       {
         "Image": [
-          "https://picsum.photos/seed/dh6/800/450"
+          "/resource/vi/Quang cảnh Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -275,7 +291,7 @@
       },
       {
         "Image": [
-          "https://picsum.photos/seed/dh7/800/450"
+          "/resource/vii/Đại hội đại biểu toàn quốc lần thứ VII của Đảng (tháng 6-1991).jpg"
         ],
         "Video": {
           "Src": "",
@@ -298,7 +314,7 @@
       },
       {
         "Image": [
-          "https://picsum.photos/seed/dh8/800/450"
+          "/resource/viii/Quang cảnh Đại hội lần thứ VIII của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -321,7 +337,7 @@
       },
       {
         "Image": [
-          "https://picsum.photos/seed/dh9/800/450"
+          "/resource/ix/Quang cảnh Đại hội lần thứ IX của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -344,7 +360,7 @@
       },
       {
         "Image": [
-          "https://picsum.photos/seed/dh10/800/450"
+          "/resource/x/Quang cảnh Đại hội lần thứ X của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -367,7 +383,7 @@
       },
       {
         "Image": [
-          "https://picsum.photos/seed/dh11/800/450"
+          "/resource/xi/Quang cảnh Đại hội lần thứ XI của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -390,7 +406,7 @@
       },
       {
         "Image": [
-          "https://picsum.photos/seed/dh12/800/450"
+          "/resource/xii/Quang cảnh Đại hội lần thứ XII của Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -413,7 +429,7 @@
       },
       {
         "Image": [
-          "https://picsum.photos/seed/dh13/800/450"
+          "/resource/vi/Đại hội Đảng.jpg"
         ],
         "Video": {
           "Src": "",
@@ -437,7 +453,9 @@
     ],
     "DONG_THOI_GIAN_35_NAM": [
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Quang cảnh Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -456,7 +474,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Máy tuốt lúa được phân phối cho xã viên hợp tác xã ở Hà Bắc (cũ).webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -475,7 +495,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Đại hội đại biểu toàn quốc lần thứ VII của Đảng (tháng 6-1991).jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -494,7 +516,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Tổng Bí thư, Chủ tịch Trung Quốc Giang Trạch Dân đón, hội đàm với Tổng Bí thư Đỗ Mười tại Bắc Kinh, sáng 6111991.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -513,7 +537,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Các Bộ trưởng Ngoại giao ASEAN và Tổng Thư ký ASEAN Dato Ajit Singh chào mừng Việt Nam trở thành thành viên chính thức thứ 7 của ASEAN.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -532,7 +558,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Đêm 1171995, Tổng thống Hoa Kỳ Bill Clinton đọc tuyên bố bình thường hóa quan hệ với Việt Nam.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -551,7 +579,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/viii/Quang cảnh Đại hội lần thứ VIII của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -570,7 +600,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Lĩnh vực y tế thời kỳ đổi mới.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -589,7 +621,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/ix/Quang cảnh Đại hội lần thứ IX của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -608,7 +642,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Từ năm 1993, Tập đoàn kinh doanh đa ngành nghề Charoen Pokphand (C.P) của Thái Lan đã đầu tư vào Việt Nam.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -627,7 +663,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/ix/Tổng Giám đốc Tổ chức thương mại thế giới (WTO) Pascal Lany trao các văn bản kết nạp Việt Nam vào WTO cho Bộ trưởng Bộ Thương mại Việt Nam Trương Đình Tuyển tại Giơnevơ, Thụy Sĩ, ngày 7112006.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -646,7 +684,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/x/Quang cảnh Đại hội lần thứ X của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -665,7 +705,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Năm 1993, UNESCO công nhận vịnh Hạ Long là Di sản thiên nhiên thế giới và đến năm 2000 tiếp tục được vinh danh lần thứ hai là Di sản địa chất thế giới vì những giá trị về địa chất, địa mạo.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -684,7 +726,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/xi/Quang cảnh Đại hội lần thứ XI của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -703,7 +747,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Chủ tịch nước Tôn Đức Thắng đến thăm nhà văn hóa thiếu nhi Hà Nội, ngày 631977. (Ảnh Thế TrungTTXVN).jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -722,7 +768,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Chủ tịch Hồ Chí Minh phát biểu tại Đại hội IV.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -741,7 +789,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/xii/Quang cảnh Đại hội lần thứ XII của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -760,7 +810,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Nhà máy Thủy điện Hòa Bình chính thức khánh thành ngày 20121994.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -779,7 +831,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Lễ kết nạp Việt Nam gia nhập Hiệp hội các quốc gia Đông Nam Á (ASEAN) tại Brunei, tháng 71995.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -798,7 +852,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Đại hội Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -857,7 +913,9 @@
     ],
     "SO_SANH_TRUOC_SAU_DOI_MOI": [
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Cảnh chật vật mua nhu yếu phẩm là chuyện cơm bữa những năm 1980..webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -874,7 +932,9 @@
         "Link": { "Href": "/dhdb/vi", "Title": "Đại hội VI", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Công trình điện lực thời kỳ đổi mới.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -891,7 +951,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Giao thông Hà Nội thời bao cấp.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -908,7 +970,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Bộ tiền giấy của nước Cộng hòa xã hội chủ nghĩa Việt Nam phát hành lần đổi tiền năm 1985..webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -925,7 +989,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Chợ Đồng Xuân thời kỳ đổi mới.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -942,7 +1008,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/ix/Tổng Giám đốc Tổ chức thương mại thế giới (WTO) Pascal Lany trao các văn bản kết nạp Việt Nam vào WTO cho Bộ trưởng Bộ Thương mại Việt Nam Trương Đình Tuyển tại Giơnevơ, Thụy Sĩ, ngày 7112006.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -959,7 +1027,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Các Bộ trưởng Ngoại giao ASEAN và Tổng Thư ký ASEAN Dato Ajit Singh chào mừng Việt Nam trở thành thành viên chính thức thứ 7 của ASEAN.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -978,7 +1048,9 @@
     ],
     "BAI_HOC_NGHICH_LY": [
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Công trình điện lực thời kỳ đổi mới.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -995,7 +1067,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Đồng chí Nguyễn Văn Linh đọc diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -1012,7 +1086,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Cảnh chật vật mua nhu yếu phẩm là chuyện cơm bữa những năm 1980..webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -1029,7 +1105,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vi/Quốc hội khóa VIII- Quốc hội đầu tiên của thời kỳ đổi mới với 496 đại biểu..jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -1046,7 +1124,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Nhà máy Thủy điện Hòa Bình chính thức khánh thành ngày 20121994.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -1063,7 +1143,9 @@
         "Link": { "Href": "", "Title": "", "Target": "_self" }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/vii/Đồng chí Đỗ Mười và các đại biểu dự Đại hội VII của Đảng.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",

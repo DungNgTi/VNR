@@ -9,6 +9,40 @@
         "Overlay": "rgba(255, 255, 255, 0.7)",
         "Parallax": true
     },
+    "Cards": {
+        "VI": {
+            "Image": "/resource/vi/Quang cảnh Đại hội đại biểu toàn quốc lần thứ VI của Đảng.jpg",
+            "Description": "Đại hội Đổi Mới 1986 - Bước ngoặt lịch sử"
+        },
+        "VII": {
+            "Image": "/resource/vii/Đại hội đại biểu toàn quốc lần thứ VII của Đảng (tháng 6-1991).jpg",
+            "Description": "Đại hội 1991 - Cương lĩnh xây dựng đất nước"
+        },
+        "VIII": {
+            "Image": "/resource/viii/Quang cảnh Đại hội lần thứ VIII của Đảng.jpg",
+            "Description": "Đại hội 1996 - Đẩy mạnh CNH-HĐH"
+        },
+        "IX": {
+            "Image": "/resource/ix/Quang cảnh Đại hội lần thứ IX của Đảng.jpg",
+            "Description": "Đại hội 2001 - Kinh tế thị trường định hướng XHCN"
+        },
+        "X": {
+            "Image": "/resource/x/Quang cảnh Đại hội lần thứ X của Đảng.jpg",
+            "Description": "Đại hội 2006 - 20 năm Đổi Mới và gia nhập WTO"
+        },
+        "XI": {
+            "Image": "/resource/xi/Quang cảnh Đại hội lần thứ XI của Đảng.jpg",
+            "Description": "Đại hội 2011 - Cương lĩnh 2011 bổ sung, phát triển"
+        },
+        "XII": {
+            "Image": "/resource/xii/Quang cảnh Đại hội lần thứ XII của Đảng.jpg",
+            "Description": "Đại hội 2016 - 30 năm Đổi Mới và chiến dịch Đốt Lò"
+        },
+        "XIII": {
+            "Image": "/resource/xiii/Quang cảnh Đại hội lần thứ XIII của Đảng.jpg",
+            "Description": "Đại hội 2021 - Khát vọng 2045, chuyển đổi số quốc gia"
+        }
+    },
     "Header": {
         "Enabled": true,
         "Transparent": true,
