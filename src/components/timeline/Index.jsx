@@ -19,6 +19,36 @@ import {
 import { timelineProps } from "../../schemas/layout"
 import { dataItemProps } from "../../schemas/data"
 
+import { styled } from "@mui/material/styles"
+import Scroller from "../scroller/Index"
+
+const StyledCard = styled(Paper, {
+    shouldForwardProp: (prop) => prop !== "clickable"
+})(({ theme, clickable }) => ({
+    padding: theme.spacing(2.5),
+    cursor: clickable ? "pointer" : "default",
+    transition: "all 0.2s ease",
+
+    ...(clickable && {
+        // 👇 default highlighted color
+        "& .card-title": {
+            color: theme.palette.primary.main
+        },
+
+        "&:hover": {
+            boxShadow: theme.shadows[4],
+            transform: "translateY(-2px)"
+        },
+
+        "&:hover .card-title": {
+            textDecoration: "underline",
+            textDecorationThickness: "2px",
+            textUnderlineOffset: "3px",
+            color: theme.palette.primary.dark
+        }
+    })
+}))
+
 function TimelineCard({ item, alignment }) {
     const { Image, Title, Description, Content, Tags, Author, Date: date, Link } = item
 
@@ -27,14 +57,12 @@ function TimelineCard({ item, alignment }) {
     }
 
     return (
-        <Paper
+        <StyledCard
             variant="outlined"
+            clickable={!!Link?.Href}
             onClick={Link?.Href ? handleClick : undefined}
             sx={{
-                p: 2.5,
-                cursor: Link?.Href ? "pointer" : "default",
-                "&:hover": Link?.Href ? { backgroundColor: "action.hover" } : {},
-                textAlign: alignment === "Right" ? "right" : "left",
+                textAlign: alignment === "Right" ? "right" : "left"
             }}
         >
 
@@ -45,7 +73,17 @@ function TimelineCard({ item, alignment }) {
             )}
 
             {Title && (
-                <Typography variant="h6" fontWeight={700} sx={{ mt: 0.5 }} dangerouslySetInnerHTML={{ __html: Title }} />
+                <Typography
+                    className="card-title"
+                    variant="h6"
+                    fontWeight={700}
+                    sx={{
+                        mt: 0.5,
+                        textDecoration: "none",
+                        textDecorationColor: Link?.Href ? "primary.main" : "transparent",
+                    }}
+                    dangerouslySetInnerHTML={{ __html: Title }}
+                />
             )}
 
             {Description && (
@@ -55,7 +93,41 @@ function TimelineCard({ item, alignment }) {
             {Content && (
                 <Typography variant="body2" sx={{ mt: 1 }} dangerouslySetInnerHTML={{ __html: Content }} />
             )}
-
+            {Image?.length > 0 && (
+                <Box sx={{ mt: 3 }}>
+                    <Scroller
+                        items={Image}
+                        slidesPerView={1.2}
+                        spaceBetween={12}
+                        sx={{
+                            width: "100%",
+                            "& .swiper": {
+                                width: "100%"
+                            },
+                            "& .swiper-slide": {
+                                width: "100% !important",  
+                            }
+                        }}
+                        renderSlide={(img, i) => (
+                            <Box
+                                key={i}
+                                component="img"
+                                src={img}
+                                alt={`image-${i}`}
+                                sx={{
+                                    width: "100%",
+                                    height: 500,
+                                    objectFit: "cover",
+                                    borderRadius: 2,
+                                    justifyContent: "center",
+                                    userSelect: "none",
+                                    pointerEvents: "none"
+                                }}
+                            />
+                        )}
+                    />
+                </Box>
+            )}
             {Tags?.length > 0 && (
                 <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.5, mt: 1 }}>
                     {Tags.map((tag, i) => (
@@ -77,7 +149,7 @@ function TimelineCard({ item, alignment }) {
                 </Box>
             )}
 
-        </Paper>
+        </StyledCard>
     )
 }
 
@@ -109,20 +181,8 @@ function VerticalTimeline({ data, alignment }) {
                         )}
 
                         <TimelineSeparator>
-
-                            <TimelineDot color="primary">
-
-                                {item.Image?.[0] && (
-                                    <Avatar
-                                        src={item.Image[0]}
-                                        sx={{ width: 32, height: 32 }}
-                                    />
-                                )}
-
-                            </TimelineDot>
-
+                            <TimelineDot color="primary"></TimelineDot>
                             {!isLast && <TimelineConnector />}
-
                         </TimelineSeparator>
 
                         <TimelineContent>

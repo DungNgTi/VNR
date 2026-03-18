@@ -1,0 +1,1709 @@
+{
+    "Layout": [
+        {
+            "ModuleType": "HERO",
+            "Title": "Đại hội Đại biểu Toàn quốc lần thứ X của Đảng (2006–2011)",
+            "Description": "Đại hội 20 năm Đổi Mới — đẩy mạnh toàn diện công cuộc đổi mới, sớm đưa nước ta ra khỏi tình trạng kém phát triển",
+            "Data": "HERO_DAI_HOI_X",
+            "Config": {
+                "Size": "Large",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "CARD",
+            "Title": "Thông tin tổng quan về Đại hội X",
+            "Description": "Bối cảnh, nội dung chủ yếu và các văn kiện quan trọng của Đại hội đại biểu toàn quốc lần thứ X",
+            "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+            "Config": {
+                "Searchable": true,
+                "Categories": [
+                    "Bối cảnh",
+                    "Lý luận – Chính trị",
+                    "Kinh tế",
+                    "Nông nghiệp – Nông thôn",
+                    "Biển – Chủ quyền",
+                    "Xây dựng Đảng",
+                    "Xã hội"
+                ]
+            }
+        },
+        {
+            "ModuleType": "STATISTIC",
+            "Title": "Số liệu GDP, lạm phát và FDI Việt Nam (2005–2010)",
+            "Description": "Các chỉ số kinh tế vĩ mô nhiệm kỳ Đại hội X — bao gồm tác động của khủng hoảng tài chính toàn cầu 2008–2009 và kỳ tích trở thành nước thu nhập trung bình năm 2008",
+            "Data": "BIEU_DO_THONG_KE_GDP_LAM_PHAT",
+            "Config": {
+                "Variant": "Bar",
+                "Alignment": "Left"
+            }
+        },
+        {
+            "ModuleType": "TIMELINE",
+            "Title": "Dòng thời gian sự kiện nhiệm kỳ Đại hội X (2006–2011)",
+            "Description": "Các sự kiện, hội nghị Trung ương và mốc lịch sử quan trọng trong giai đoạn 2006–2011",
+            "Data": "DONG_THOI_GIAN_SU_KIEN",
+            "Config": {
+                "Direction": "Vertical",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "PROFILE",
+            "Title": "Lãnh đạo chủ chốt nhiệm kỳ Đại hội X",
+            "Description": "Tiểu sử tóm tắt các đồng chí lãnh đạo trong nhiệm kỳ 2006–2011",
+            "Data": "PROFILE_LANH_DAO_DAI_HOI_X",
+            "Config": {
+                "Scroll": {
+                    "Direction": "Horizontal",
+                    "Parallax": true
+                }
+            }
+        },
+        {
+            "ModuleType": "COMPARISON",
+            "Title": "Kinh tế Việt Nam trước và sau gia nhập WTO (2007)",
+            "Description": "So sánh các chỉ tiêu kinh tế giai đoạn trước gia nhập WTO (2005–2006) và sau gia nhập (2007–2010)",
+            "Data": "SO_SANH_TRUOC_SAU_WTO",
+            "Config": {
+                "FromIndex": [
+                    0
+                ],
+                "ToIndex": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "ModuleType": "TABLE",
+            "Title": "Bảng số liệu kinh tế – xã hội Việt Nam (2005–2010)",
+            "Description": "Tổng hợp các chỉ tiêu kinh tế vĩ mô trong kế hoạch 5 năm 2006–2010",
+            "Data": "BANG_SO_LIEU_KINH_TE",
+            "Config": {
+                "Columns": [
+                    "Năm",
+                    "GDP (tỷ USD)",
+                    "Tăng trưởng GDP (%)",
+                    "Lạm phát (%)",
+                    "Xuất khẩu (tỷ USD)",
+                    "Nhập khẩu (tỷ USD)",
+                    "GDP bình quân đầu người (USD)"
+                ],
+                "Sortable": true,
+                "Striped": true
+            }
+        },
+        {
+            "ModuleType": "ACCORDION",
+            "Title": "5 bài học 20 năm Đổi Mới và các điểm mới nổi bật của Đại hội X",
+            "Description": "Bài học đúc kết 20 năm Đổi Mới (1986–2006); các đặc trưng mới của CNXH; quan điểm mới về bản chất Đảng và quyền đảng viên làm kinh tế tư nhân",
+            "Data": "BAI_HOC_VA_DIEM_MOI_DAI_HOI_X",
+            "Config": {
+                "DefaultExpanded": 0,
+                "Alignment": "Center"
+            }
+        }
+    ],
+    "Data": {
+        "HERO_DAI_HOI_X": [
+            {
+                "Image": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+                ],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Đại hội Đại biểu Toàn quốc lần thứ X — Đảng Cộng sản Việt Nam",
+                "Description": "Họp tại Hà Nội từ ngày 18 đến 25/4/2006, với 1.176 đại biểu đại diện cho hơn 3,1 triệu đảng viên — tăng gần 1 triệu đảng viên so với Đại hội IX.",
+                "Content": "Đại hội X diễn ra sau 20 năm Đổi Mới (1986–2006), khi đất nước đã đạt những thành tựu to lớn có ý nghĩa lịch sử và uy tín quốc tế tăng lên rõ rệt. Chủ đề Đại hội: 'Nâng cao năng lực lãnh đạo và sức chiến đấu của Đảng, phát huy sức mạnh toàn dân tộc, đẩy mạnh toàn diện công cuộc đổi mới, sớm đưa nước ta ra khỏi tình trạng kém phát triển.' Bầu BCH TW khóa X gồm 160 ủy viên chính thức và 21 ủy viên dự khuyết; Bộ Chính trị 14 đồng chí. Nông Đức Mạnh được bầu lại làm Tổng Bí thư. Hai điểm mới nổi bật: (1) Bổ sung 'dân chủ' và 'Nhà nước pháp quyền XHCN' vào đặc trưng CNXH; (2) Cho phép đảng viên làm kinh tế tư nhân.",
+                "Tags": [
+                    "Đại hội X",
+                    "2006",
+                    "20 năm Đổi Mới",
+                    "WTO",
+                    "Nông Đức Mạnh"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng Cộng sản Việt Nam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 1,
+                "Alignment": "Center",
+                "Date": "2006-04-18",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_X",
+                    "Title": "Xem thêm trên Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BLOG_CAC_THONG_TIN_CHUNG": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bối cảnh quốc tế và trong nước — Dấu mốc 20 năm Đổi Mới",
+                "Description": "Thế và lực mới sau 20 năm đổi mới; tình hình quốc tế diễn biến nhanh chóng, phức tạp",
+                "Content": "Đại hội X khai mạc khi Việt Nam vừa kết thúc 5 năm tăng trưởng mạnh mẽ: GDP 2005 đạt 8,44% — cao thứ hai châu Á. GDP năm 2005 đạt 57,6 tỷ USD; thu nhập bình quân đầu người ~$637 USD. Đất nước có sự thay đổi cơ bản, toàn diện; uy tín quốc tế tăng lên nhiều. Tình hình quốc tế diễn biến nhanh chóng, phức tạp, khó lường — kinh tế tri thức, toàn cầu hóa và cạnh tranh địa chính trị đặt ra thách thức mới. Sự nghiệp xây dựng và bảo vệ Tổ quốc có nhiều thuận lợi, cơ hội lớn nhưng cũng nhiều khó khăn, thách thức không thể xem thường.",
+                "Tags": [
+                    "Bối cảnh",
+                    "20 năm Đổi Mới",
+                    "Quốc tế"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-18",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Hai đặc trưng mới của CNXH — Bổ sung 'Dân chủ' và 'Nhà nước pháp quyền'",
+                "Description": "Đại hội X bổ sung hai đặc trưng mới so với Cương lĩnh 1991 — bước phát triển quan trọng trong nhận thức về CNXH",
+                "Content": "So với Cương lĩnh 1991, Đại hội X bổ sung hai đặc trưng mới: (1) Thêm 'dân chủ' vào mục tiêu tổng quát — 'Dân giàu, nước mạnh, công bằng, dân chủ, văn minh' (trước chỉ có 'Dân giàu, nước mạnh, xã hội công bằng, văn minh'); (2) Có 'Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân dưới sự lãnh đạo của Đảng Cộng sản.' Bổ sung thêm đặc trưng 'có quan hệ hữu nghị và hợp tác với nhân dân các nước trên thế giới.' Đây là bước phát triển lý luận quan trọng, phản ánh 20 năm thực tiễn Đổi Mới.",
+                "Tags": [
+                    "Lý luận",
+                    "CNXH",
+                    "Nhà nước pháp quyền",
+                    "Dân chủ"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bản chất mới của Đảng và cho phép đảng viên làm kinh tế tư nhân",
+                "Description": "Điểm mới đột phá: Đảng là đội tiên phong của 'nhân dân lao động và của dân tộc' — không chỉ giai cấp công nhân",
+                "Content": "Đại hội X làm sáng tỏ bản chất của Đảng: 'Đảng Cộng sản Việt Nam là đội tiên phong của giai cấp công nhân, đồng thời là đội tiên phong của nhân dân lao động và của dân tộc Việt Nam; đại biểu trung thành lợi ích của giai cấp công nhân, của nhân dân lao động và của dân tộc.' Đây là bước phát triển quan trọng — Đảng không chỉ đại diện cho giai cấp công nhân mà còn cho toàn dân tộc. Đồng thời, Đại hội lần đầu tiên cho phép đảng viên làm kinh tế tư nhân (kể cả tư bản tư nhân), yêu cầu tuân thủ Điều lệ Đảng, nghị quyết và pháp luật — động viên mọi nguồn lực xây dựng đất nước.",
+                "Tags": [
+                    "Xây dựng Đảng",
+                    "Bản chất Đảng",
+                    "Đảng viên",
+                    "Kinh tế tư nhân"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN (TW6 K.X)",
+                "Description": "NQ 21-NQ/TW (1/2008): Tôn trọng quy luật thị trường; bảo đảm tính đồng bộ của thể chế",
+                "Content": "Hội nghị TW6 khóa X (1/2008) ban hành NQ 21-NQ/TW về tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng XHCN. Quan điểm: Tôn trọng và vận dụng đúng đắn các quy luật khách quan của kinh tế thị trường; bảo đảm tính đồng bộ giữa thể chế kinh tế với thể chế chính trị, xã hội; gắn kết hài hòa tăng trưởng kinh tế với tiến bộ – công bằng xã hội và bảo vệ môi trường. Chủ động và tích cực hội nhập kinh tế quốc tế đồng thời bảo đảm độc lập, chủ quyền quốc gia. Đây là phản ứng chính sách trước thực tế: quá trình xây dựng thể chế còn chậm, chưa theo kịp yêu cầu hội nhập sau khi gia nhập WTO (2007).",
+                "Tags": [
+                    "Kinh tế",
+                    "Thể chế",
+                    "TW6 K.X",
+                    "WTO"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X, Hội nghị TW6 (1/2008)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-01-30",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tam nông: Nông nghiệp, Nông dân, Nông thôn (TW7 K.X)",
+                "Description": "Lần đầu tiên Đảng đưa ra quyết sách toàn diện và mạnh mẽ về ba vấn đề nông nghiệp – nông dân – nông thôn",
+                "Content": "Hội nghị TW7 khóa X (8/2008) lần đầu tiên đưa ra những quyết sách mạnh mẽ giải quyết đồng thời 'tam nông.' Quan điểm: Nông nghiệp, nông dân, nông thôn có vị trí chiến lược trong CNH–HĐH, xây dựng và bảo vệ Tổ quốc; là cơ sở và lực lượng quan trọng để phát triển KT–XH bền vững, giữ vững ổn định chính trị. CNH–HĐH nông nghiệp, nông thôn là nhiệm vụ quan trọng hàng đầu của quá trình CNH–HĐH. Xây dựng xã hội nông thôn ổn định, hòa thuận, dân chủ, đời sống văn hóa phong phú, đậm đà bản sắc dân tộc. Đây là nền tảng cho Chương trình Mục tiêu Quốc gia xây dựng Nông thôn mới sau này.",
+                "Tags": [
+                    "Tam nông",
+                    "Nông nghiệp",
+                    "Nông thôn",
+                    "TW7 K.X"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X, Hội nghị TW7 (8/2008)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-08-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Chiến lược Biển Việt Nam đến năm 2020 (TW4 K.X)",
+                "Description": "NQ 09-NQ/TW (2/2007): Lần đầu tiên Đảng có chiến lược biển toàn diện",
+                "Content": "Hội nghị TW4 khóa X (2/2007) ban hành NQ 09-NQ/TW về Chiến lược biển Việt Nam đến năm 2020 — lần đầu tiên Đảng có chiến lược biển quốc gia toàn diện. Trung ương nhận định thế kỷ XXI là 'thế kỷ của đại dương'; Biển Đông có vị trí địa kinh tế và địa chính trị rất quan trọng. Mục tiêu: đến năm 2020, kinh tế biển đóng góp 53–55% GDP và 55–60% kim ngạch xuất khẩu. Quan điểm: Việt Nam phải trở thành 'quốc gia mạnh về biển, làm giàu từ biển'; kết hợp chặt chẽ phát triển kinh tế biển với bảo đảm quốc phòng, an ninh và bảo vệ chủ quyền.",
+                "Tags": [
+                    "Biển",
+                    "Chiến lược biển",
+                    "Chủ quyền",
+                    "TW4 K.X"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X, Hội nghị TW4 (2/2007)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2007-02-09",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Phòng, chống tham nhũng và tăng cường kiểm tra, giám sát Đảng",
+                "Description": "NQ 04 (8/2006) và NQ 14 (7/2007): Hai trụ cột xây dựng Đảng trong sạch, vững mạnh",
+                "Content": "Hội nghị TW3 K.X (8/2006) ban hành NQ 04-NQ/TW về tăng cường lãnh đạo của Đảng đối với công tác phòng, chống tham nhũng, lãng phí — coi đây là 'nhiệm vụ vừa cấp bách, vừa lâu dài'; phát huy sức mạnh cả hệ thống chính trị và toàn dân; gắn phòng, chống tham nhũng với xây dựng, chỉnh đốn Đảng. Hội nghị TW5 K.X (7/2007) ban hành NQ 14-NQ/TW về tăng cường kiểm tra, giám sát của Đảng — khẳng định đây là 'nội dung rất quan trọng trong lãnh đạo của Đảng, là nhiệm vụ thường xuyên của toàn Đảng.' Kiểm tra, giám sát phải công khai, dân chủ, khách quan. Lấy 'xây là chính.'",
+                "Tags": [
+                    "Tham nhũng",
+                    "Kiểm tra",
+                    "Xây dựng Đảng",
+                    "TW3 K.X",
+                    "TW5 K.X"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X — TW3 (8/2006), TW5 (7/2007)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-08-21",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Trí thức và Thanh niên — Nguồn lực chiến lược thời kỳ CNH–HĐH",
+                "Description": "NQ 27 và NQ 25 (TW7 K.X, 8/2008): Trí thức là 'lực lượng lao động sáng tạo đặc biệt'; thanh niên là 'rường cột của nước nhà'",
+                "Content": "Hội nghị TW7 K.X (8/2008) ban hành hai nghị quyết về nguồn lực con người: NQ 27-NQ/TW về xây dựng đội ngũ trí thức: 'Trí thức Việt Nam là lực lượng lao động sáng tạo đặc biệt quan trọng. Đầu tư xây dựng đội ngũ trí thức là đầu tư cho phát triển bền vững.' NQ 25-NQ/TW về công tác thanh niên: 'Thanh niên là rường cột của nước nhà, chủ nhân tương lai của đất nước, là lực lượng xung kích trong xây dựng và bảo vệ Tổ quốc. Chăm lo, bồi dưỡng thanh niên thành người vừa hồng vừa chuyên là trách nhiệm của cả hệ thống chính trị.'",
+                "Tags": [
+                    "Trí thức",
+                    "Thanh niên",
+                    "Nguồn nhân lực",
+                    "TW7 K.X"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X, Hội nghị TW7 (8/2008)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-08-06",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Mở rộng địa giới Hà Nội (1/8/2008) và tinh giản bộ máy",
+                "Description": "Nghị quyết QH 15/2008: Điều chỉnh địa giới hành chính TP Hà Nội — sáp nhập tỉnh Hà Tây và một số đơn vị lân cận",
+                "Content": "Ngày 29/5/2008, Quốc hội khóa XII ban hành NQ 15/2008/QH12 về điều chỉnh địa giới hành chính TP Hà Nội, có hiệu lực từ 1/8/2008. Hà Nội sáp nhập tỉnh Hà Tây, huyện Mê Linh (Vĩnh Phúc) và 4 xã của huyện Lương Sơn (Hòa Bình). Diện tích Hà Nội tăng hơn 3 lần (từ ~920 km² lên ~3.324 km²). Quyết định phát huy đầy đủ chức năng và vị thế của Thủ đô hiện đại trong thời kỳ CNH–HĐH. Song song, Hội nghị TW4 K.X (4/2007) chủ trương sắp xếp bộ máy tinh gọn: 6 ban tham mưu TW; Chính phủ 22 bộ và cơ quan ngang bộ.",
+                "Tags": [
+                    "Hà Nội",
+                    "Địa giới hành chính",
+                    "Bộ máy",
+                    "2008"
+                ],
+                "Author": [
+                    {
+                        "Name": "Quốc hội khóa XII / BCH TW K.X TW4",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-05-29",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Thành tựu kế hoạch 5 năm 2006–2010 — Việt Nam thoát nghèo",
+                "Description": "GDP tăng bình quân 7%/năm; năm 2008 ra khỏi nước nghèo; GDP 2010 đạt $101,6 tỷ",
+                "Content": "Kế hoạch 5 năm 2006–2010 đạt nhiều thành tựu quan trọng dù trải qua khủng hoảng tài chính toàn cầu 2008–2009: Tốc độ tăng GDP bình quân đạt 7%/năm. Tổng vốn đầu tư toàn xã hội gấp 2,5 lần giai đoạn 2001–2005, đạt 42,9% GDP. GDP năm 2010 (giá thực tế) đạt 101,6 tỷ USD — gấp 3,26 lần năm 2000. GDP bình quân đầu người đạt 1.168 USD (2010). Đặc biệt, năm 2008 Việt Nam chính thức ra khỏi tình trạng nước nghèo, bước vào nhóm các nước có thu nhập trung bình (theo chuẩn World Bank). FDI thu hút cao dù khủng hoảng toàn cầu.",
+                "Tags": [
+                    "Kinh tế",
+                    "Kế hoạch 5 năm",
+                    "Thoát nghèo",
+                    "Thu nhập trung bình"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XI / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2010-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BIEU_DO_THONG_KE_GDP_LAM_PHAT": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2005 — Trước thềm Đại hội X",
+                "Description": "GDP: ~$57,6 tỷ USD | Tăng trưởng: 8,44% | Lạm phát: 8,3%",
+                "Content": "Năm 2005, GDP tăng trưởng 8,44% — cao thứ hai châu Á, chỉ sau Trung Quốc. GDP bình quân đầu người đạt ~$637 USD. Đây là nền tảng lạc quan để Đại hội X khai mạc (4/2006). Tuy nhiên, lạm phát 8,3% là dấu hiệu áp lực vĩ mô cần kiểm soát. WTO phê chuẩn đơn gia nhập của Việt Nam vào 7/11/2006 — sau 11 năm chuẩn bị.",
+                "Tags": [
+                    "GDP",
+                    "2005",
+                    "Trước Đại hội X"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2005-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2006 — Năm khai mạc Đại hội X, gia nhập WTO",
+                "Description": "GDP: ~$66,4 tỷ USD | Tăng trưởng: 8,17% | Lạm phát: 6,7%",
+                "Content": "Năm 2006, GDP tăng trưởng 8,17% — mức cao thứ hai châu Á. Ngày 7/11/2006, Đại hội đồng WTO tại Geneva chính thức phê chuẩn gói gia nhập của Việt Nam. Đại hội X khai mạc tháng 4/2006 với nhiều kỳ vọng về giai đoạn tăng trưởng mới sau WTO. Lạm phát kiểm soát ở mức 6,7%. FDI tăng mạnh khi nhà đầu tư nước ngoài kỳ vọng vào thị trường hậu WTO.",
+                "Tags": [
+                    "GDP",
+                    "2006",
+                    "Đại hội X",
+                    "WTO"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2007 — Năm đầu hậu WTO, FDI bùng nổ",
+                "Description": "GDP: ~$77,4 tỷ USD | Tăng trưởng: 8,46% | Lạm phát: 8,3%",
+                "Content": "Năm 2007, Việt Nam chính thức trở thành thành viên WTO thứ 150 (11/1/2007). GDP tăng trưởng ~8,46% — đạt gần mục tiêu 8,5% đặt ra. FDI bùng nổ sau WTO: dòng vốn ngoại quốc tăng mạnh do nhà đầu tư kỳ vọng vào thị trường mở. Tuy nhiên, dòng vốn lớn tạo áp lực lạm phát. Ngân hàng Nhà nước phải điều chỉnh tỷ giá linh hoạt hơn kể từ 2008.",
+                "Tags": [
+                    "GDP",
+                    "2007",
+                    "WTO",
+                    "FDI"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2007-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2008 — Khủng hoảng tài chính toàn cầu; lạm phát phi mã 23%",
+                "Description": "GDP: ~$99,1 tỷ USD | Tăng trưởng: 6,31% | Lạm phát: ~23% (cao nhất từ 1994)",
+                "Content": "Năm 2008 là năm thách thức kép: Tháng 9/2008, ngân hàng Lehman Brothers sụp đổ kích hoạt khủng hoảng tài chính toàn cầu. Trong nước, lạm phát tăng vọt lên ~23% — cao nhất kể từ 1994 — do giá lương thực, năng lượng thế giới tăng mạnh và dòng vốn FDI hậu WTO quá lớn gây quá nóng. Tuy nhiên, đây cũng là năm Việt Nam chính thức ra khỏi danh sách nước nghèo, bước vào nhóm thu nhập trung bình (World Bank). GDP danh nghĩa vượt 99 tỷ USD.",
+                "Tags": [
+                    "GDP",
+                    "2008",
+                    "Khủng hoảng toàn cầu",
+                    "Lạm phát",
+                    "Thu nhập trung bình"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / IMF",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2009 — Tăng trưởng chậm lại do suy thoái kinh tế toàn cầu",
+                "Description": "GDP: ~$97,2 tỷ USD | Tăng trưởng: 5,32% | Lạm phát: 6,7%",
+                "Content": "Năm 2009, tác động của suy thoái kinh tế toàn cầu 2008–2009 làm GDP Việt Nam giảm xuống còn 5,32% — thấp nhất trong nhiệm kỳ X. GDP danh nghĩa giảm nhẹ xuống ~97,2 tỷ USD. Lạm phát kiểm soát được ở mức 6,7% nhờ chính sách tiền tệ thắt chặt. Hiệp định Đối tác kinh tế Nhật–Việt (VJEPA) có hiệu lực 1/10/2009, mở thêm thị trường xuất khẩu. Chính phủ tung gói kích thích kinh tế để bù đắp sụt giảm tổng cầu.",
+                "Tags": [
+                    "GDP",
+                    "2009",
+                    "Suy thoái toàn cầu",
+                    "VJEPA"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2009-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2010 — Phục hồi, hoàn thành kế hoạch 5 năm 2006–2010",
+                "Description": "GDP: $101,6 tỷ USD (gấp 3,26 lần năm 2000) | Tăng trưởng: 6,78% | Lạm phát: 11,5%",
+                "Content": "Năm 2010, GDP phục hồi lên 6,78%; GDP danh nghĩa đạt 101,6 tỷ USD — gấp 3,26 lần so với năm 2000 (đạt và vượt mục tiêu 10 năm của Chiến lược 2001–2010). GDP bình quân đầu người đạt 1.168 USD — tăng gần 3 lần so với năm 2000 ($402 USD). Tổng vốn đầu tư toàn xã hội đạt 42,9% GDP. Lạm phát tăng trở lại 11,5% — áp lực vĩ mô tiếp tục là thách thức sang nhiệm kỳ XI. Tốc độ tăng GDP bình quân 5 năm 2006–2010 đạt 7%/năm.",
+                "Tags": [
+                    "GDP",
+                    "2010",
+                    "Kế hoạch 5 năm",
+                    "Thu nhập trung bình"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XI / Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2010-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "DONG_THOI_GIAN_SU_KIEN": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "18–25/4/2006 — Đại hội đại biểu toàn quốc lần thứ X tại Hà Nội",
+                "Description": "1.176 đại biểu đại diện 3,1 triệu đảng viên; Nông Đức Mạnh được bầu lại làm Tổng Bí thư",
+                "Content": "Đại hội X khai mạc ngày 18/4/2006, bế mạc 25/4/2006. Thông qua Báo cáo chính trị, Báo cáo kinh tế–xã hội, Điều lệ Đảng sửa đổi, Nghị quyết về phương hướng nhiệm vụ. Bầu BCH TW khóa X: 160 ủy viên chính thức, 21 ủy viên dự khuyết; Bộ Chính trị 14 đồng chí; Ban Bí thư 8 đồng chí. Nông Đức Mạnh được bầu lại làm Tổng Bí thư — nhiệm kỳ thứ hai liên tiếp.",
+                "Tags": [
+                    "Đại hội X",
+                    "Khai mạc",
+                    "Nông Đức Mạnh"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng CSVN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-18",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_X",
+                    "Title": "Đại hội X – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "27/6/2006 — Nguyễn Minh Triết làm Chủ tịch nước; Nguyễn Tấn Dũng làm Thủ tướng",
+                "Description": "Thay thế ông Trần Đức Lương và Phan Văn Khải; hoàn thiện bộ tứ lãnh đạo khóa X",
+                "Content": "Tại kỳ họp Quốc hội (6/2006), ông Nguyễn Minh Triết được bầu làm Chủ tịch nước và ông Nguyễn Tấn Dũng được bầu làm Thủ tướng Chính phủ, thay thế ông Trần Đức Lương và Phan Văn Khải (cùng tuyên bố từ chức 24/6/2006). Ông Nguyễn Phú Trọng được bầu làm Chủ tịch Quốc hội thay ông Nguyễn Văn An. Bộ tứ lãnh đạo khóa X: Nông Đức Mạnh (TBT) – Nguyễn Minh Triết (CTN) – Nguyễn Tấn Dũng (TTg) – Nguyễn Phú Trọng (CTQHội).",
+                "Tags": [
+                    "Lãnh đạo",
+                    "Nguyễn Minh Triết",
+                    "Nguyễn Tấn Dũng",
+                    "Nguyễn Phú Trọng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Chính phủ VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "21/8/2006 — Hội nghị TW3 K.X — NQ 04 về phòng, chống tham nhũng",
+                "Description": "Đảng tăng cường lãnh đạo cuộc đấu tranh phòng, chống tham nhũng, lãng phí",
+                "Content": "Hội nghị TW3 khóa X (8/2006) ban hành NQ 04-NQ/TW về tăng cường sự lãnh đạo của Đảng đối với công tác phòng, chống tham nhũng, lãng phí. Quan điểm: Phát huy sức mạnh của cả hệ thống chính trị và toàn dân; tích cực, chủ động phòng ngừa là chính; kiên quyết đấu tranh chống tham nhũng; gắn với xây dựng, chỉnh đốn Đảng; coi đây là 'nhiệm vụ vừa cấp bách, vừa lâu dài, phải tiến hành kiên quyết, kiên trì, liên tục với những bước đi vững chắc.' Đây là nền tảng chính sách cho Luật Phòng, chống tham nhũng năm 2005 (đang triển khai) và các chiến dịch sau này.",
+                "Tags": [
+                    "TW3 K.X",
+                    "Tham nhũng",
+                    "Xây dựng Đảng"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-08-21",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "7/11/2006 — WTO phê chuẩn; 11/1/2007 — Việt Nam thành viên WTO thứ 150",
+                "Description": "Kết quả 11 năm chuẩn bị và 8 năm đàm phán — mở ra kỷ nguyên hội nhập kinh tế sâu rộng",
+                "Content": "Ngày 7/11/2006, Đại hội đồng WTO tại Geneva phê chuẩn gói gia nhập của Việt Nam. Ngày 11/1/2007, Việt Nam chính thức là thành viên thứ 150 của WTO. Gia nhập WTO mang lại thị trường xuất khẩu mở rộng, thu hút FDI mạnh mẽ hơn nhưng cũng đặt ra thách thức cạnh tranh lớn. Dòng vốn FDI và đầu tư gián tiếp (FII) đổ vào mạnh năm 2007 gây áp lực lạm phát — một phần nguyên nhân dẫn đến lạm phát cao kỷ lục 23% năm 2008.",
+                "Tags": [
+                    "WTO",
+                    "Hội nhập",
+                    "FDI",
+                    "2007"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2007-01-11",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "9/2/2007 — Hội nghị TW4 K.X — Chiến lược Biển Việt Nam 2020",
+                "Description": "NQ 09-NQ/TW: Lần đầu tiên Đảng có chiến lược biển quốc gia toàn diện",
+                "Content": "Hội nghị TW4 K.X (2/2007) ban hành NQ 09-NQ/TW về Chiến lược Biển Việt Nam đến năm 2020. Mục tiêu 2020: kinh tế biển đóng góp 53–55% GDP; 55–60% kim ngạch xuất khẩu. Đây là nghị quyết đặt nền tảng cho phát triển kinh tế biển, đặc biệt quan trọng trong bối cảnh tranh chấp chủ quyền Biển Đông ngày càng phức tạp. TW4 cũng chủ trương sắp xếp bộ máy tinh gọn: Chính phủ còn 22 bộ và cơ quan ngang bộ.",
+                "Tags": [
+                    "TW4 K.X",
+                    "Biển",
+                    "Chiến lược biển",
+                    "Chủ quyền"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2007-02-09",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "30/7/2007 — Hội nghị TW5 K.X — Kiểm tra giám sát và đổi mới phương thức lãnh đạo",
+                "Description": "NQ 14 (kiểm tra, giám sát) và NQ 15 (đổi mới phương thức lãnh đạo) — hai trụ cột nâng cao hiệu lực Đảng",
+                "Content": "Hội nghị TW5 K.X (7/2007): NQ 14-NQ/TW về tăng cường kiểm tra, giám sát của Đảng — khẳng định đây là nhiệm vụ thường xuyên; công khai, dân chủ, khách quan; 'lấy xây là chính.' NQ 15-NQ/TW về đổi mới phương thức lãnh đạo của Đảng đối với hệ thống chính trị — thực hiện nguyên tắc tập trung dân chủ; đẩy mạnh phân cấp; tăng chế độ trách nhiệm cá nhân, nhất là người đứng đầu.",
+                "Tags": [
+                    "TW5 K.X",
+                    "Kiểm tra giám sát",
+                    "Phương thức lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2007-07-30",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "30/1/2008 — Hội nghị TW6 K.X — Hoàn thiện thể chế KTTT định hướng XHCN",
+                "Description": "NQ 21 (thể chế KT); NQ 22 (tổ chức cơ sở Đảng); NQ 20 (giai cấp công nhân)",
+                "Content": "Hội nghị TW6 K.X (1/2008) ban hành ba nghị quyết: NQ 21-NQ/TW về hoàn thiện thể chế KTTT định hướng XHCN — tôn trọng quy luật thị trường; bảo đảm đồng bộ thể chế kinh tế – chính trị – xã hội. NQ 22-NQ/TW về nâng cao năng lực tổ chức cơ sở Đảng — 'tổ chức cơ sở Đảng là nền tảng của Đảng, là hạt nhân chính trị ở cơ sở.' NQ 20-NQ/TW về xây dựng giai cấp công nhân — kiên định quan điểm giai cấp công nhân là giai cấp lãnh đạo cách mạng; tiên phong trong CNH–HĐH.",
+                "Tags": [
+                    "TW6 K.X",
+                    "Thể chế kinh tế",
+                    "Cơ sở Đảng",
+                    "Giai cấp công nhân"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-01-30",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "15/9/2008 — Lehman Brothers sụp đổ — Khủng hoảng tài chính toàn cầu bùng phát",
+                "Description": "Tác động kép: lạm phát trong nước 23% và suy thoái kinh tế thế giới 2008–2009",
+                "Content": "Ngày 15/9/2008, ngân hàng đầu tư Lehman Brothers (Mỹ) phá sản, kích hoạt cuộc khủng hoảng tài chính toàn cầu tệ nhất kể từ Đại Suy thoái 1929. GDP toàn cầu năm 2009 tăng trưởng âm. Việt Nam chịu tác động kép: lạm phát trong nước đã leo thang trước đó lên 23% năm 2008; xuất khẩu và FDI giảm mạnh trong 2009. Tuy nhiên, với các biện pháp kích thích kinh tế và kiểm soát vĩ mô, Việt Nam duy trì tăng trưởng dương (5,32% năm 2009) — là một trong số ít nước đang phát triển duy trì được tăng trưởng dương.",
+                "Tags": [
+                    "Khủng hoảng tài chính",
+                    "2008",
+                    "Lehman Brothers",
+                    "Toàn cầu"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / IMF",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-09-15",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "8/2008 — Hội nghị TW7 K.X — Tam nông, Thanh niên và Trí thức",
+                "Description": "Ba nghị quyết chiến lược về nguồn lực xã hội — nền tảng cho phát triển bền vững",
+                "Content": "Hội nghị TW7 K.X (8/2008) ban hành ba nghị quyết trọng yếu: NQ 26 về nông nghiệp, nông dân, nông thôn — lần đầu tiên giải quyết đồng thời 'tam nông.' NQ 25-NQ/TW về công tác thanh niên: 'Thanh niên là rường cột của nước nhà, chủ nhân tương lai.' NQ 27-NQ/TW về xây dựng đội ngũ trí thức: 'Trí thức là lực lượng lao động sáng tạo đặc biệt quan trọng; đầu tư cho trí thức là đầu tư cho phát triển bền vững.'",
+                "Tags": [
+                    "TW7 K.X",
+                    "Tam nông",
+                    "Thanh niên",
+                    "Trí thức"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-08-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "1/8/2008 — Hà Nội mở rộng — Sáp nhập tỉnh Hà Tây",
+                "Description": "NQ QH 15/2008: Diện tích Hà Nội tăng hơn 3 lần (lên ~3.324 km²)",
+                "Content": "Kể từ ngày 1/8/2008, Hà Nội mở rộng địa giới hành chính theo NQ QH 15/2008/QH12: sáp nhập toàn bộ tỉnh Hà Tây, huyện Mê Linh (Vĩnh Phúc) và 4 xã huyện Lương Sơn (Hòa Bình). Diện tích Hà Nội từ ~920 km² tăng lên ~3.324 km²; dân số từ ~3,5 triệu lên ~6,7 triệu. Đây là quyết định phù hợp với điều kiện địa lý, lịch sử, văn hóa truyền thống; phát huy đầy đủ chức năng Thủ đô hiện đại trong thời kỳ CNH–HĐH.",
+                "Tags": [
+                    "Hà Nội",
+                    "Địa giới",
+                    "Hà Tây",
+                    "2008"
+                ],
+                "Author": [
+                    {
+                        "Name": "Quốc hội Khóa XII / Chính phủ VN",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-08-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "1/10/2009 — Hiệp định VJEPA Nhật–Việt có hiệu lực",
+                "Description": "Mở rộng thị trường xuất khẩu Nhật Bản — FTA song phương toàn diện đầu tiên của Việt Nam",
+                "Content": "Hiệp định Đối tác Kinh tế Toàn diện Việt Nam–Nhật Bản (VJEPA) có hiệu lực 1/10/2009 — là FTA song phương toàn diện đầu tiên của Việt Nam với một đối tác lớn. Nhật Bản vốn là nhà đầu tư và đối tác thương mại hàng đầu của Việt Nam (thủy sản, dệt may, linh kiện điện tử). VJEPA giảm thuế 94% hàng xuất khẩu Việt Nam sang Nhật trong 10 năm, tạo nền tảng cho mạng lưới FTA ngày càng rộng của Việt Nam trong thập niên tiếp theo.",
+                "Tags": [
+                    "VJEPA",
+                    "Nhật Bản",
+                    "FTA",
+                    "Hội nhập"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2009-10-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "12–19/1/2011 — Đại hội Đại biểu Toàn quốc lần thứ XI",
+                "Description": "Kết thúc nhiệm kỳ X — Nguyễn Phú Trọng được bầu làm Tổng Bí thư",
+                "Content": "Đại hội XI (1/2011) đánh giá 5 năm thực hiện Nghị quyết Đại hội X và 25 năm Đổi Mới. Bầu BCH TW khóa XI: 175 ủy viên chính thức; Bộ Chính trị 14 đồng chí. Nguyễn Phú Trọng được bầu làm Tổng Bí thư (Nông Đức Mạnh nghỉ). Mục tiêu: GDP bình quân tăng 7–7,5%/năm giai đoạn 2011–2015; phấn đấu GDP 2020 gấp đôi 2010. Đại hội XI thông qua Cương lĩnh xây dựng đất nước (bổ sung, phát triển năm 2011).",
+                "Tags": [
+                    "Đại hội XI",
+                    "2011",
+                    "Nguyễn Phú Trọng",
+                    "Kết thúc nhiệm kỳ X"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng CSVN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2011-01-12",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "PROFILE_LANH_DAO_DAI_HOI_X": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nông Đức Mạnh — Tổng Bí thư BCH TW Đảng (2001–2011)",
+                "Description": "Sinh ngày 11/9/1939 tại Na Rì, Bắc Kạn — Tổng Bí thư hai nhiệm kỳ IX và X",
+                "Content": "Nông Đức Mạnh được bầu lại làm Tổng Bí thư tại Đại hội X (4/2006), tiếp tục nhiệm kỳ thứ hai cho đến Đại hội XI (1/2011). Dân tộc Tày — Tổng Bí thư dân tộc thiểu số đầu tiên trong lịch sử Đảng. Tốt nghiệp Học viện Lâm nghiệp Lê-nin-grát (Liên Xô, 1971). Trong nhiệm kỳ X, lãnh đạo Đảng trong giai đoạn Việt Nam gia nhập WTO (2007), vượt qua khủng hoảng tài chính toàn cầu (2008–2009), trở thành nước thu nhập trung bình (2008) và GDP vượt 100 tỷ USD (2010). Được tặng thưởng Huân chương Sao Vàng.",
+                "Tags": [
+                    "Nông Đức Mạnh",
+                    "Tổng Bí thư",
+                    "Nhiệm kỳ X"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Nhân Dân / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "https://nhandan.vn/tieu-su-tom-tat-tong-bi-thu-nong-duc-manh-post481138.html",
+                    "Title": "Tiểu sử – Nhân Dân",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Minh Triết — Chủ tịch nước CHXHCN Việt Nam (2006–2011)",
+                "Description": "Sinh ngày 8/10/1942 tại Bến Cát, Bình Dương — Chủ tịch nước khóa XII Quốc hội",
+                "Content": "Nguyễn Minh Triết được bầu làm Chủ tịch nước ngày 27/6/2006, thay ông Trần Đức Lương. Nguyên Bí thư Thành ủy TP.HCM (2000–2006). Ủy viên Bộ Chính trị từ Đại hội VIII. Dưới nhiệm kỳ của ông, Việt Nam tổ chức thành công APEC 2006, gia nhập WTO (2007) và được bầu vào Hội đồng Bảo an Liên Hợp Quốc (2008–2009). Tháng 7/2007, ông thăm chính thức Hoa Kỳ — chuyến thăm của Chủ tịch nước đầu tiên kể từ 1975.",
+                "Tags": [
+                    "Nguyễn Minh Triết",
+                    "Chủ tịch nước",
+                    "APEC 2006"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Chính phủ VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Tấn Dũng — Thủ tướng Chính phủ (2006–2016)",
+                "Description": "Sinh ngày 17/11/1949 tại Kiên Giang — Thủ tướng trẻ nhất Việt Nam kể từ 1975",
+                "Content": "Nguyễn Tấn Dũng nhậm chức Thủ tướng ngày 27/6/2006 — ở tuổi 56, là Thủ tướng trẻ nhất Việt Nam kể từ 1975, và là Thủ tướng đầu tiên sinh sau khi nước VNDCCH thành lập. Nguyên Phó Thủ tướng thường trực (2003–2006). Điều hành kinh tế qua giai đoạn WTO, khủng hoảng tài chính toàn cầu 2008, gói kích thích kinh tế 8 tỷ USD và phục hồi tăng trưởng. Nhiệm kỳ 2 (2011–2016) tiếp tục đến Đại hội XII.",
+                "Tags": [
+                    "Nguyễn Tấn Dũng",
+                    "Thủ tướng",
+                    "WTO",
+                    "Kinh tế"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Chính phủ VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-06-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Phú Trọng — Chủ tịch Quốc hội (2006–2011)",
+                "Description": "Sinh ngày 14/4/1944 tại Đông Hội, Đông Anh, Hà Nội — Chủ tịch Quốc hội khóa XII",
+                "Content": "Nguyễn Phú Trọng được bầu làm Chủ tịch Quốc hội ngày 26/6/2006, thay ông Nguyễn Văn An. Tốt nghiệp Khoa Ngữ văn, Đại học Tổng hợp Hà Nội; Tiến sĩ Kinh tế Chính trị tại Liên Xô (1983). Nguyên Tổng Biên tập Tạp chí Cộng sản; Bí thư Thành ủy Hà Nội (2000–2006). Dẫn dắt Quốc hội thông qua nhiều luật quan trọng: Luật Phòng, chống tham nhũng (2005 sửa đổi), Luật Đất đai 2003, NQ về mở rộng Hà Nội (2008). Đại hội XI (1/2011): được bầu làm Tổng Bí thư.",
+                "Tags": [
+                    "Nguyễn Phú Trọng",
+                    "Quốc hội",
+                    "Sau này Tổng Bí thư"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Quốc hội VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-06-26",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "SO_SANH_TRUOC_SAU_WTO": {
+            "TRUOC_WTO": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Kinh tế Việt Nam trước WTO (2005–2006) — Giai đoạn BTA đã phát huy, chuẩn bị sân chơi toàn cầu",
+                    "Description": "Tăng trưởng mạnh 8,4–8,2%; lạm phát vừa phải; FDI ổn định ~$3,3 tỷ/năm",
+                    "Content": "Giai đoạn 2005–2006 là đỉnh cao hội nhập trước WTO: BTA Việt–Mỹ (hiệu lực 2001) đã phát huy tác dụng rõ rệt — xuất khẩu tăng mạnh. GDP 2005 đạt 8,44%; 2006 đạt 8,17%. FDI ổn định ~$3,3–4 tỷ USD/năm. Xuất khẩu 2005 đạt 32,4 tỷ USD; 2006 đạt ~39,8 tỷ USD. Lạm phát kiểm soát ở mức 8,3% (2005) và 6,7% (2006). Nền kinh tế có tính cạnh tranh tương đối ổn định dù World Economic Forum xếp Việt Nam 77/122 năm 2006.",
+                    "Tags": [
+                        "Trước WTO",
+                        "2005-2006",
+                        "BTA",
+                        "FDI"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Wikipedia Economy of Vietnam / World Bank",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2006-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                }
+            ],
+            "SAU_WTO": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2007 — Năm đầu hậu WTO: FDI bùng nổ; tăng trưởng 8,46%",
+                    "Description": "Dòng vốn FDI và FII đổ vào mạnh; nền kinh tế quá nóng tạo áp lực lạm phát",
+                    "Content": "Năm 2007: GDP tăng 8,46%; GDP danh nghĩa đạt 77,4 tỷ USD. FDI cam kết tăng vọt (từ ~$10 tỷ năm 2006 lên ~$20+ tỷ cam kết năm 2007). Nhà đầu tư nước ngoài kỳ vọng lớn vào thị trường hậu WTO. Nhưng dòng vốn lớn tạo cung tiền tăng mạnh → áp lực lạm phát. Ngân hàng Nhà nước buộc phải linh hoạt hơn về tỷ giá kể từ 2008.",
+                    "Tags": [
+                        "2007",
+                        "WTO",
+                        "FDI bùng nổ",
+                        "Quá nóng"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Wikipedia Economy of Vietnam",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2007-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2008 — Lạm phát 23% và khủng hoảng tài chính toàn cầu",
+                    "Description": "Thách thức kép lớn nhất nhiệm kỳ X — nhưng Việt Nam thoát nghèo, vào thu nhập trung bình",
+                    "Content": "Năm 2008: GDP 6,31%; lạm phát 23% — cao nhất từ 1994. Hai nguyên nhân chính: (1) Dòng vốn WTO hậu gia nhập quá lớn năm 2007 gây quá nóng; (2) Giá lương thực – năng lượng thế giới tăng mạnh; (3) Khủng hoảng Lehman Brothers 9/2008 gây bất ổn tài chính. Tuy nhiên, Việt Nam ra khỏi danh sách nước nghèo (World Bank), bước vào nhóm thu nhập trung bình. FDI thực hiện vẫn cao kỷ lục ~$11,5 tỷ — thể hiện niềm tin dài hạn của nhà đầu tư.",
+                    "Tags": [
+                        "2008",
+                        "Lạm phát 23%",
+                        "Khủng hoảng",
+                        "Thu nhập trung bình"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Wikipedia Economy of Vietnam / World Bank",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2008-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2009 — Suy thoái toàn cầu: GDP 5,32% — thấp nhất nhiệm kỳ",
+                    "Description": "Xuất khẩu giảm; gói kích thích kinh tế 8 tỷ USD; VJEPA giúp mở rộng thị trường Nhật",
+                    "Content": "Năm 2009, suy thoái kinh tế toàn cầu kéo GDP Việt Nam xuống 5,32% — thấp nhất nhiệm kỳ X. Xuất khẩu giảm do nhu cầu thế giới suy yếu. Chính phủ tung gói kích thích kinh tế ~143 nghìn tỷ đồng (~8 tỷ USD), trong đó 4% hỗ trợ lãi suất. VJEPA Nhật–Việt có hiệu lực 1/10/2009 mở ra thị trường thay thế. Lạm phát kiểm soát ở mức 6,7%. Việt Nam được bầu vào Hội đồng Bảo an LHQ nhiệm kỳ 2008–2009.",
+                    "Tags": [
+                        "2009",
+                        "Suy thoái",
+                        "Kích thích kinh tế",
+                        "VJEPA"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "World Bank / Wikipedia Economy of Vietnam",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2009-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2010 — Phục hồi 6,78%; GDP vượt 100 tỷ USD; hoàn thành kế hoạch 5 năm",
+                    "Description": "GDP $101,6 tỷ — gấp 3,26 lần 2000; bình quân đầu người $1.168; lạm phát 11,5% tái nổi",
+                    "Content": "Năm 2010, kinh tế phục hồi: GDP 6,78%; GDP danh nghĩa 101,6 tỷ USD. Tốc độ tăng GDP bình quân 5 năm 2006–2010 đạt 7%. Tổng đầu tư toàn xã hội đạt 42,9% GDP. GDP bình quân đầu người 1.168 USD — tăng gần 3 lần so với 2000. Lạm phát tái nổi lên 11,5% — thách thức cho Đại hội XI (2011). Hội đồng Bảo an LHQ: Việt Nam hoàn thành nhiệm kỳ không thường trực 2008–2009 thành công.",
+                    "Tags": [
+                        "2010",
+                        "Phục hồi",
+                        "GDP vượt 100 tỷ",
+                        "Kế hoạch 5 năm"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Văn kiện Đại hội XI / Wikipedia",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2010-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                }
+            ]
+        },
+        "BANG_SO_LIEU_KINH_TE": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2005",
+                "Description": "Năm gốc so sánh — Đỉnh cao kế hoạch 5 năm 2001–2005",
+                "Content": "GDP: ~$57,6 tỷ USD | Tăng trưởng: 8,44% | Lạm phát: 8,3% | Xuất khẩu: ~$32,4 tỷ | Nhập khẩu: ~$36,9 tỷ | Thu nhập BQ đầu người: ~$637 USD. Là năm cuối kế hoạch 5 năm 2001–2005. Tăng trưởng cao thứ 2 châu Á sau Trung Quốc. WTO bắt đầu đàm phán cuối với Việt Nam.",
+                "Tags": [
+                    "2005",
+                    "GDP"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / US State Dept",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2005-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2006",
+                "Description": "Năm khai mạc Đại hội X — WTO phê chuẩn tháng 11",
+                "Content": "GDP: ~$66,4 tỷ USD | Tăng trưởng: 8,17% | Lạm phát: 6,7% | Xuất khẩu: ~$39,8 tỷ | Nhập khẩu: ~$44,9 tỷ | Thu nhập BQ đầu người: ~$726 USD. Đại hội X khai mạc 18/4/2006. WTO phê chuẩn 7/11/2006. Việt Nam đăng cai APEC 2006. WEF xếp Việt Nam 77/122 về năng lực cạnh tranh.",
+                "Tags": [
+                    "2006",
+                    "GDP",
+                    "WTO",
+                    "Đại hội X"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2007",
+                "Description": "Năm đầu hậu WTO — FDI bùng nổ, nền kinh tế quá nóng",
+                "Content": "GDP: ~$77,4 tỷ USD | Tăng trưởng: 8,46% | Lạm phát: 8,3% | Xuất khẩu: ~$48,6 tỷ | Nhập khẩu: ~$62,8 tỷ | Thu nhập BQ đầu người: ~$835 USD. Thành viên WTO từ 11/1/2007. FDI cam kết tăng vọt. Ngân hàng Nhà nước bắt đầu thắt chặt tín dụng cuối 2007.",
+                "Tags": [
+                    "2007",
+                    "GDP",
+                    "WTO",
+                    "FDI"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2007-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2008",
+                "Description": "Năm khó khăn nhất — lạm phát 23%; khủng hoảng Lehman; nhưng thoát nghèo",
+                "Content": "GDP: ~$99,1 tỷ USD | Tăng trưởng: 6,31% | Lạm phát: ~23% | Xuất khẩu: ~$62,7 tỷ | Nhập khẩu: ~$80,4 tỷ | Thu nhập BQ đầu người: ~$1.052 USD. Khủng hoảng tài chính toàn cầu (Lehman 9/2008). FDI thực hiện ~$11,5 tỷ — kỷ lục. Việt Nam ra khỏi nước nghèo, vào thu nhập trung bình.",
+                "Tags": [
+                    "2008",
+                    "Lạm phát 23%",
+                    "Khủng hoảng",
+                    "FDI"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / IMF / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2008-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2009",
+                "Description": "Suy thoái toàn cầu — tăng trưởng thấp nhất nhiệm kỳ 5,32%",
+                "Content": "GDP: ~$97,2 tỷ USD | Tăng trưởng: 5,32% | Lạm phát: 6,7% | Xuất khẩu: ~$57,1 tỷ | Nhập khẩu: ~$69,9 tỷ | Thu nhập BQ đầu người: ~$1.042 USD. Gói kích thích kinh tế ~8 tỷ USD. VJEPA Nhật–Việt hiệu lực 1/10/2009. Việt Nam duy trì tăng trưởng dương trong khi nhiều nước âm.",
+                "Tags": [
+                    "2009",
+                    "Suy thoái",
+                    "Kích thích kinh tế"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2009-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2010",
+                "Description": "Hoàn thành kế hoạch 5 năm — GDP $101,6 tỷ; bình quân 7%/năm",
+                "Content": "GDP: $101,6 tỷ USD (theo văn kiện Đại hội XI) | Tăng trưởng: 6,78% | Lạm phát: 11,5% | Xuất khẩu: ~$72,2 tỷ | Nhập khẩu: ~$84,8 tỷ | Thu nhập BQ đầu người: $1.168 USD. Gấp 3,26 lần GDP năm 2000. Tổng đầu tư 42,9% GDP. Lạm phát tái nổi 11,5% là thách thức cho nhiệm kỳ XI.",
+                "Tags": [
+                    "2010",
+                    "GDP vượt 100 tỷ",
+                    "Kế hoạch 5 năm"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XI / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2010-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BAI_HOC_VA_DIEM_MOI_DAI_HOI_X": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 1 (20 năm Đổi Mới): Kiên định mục tiêu độc lập dân tộc và CNXH",
+                "Description": "Nền tảng bất biến trên cơ sở chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh",
+                "Content": "Trong quá trình đổi mới phải kiên định mục tiêu độc lập dân tộc và chủ nghĩa xã hội trên nền tảng chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh. Đây là bài học số một được giữ nguyên qua các Đại hội VI, VII, VIII, IX và tiếp tục nhấn mạnh tại Đại hội X — phản ánh 20 năm thực tiễn Đổi Mới xác nhận đây là nguyên tắc bất di bất dịch, bất chấp biến động thế giới và thách thức 'diễn biến hòa bình.'",
+                "Tags": [
+                    "Bài học 1",
+                    "20 năm Đổi Mới",
+                    "Độc lập dân tộc",
+                    "CNXH"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 2 (20 năm Đổi Mới): Đổi mới toàn diện, đồng bộ, có kế thừa và bước đi phù hợp",
+                "Description": "Không cứng nhắc cũng không phiêu lưu — kết hợp kế thừa với sáng tạo",
+                "Content": "Đổi mới toàn diện, đồng bộ, có kế thừa, có bước đi, hình thức và cách làm phù hợp. Bài học mới so với Đại hội IX: nhấn mạnh tính 'đồng bộ' — không thể đổi mới kinh tế mà thiếu đổi mới thể chế, pháp luật, hành chính. Thực tiễn 20 năm chỉ ra: những lĩnh vực đổi mới chậm (bộ máy nhà nước, cải cách DNNN, đất đai) tạo ra điểm nghẽn kìm hãm phát triển chung. Sau Đại hội X, NQ TW6 (1/2008) về hoàn thiện thể chế kinh tế thị trường là hiện thực hóa bài học này.",
+                "Tags": [
+                    "Bài học 2",
+                    "Đổi mới đồng bộ",
+                    "Kế thừa",
+                    "Thể chế"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 3 (20 năm Đổi Mới): Vì lợi ích nhân dân, dựa vào nhân dân, nhạy bén với cái mới",
+                "Description": "Đổi mới phải xuất phát từ thực tiễn, phát huy vai trò chủ động sáng tạo của nhân dân",
+                "Content": "Đổi mới phải vì lợi ích của nhân dân, dựa vào nhân dân, phát huy vai trò chủ động, sáng tạo của nhân dân, xuất phát từ thực tiễn, nhạy bén với cái mới. Điểm mới so với bài học tương tự ở Đại hội IX: nhấn mạnh tính 'nhạy bén với cái mới' — phản ánh đòi hỏi của kinh tế tri thức và hội nhập sâu sau WTO. Phong trào 'Toàn dân đoàn kết xây dựng đời sống văn hóa', xây dựng Quy chế dân chủ ở cơ sở là những thực hành cụ thể bài học này.",
+                "Tags": [
+                    "Bài học 3",
+                    "Nhân dân",
+                    "Thực tiễn",
+                    "Sáng tạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 4 (20 năm Đổi Mới): Phát huy cao độ nội lực, kết hợp sức mạnh dân tộc và thời đại",
+                "Description": "Khai thác ngoại lực trong điều kiện mới — WTO, FDI, hội nhập đa tầng",
+                "Content": "Phát huy cao độ nội lực, đồng thời ra sức khai thác ngoại lực, kết hợp sức mạnh dân tộc với sức mạnh thời đại trong điều kiện mới. Bài học này được cụ thể hóa rõ nhất qua: gia nhập WTO (2007), Chiến lược biển 2020 (TW4 K.X), VJEPA với Nhật Bản (2009). 'Điều kiện mới' so với bài học ở Đại hội IX là Việt Nam đã bước vào sân chơi thương mại toàn cầu, buộc phải nâng cao năng lực cạnh tranh nội lực đồng thời với thu hút và tận dụng nguồn lực bên ngoài.",
+                "Tags": [
+                    "Bài học 4",
+                    "Nội lực",
+                    "WTO",
+                    "Hội nhập"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 5 (20 năm Đổi Mới): Nâng cao năng lực lãnh đạo và sức chiến đấu của Đảng",
+                "Description": "Không ngừng đổi mới hệ thống chính trị; bảo đảm quyền lực thuộc về nhân dân",
+                "Content": "Nâng cao năng lực lãnh đạo và sức chiến đấu của Đảng, không ngừng đổi mới tổ chức và hoạt động của hệ thống chính trị, xây dựng và từng bước hoàn thiện nền dân chủ xã hội chủ nghĩa, bảo đảm quyền lực thuộc về nhân dân. Đây là bài học tổng kết 20 năm: các thành tựu đều gắn với sự lãnh đạo đúng đắn của Đảng; các yếu kém, tiêu cực cũng gắn với hạn chế trong lãnh đạo. NQ TW3 K.X về phòng, chống tham nhũng (2006) và NQ TW5 K.X về kiểm tra, giám sát (2007) là hiện thực hóa bài học này.",
+                "Tags": [
+                    "Bài học 5",
+                    "Xây dựng Đảng",
+                    "Dân chủ XHCN",
+                    "Quyền lực nhân dân"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Điểm mới 1: Bổ sung 'dân chủ' và 'Nhà nước pháp quyền XHCN' vào đặc trưng CNXH",
+                "Description": "Phát triển lý luận quan trọng — từ 4 đặc trưng (1991) lên 8 đặc trưng (2006)",
+                "Content": "So với Cương lĩnh 1991 (4 đặc trưng), Đại hội X xác định 8 đặc trưng của XHCN Việt Nam xây dựng: (1) Dân giàu, nước mạnh, công bằng, dân chủ, văn minh; (2) Do nhân dân làm chủ; (3) Kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại; (4) Văn hóa tiên tiến, đậm đà bản sắc dân tộc; (5) Con người được giải phóng, phát triển toàn diện; (6) Các dân tộc bình đẳng, đoàn kết; (7) Nhà nước pháp quyền XHCN của dân, do dân, vì dân dưới lãnh đạo Đảng CSVN; (8) Quan hệ hữu nghị và hợp tác với các nước. Hai đặc trưng hoàn toàn mới: 'dân chủ' và 'Nhà nước pháp quyền.'",
+                "Tags": [
+                    "Điểm mới",
+                    "CNXH",
+                    "Nhà nước pháp quyền",
+                    "Dân chủ",
+                    "Cương lĩnh"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_X",
+                    "Title": "Đại hội X – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Điểm mới 2: Đảng là đội tiên phong của dân tộc — cho phép đảng viên làm kinh tế tư nhân",
+                "Description": "Mở rộng bản chất Đảng; động viên mọi nguồn lực xây dựng đất nước",
+                "Content": "Đại hội X làm rõ bản chất Đảng: 'là đội tiên phong của giai cấp công nhân, đồng thời là đội tiên phong của nhân dân lao động và của dân tộc Việt Nam.' Quan điểm mới đột phá: lần đầu tiên cho phép đảng viên làm kinh tế tư nhân, kể cả tư bản tư nhân, với điều kiện tuân thủ Điều lệ Đảng, nghị quyết và pháp luật; nêu cao tính tiên phong gương mẫu. Đây là quyết định phù hợp với thực tế (nhiều đảng viên đã làm kinh tế tư nhân) và động viên nguồn lực xã hội phục vụ mục tiêu 'Dân giàu, nước mạnh, xã hội công bằng, văn minh.'",
+                "Tags": [
+                    "Điểm mới",
+                    "Bản chất Đảng",
+                    "Đảng viên",
+                    "Kinh tế tư nhân"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội X",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ]
+    }
+}

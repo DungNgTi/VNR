@@ -1,0 +1,1529 @@
+{
+    "Layout": [
+        {
+            "ModuleType": "HERO",
+            "Title": "Đại hội Đại biểu Toàn quốc lần thứ XIII của Đảng (2021–2026)",
+            "Description": "Đại hội 35 năm Đổi Mới — Khơi dậy khát vọng phát triển đất nước phồn vinh, hạnh phúc; phấn đấu đến giữa thế kỷ XXI nước ta trở thành nước phát triển theo định hướng xã hội chủ nghĩa",
+            "Data": "HERO_DAI_HOI_XIII",
+            "Config": {
+                "Size": "Large",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "CARD",
+            "Title": "Thông tin tổng quan về Đại hội XIII",
+            "Description": "Bối cảnh, nội dung chủ yếu và các văn kiện quan trọng của Đại hội đại biểu toàn quốc lần thứ XIII",
+            "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+            "Config": {
+                "Searchable": true,
+                "Categories": [
+                    "Lý luận – Tầm nhìn",
+                    "Kinh tế – Chuyển đổi số",
+                    "Xây dựng Đảng",
+                    "Hội nhập – Đối ngoại",
+                    "Văn hóa – Xã hội",
+                    "Quốc phòng – An ninh",
+                    "Thành tựu 35 năm"
+                ]
+            }
+        },
+        {
+            "ModuleType": "STATISTIC",
+            "Title": "Số liệu GDP, lạm phát và FDI Việt Nam (2020–2024)",
+            "Description": "Chỉ số kinh tế vĩ mô nhiệm kỳ Đại hội XIII — từ COVID Delta làm GDP chỉ đạt 2,55% (2021) đến phục hồi kỷ lục 8,12% (2022) và tăng trưởng bền vững 7,09% (2024)",
+            "Data": "BIEU_DO_THONG_KE_GDP_LAM_PHAT",
+            "Config": {
+                "Variant": "Bar",
+                "Alignment": "Left"
+            }
+        },
+        {
+            "ModuleType": "TIMELINE",
+            "Title": "Dòng thời gian sự kiện nhiệm kỳ Đại hội XIII (2021–2026)",
+            "Description": "Các sự kiện, hội nghị Trung ương và mốc lịch sử quan trọng trong giai đoạn 2021–2026",
+            "Data": "DONG_THOI_GIAN_SU_KIEN",
+            "Config": {
+                "Direction": "Vertical",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "PROFILE",
+            "Title": "Lãnh đạo chủ chốt nhiệm kỳ Đại hội XIII",
+            "Description": "Tiểu sử tóm tắt các đồng chí lãnh đạo trong nhiệm kỳ 2021–2026 — giai đoạn có nhiều thay đổi nhân sự cấp cao chưa từng có",
+            "Data": "PROFILE_LANH_DAO_DAI_HOI_XIII",
+            "Config": {
+                "Scroll": {
+                    "Direction": "Horizontal",
+                    "Parallax": true
+                }
+            }
+        },
+        {
+            "ModuleType": "COMPARISON",
+            "Title": "Kinh tế Việt Nam: Từ COVID-19 suy giảm (2021) đến phục hồi mạnh mẽ (2022–2024)",
+            "Description": "So sánh năm COVID Delta (2021) với ba năm phục hồi tăng trưởng sau đó",
+            "Data": "SO_SANH_COVID_PHUC_HOI",
+            "Config": {
+                "FromIndex": [
+                    0
+                ],
+                "ToIndex": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "ModuleType": "TABLE",
+            "Title": "Bảng số liệu kinh tế – xã hội Việt Nam (2020–2024)",
+            "Description": "Tổng hợp các chỉ tiêu kinh tế vĩ mô trong kế hoạch 5 năm 2021–2025",
+            "Data": "BANG_SO_LIEU_KINH_TE",
+            "Config": {
+                "Columns": [
+                    "Năm",
+                    "GDP (tỷ USD)",
+                    "Tăng trưởng GDP (%)",
+                    "Lạm phát (%)",
+                    "FDI thực hiện (tỷ USD)",
+                    "GDP bình quân đầu người (USD)",
+                    "Ghi chú"
+                ],
+                "Sortable": true,
+                "Striped": true
+            }
+        },
+        {
+            "ModuleType": "ACCORDION",
+            "Title": "5 bài học Đại hội XIII; Tầm nhìn 2025–2030–2045; Quan hệ lớn thứ 10 mới bổ sung",
+            "Description": "Bài học từ nhiệm kỳ XII; ba mốc tầm nhìn chiến lược; quan hệ lớn mới về dân chủ–pháp chế; và điểm mới đột phá về đột phá chiến lược có yếu tố chuyển đổi số",
+            "Data": "BAI_HOC_TAM_NHIN_DIEM_MOI",
+            "Config": {
+                "DefaultExpanded": 0,
+                "Alignment": "Center"
+            }
+        }
+    ],
+    "Data": {
+        "HERO_DAI_HOI_XIII": [
+            {
+                "Image": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+                ],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Đại hội Đại biểu Toàn quốc lần thứ XIII — Đảng Cộng sản Việt Nam",
+                "Description": "Họp tại Hà Nội từ 25/1 đến 1/2/2021, với 1.587 đại biểu đại diện cho hơn 5 triệu đảng viên — lần đầu vượt mốc 5 triệu đảng viên.",
+                "Content": "Đại hội XIII diễn ra trong bối cảnh đất nước đứng trước nhiều thời cơ và thách thức đan xen: đại dịch COVID-19, biến đổi khí hậu, Cách mạng công nghiệp lần thứ tư. Chủ đề: 'Tăng cường xây dựng, chỉnh đốn Đảng và hệ thống chính trị trong sạch, vững mạnh; khơi dậy khát vọng phát triển đất nước, phát huy ý chí sức mạnh đại đoàn kết toàn dân tộc kết hợp với sức mạnh thời đại; tiếp tục đẩy mạnh toàn diện, đồng bộ công cuộc đổi mới; xây dựng và bảo vệ vững chắc Tổ quốc, giữ vững môi trường hòa bình, ổn định; phấn đấu đến giữa thế kỷ XXI, nước ta trở thành nước phát triển, theo định hướng xã hội chủ nghĩa.' BCH TW khóa XIII: 200 đồng chí (180 chính thức, 20 dự khuyết); Bộ Chính trị 18 đồng chí. Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư lần thứ ba. Tầm nhìn: 2025 thoát thu nhập trung bình thấp; 2030 thu nhập trung bình cao (100 năm Đảng); 2045 nước phát triển thu nhập cao (100 năm nước).",
+                "Tags": [
+                    "Đại hội XIII",
+                    "2021",
+                    "35 năm Đổi Mới",
+                    "Khát vọng 2045",
+                    "Nguyễn Phú Trọng",
+                    "Chuyển đổi số"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng Cộng sản Việt Nam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 1,
+                "Alignment": "Center",
+                "Date": "2021-01-25",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_XIII",
+                    "Title": "Đại hội XIII – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BLOG_CAC_THONG_TIN_CHUNG": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tầm nhìn ba mốc chiến lược 2025–2030–2045",
+                "Description": "Lần đầu Đảng đặt tầm nhìn đến 2045 — nước phát triển, thu nhập cao — gắn với các kỷ niệm lịch sử trọng đại",
+                "Content": "Đại hội XIII lần đầu tiên đặt ra ba mốc tầm nhìn dài hạn gắn với kỷ niệm lịch sử: (1) Đến năm 2025 (50 năm thống nhất đất nước): nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp; (2) Đến năm 2030 (100 năm thành lập Đảng): nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao; (3) Đến năm 2045 (100 năm thành lập nước CHXHCN Việt Nam): nước phát triển, thu nhập cao. Đây là tầm nhìn dài hạn nhất Đảng từng đặt ra, phản ánh niềm tin và khát vọng phát triển sau 35 năm Đổi Mới.",
+                "Tags": [
+                    "Tầm nhìn 2045",
+                    "2025",
+                    "2030",
+                    "Chiến lược dài hạn"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "'Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay'",
+                "Description": "Nhận định lịch sử của Đại hội XIII tổng kết 35 năm Đổi Mới — từ nước nghèo đến 32 kinh tế lớn nhất thế giới",
+                "Content": "Đại hội XIII khẳng định: 'Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay.' Sau 35 năm Đổi Mới: GDP từ ~$6 tỷ (1986) lên $271 tỷ (2020); thu nhập bình quân từ dưới $100 lên $2.779; tỷ lệ nghèo từ 80% (1993) xuống dưới 3% (2020). Việt Nam trở thành nền kinh tế thứ 32 thế giới (nominal GDP, 2024: $476 tỷ), thứ 21 theo PPP. Từ bị bao vây cô lập (1986) đến quan hệ đối tác chiến lược với 17 nước và đối tác toàn diện với 13 nước. Thành viên ASEAN, WTO, CPTPP, EVFTA, RCEP và nhiều tổ chức quốc tế đa phương khác.",
+                "Tags": [
+                    "35 năm Đổi Mới",
+                    "Thành tựu",
+                    "Cơ đồ tiềm lực",
+                    "GDP"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Khơi dậy khát vọng và 3 đột phá chiến lược mới — Chuyển đổi số quốc gia",
+                "Description": "Đột phá chiến lược thứ ba nâng cấp: bổ sung hạ tầng số, chuyển đổi số, kinh tế số",
+                "Content": "Đại hội XIII kế thừa và nâng cấp 3 đột phá chiến lược từ Đại hội XI: (1) Hoàn thiện đồng bộ thể chế phát triển — đổi mới quản trị quốc gia theo hướng hiện đại, hiệu quả; tạo môi trường đầu tư thuận lợi, lành mạnh, thúc đẩy đổi mới sáng tạo; (2) Phát triển nguồn nhân lực chất lượng cao — thêm cơ chế đột phá để thu hút, trọng dụng nhân tài; (3) Xây dựng hạ tầng đồng bộ, hiện đại — ưu tiên giao thông trọng điểm, thích ứng biến đổi khí hậu; bổ sung mới: 'Phát triển hạ tầng thông tin, viễn thông, tạo nền tảng chuyển đổi số quốc gia, từng bước phát triển kinh tế số, xã hội số.' Đây là lần đầu tiên kinh tế số và chuyển đổi số xuất hiện như đột phá chiến lược trong văn kiện Đại hội.",
+                "Tags": [
+                    "Đột phá chiến lược",
+                    "Chuyển đổi số",
+                    "Kinh tế số",
+                    "Nhân tài"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Phòng, chống tham nhũng — 'Đốt Lò' tiếp tục và mạnh hơn",
+                "Description": "Chiến dịch chống tham nhũng chưa từng có tiền lệ — kỷ luật cả Chủ tịch nước, Chủ tịch Quốc hội",
+                "Content": "Nhiệm kỳ XIII chứng kiến chiến dịch 'Đốt Lò' đẩy lên cao trào chưa từng có: lần đầu tiên, Chủ tịch nước Nguyễn Xuân Phúc từ chức (1/2023) do một số thuộc cấp vi phạm trong đại dịch COVID. Chủ tịch nước Võ Văn Thưởng từ chức (3/2024). Chủ tịch Quốc hội Vương Đình Huệ từ chức (4/2024). Đây là lần đầu tiên trong lịch sử CHXHCN Việt Nam, cả hai vị trí CTN và CTQH thay đổi trong cùng một nhiệm kỳ Đại hội. Hàng nghìn cán bộ ở mọi cấp bị xử lý, trong đó nhiều Ủy viên TW, Bộ trưởng, Tướng lĩnh, Bí thư Tỉnh ủy. 6 nhiệm vụ trọng tâm đặt 'đấu tranh phòng, chống quan liêu, tham nhũng, lãng phí, tiêu cực, lợi ích nhóm' là ưu tiên hàng đầu.",
+                "Tags": [
+                    "Chống tham nhũng",
+                    "Đốt Lò",
+                    "Nhân sự",
+                    "Kỷ luật Đảng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII / Wikipedia / VOA",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Nguyễn Phú Trọng – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Kinh tế số và Cách mạng công nghiệp lần thứ tư",
+                "Description": "Lần đầu tiên Đại hội đặt CMCN 4.0 vào trọng tâm chính sách phát triển kinh tế",
+                "Content": "Đại hội XIII nhấn mạnh việc 'ứng dụng mạnh mẽ khoa học và công nghệ, đổi mới sáng tạo, nhất là những thành tựu của cuộc Cách mạng công nghiệp lần thứ tư, thực hiện chuyển đổi số quốc gia, phát triển kinh tế số.' Đây là lần đầu tiên CMCN 4.0 và kinh tế số được đặt vào vị trí trung tâm của đột phá chiến lược và 6 nhiệm vụ trọng tâm. Phản ánh thực tiễn: năm 2021, VinFast ra mắt xe điện; năm 2022 xuất khẩu lô xe điện đầu tiên sang Mỹ; năm 2024, Samsung chiếm 15% tổng xuất khẩu; FDI vào lĩnh vực công nghệ cao tăng mạnh. World Bank xếp Việt Nam là điểm sáng chuyển đổi số châu Á.",
+                "Tags": [
+                    "CMCN 4.0",
+                    "Chuyển đổi số",
+                    "Kinh tế số",
+                    "VinFast"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Chiến lược hội nhập và Ngoại giao Cây Tre — 'Bamboo Diplomacy'",
+                "Description": "RCEP hiệu lực 2022; nâng cấp quan hệ với Mỹ, Nhật; Tô Lâm tiếp tục đường lối đa phương hóa",
+                "Content": "TBT Nguyễn Phú Trọng định hình 'Ngoại giao Cây Tre' — linh hoạt nhưng kiên định, không gia nhập liên minh quân sự, không cho phép nước ngoài đặt căn cứ, không dùng vũ lực với nước khác ('Bốn Không'). RCEP có hiệu lực 1/1/2022 — FTA lớn nhất thế giới (chiếm 30% GDP toàn cầu). 9/2023, Mỹ–Việt nâng cấp lên 'đối tác chiến lược toàn diện' — mức cao nhất trong quan hệ ngoại giao. 11/2023, Nhật Bản nâng cấp tương tự. Đến 2024, Việt Nam có 17 đối tác chiến lược và toàn diện, quan hệ ngoại giao với 193 quốc gia.",
+                "Tags": [
+                    "Hội nhập",
+                    "RCEP",
+                    "Mỹ-Việt",
+                    "Ngoại giao Cây Tre",
+                    "Bamboo Diplomacy"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / Chính phủ VN",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2022-01-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Kinh tế phục hồi hậu COVID — FDI kỷ lục 2024",
+                "Description": "GDP 8,12% (2022) — phục hồi mạnh nhất thế giới; FDI 2024 đạt $25,35 tỷ — cao nhất lịch sử",
+                "Content": "Năm 2021, GDP chỉ đạt 2,55% do làn sóng Delta COVID-19 tàn phá nặng nề (Q3/2021 GDP tăng trưởng âm). Tuy nhiên, từ 2022, Việt Nam phục hồi ngoạn mục: GDP 2022 đạt 8,12% — cao nhất thế giới trong nhóm nước đang phát triển. Năm 2023: 5,05%. Năm 2024: 7,09% — một trong những nền kinh tế tăng trưởng nhanh nhất thế giới. FDI thực hiện 2024 đạt $25,35 tỷ — kỷ lục lịch sử, tăng 9,4% so với 2023, phản ánh chiến lược 'China+1' của các tập đoàn đa quốc gia. Việt Nam trở thành nền kinh tế thứ 32 thế giới (nominal GDP), thứ 21 theo PPP. Dân số vượt 100 triệu (2024).",
+                "Tags": [
+                    "Phục hồi COVID",
+                    "FDI kỷ lục",
+                    "China+1",
+                    "GDP 2024"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / Macrotrends / Trading Economics",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2022-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Mối quan hệ lớn thứ 10 mới: Thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương",
+                "Description": "Bổ sung quan hệ lớn mới nhất vào hệ thống lý luận Đổi Mới — từ 8 (Cương lĩnh 2011) lên 10 mối quan hệ",
+                "Content": "Đại hội XIII chỉ ra 10 mối quan hệ lớn cần giải quyết tốt, trong đó có 2 quan hệ mới so với Cương lĩnh 2011: (1) Thêm quan hệ 'Giữa Nhà nước, thị trường và xã hội' (đã bổ sung từ Đại hội XII); (2) Đặc biệt, quan hệ hoàn toàn mới: 'Giữa thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương xã hội' — phản ánh bài học thực tiễn khi có những trường hợp dân chủ bị lạm dụng hoặc kỷ cương bị buông lỏng. Đây là bước phát triển lý luận quan trọng nhất của Đại hội XIII trong hệ thống các quan hệ biện chứng lớn — gắn dân chủ với pháp quyền như điều kiện song song không tách rời.",
+                "Tags": [
+                    "Quan hệ lớn",
+                    "Dân chủ",
+                    "Pháp chế",
+                    "Kỷ cương",
+                    "Lý luận mới"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "TBT Nguyễn Phú Trọng từ trần — Tô Lâm lên Tổng Bí thư (7/2024)",
+                "Description": "Giai đoạn chuyển giao lãnh đạo chưa từng có: nhiều thay đổi nhân sự cấp cao nhất trong một nhiệm kỳ",
+                "Content": "Ngày 19/7/2024, TBT Nguyễn Phú Trọng từ trần, thọ 80 tuổi — sau 13 năm làm TBT ba nhiệm kỳ liên tiếp, người được đánh giá là nhà lãnh đạo có ảnh hưởng nhất Việt Nam kể từ Hồ Chí Minh. Đại tướng Tô Lâm (Bộ trưởng Công an, CT Nước từ 5/2024) được BCH TW bầu làm TBT ngày 3/8/2024. Tháng 10/2024, Lương Cường được bầu làm Chủ tịch nước. Tháng 5/2024, Trần Thanh Mẫn được bầu làm Chủ tịch Quốc hội. Năm 2024 là năm biến động nhân sự lớn nhất trong lịch sử chính trị Việt Nam đương đại — 4 vị trí tứ trụ thay đổi trong vòng chưa đầy 2 năm.",
+                "Tags": [
+                    "Nguyễn Phú Trọng",
+                    "Tô Lâm",
+                    "Tổng Bí thư",
+                    "Chuyển giao lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / BBC / VoA",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2024-07-19",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Nguyễn Phú Trọng – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BIEU_DO_THONG_KE_GDP_LAM_PHAT": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2020 — Năm gốc; COVID-19 đầu tiên; tăng trưởng dương 2,87%",
+                "Description": "GDP: ~$271,2 tỷ | Tăng trưởng: 2,87% | Lạm phát: 3,22% | BQ đầu người: $2.779 USD",
+                "Content": "Năm 2020 là năm gốc để so sánh nhiệm kỳ XIII. GDP đạt $271,2 tỷ (theo văn kiện ĐH XIII: $271,2 tỷ USD); thu nhập bình quân đầu người $2.779 USD. Tăng trưởng 2,87% dù có đại dịch COVID-19 — một trong số ít nước tăng trưởng dương năm 2020. EVFTA có hiệu lực 1/8/2020. Tỷ lệ nghèo đa chiều giảm dưới 3%.",
+                "Tags": [
+                    "2020",
+                    "GDP",
+                    "COVID-19"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII / Macrotrends",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2020-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2021 — COVID Delta: Tăng trưởng thấp kỷ lục 2,55% — TP.HCM giãn cách 4 tháng",
+                "Description": "GDP: ~$366,5 tỷ | Tăng trưởng: 2,55% | Lạm phát: 1,83% | BQ đầu người: $3.704",
+                "Content": "Năm 2021 — Đại hội XIII khai mạc và ngay lập tức đối mặt với làn sóng Delta COVID-19 tàn khốc: TP.HCM phong tỏa từ tháng 6 đến tháng 10, Q3/2021 GDP tăng trưởng âm. Tổng cả năm GDP chỉ đạt 2,55% — thấp nhất từ 1988, nhưng vẫn dương trong khi nhiều nước âm. GDP danh nghĩa tăng lên $366,5 tỷ do tăng giá. Lạm phát kiểm soát tốt 1,83% — nhờ nhu cầu nội địa yếu. World Bank nâng Việt Nam lên nhóm thu nhập trung bình cao (Upper-Middle-Income) giữa 2021.",
+                "Tags": [
+                    "2021",
+                    "GDP",
+                    "COVID Delta",
+                    "Thu nhập trung bình cao"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / World Bank / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-12-31",
+                "Link": {
+                    "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate",
+                    "Title": "Macrotrends",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2022 — Phục hồi mạnh mẽ 8,12% — cao nhất châu Á",
+                "Description": "GDP: ~$410,3 tỷ | Tăng trưởng: 8,12% | Lạm phát: 3,16% | BQ đầu người: $4.116",
+                "Content": "Năm 2022 là năm phục hồi ngoạn mục: GDP tăng 8,12% — cao nhất trong nhóm các nền kinh tế lớn châu Á, cao nhất Việt Nam kể từ thời điểm 1997. GDP danh nghĩa đạt $410,3 tỷ. Lạm phát kiểm soát tốt ở 3,16% dù thế giới lạm phát cao (Mỹ 8%, EU 8%). Yếu tố thúc đẩy: nhu cầu tiêu dùng tích tụ (pent-up demand) bùng phát; du lịch quốc tế mở cửa 3/2022; FDI mạnh do chiến lược China+1; RCEP hiệu lực 1/1/2022. VinFast giao lô xe điện đầu tiên sang Mỹ cuối 2022.",
+                "Tags": [
+                    "2022",
+                    "GDP kỷ lục",
+                    "Phục hồi COVID",
+                    "RCEP",
+                    "VinFast"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2022-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2023 — Tăng trưởng chậm lại 5,05%; Mỹ–Việt nâng lên 'đối tác chiến lược toàn diện'",
+                "Description": "GDP: ~$430 tỷ | Tăng trưởng: 5,05% | Lạm phát: 3,25% | BQ đầu người: ~$4.284",
+                "Content": "Năm 2023, tăng trưởng GDP giảm xuống 5,05% do nhu cầu xuất khẩu toàn cầu yếu, thị trường bất động sản và trái phiếu doanh nghiệp trong nước gặp khó khăn. Tuy nhiên, đây vẫn là mức tăng trưởng cao so với thế giới. Dấu ấn đối ngoại lớn nhất: tháng 9/2023, Tổng thống Biden thăm Hà Nội — Mỹ và Việt Nam nâng cấp lên 'Đối tác chiến lược toàn diện' — mức quan hệ cao nhất trong ngoại giao Việt Nam. Tháng 11/2023, Nhật Bản cũng nâng cấp tương tự. FDI 2023 đạt $23,2 tỷ thực hiện — vẫn ở mức cao.",
+                "Tags": [
+                    "2023",
+                    "GDP",
+                    "Mỹ-Việt đối tác chiến lược toàn diện",
+                    "Biden"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / Wikipedia / Trading Economics",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2023-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2024 — Tăng trưởng 7,09%; FDI kỷ lục $25,35 tỷ; dân số 100 triệu",
+                "Description": "GDP: ~$476,4 tỷ | Tăng trưởng: 7,09% | BQ đầu người: $4.536 | FDI: kỷ lục $25,35 tỷ",
+                "Content": "Năm 2024, GDP Việt Nam tăng 7,09% — một trong những nền kinh tế tăng trưởng nhanh nhất thế giới. GDP danh nghĩa đạt $476,4 tỷ — kinh tế thứ 32 thế giới (nominal GDP), thứ 21 theo PPP. FDI thực hiện $25,35 tỷ — kỷ lục lịch sử, tăng 9,4% — phản ánh Việt Nam là điểm đến hàng đầu trong chiến lược 'China+1.' Samsung chiếm 15% tổng xuất khẩu. Dân số vượt 100 triệu người (2024) — tăng từ 60 triệu (1986). Dịch vụ chiếm >50% GDP lần đầu. TBT Nguyễn Phú Trọng mất 7/2024; Tô Lâm làm TBT từ 8/2024.",
+                "Tags": [
+                    "2024",
+                    "GDP",
+                    "FDI kỷ lục",
+                    "China+1",
+                    "100 triệu dân"
+                ],
+                "Author": [
+                    {
+                        "Name": "Trading Economics / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2024-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "DONG_THOI_GIAN_SU_KIEN": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "25/1–1/2/2021 — Đại hội Đại biểu Toàn quốc lần thứ XIII tại Hà Nội",
+                "Description": "1.587 đại biểu; 5 triệu đảng viên; Nguyễn Phú Trọng lần 3; tầm nhìn 2045",
+                "Content": "Đại hội XIII khai mạc 25/1/2021, bế mạc 1/2/2021. BCH TW: 200 đồng chí (180 chính thức, 20 dự khuyết); BPT 18 đồng chí; BBT 10 đồng chí. TBT Nguyễn Phú Trọng được bầu lần 3 — là người thứ ba sau Hồ Chí Minh và Lê Duẩn giữ 3 nhiệm kỳ TBT. Đây cũng là Đại hội đầu tiên được tổ chức trong bối cảnh có đại dịch COVID-19 — các đại biểu tuân thủ nghiêm ngặt quy trình phòng dịch. Thông qua văn kiện lần đầu đặt tầm nhìn 2045 và bổ sung quan hệ lớn về dân chủ–pháp chế.",
+                "Tags": [
+                    "Đại hội XIII",
+                    "Khai mạc",
+                    "Nguyễn Phú Trọng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng CSVN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-01-25",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_XIII",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "4/2021 — Bộ tứ lãnh đạo khóa XIII: Trọng–Phúc–Chính–Huệ",
+                "Description": "Nguyễn Xuân Phúc – CTN; Phạm Minh Chính – TTg; Vương Đình Huệ – CTQH",
+                "Content": "Tại kỳ họp Quốc hội (4/2021): Nguyễn Xuân Phúc chuyển từ TTg sang CTN (5/4/2021). Phạm Minh Chính được bầu làm Thủ tướng (26/7/2021 chính thức từ 5/4/2021). Vương Đình Huệ được bầu làm Chủ tịch Quốc hội (31/3/2021). Bộ tứ lãnh đạo khóa XIII ban đầu: Nguyễn Phú Trọng (TBT) – Nguyễn Xuân Phúc (CTN) – Phạm Minh Chính (TTg) – Vương Đình Huệ (CTQH). Đây là nhiệm kỳ có thay đổi nhân sự Tứ Trụ nhiều nhất trong lịch sử CHXHCN Việt Nam.",
+                "Tags": [
+                    "Bộ tứ lãnh đạo",
+                    "Nguyễn Xuân Phúc",
+                    "Phạm Minh Chính",
+                    "Vương Đình Huệ"
+                ],
+                "Author": [
+                    {
+                        "Name": "Quốc hội VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-04-05",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "7–10/2021 — Làn sóng COVID-19 Delta tàn phá; GDP Q3 tăng trưởng âm",
+                "Description": "Khủng hoảng COVID Delta tệ nhất trong lịch sử Việt Nam — TP.HCM phong tỏa từ tháng 6 đến tháng 10/2021",
+                "Content": "Làn sóng COVID-19 Delta bùng phát từ tháng 6/2021 gây ra cuộc khủng hoảng y tế chưa từng có tại Việt Nam. TP.HCM và nhiều tỉnh phía Nam phong tỏa kéo dài từ tháng 6 đến tháng 10/2021 (Chỉ thị 16). GDP Q3/2021 giảm 6,17% — mức tệ nhất trong lịch sử hiện đại. Cả năm GDP chỉ đạt 2,55%. Chính phủ Phạm Minh Chính điều phối chiến dịch tiêm chủng đại trà (lớn nhất lịch sử): đến cuối 2021 đạt hơn 100 triệu liều. Cuối 10/2021, Nghị quyết 128 của Chính phủ cho phép 'sống chung với COVID,' mở cửa từng bước.",
+                "Tags": [
+                    "COVID Delta",
+                    "TP.HCM",
+                    "Phong tỏa",
+                    "Tiêm chủng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Chính phủ VN / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-07-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "1/1/2022 — RCEP có hiệu lực — FTA lớn nhất lịch sử",
+                "Description": "Hiệp định Đối tác Kinh tế Toàn diện Khu vực — 15 nước, 30% GDP toàn cầu",
+                "Content": "Ngày 1/1/2022, Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP) chính thức có hiệu lực — FTA lớn nhất lịch sử thế giới: 15 nước (10 ASEAN + Trung Quốc, Nhật Bản, Hàn Quốc, Australia, New Zealand), chiếm ~30% GDP toàn cầu và ~30% dân số thế giới (~2,3 tỷ người). Đây là thành quả quan trọng nhất của đường lối đối ngoại đa phương hóa trong nhiệm kỳ XIII, mở rộng thị trường xuất khẩu toàn diện và củng cố chuỗi cung ứng khu vực. Cùng với CPTPP và EVFTA, Việt Nam tham gia 3 trong số các FTA lớn nhất thế giới.",
+                "Tags": [
+                    "RCEP",
+                    "FTA",
+                    "Hội nhập",
+                    "Thương mại"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2022-01-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "1/2023 — Chủ tịch nước Nguyễn Xuân Phúc từ chức",
+                "Description": "Lần đầu tiên Chủ tịch nước chủ động từ chức — do thuộc cấp vi phạm trong đại dịch COVID",
+                "Content": "Ngày 17/1/2023, ông Nguyễn Xuân Phúc tuyên bố từ chức Chủ tịch nước, được QH phê chuẩn 18/1/2023. Lý do: nhận trách nhiệm chính trị vì 'để nhiều cán bộ, trong đó có 2 Phó Thủ tướng, 3 Bộ trưởng vi phạm, gây hậu quả nghiêm trọng' liên quan đến vụ mua sắm kit xét nghiệm COVID-19 (vụ Việt Á) và chuyến bay giải cứu. Đây là lần đầu tiên trong lịch sử CHXHCN Việt Nam, Chủ tịch nước từ chức giữa nhiệm kỳ Đại hội. Ông Võ Văn Thưởng được bầu làm CTN mới ngày 2/3/2023.",
+                "Tags": [
+                    "Nguyễn Xuân Phúc",
+                    "Từ chức",
+                    "COVID",
+                    "Vụ Việt Á"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / VoA / BBC",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2023-01-17",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Xu%C3%A2n_Ph%C3%BAc",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "9/2023 — Mỹ–Việt nâng cấp lên 'Đối tác chiến lược toàn diện'",
+                "Description": "Tổng thống Biden thăm Hà Nội — Mức quan hệ cao nhất trong lịch sử ngoại giao hai nước",
+                "Content": "Ngày 10/9/2023, Tổng thống Mỹ Joe Biden thăm Hà Nội và cùng TBT Nguyễn Phú Trọng nâng cấp quan hệ Mỹ–Việt lên 'Đối tác chiến lược toàn diện' (Comprehensive Strategic Partnership) — mức cao nhất trong hệ thống quan hệ ngoại giao của Việt Nam. Đây là bước tiến lịch sử, 28 năm sau khi bình thường hóa (1995) và 10 năm sau 'đối tác toàn diện' (2013). Tháng 11/2023, Nhật Bản cũng nâng cấp lên mức tương tự. Việt Nam trở thành nước duy nhất có quan hệ đối tác chiến lược toàn diện với cả 5 thành viên thường trực HĐBA LHQ.",
+                "Tags": [
+                    "Mỹ-Việt",
+                    "Biden",
+                    "Đối tác chiến lược toàn diện",
+                    "Ngoại giao"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / The White House",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2023-09-10",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "3–4/2024 — Võ Văn Thưởng và Vương Đình Huệ lần lượt từ chức",
+                "Description": "Hai vị trí CTN và CTQH thay đổi trong vòng một tháng — chưa từng có tiền lệ",
+                "Content": "Tháng 3/2024, CTN Võ Văn Thưởng từ chức (chỉ sau 1 năm nhậm chức) do 'vi phạm' — trong bối cảnh Chiến dịch Đốt Lò đang cao điểm. Tháng 4/2024, CTQH Vương Đình Huệ từ chức cũng vì lý do tương tự. Đây là lần đầu tiên trong lịch sử CHXHCN Việt Nam, cả hai vị trí CTN và CTQH thay đổi trong cùng một năm. Bộ trưởng Công an Tô Lâm được bầu làm CTN tháng 5/2024. Trần Thanh Mẫn được bầu làm CTQH tháng 5/2024.",
+                "Tags": [
+                    "Võ Văn Thưởng",
+                    "Vương Đình Huệ",
+                    "Từ chức",
+                    "Kỷ luật Đảng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / BBC / VoA",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2024-03-20",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "19/7/2024 — TBT Nguyễn Phú Trọng từ trần; Tô Lâm lên Tổng Bí thư",
+                "Description": "Kết thúc kỷ nguyên Nguyễn Phú Trọng — 13 năm, 3 nhiệm kỳ TBT",
+                "Content": "Ngày 19/7/2024, TBT Nguyễn Phú Trọng từ trần tại Hà Nội, thọ 80 tuổi — sau thời gian bệnh nặng. Ông là Tổng Bí thư giữ 3 nhiệm kỳ liên tiếp (2011–2024), phát động Chiến dịch Đốt Lò, là người lãnh đạo có ảnh hưởng sâu rộng nhất Việt Nam kể từ Hồ Chí Minh. Ngày 3/8/2024, BCH TW bầu Đại tướng Tô Lâm làm TBT. Tháng 10/2024, Lương Cường được bầu làm Chủ tịch nước. Cả 4 vị trí Tứ Trụ đã thay đổi trong vòng 2 năm 2023–2024 — sự chuyển giao lãnh đạo lớn nhất từ trước đến nay trong nhiệm kỳ.",
+                "Tags": [
+                    "Nguyễn Phú Trọng",
+                    "Tô Lâm",
+                    "TBT mới",
+                    "Chuyển giao lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / BBC / Reuters",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2024-07-19",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Nguyễn Phú Trọng – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2024 — FDI kỷ lục $25,35 tỷ; GDP 7,09%; Việt Nam nền kinh tế thứ 32 thế giới",
+                "Description": "Chiến lược China+1 đưa Việt Nam thành hub sản xuất toàn cầu; dân số vượt 100 triệu",
+                "Content": "Năm 2024 là năm nổi bật của nhiệm kỳ XIII về kinh tế: GDP 7,09% — Top 10 nền kinh tế tăng trưởng nhanh nhất thế giới; FDI thực hiện $25,35 tỷ — kỷ lục lịch sử. Việt Nam trở thành nền kinh tế thứ 32 thế giới (nominal) và thứ 21 theo PPP. Dân số vượt 100 triệu người. Samsung chiếm 15% tổng xuất khẩu. VinFast tiếp tục mở rộng thị trường EV quốc tế. Ngành dịch vụ lần đầu chiếm >50% GDP. Tỷ lệ nghèo đa chiều tiếp tục giảm mạnh. TBT mới Tô Lâm tuyên bố 'kỷ nguyên vươn mình' và đặt mục tiêu tăng trưởng 2 con số cho giai đoạn 2026–2030.",
+                "Tags": [
+                    "2024",
+                    "FDI kỷ lục",
+                    "GDP",
+                    "Kinh tế thứ 32 thế giới"
+                ],
+                "Author": [
+                    {
+                        "Name": "Trading Economics / Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2024-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "PROFILE_LANH_DAO_DAI_HOI_XIII": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Phú Trọng — Tổng Bí thư (2011–19/7/2024)",
+                "Description": "Sinh 14/4/1944 tại Hà Nội — TBT ba nhiệm kỳ; kiến trúc sư 'Đốt Lò'; mất 19/7/2024",
+                "Content": "GS.TS Nguyễn Phú Trọng được bầu lại TBT lần thứ ba tại Đại hội XIII (2/2021), phá vỡ thông lệ hai nhiệm kỳ. Phát động Chiến dịch Đốt Lò từ 2016, đẩy lên cao trào trong nhiệm kỳ XIII: kỷ luật cả CTN Nguyễn Xuân Phúc, CTN Võ Văn Thưởng, CTQH Vương Đình Huệ và hàng nghìn cán bộ. Định hình 'Ngoại giao Cây Tre' — Việt Nam trở thành nước duy nhất có đối tác chiến lược toàn diện với cả 5 Ủy viên thường trực HĐBA. Mất ngày 19/7/2024 tại Hà Nội, thọ 80 tuổi, sau 13 năm làm TBT. Được tổ chức Quốc tang trọng thể.",
+                "Tags": [
+                    "Nguyễn Phú Trọng",
+                    "TBT",
+                    "Đốt Lò",
+                    "Ngoại giao Cây Tre"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Wikipedia / baochinhphu.vn",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tô Lâm — Tổng Bí thư (8/2024–nay); nguyên Chủ tịch nước (5–10/2024)",
+                "Description": "Sinh 10/7/1957 tại Hưng Yên — Đại tướng; Bộ trưởng Công an 2016–2024; TBT từ 3/8/2024",
+                "Content": "Đại tướng Tô Lâm là TBT Đảng CSVN từ ngày 3/8/2024, kế thừa TBT Nguyễn Phú Trọng. Ông cũng giữ chức Chủ tịch nước từ 22/5/2024 đến 21/10/2024 (khi Lương Cường nhậm chức). Tốt nghiệp Học viện An ninh nhân dân; Tiến sĩ Luật học. Từng là Bộ trưởng Bộ Công an (8/2016–5/2024) — kiến trúc sư của nhiều vụ bắt giữ quan chức cấp cao trong Chiến dịch Đốt Lò. Tuyên bố 'kỷ nguyên vươn mình của dân tộc Việt Nam' và đặt mục tiêu tăng trưởng 2 con số cho giai đoạn 2026–2030. Sẽ tiếp tục lãnh đạo Đảng qua Đại hội XIV (2026).",
+                "Tags": [
+                    "Tô Lâm",
+                    "TBT",
+                    "Bộ Công an",
+                    "Kỷ nguyên vươn mình"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Wikipedia / VoA / BBC",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2024-08-03",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/T%C3%B4_L%C3%A2m",
+                    "Title": "Tô Lâm – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Phạm Minh Chính — Thủ tướng Chính phủ (4/2021–nay)",
+                "Description": "Sinh 10/12/1958 tại Thanh Hóa — Thạc sĩ Luật; Thiếu tướng; Thủ tướng điều hành kinh tế hậu COVID",
+                "Content": "Phạm Minh Chính nhậm chức Thủ tướng ngày 5/4/2021. Tốt nghiệp Học viện Cảnh sát nhân dân; Thạc sĩ Luật kinh tế (Anh, 2002); Tiến sĩ. Thiếu tướng Công an. Nguyên Bí thư Tỉnh ủy Quảng Ninh (2011–2015); Trưởng Ban Tổ chức TW (2016–2021). Điều hành kinh tế qua giai đoạn COVID Delta khó khăn nhất (2021) và phục hồi mạnh mẽ (2022–2024). Chủ trì Chương trình phục hồi và phát triển KT–XH (2022–2023). Dưới nhiệm kỳ của ông, FDI đạt kỷ lục $25,35 tỷ (2024); Mỹ–Việt nâng lên đối tác chiến lược toàn diện (9/2023). Là Thủ tướng Việt Nam duy nhất gặp mặt tất cả lãnh đạo của G7.",
+                "Tags": [
+                    "Phạm Minh Chính",
+                    "Thủ tướng",
+                    "COVID phục hồi",
+                    "FDI"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Chính phủ VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-04-05",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Minh_Ch%C3%ADnh",
+                    "Title": "Phạm Minh Chính – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Vương Đình Huệ — Chủ tịch Quốc hội (4/2021–4/2024)",
+                "Description": "Sinh 15/3/1957 tại Nghệ An — GS.TS Kinh tế; CTQH đến tháng 4/2024",
+                "Content": "GS.TS Vương Đình Huệ được bầu làm Chủ tịch Quốc hội ngày 31/3/2021. Tốt nghiệp Đại học Kinh tế Quốc dân (1978); Tiến sĩ, Giáo sư. Nguyên Bộ trưởng Tài chính; Phó Thủ tướng; Bí thư Thành ủy Hà Nội. Dưới sự chủ trì của ông, Quốc hội XIV thông qua nhiều luật quan trọng: Luật Đất đai 2024 (sửa đổi), Luật Doanh nghiệp 2020 (sửa đổi), phê chuẩn nhiều FTA thế hệ mới. Từ chức CTQH ngày 26/4/2024 do 'vi phạm' trong bối cảnh Chiến dịch Đốt Lò. Trần Thanh Mẫn được bầu làm CTQH thay thế ngày 20/5/2024.",
+                "Tags": [
+                    "Vương Đình Huệ",
+                    "Quốc hội",
+                    "Từ chức 2024"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Quốc hội VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-03-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "SO_SANH_COVID_PHUC_HOI": {
+            "COVID_SUY_GIAM": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2021 — COVID Delta: Đáy 2,55%; Q3 tăng trưởng âm; TP.HCM phong tỏa 4 tháng",
+                    "Description": "Năm tệ nhất kinh tế Việt Nam từ 1988 — nhưng vẫn dương, vẫn trong nhóm hiếm hoi tăng trưởng",
+                    "Content": "Năm 2021: GDP tăng trưởng 2,55% — thấp nhất từ 1988; Q3/2021: âm 6,17%. TP.HCM và các tỉnh phía Nam phong tỏa từ tháng 6–10/2021. Khoảng 1,3 triệu người di cư khỏi TP.HCM và Bình Dương trong đợt dịch. GDP danh nghĩa $366,5 tỷ; bình quân đầu người $3.704. Tuy nhiên, Việt Nam vẫn tăng trưởng dương trong khi Thái Lan, Malaysia tăng trưởng yếu hơn. Chiến dịch tiêm chủng đại trà 100+ triệu liều giúp mở cửa cuối 2021.",
+                    "Tags": [
+                        "2021",
+                        "COVID Delta",
+                        "Suy giảm"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Macrotrends / Wikipedia / World Bank",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2021-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                }
+            ],
+            "PHUC_HOI_TANG_TRUONG": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2022 — Phục hồi kỳ tích 8,12%; RCEP; mở cửa du lịch 3/2022",
+                    "Description": "Tăng trưởng cao nhất châu Á; GDP $410 tỷ; lạm phát kiểm soát 3,16%",
+                    "Content": "Năm 2022: GDP 8,12% — cao nhất trong nhóm nền kinh tế lớn châu Á và cao nhất Việt Nam kể từ 1997. RCEP hiệu lực 1/1/2022. Du lịch quốc tế mở cửa hoàn toàn từ 3/2022 — 3,7 triệu lượt khách năm 2022. Nhu cầu tiêu dùng tích tụ (pent-up demand) bùng phát. Xuất khẩu tăng mạnh, đặc biệt điện tử, dệt may, giày dép. FDI tăng. Lạm phát kiểm soát tốt 3,16% dù Mỹ lạm phát 8%. GDP per capita $4.116. VinFast xuất khẩu lô xe điện đầu tiên sang Mỹ.",
+                    "Tags": [
+                        "2022",
+                        "Phục hồi",
+                        "RCEP",
+                        "VinFast"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Macrotrends / Wikipedia",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2022-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2023 — Tăng trưởng 5,05%; Mỹ–Việt đối tác chiến lược toàn diện",
+                    "Description": "Chậm lại do xuất khẩu yếu và khó khăn bất động sản — nhưng đối ngoại đỉnh cao",
+                    "Content": "Năm 2023, GDP 5,05% — chậm lại do nhu cầu xuất khẩu toàn cầu giảm, bất động sản và trái phiếu doanh nghiệp khó khăn. Tuy nhiên, đây vẫn là mức tốt so với thế giới. Đột phá đối ngoại: tháng 9/2023 nâng cấp Mỹ–Việt lên đối tác chiến lược toàn diện; tháng 11/2023 Nhật Bản nâng cấp tương tự. FDI thực hiện $23,2 tỷ. Lạm phát 3,25% — kiểm soát tốt. GDP per capita ~$4.284. Việt Nam trở thành nước duy nhất có ĐTCLTD với cả 5 UV thường trực HĐBA LHQ.",
+                    "Tags": [
+                        "2023",
+                        "GDP chậm lại",
+                        "Mỹ-Việt",
+                        "ĐTCLTD"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Macrotrends / Wikipedia / Trading Economics",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2023-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2024 — Tăng tốc 7,09%; FDI kỷ lục $25,35 tỷ; kinh tế thứ 32 thế giới",
+                    "Description": "Năm đột phá của nhiệm kỳ XIII về kinh tế — China+1, dịch vụ >50% GDP",
+                    "Content": "Năm 2024: GDP 7,09%; GDP danh nghĩa $476,4 tỷ — kinh tế thứ 32 thế giới; per capita $4.536. FDI $25,35 tỷ — kỷ lục lịch sử, +9,4%. Chiến lược China+1 tiếp tục đưa FDI vào Việt Nam mạnh. Samsung 15% tổng xuất khẩu. Dịch vụ lần đầu >50% GDP. Dân số >100 triệu. VinFast tiếp tục mở rộng quốc tế. Tuy nhiên, TBT Nguyễn Phú Trọng mất (7/2024) và nhiều thay đổi nhân sự cấp cao là thách thức chính trị lớn của năm.",
+                    "Tags": [
+                        "2024",
+                        "GDP",
+                        "FDI kỷ lục",
+                        "China+1",
+                        "100 triệu dân"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Trading Economics / Wikipedia",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2024-12-31",
+                    "Link": {
+                        "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                        "Title": "Wikipedia",
+                        "Target": "_blank"
+                    }
+                }
+            ]
+        },
+        "BANG_SO_LIEU_KINH_TE": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2020",
+                "Description": "Năm gốc — COVID-19 đầu tiên; tăng trưởng 2,87% dương hiếm hoi",
+                "Content": "GDP: ~$271,2 tỷ (văn kiện ĐH XIII) | Tăng trưởng: 2,87% | Lạm phát: 3,22% | FDI thực hiện: ~$19,98 tỷ | BQ đầu người: $2.779 USD | Ghi chú: Đại dịch COVID-19 — thế giới -3,1%; Việt Nam tăng trưởng dương. EVFTA hiệu lực 1/8/2020. Tỷ lệ nghèo <3%.",
+                "Tags": [
+                    "2020",
+                    "GDP"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện ĐH XIII / Macrotrends",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2020-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2021",
+                "Description": "COVID Delta; GDP thấp kỷ lục 2,55%; World Bank nâng thu nhập trung bình cao",
+                "Content": "GDP: ~$366,5 tỷ | Tăng trưởng: 2,55% | Lạm phát: 1,83% | FDI thực hiện: ~$19,7 tỷ | BQ đầu người: $3.704 USD | Ghi chú: Delta COVID tàn phá; Q3 GDP âm 6,17%; TP.HCM phong tỏa 4 tháng; Đại hội XIII khai mạc 25/1/2021; World Bank nâng VN lên Upper-Middle-Income.",
+                "Tags": [
+                    "2021",
+                    "COVID Delta"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2022",
+                "Description": "Phục hồi mạnh nhất từ 1997: 8,12%; RCEP; VinFast xuất EV sang Mỹ",
+                "Content": "GDP: ~$410,3 tỷ | Tăng trưởng: 8,12% | Lạm phát: 3,16% | FDI thực hiện: ~$22,4 tỷ | BQ đầu người: $4.116 USD | Ghi chú: Cao nhất châu Á; RCEP hiệu lực 1/1/2022; mở cửa du lịch 3/2022 (3,7 triệu khách); lạm phát kiểm soát tốt dù thế giới lạm phát cao.",
+                "Tags": [
+                    "2022",
+                    "GDP kỷ lục",
+                    "RCEP"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2022-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2023",
+                "Description": "5,05%; Mỹ–Việt đối tác chiến lược toàn diện; Nhật Bản tương tự",
+                "Content": "GDP: ~$430 tỷ | Tăng trưởng: 5,05% | Lạm phát: 3,25% | FDI thực hiện: $23,2 tỷ | BQ đầu người: ~$4.284 USD | Ghi chú: Chậm lại do xuất khẩu yếu và khó khăn BĐS; Mỹ–Việt ĐTCLTD 9/2023; Nhật–Việt ĐTCLTD 11/2023. VN là nước duy nhất ĐTCLTD với 5 UV thường trực HĐBA.",
+                "Tags": [
+                    "2023",
+                    "GDP",
+                    "ĐTCLTD"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / Trading Economics",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2023-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2024",
+                "Description": "7,09%; FDI kỷ lục $25,35 tỷ; GDP $476 tỷ — thứ 32 thế giới; dân số 100 triệu",
+                "Content": "GDP: ~$476,4 tỷ | Tăng trưởng: 7,09% | Lạm phát: ~4,1% (ước) | FDI thực hiện: $25,35 tỷ (kỷ lục, +9,4%) | BQ đầu người: $4.536 USD | Ghi chú: Top 32 kinh tế thế giới (nominal), Top 21 theo PPP; dân số >100 triệu; Samsung 15% XK; TBT Nguyễn Phú Trọng mất 7/2024; Tô Lâm làm TBT từ 8/2024.",
+                "Tags": [
+                    "2024",
+                    "FDI kỷ lục",
+                    "GDP thứ 32"
+                ],
+                "Author": [
+                    {
+                        "Name": "Trading Economics / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2024-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BAI_HOC_TAM_NHIN_DIEM_MOI": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 1: Xây dựng, chỉnh đốn Đảng toàn diện, đồng bộ, thường xuyên",
+                "Description": "Công tác cán bộ là 'then chốt của then chốt'; nêu gương — chức vụ càng cao càng phải gương mẫu",
+                "Content": "Công tác xây dựng, chỉnh đốn Đảng phải được triển khai quyết liệt, toàn diện, đồng bộ, thường xuyên cả về chính trị, tư tưởng, đạo đức, tổ chức và cán bộ. Công tác cán bộ phải thực sự là 'then chốt của then chốt.' Tập trung xây dựng đội ngũ cán bộ cấp chiến lược đủ phẩm chất, năng lực, uy tín, ngang tầm nhiệm vụ. Cán bộ đảng viên phải thực hiện 'trách nhiệm nêu gương theo phương châm chức vụ càng cao càng phải gương mẫu, nhất là Ủy viên Bộ Chính trị, Ủy viên Ban Bí thư, Ủy viên Ban Chấp hành Trung ương.' Đây là bài học phản ánh trực tiếp những bài học đau đớn khi nhiều cán bộ cấp cao bị xử lý trong nhiệm kỳ XII và XIII.",
+                "Tags": [
+                    "Bài học 1",
+                    "Xây dựng Đảng",
+                    "Cán bộ then chốt",
+                    "Nêu gương"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 2: 'Dân là gốc' — 6 phương châm dân vận mới nhất",
+                "Description": "Từ 4 phương châm (dân biết, bàn, làm, kiểm tra) lên 6 phương châm — bổ sung 'dân giám sát, dân thụ hưởng'",
+                "Content": "Bài học 2 khẳng định: 'Trong mọi công việc của Đảng và Nhà nước, phải luôn quán triệt sâu sắc, thực hiện nghiêm túc quan điểm dân là gốc; thật sự tin tưởng, tôn trọng và phát huy quyền làm chủ của nhân dân, kiên trì thực hiện phương châm dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng.' Điểm mới so với các Đại hội trước: bổ sung thêm 'dân giám sát' và 'dân thụ hưởng' — 6 phương châm thay vì 4. Đây phản ánh nhận thức đầy đủ hơn về quyền làm chủ của nhân dân trong xây dựng và bảo vệ Tổ quốc. Nhân dân là 'trung tâm, là chủ thể của công cuộc đổi mới'; mọi chủ trương chính sách phải 'lấy hạnh phúc, ấm no của nhân dân làm mục tiêu phấn đấu.'",
+                "Tags": [
+                    "Bài học 2",
+                    "Dân là gốc",
+                    "6 phương châm",
+                    "Quyền làm chủ"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 3: Quyết tâm chính trị cao — hành động quyết liệt, năng động, sáng tạo",
+                "Description": "Đề cao trách nhiệm người đứng đầu; tháo gỡ điểm nghẽn; coi trọng tổng kết thực tiễn",
+                "Content": "Trong lãnh đạo, chỉ đạo, điều hành phải có quyết tâm chính trị cao, nỗ lực lớn, hành động quyết liệt, năng động, sáng tạo; kịp thời tháo gỡ các điểm nghẽn; đề cao trách nhiệm người đứng đầu; phát huy sức mạnh đồng bộ của hệ thống chính trị; phát huy dân chủ đi đôi với giữ vững kỷ cương; coi trọng tổng kết thực tiễn, nghiên cứu lý luận. Bài học này phản ánh kinh nghiệm điều hành kinh tế qua đại dịch COVID-19 (2021) và phục hồi mạnh mẽ (2022) — thành công nhờ 'quyết tâm chính trị cao và hành động quyết liệt' của Chính phủ Phạm Minh Chính.",
+                "Tags": [
+                    "Bài học 3",
+                    "Quyết tâm chính trị",
+                    "Điểm nghẽn",
+                    "Người đứng đầu"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 4: Xây dựng đồng bộ thể chế phát triển — hài hòa giữa kiên định và đổi mới",
+                "Description": "Cân bằng giữa quy luật thị trường và ĐHXHCN; giữa kinh tế và văn hóa–con người–môi trường",
+                "Content": "Tập trung ưu tiên xây dựng đồng bộ thể chế phát triển, bảo đảm hài hòa giữa: kiên định và đổi mới, kế thừa và phát triển; đổi mới kinh tế và đổi mới chính trị, văn hóa, xã hội; tuân theo các quy luật thị trường và bảo đảm định hướng XHCN; tăng trưởng kinh tế với phát triển văn hóa, con người, giải quyết vấn đề xã hội, bảo vệ môi trường; phát triển KT–XH với bảo đảm quốc phòng, an ninh; độc lập, tự chủ với hội nhập quốc tế. 'Thực sự coi trọng, phát huy hiệu quả vai trò động lực của con người, văn hóa, giáo dục và đào tạo, khoa học và công nghệ trong phát triển đất nước.'",
+                "Tags": [
+                    "Bài học 4",
+                    "Thể chế phát triển",
+                    "Cân bằng",
+                    "Quy luật thị trường"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 5: Chủ động nghiên cứu, dự báo; kiên trì bảo vệ chủ quyền; hội nhập sâu rộng",
+                "Description": "Xử lý đúng đắn quan hệ nước lớn; nắm bắt thời cơ; khai thác sức mạnh tổng hợp",
+                "Content": "Chủ động nghiên cứu, nắm bắt, dự báo đúng tình hình, không để bị động, bất ngờ; kiên quyết, kiên trì đấu tranh bảo vệ độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ đi đôi với giữ vững môi trường hòa bình; chủ động, tích cực hội nhập quốc tế toàn diện và sâu rộng trên cơ sở giữ vững độc lập, tự chủ, tự lực, tự cường; xử lý đúng đắn, linh hoạt quan hệ với các nước lớn và các nước láng giềng; đánh giá đúng xu thế, nắm bắt trúng thời cơ. Bài học này được hiện thực hóa qua Ngoại giao Cây Tre — Việt Nam trở thành nước duy nhất có ĐTCLTD với tất cả 5 UV thường trực HĐBA (Mỹ 2023, Nhật 2023, Nga, TQ, Anh, Pháp).",
+                "Tags": [
+                    "Bài học 5",
+                    "Chủ quyền",
+                    "Hội nhập",
+                    "Ngoại giao Cây Tre"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tầm nhìn ba mốc: 2025 – 2030 – 2045 (Điểm mới nhất của Đại hội XIII)",
+                "Description": "Lần đầu Đảng đặt tầm nhìn đến năm 2045 — 'nước phát triển, thu nhập cao' gắn với kỷ niệm 100 năm nước",
+                "Content": "Đại hội XIII là đại hội đầu tiên đặt tầm nhìn đến năm 2045 — dài hạn nhất trong lịch sử Đảng. Phấn đấu đến: (2025): nước đang phát triển, công nghiệp theo hướng hiện đại, vượt thu nhập trung bình thấp (kỷ niệm 50 năm thống nhất); (2030): nước đang phát triển, công nghiệp hiện đại, thu nhập trung bình cao (kỷ niệm 100 năm thành lập Đảng); (2045): nước phát triển, thu nhập cao (kỷ niệm 100 năm thành lập nước). Tính đến 2024, Việt Nam đã ở mức thu nhập trung bình cao ($4.536 per capita), đang trên lộ trình mục tiêu 2030. GDP $476 tỷ (2024) đang hướng tới mục tiêu Top 20 thế giới vào 2045.",
+                "Tags": [
+                    "Tầm nhìn 2045",
+                    "2030",
+                    "2025",
+                    "Điểm mới",
+                    "Lộ trình phát triển"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII / Trading Economics / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "https://tradingeconomics.com/vietnam/gdp",
+                    "Title": "Trading Economics – Vietnam GDP",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Quan hệ lớn thứ 10: 'Thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương' — Điểm phát triển lý luận mới nhất",
+                "Description": "Từ 8 quan hệ (Cương lĩnh 2011) lên 10 — bổ sung quan hệ Nhà nước–Thị trường–Xã hội và dân chủ–pháp chế",
+                "Content": "Đại hội XIII chỉ ra 10 mối quan hệ lớn cần giải quyết tốt — nhiều nhất từ trước đến nay, bổ sung so với 8 quan hệ của Cương lĩnh 2011. Hai quan hệ mới: (1) 'Giữa Nhà nước, thị trường và xã hội' (bổ sung từ Đại hội XII); (2) Hoàn toàn mới: 'Giữa thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương xã hội' — gắn dân chủ với pháp quyền, không tách rời. Bài học từ thực tiễn: khi mở rộng dân chủ mà thiếu pháp chế, kỷ cương thì dẫn đến hỗn loạn; khi tăng cường pháp chế mà không có dân chủ thực chất thì dẫn đến quan liêu, độc đoán. Đây là đóng góp lý luận mới nhất vào hệ thống biện chứng của đường lối Đổi Mới Việt Nam.",
+                "Tags": [
+                    "Quan hệ lớn thứ 10",
+                    "Dân chủ",
+                    "Pháp chế",
+                    "Kỷ cương",
+                    "Lý luận mới"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Đột phá chiến lược thứ 3 nâng cấp: Hạ tầng số + Chuyển đổi số + Kinh tế số",
+                "Description": "Lần đầu tiên kinh tế số và chuyển đổi số quốc gia được đưa vào đột phá chiến lược",
+                "Content": "Đại hội XIII nâng cấp Đột phá chiến lược thứ 3 (hạ tầng) lên một tầm mới: 'Xây dựng hệ thống kết cấu hạ tầng đồng bộ, hiện đại cả về kinh tế và xã hội; ưu tiên phát triển một số công trình trọng điểm quốc gia về giao thông, thích ứng với biến đổi khí hậu; chú trọng phát triển hạ tầng thông tin, viễn thông, tạo nền tảng chuyển đổi số quốc gia, từng bước phát triển kinh tế số, xã hội số.' Lần đầu tiên 'chuyển đổi số quốc gia' và 'kinh tế số' xuất hiện trong đột phá chiến lược — phản ánh Cách mạng công nghiệp lần thứ tư đang định hình lại thế giới. Kết quả: tốc độ Internet mobile của Việt Nam tăng vọt, hàng trăm startup công nghệ ra đời, Samsung và Intel đầu tư mạnh vào R&D tại Việt Nam.",
+                "Tags": [
+                    "Đột phá chiến lược",
+                    "Chuyển đổi số",
+                    "Kinh tế số",
+                    "CMCN 4.0"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XIII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-02-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ]
+    }
+}

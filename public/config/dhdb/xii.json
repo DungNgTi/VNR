@@ -1,0 +1,1609 @@
+{
+    "Layout": [
+        {
+            "ModuleType": "HERO",
+            "Title": "Đại hội Đại biểu Toàn quốc lần thứ XII của Đảng (2016–2021)",
+            "Description": "Đại hội 30 năm Đổi Mới — Đoàn kết – Dân chủ – Kỷ cương – Đổi mới; đẩy mạnh toàn diện, đồng bộ công cuộc đổi mới, tích cực hội nhập quốc tế",
+            "Data": "HERO_DAI_HOI_XII",
+            "Config": {
+                "Size": "Large",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "CARD",
+            "Title": "Thông tin tổng quan về Đại hội XII",
+            "Description": "Bối cảnh, nội dung chủ yếu và các văn kiện quan trọng của Đại hội đại biểu toàn quốc lần thứ XII",
+            "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+            "Config": {
+                "Searchable": true,
+                "Categories": [
+                    "Bối cảnh",
+                    "Lý luận – Chính trị",
+                    "Kinh tế",
+                    "Xây dựng Đảng",
+                    "Hội nhập",
+                    "Biển – Chủ quyền",
+                    "Xã hội – Y tế"
+                ]
+            }
+        },
+        {
+            "ModuleType": "STATISTIC",
+            "Title": "Số liệu GDP, lạm phát và FDI Việt Nam (2015–2020)",
+            "Description": "Các chỉ số kinh tế vĩ mô nhiệm kỳ Đại hội XII — từ tăng trưởng kỷ lục 2018 đến cú sốc COVID-19 năm 2020",
+            "Data": "BIEU_DO_THONG_KE_GDP_LAM_PHAT",
+            "Config": {
+                "Variant": "Bar",
+                "Alignment": "Left"
+            }
+        },
+        {
+            "ModuleType": "TIMELINE",
+            "Title": "Dòng thời gian sự kiện nhiệm kỳ Đại hội XII (2016–2021)",
+            "Description": "Các sự kiện, hội nghị Trung ương và mốc lịch sử quan trọng trong giai đoạn 2016–2021",
+            "Data": "DONG_THOI_GIAN_SU_KIEN",
+            "Config": {
+                "Direction": "Vertical",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "PROFILE",
+            "Title": "Lãnh đạo chủ chốt nhiệm kỳ Đại hội XII",
+            "Description": "Tiểu sử tóm tắt các đồng chí lãnh đạo trong nhiệm kỳ 2016–2021",
+            "Data": "PROFILE_LANH_DAO_DAI_HOI_XII",
+            "Config": {
+                "Scroll": {
+                    "Direction": "Horizontal",
+                    "Parallax": true
+                }
+            }
+        },
+        {
+            "ModuleType": "COMPARISON",
+            "Title": "Kinh tế Việt Nam trước và trong đại dịch COVID-19 (2019–2020)",
+            "Description": "So sánh các chỉ tiêu kinh tế giai đoạn tăng trưởng đỉnh cao (2018–2019) và năm đại dịch (2020)",
+            "Data": "SO_SANH_TRUOC_SAU_COVID",
+            "Config": {
+                "FromIndex": [
+                    0
+                ],
+                "ToIndex": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "ModuleType": "TABLE",
+            "Title": "Bảng số liệu kinh tế – xã hội Việt Nam (2015–2020)",
+            "Description": "Tổng hợp các chỉ tiêu kinh tế vĩ mô trong kế hoạch 5 năm 2016–2020",
+            "Data": "BANG_SO_LIEU_KINH_TE",
+            "Config": {
+                "Columns": [
+                    "Năm",
+                    "GDP (tỷ USD)",
+                    "Tăng trưởng GDP (%)",
+                    "Lạm phát (%)",
+                    "Xuất khẩu (tỷ USD)",
+                    "Nhập khẩu (tỷ USD)",
+                    "GDP bình quân đầu người (USD)"
+                ],
+                "Sortable": true,
+                "Striped": true
+            }
+        },
+        {
+            "ModuleType": "ACCORDION",
+            "Title": "5 bài học Đại hội XII và 6 nhiệm vụ trọng tâm nhiệm kỳ 2016–2021",
+            "Description": "Kinh nghiệm 5 năm thực hiện NQ Đại hội XI; sáu nhiệm vụ trọng tâm và các điểm mới nổi bật về lý luận – thực tiễn của Đại hội XII",
+            "Data": "BAI_HOC_VA_NHIEM_VU_TRONG_TAM",
+            "Config": {
+                "DefaultExpanded": 0,
+                "Alignment": "Center"
+            }
+        }
+    ],
+    "Data": {
+        "HERO_DAI_HOI_XII": [
+            {
+                "Image": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+                ],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Đại hội Đại biểu Toàn quốc lần thứ XII — Đảng Cộng sản Việt Nam",
+                "Description": "Họp tại Hà Nội từ 20 đến 28/1/2016, với hơn 1.510 đại biểu đại diện cho 4,6 triệu đảng viên — tăng hơn 1,5 triệu so với Đại hội IX (2001).",
+                "Content": "Đại hội XII diễn ra sau 30 năm Đổi Mới (1986–2016), khi đất nước thế và lực tăng lên rõ rệt nhưng cũng đối mặt nhiều thách thức gay gắt. Chủ đề: 'Tăng cường xây dựng Đảng trong sạch, vững mạnh; phát huy sức mạnh toàn dân tộc, dân chủ XHCN; đẩy mạnh toàn diện, đồng bộ công cuộc đổi mới; bảo vệ vững chắc Tổ quốc, giữ vững môi trường hòa bình, ổn định; phấn đấu sớm đưa nước ta cơ bản trở thành nước công nghiệp theo hướng hiện đại.' Bầu BCH TW khóa XII: 180 ủy viên chính thức, 20 ủy viên dự khuyết; Bộ Chính trị 19 đồng chí. Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư — nhiệm kỳ thứ hai. Khẩu hiệu: 'Đoàn kết – Dân chủ – Kỷ cương – Đổi mới.'",
+                "Tags": [
+                    "Đại hội XII",
+                    "2016",
+                    "30 năm Đổi Mới",
+                    "Nguyễn Phú Trọng",
+                    "Đốt lò"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng Cộng sản Việt Nam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 1,
+                "Alignment": "Center",
+                "Date": "2016-01-20",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_XII",
+                    "Title": "Đại hội XII – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BLOG_CAC_THONG_TIN_CHUNG": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bối cảnh quốc tế và trong nước — 30 năm Đổi Mới",
+                "Description": "Thế và lực tăng lên rõ rệt; tình hình thế giới diễn biến nhanh, rất phức tạp, khó lường",
+                "Content": "Đại hội XII khai mạc trong bối cảnh quốc tế diễn biến nhanh, phức tạp: cạnh tranh nước lớn gia tăng, tranh chấp Biển Đông căng thẳng, cách mạng công nghiệp lần thứ tư (4.0) bắt đầu nổi lên. Trong nước, sau 30 năm Đổi Mới, GDP bình quân đầu người năm 2015 đạt khoảng 2.109 USD — từ nước nghèo (thu nhập thấp) năm 1986 lên nước thu nhập trung bình. Dân số 91,7 triệu. Tỷ lệ nghèo giảm từ 80% (1993) xuống ~10% (2015). Tuy nhiên, 4 nguy cơ mà Hội nghị giữa nhiệm kỳ K.VII nêu ra vẫn còn hiện hữu, đặc biệt là tham nhũng và nguy cơ 'tự diễn biến, tự chuyển hóa.'",
+                "Tags": [
+                    "Bối cảnh",
+                    "30 năm Đổi Mới",
+                    "Thách thức"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-20",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "6 nhiệm vụ trọng tâm và 3 đột phá chiến lược nhiệm kỳ XII",
+                "Description": "Đổi mới mô hình tăng trưởng; tiếp tục 3 đột phá chiến lược; phòng, chống tham nhũng",
+                "Content": "Đại hội XII xác định 6 nhiệm vụ trọng tâm: (1) Xây dựng, chỉnh đốn Đảng; ngăn chặn suy thoái, 'tự diễn biến, tự chuyển hóa'; (2) Tinh gọn bộ máy; đấu tranh phòng, chống tham nhũng, lãng phí; (3) Nâng cao chất lượng tăng trưởng, năng suất lao động và sức cạnh tranh; thực hiện 3 đột phá chiến lược (thể chế, nhân lực, hạ tầng); (4) Bảo vệ độc lập, chủ quyền; hội nhập quốc tế hiệu quả; (5) Nâng cao đời sống nhân dân; an sinh xã hội, giảm nghèo bền vững; (6) Phát huy nhân tố con người — đạo đức, nhân cách, trí tuệ.",
+                "Tags": [
+                    "Nhiệm vụ trọng tâm",
+                    "Đột phá chiến lược",
+                    "Tăng trưởng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Đổi mới mô hình tăng trưởng — NQ 05 (11/2016)",
+                "Description": "TW4 K.XII: Chuyển từ chiều rộng sang chiều sâu; dựa vào năng suất lao động và KH–CN",
+                "Content": "Hội nghị TW4 K.XII (11/2016) ban hành NQ 05-NQ/TW về đổi mới mô hình tăng trưởng, nâng cao chất lượng, năng suất lao động và sức cạnh tranh. Quan điểm: Tăng trưởng phải dựa nhiều hơn vào năng suất lao động, KH–CN, sáng tạo — không chỉ vào vốn đầu tư và số lượng lao động. Gắn với 3 đột phá chiến lược. Trọng tâm cơ cấu lại nền kinh tế: (1) Nông nghiệp gắn nông thôn mới; (2) Đầu tư công; (3) DNNN; (4) Hệ thống tổ chức tín dụng; (5) Ngân sách Nhà nước và nợ công; (6) Đơn vị sự nghiệp công. Đây là nền tảng để GDP 2018 đạt 7,08% — mức cao nhất trong hơn 10 năm.",
+                "Tags": [
+                    "Kinh tế",
+                    "Mô hình tăng trưởng",
+                    "TW4 K.XII"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII, Hội nghị TW4 (11/2016)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-11-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Xây dựng, chỉnh đốn Đảng — NQ 04 (10/2016) và Chiến dịch Đốt Lò",
+                "Description": "NQ TW4 K.XII: Chỉ rõ 27 biểu hiện 'tự diễn biến, tự chuyển hóa'; khởi động chiến dịch chống tham nhũng chưa từng có",
+                "Content": "Hội nghị TW4 K.XII (10/2016) ban hành NQ 04-NQ/TW về tăng cường xây dựng, chỉnh đốn Đảng; ngăn chặn, đẩy lùi suy thoái về tư tưởng chính trị, đạo đức, lối sống, 'tự diễn biến, tự chuyển hóa.' Đây là nghị quyết xây dựng Đảng mạnh mẽ nhất từ trước tới nay: chỉ rõ 27 biểu hiện cụ thể của suy thoái và 'tự diễn biến, tự chuyển hóa.' TBT Nguyễn Phú Trọng khởi động 'Chiến dịch Đốt Lò' (Burning Furnace Campaign) — chiến dịch chống tham nhũng khiến hàng nghìn cán bộ cấp cao bị kỷ luật, khởi tố, bao gồm cả Ủy viên Bộ Chính trị, các Bộ trưởng và Tướng lĩnh. Được đánh giá là chưa từng có tiền lệ trong lịch sử Đảng.",
+                "Tags": [
+                    "Xây dựng Đảng",
+                    "NQ 04",
+                    "Đốt Lò",
+                    "Tham nhũng"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII, Hội nghị TW4 (10/2016) / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-10-30",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Nguyễn Phú Trọng – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Kinh tế tư nhân là 'động lực quan trọng' — NQ 10 (6/2017)",
+                "Description": "TW5 K.XII: Bước đột phá trong nhận thức — kinh tế tư nhân được nâng tầm là 'một động lực quan trọng'",
+                "Content": "Hội nghị TW5 K.XII (6/2017) ban hành NQ 10-NQ/TW — nghị quyết đột phá về kinh tế tư nhân: lần đầu tiên xác định 'kinh tế tư nhân là một động lực quan trọng để phát triển kinh tế.' Quan điểm: Xóa bỏ mọi rào cản, định kiến; khuyến khích khởi nghiệp, đổi mới sáng tạo; hình thành tập đoàn kinh tế tư nhân đa sở hữu, đủ năng lực tham gia chuỗi giá trị toàn cầu. Đây là bước tiến vượt bậc so với NQ TW5 K.IX (2002) — khi đó chỉ coi kinh tế tư nhân là 'bộ phận cấu thành quan trọng.' TW5 cũng ban hành NQ 12 về cơ cấu lại, đổi mới DNNN — xác định DNNN hoạt động theo cơ chế thị trường.",
+                "Tags": [
+                    "Kinh tế tư nhân",
+                    "NQ 10",
+                    "TW5 K.XII",
+                    "DNNN"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII, Hội nghị TW5 (6/2017)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2017-06-03",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Hội nhập kinh tế thế hệ mới — CPTPP (3/2018) và EVFTA (6/2019)",
+                "Description": "Hai hiệp định thương mại tự do thế hệ mới quy mô lớn nhất trong lịch sử Việt Nam",
+                "Content": "Nhiệm kỳ XII chứng kiến hai dấu mốc hội nhập lịch sử: CPTPP (Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương) được ký ngày 8/3/2018, có hiệu lực với Việt Nam từ 14/1/2019 — mở cửa thị trường 11 nước chiếm 13% GDP toàn cầu. EVFTA (Hiệp định Thương mại Tự do Việt Nam–EU) được ký ngày 30/6/2019, có hiệu lực 1/8/2020 — EU là thị trường xuất khẩu lớn thứ hai của Việt Nam. TW4 K.XII (11/2016) đặt quan điểm: 'Hội nhập kinh tế quốc tế là sự nghiệp của toàn dân; doanh nhân, doanh nghiệp, đội ngũ trí thức là lực lượng đi đầu.' Lợi ích quốc gia – dân tộc là mục tiêu cao nhất.",
+                "Tags": [
+                    "Hội nhập",
+                    "CPTPP",
+                    "EVFTA",
+                    "FTA thế hệ mới"
+                ],
+                "Author": [
+                    {
+                        "Name": "Chính phủ VN / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2018-03-08",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Chiến lược Biển Việt Nam 2030–2045 — NQ 36 (10/2018)",
+                "Description": "TW8 K.XII: Nâng tầm chiến lược biển — 'Biển là bộ phận cấu thành chủ quyền thiêng liêng của Tổ quốc'",
+                "Content": "Hội nghị TW8 K.XII (10/2018) ban hành NQ 36-NQ/TW về Chiến lược phát triển bền vững kinh tế biển Việt Nam đến 2030, tầm nhìn 2045. Đây là sự nâng cấp chiến lược toàn diện so với NQ 09 K.X (2007). Quan điểm nổi bật: 'Biển là bộ phận cấu thành chủ quyền thiêng liêng của Tổ quốc, là không gian sinh tồn, cửa ngõ giao lưu quốc tế.' Việt Nam phải trở thành 'quốc gia mạnh về biển, giàu từ biển, phát triển bền vững, thịnh vượng, an ninh và an toàn.' Phát triển kinh tế biển gắn liền với quốc phòng–an ninh và bảo vệ chủ quyền — đặc biệt quan trọng trong bối cảnh Biển Đông căng thẳng.",
+                "Tags": [
+                    "Biển",
+                    "Chiến lược biển",
+                    "NQ 36",
+                    "TW8 K.XII"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII, Hội nghị TW8 (10/2018)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2018-10-22",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Xây dựng đội ngũ cán bộ cấp chiến lược — NQ 26 (5/2018)",
+                "Description": "TW7 K.XII: Cán bộ 'đủ phẩm chất, năng lực và uy tín, ngang tầm nhiệm vụ' — Đầu tư cho cán bộ là đầu tư cho phát triển lâu dài",
+                "Content": "Hội nghị TW7 K.XII (5/2018) ban hành NQ 26-NQ/TW về xây dựng đội ngũ cán bộ các cấp, nhất là cấp chiến lược, đủ phẩm chất, năng lực và uy tín, ngang tầm nhiệm vụ. Đây là phản ứng trực tiếp trước thực trạng nghiêm trọng: 'Chạy chức, chạy quyền, chạy tuổi, chạy quy hoạch, chạy luân chuyển, chạy bằng cấp, chạy tội' chậm được ngăn chặn. Quan điểm: Đầu tư xây dựng đội ngũ cán bộ là đầu tư cho phát triển lâu dài, bền vững; thực hiện nghiêm nguyên tắc Đảng thống nhất lãnh đạo toàn diện công tác cán bộ. TW7 cũng ban hành NQ 27 về cải cách tiền lương và NQ 28 về bảo hiểm xã hội.",
+                "Tags": [
+                    "Cán bộ",
+                    "NQ 26",
+                    "TW7 K.XII",
+                    "Tiền lương",
+                    "BHXH"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII, Hội nghị TW7 (5/2018)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2018-05-19",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "COVID-19 và Việt Nam — Mô hình chống dịch được thế giới ghi nhận (2020)",
+                "Description": "Tăng trưởng 2,87% năm 2020 — một trong số ít nước duy trì tăng trưởng dương trong đại dịch",
+                "Content": "Năm 2020, đại dịch COVID-19 bùng phát toàn cầu từ đầu năm — kinh tế thế giới sụt giảm -3,1%. Việt Nam là một trong số ít quốc gia duy trì tăng trưởng GDP dương: 2,87%. Chính phủ Nguyễn Xuân Phúc điều hành linh hoạt: giãn cách xã hội nghiêm ngặt đợt đầu (4/2020), kiểm soát được dịch, phục hồi kinh tế nhanh. Xuất khẩu cả năm 2020 vẫn tăng trưởng dương — thể hiện sức bền của nền kinh tế. EVFTA có hiệu lực 1/8/2020 là 'đòn bẩy' cho xuất khẩu vào EU. Thủ tướng Nguyễn Xuân Phúc được cộng đồng quốc tế ghi nhận về năng lực điều hành chống dịch.",
+                "Tags": [
+                    "COVID-19",
+                    "2020",
+                    "Chống dịch",
+                    "Tăng trưởng dương"
+                ],
+                "Author": [
+                    {
+                        "Name": "Chính phủ VN / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2020-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BIEU_DO_THONG_KE_GDP_LAM_PHAT": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2015 — Năm gốc, trước thềm Đại hội XII",
+                "Description": "GDP: ~$193,2 tỷ USD | Tăng trưởng: 6,68% | Lạm phát: 0,63%",
+                "Content": "Năm 2015 là năm cuối Kế hoạch 5 năm 2011–2015. Tăng trưởng GDP 6,68% — vượt mục tiêu 6,2%. Đặc biệt, lạm phát chỉ 0,63% — mức thấp kỷ lục, phản ánh chính sách tiền tệ thận trọng và giá dầu thế giới giảm mạnh. GDP bình quân đầu người đạt ~2.109 USD. Xuất khẩu đạt 162 tỷ USD. Dân số 91,7 triệu. Đây là nền tảng để Đại hội XII đặt ra mục tiêu đầy tham vọng cho giai đoạn 2016–2020.",
+                "Tags": [
+                    "GDP",
+                    "2015",
+                    "Trước Đại hội XII"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Macrotrends",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2015-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2016 — Năm khai mạc Đại hội XII",
+                "Description": "GDP: ~$205,3 tỷ USD | Tăng trưởng: 6,21% | Lạm phát: 2,66%",
+                "Content": "Năm 2016, Đại hội XII khai mạc (20–28/1/2016). Tăng trưởng GDP đạt 6,21% — thấp hơn mục tiêu 6,7% chủ yếu do thiên tai hạn hán El Niño nặng nề và sự cố môi trường biển Formosa (tháng 4/2016). Lạm phát 2,66% — kiểm soát tốt. Hội nhập FTA thế hệ mới bắt đầu tác động: AEC (ASEAN Economic Community) chính thức vận hành từ 31/12/2015. Sự kiện nổi bật: Wikipedia ghi nhận năm 2016 là 'năm đầu tiên Việt Nam đón trên 10 triệu lượt khách du lịch quốc tế.'",
+                "Tags": [
+                    "GDP",
+                    "2016",
+                    "Đại hội XII",
+                    "Formosa"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2017 — Tăng tốc 6,81%; khởi nghiệp sáng tạo bùng nổ",
+                "Description": "GDP: ~$223,8 tỷ USD | Tăng trưởng: 6,81% | Lạm phát: 3,53%",
+                "Content": "Năm 2017, GDP phục hồi mạnh lên 6,81% — vượt mục tiêu 6,7%. Kinh tế tư nhân sau NQ TW5 K.XII (6/2017) tiếp tục mở rộng; số lượng doanh nghiệp thành lập mới đạt kỷ lục. Việt Nam đăng cai Hội nghị Thượng đỉnh APEC lần thứ 25 tại Đà Nẵng (11/2017) — sự kiện đối ngoại đa phương lớn nhất. Theo Wikipedia, Ngân hàng Thế giới nâng xếp hạng môi trường kinh doanh của Việt Nam từ thứ 104 (2007) lên 68 (2017) — cải thiện đáng kể. CPTPP đang đàm phán giai đoạn nước rút sau khi Mỹ rút.",
+                "Tags": [
+                    "GDP",
+                    "2017",
+                    "APEC 2017",
+                    "Kinh tế tư nhân"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / Macrotrends",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2017-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2018 — Đỉnh cao nhiệm kỳ: 7,08% — tốt nhất hơn 10 năm",
+                "Description": "GDP: ~$245,2 tỷ USD | Tăng trưởng: 7,08% | Lạm phát: 3,54%",
+                "Content": "Năm 2018, GDP đạt 7,08% — mức tăng trưởng tốt nhất trong hơn 10 năm (kể từ 2007). Giới truyền thông đưa tin về khả năng Việt Nam trở thành một trong các 'Asian Tigers' tiếp theo. CPTPP được ký kết ngày 8/3/2018 — FTA đa phương lớn nhất Việt Nam tham gia. Tháng 10/2018: TBT Nguyễn Phú Trọng được bầu kiêm Chủ tịch nước sau khi Trần Đại Quang từ trần. Mỹ–Trung leo thang chiến tranh thương mại từ 2018 — tạo cơ hội cho Việt Nam thu hút FDI dịch chuyển từ Trung Quốc.",
+                "Tags": [
+                    "GDP",
+                    "2018",
+                    "Kỷ lục tăng trưởng",
+                    "CPTPP",
+                    "Chiến tranh thương mại"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / Macrotrends",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2018-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2019 — Tăng trưởng 7,02%; Việt Nam lọt Top 5 ASEAN về du lịch",
+                "Description": "GDP: ~$261,9 tỷ USD | Tăng trưởng: 7,02% | Lạm phát: 2,79%",
+                "Content": "Năm 2019, GDP duy trì mức cao 7,02% — năm thứ hai liên tiếp vượt 7%. EVFTA được ký kết ngày 30/6/2019 tại Hà Nội. Việt Nam đón 18 triệu lượt khách du lịch quốc tế — xếp thứ 5 khu vực châu Á–Thái Bình Dương. Chiến tranh thương mại Mỹ–Trung đẩy dòng FDI vào Việt Nam mạnh hơn (Samsung, Intel, LG, Foxconn tăng đầu tư). Xuất khẩu tăng mạnh, đặc biệt điện tử và điện thoại di động. Tuy nhiên, cuối năm, dịch viêm phổi bí ẩn xuất hiện tại Vũ Hán — Trung Quốc (tiền thân COVID-19).",
+                "Tags": [
+                    "GDP",
+                    "2019",
+                    "EVFTA",
+                    "Du lịch",
+                    "FDI"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2019-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "GDP 2020 — COVID-19: Chỉ còn 2,87% — nhưng là một trong nước ít ỏi tăng trưởng dương",
+                "Description": "GDP: ~$271,2 tỷ USD | Tăng trưởng: 2,87% | Lạm phát: 3,22%",
+                "Content": "Năm 2020, đại dịch COVID-19 tấn công toàn cầu: GDP thế giới giảm 3,1%. Việt Nam duy trì tăng trưởng 2,87% — thấp nhất từ 1988 nhưng là thành tích xuất sắc trong bối cảnh dịch bệnh, là một trong số ít nước đang phát triển có GDP dương năm 2020. Chiến lược chống dịch linh hoạt: đóng cửa biên giới sớm (3/2020), truy vết nghiêm, giãn cách có kiểm soát — được WHO và cộng đồng quốc tế đánh giá cao. EVFTA có hiệu lực 1/8/2020 — cú huých cho xuất khẩu vào EU. Xuất khẩu cả năm vẫn tăng trưởng dương bất chấp dịch bệnh.",
+                "Tags": [
+                    "GDP",
+                    "2020",
+                    "COVID-19",
+                    "Tăng trưởng dương",
+                    "EVFTA"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2020-12-31",
+                "Link": {
+                    "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate",
+                    "Title": "Vietnam GDP Growth Rate – Macrotrends",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "DONG_THOI_GIAN_SU_KIEN": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "20–28/1/2016 — Đại hội đại biểu toàn quốc lần thứ XII tại Hà Nội",
+                "Description": "Hơn 1.510 đại biểu; Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư nhiệm kỳ thứ 2",
+                "Content": "Đại hội XII khai mạc 20/1/2016, bế mạc 28/1/2016. Bầu BCH TW khóa XII: 180 ủy viên chính thức, 20 ủy viên dự khuyết; Bộ Chính trị 19 đồng chí; Ban Bí thư 10 đồng chí. Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư — nhiệm kỳ thứ hai, vượt thông lệ tối đa 2 nhiệm kỳ do quyết định 'trường hợp đặc biệt.' Đây là đại hội đầu tiên xác định rõ 27 biểu hiện 'tự diễn biến, tự chuyển hóa' trong Nghị quyết chính trị.",
+                "Tags": [
+                    "Đại hội XII",
+                    "Khai mạc",
+                    "Nguyễn Phú Trọng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng CSVN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-20",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_XII",
+                    "Title": "Đại hội XII – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "5/4/2016 — Bộ tứ lãnh đạo khóa XII hoàn thiện",
+                "Description": "Trần Đại Quang – CTN; Nguyễn Xuân Phúc – TTg; Nguyễn Thị Kim Ngân – CTQH (nữ đầu tiên)",
+                "Content": "Tại kỳ họp Quốc hội (3–4/2016): Trần Đại Quang được bầu làm Chủ tịch nước (2/4/2016). Nguyễn Thị Kim Ngân được bầu làm Chủ tịch Quốc hội (31/3/2016) — nữ Chủ tịch Quốc hội đầu tiên trong lịch sử Việt Nam. Nguyễn Xuân Phúc được bầu làm Thủ tướng Chính phủ (7/4/2016). Cùng với TBT Nguyễn Phú Trọng, bộ tứ lãnh đạo khóa XII hoàn chỉnh. Nguyễn Xuân Phúc từng tham gia Chương trình lãnh đạo cấp cao Việt Nam tại Đại học Harvard.",
+                "Tags": [
+                    "Bộ tứ lãnh đạo",
+                    "Nguyễn Thị Kim Ngân",
+                    "Nguyễn Xuân Phúc",
+                    "Trần Đại Quang"
+                ],
+                "Author": [
+                    {
+                        "Name": "Quốc hội VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-04-05",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "30/10/2016 — NQ TW4 K.XII về xây dựng, chỉnh đốn Đảng",
+                "Description": "27 biểu hiện 'tự diễn biến, tự chuyển hóa' — khởi động chiến dịch chống tham nhũng 'Đốt Lò'",
+                "Content": "Hội nghị TW4 K.XII ban hành NQ 04-NQ/TW — nghị quyết xây dựng Đảng mạnh mẽ nhất từ trước tới nay. Đây là điểm khởi đầu chính thức của 'Chiến dịch Đốt Lò' do TBT Nguyễn Phú Trọng phát động. Kết quả giai đoạn 2016–2020: hàng nghìn cán bộ, đảng viên bị kỷ luật, trong đó nhiều Ủy viên Trung ương, Ủy viên Bộ Chính trị, Bộ trưởng, Tướng lĩnh. Bribery tại bệnh viện công giảm từ 17% (2016) xuống 9% (2017). Đây là chiến dịch chống tham nhũng 'chưa có tiền lệ trong lịch sử Đảng' theo đánh giá của các nhà quan sát quốc tế.",
+                "Tags": [
+                    "NQ TW4 K.XII",
+                    "Xây dựng Đảng",
+                    "Đốt Lò",
+                    "Tham nhũng"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW K.XII / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-10-30",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Nguyễn Phú Trọng – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "1/11/2016 — NQ TW4 K.XII về đổi mới mô hình tăng trưởng (NQ 05)",
+                "Description": "Chuyển từ tăng trưởng theo chiều rộng sang dựa vào năng suất, KH–CN, đổi mới sáng tạo",
+                "Content": "Cùng với NQ 04, Hội nghị TW4 K.XII (11/2016) ban hành NQ 05-NQ/TW về đổi mới mô hình tăng trưởng. Đây là nghị quyết đặt nền tảng lý luận cho kế hoạch tăng trưởng kinh tế bền vững, đề ra cơ cấu lại 6 nhóm lĩnh vực trọng yếu. Nghị quyết cũng xác định: doanh nhân, doanh nghiệp, trí thức là lực lượng đi đầu trong hội nhập. Cải thiện môi trường kinh doanh: thủ tục đầu tư, rào cản gia nhập thị trường. Kết quả: Tháng 5/2018, báo cáo Media Outlets nhận định Việt Nam có thể là 'Asian Tiger' tiếp theo.",
+                "Tags": [
+                    "NQ 05",
+                    "TW4 K.XII",
+                    "Mô hình tăng trưởng",
+                    "Năng suất"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-11-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "3/6/2017 — Hội nghị TW5 K.XII — Kinh tế tư nhân, DNNN và Thể chế",
+                "Description": "NQ 10 (kinh tế tư nhân là 'động lực quan trọng'); NQ 12 (cơ cấu lại DNNN); NQ 11 (thể chế KTTT ĐHXHCN)",
+                "Content": "Hội nghị TW5 K.XII (6/2017) ban hành ba nghị quyết về kinh tế: NQ 10 — Kinh tế tư nhân là 'một động lực quan trọng'; xóa mọi rào cản, định kiến; hình thành tập đoàn tư nhân đa sở hữu, khuyến khích chuỗi giá trị toàn cầu. NQ 12 — Cơ cấu lại, đổi mới, nâng cao hiệu quả DNNN; DNNN hoạt động theo cơ chế thị trường, lấy hiệu quả kinh tế làm tiêu chí đánh giá. NQ 11 — Tiếp tục hoàn thiện thể chế KTTT ĐHXHCN: đồng bộ thể chế kinh tế và chính trị; 'vừa cấp bách vừa lâu dài.'",
+                "Tags": [
+                    "TW5 K.XII",
+                    "Kinh tế tư nhân",
+                    "DNNN",
+                    "Thể chế"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2017-06-03",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "25/10/2017 — Hội nghị TW6 K.XII — Sức khỏe và Dân số",
+                "Description": "NQ 20 (bảo vệ sức khỏe nhân dân); NQ 21 (chính sách dân số trong tình hình mới)",
+                "Content": "Hội nghị TW6 K.XII (10/2017) ban hành NQ 20-NQ/TW về bảo vệ, chăm sóc và nâng cao sức khỏe nhân dân: 'Sức khỏe là vốn quý nhất của mỗi người dân và của toàn xã hội; đầu tư cho bảo vệ, chăm sóc sức khỏe là đầu tư cho phát triển.' NQ 21-NQ/TW về chính sách dân số trong tình hình mới: chuyển hướng từ 'kế hoạch hóa gia đình' sang 'dân số và phát triển'; giải quyết đồng thời mất cân bằng giới tính khi sinh, già hóa dân số và mức sinh thấp tại đô thị.",
+                "Tags": [
+                    "TW6 K.XII",
+                    "Sức khỏe",
+                    "Dân số"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2017-10-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "8/3/2018 — Việt Nam ký CPTPP tại Santiago, Chile",
+                "Description": "Hiệp định thương mại tự do đa phương lớn nhất Việt Nam tham gia — 11 nước, 13% GDP toàn cầu",
+                "Content": "Ngày 8/3/2018, Việt Nam ký Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) tại Santiago, Chile, cùng 10 quốc gia. CPTPP (hậu thân của TPP sau khi Mỹ rút) bao gồm Canada, Mexico, Peru, Chile, Australia, New Zealand, Nhật Bản, Singapore, Brunei, Malaysia — chiếm ~13% GDP toàn cầu. Có hiệu lực với Việt Nam từ 14/1/2019. World Bank ước tính CPTPP giúp GDP Việt Nam tăng thêm 1,1% vào năm 2030. Đây là FTA thế hệ mới lớn nhất Việt Nam tham gia tính đến thời điểm đó.",
+                "Tags": [
+                    "CPTPP",
+                    "Hội nhập",
+                    "FTA",
+                    "2018"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2018-03-08",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "21/9/2018 — Chủ tịch nước Trần Đại Quang từ trần; Nguyễn Phú Trọng kiêm Chủ tịch nước",
+                "Description": "Lần đầu tiên trong lịch sử đương đại, Tổng Bí thư kiêm Chủ tịch nước",
+                "Content": "Chủ tịch nước Trần Đại Quang từ trần ngày 21/9/2018 sau thời gian lâm bệnh nặng, hưởng thọ 61 tuổi. Ngày 23/10/2018, Quốc hội khóa XIV bầu TBT Nguyễn Phú Trọng kiêm Chủ tịch nước với 99,79% phiếu bầu — trở thành người thứ ba trong lịch sử đảm nhiệm đồng thời cả hai chức vụ (sau Hồ Chí Minh và Trường Chinh). Cùng tháng, TW8 K.XII ban hành NQ 36 về Chiến lược biển 2030–2045 và Quy định về trách nhiệm nêu gương của cán bộ, đảng viên.",
+                "Tags": [
+                    "Trần Đại Quang",
+                    "Nguyễn Phú Trọng",
+                    "Chủ tịch nước",
+                    "2018"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia – Nguyễn Phú Trọng / Quốc hội VN",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2018-10-23",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Nguyễn Phú Trọng – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "30/6/2019 — Việt Nam và EU ký EVFTA tại Hà Nội",
+                "Description": "FTA song phương toàn diện nhất của Việt Nam — EU là thị trường xuất khẩu lớn thứ hai",
+                "Content": "Ngày 30/6/2019, Việt Nam và EU ký Hiệp định Thương mại Tự do EVFTA tại Hà Nội. EVFTA có hiệu lực 1/8/2020, xóa bỏ thuế quan với >99% dòng hàng trong vòng 7–10 năm. EU là thị trường xuất khẩu lớn thứ hai của Việt Nam (~$42 tỷ/năm trước khi ký). Đây là FTA toàn diện và tham vọng nhất EU ký với một nước đang phát triển ở châu Á. EVFTA còn kèm theo Hiệp định Bảo hộ đầu tư (EVIPA) — bảo vệ quyền lợi nhà đầu tư EU tại Việt Nam.",
+                "Tags": [
+                    "EVFTA",
+                    "EU",
+                    "Hội nhập",
+                    "2019"
+                ],
+                "Author": [
+                    {
+                        "Name": "Chính phủ VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2019-06-30",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "3/2020 — COVID-19: Việt Nam đóng cửa biên giới, phát động chống dịch toàn quốc",
+                "Description": "Chiến lược chống dịch linh hoạt — Việt Nam trở thành hình mẫu được WHO ghi nhận",
+                "Content": "Tháng 1/2020, WHO công bố COVID-19 là tình trạng khẩn cấp toàn cầu. Việt Nam phát hiện ca đầu tiên ngày 23/1/2020. Chính phủ Nguyễn Xuân Phúc phản ứng nhanh: đóng cửa biên giới, truy vết nghiêm ngặt, cách ly tập trung. Đợt giãn cách xã hội toàn quốc (1–22/4/2020) kiểm soát dịch thành công. Kết quả: Việt Nam duy trì tăng trưởng GDP 2,87% năm 2020 — một trong số ít quốc gia tăng trưởng dương trong năm đại dịch. Thủ tướng Nguyễn Xuân Phúc được cộng đồng quốc tế đánh giá cao về năng lực điều hành chống dịch.",
+                "Tags": [
+                    "COVID-19",
+                    "Chống dịch",
+                    "2020",
+                    "Nguyễn Xuân Phúc"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam / WHO",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2020-03-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "25/1–1/2/2021 — Đại hội Đại biểu Toàn quốc lần thứ XIII",
+                "Description": "Kết thúc nhiệm kỳ XII — Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư nhiệm kỳ thứ ba",
+                "Content": "Đại hội XIII (25/1–1/2/2021) đánh giá 5 năm thực hiện NQ Đại hội XII và 35 năm Đổi Mới. Bầu BCH TW khóa XIII: 180 ủy viên chính thức, 20 ủy viên dự khuyết; Bộ Chính trị 18 đồng chí. TBT Nguyễn Phú Trọng được bầu lại lần thứ ba — là người thứ ba trong lịch sử Đảng giữ 3 nhiệm kỳ (sau Hồ Chí Minh và Lê Duẩn). Nguyễn Xuân Phúc chuyển lên làm Chủ tịch nước. Phạm Minh Chính làm Thủ tướng. Vương Đình Huệ làm Chủ tịch Quốc hội. Mục tiêu: đến 2025 là nước đang phát triển có công nghiệp theo hướng hiện đại; 2030 kỷ niệm 100 năm Đảng thành lập; 2045 là nước phát triển thu nhập cao.",
+                "Tags": [
+                    "Đại hội XIII",
+                    "Nguyễn Phú Trọng",
+                    "Kết thúc nhiệm kỳ XII"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng CSVN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2021-01-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "PROFILE_LANH_DAO_DAI_HOI_XII": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Phú Trọng — Tổng Bí thư (2011–2024); kiêm Chủ tịch nước (10/2018–4/2021)",
+                "Description": "Sinh 14/4/1944 tại Đông Hội, Đông Anh, Hà Nội — Tổng Bí thư ba nhiệm kỳ; người lãnh đạo chống tham nhũng 'Đốt Lò'",
+                "Content": "GS.TS Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư tại Đại hội XII (1/2016) — nhiệm kỳ thứ hai. Vào Đảng 19/12/1967. Tiến sĩ Chính trị học (Xây dựng Đảng) tại Liên Xô (1983). Nguyên Tổng Biên tập Tạp chí Cộng sản; Bí thư Thành ủy Hà Nội; Chủ tịch Quốc hội. Tháng 10/2018, sau khi Trần Đại Quang từ trần, ông được QH bầu kiêm Chủ tịch nước với 99,79% phiếu. Phát động 'Chiến dịch Đốt Lò' — chiến dịch chống tham nhũng chưa có tiền lệ: hàng nghìn cán bộ bị kỷ luật. Được đánh giá là 'một trong những nhà lãnh đạo có ảnh hưởng nhất Việt Nam kể từ Hồ Chí Minh.' Mất ngày 19/7/2024, thọ 80 tuổi.",
+                "Tags": [
+                    "Nguyễn Phú Trọng",
+                    "Tổng Bí thư",
+                    "Chủ tịch nước",
+                    "Đốt Lò"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: chinhphu.vn / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+                    "Title": "Nguyễn Phú Trọng – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Trần Đại Quang — Chủ tịch nước (4/2016–9/2018)",
+                "Description": "Sinh 12/10/1956 tại Kim Sơn, Ninh Bình — Đại tướng Công an; Chủ tịch nước qua đời khi đương nhiệm",
+                "Content": "Đại tướng Trần Đại Quang được bầu làm Chủ tịch nước ngày 2/4/2016. Từng là Bộ trưởng Bộ Công an (2011–2016). Ủy viên Bộ Chính trị khóa X, XI, XII. Là Đại tướng, một trong số ít người xuất thân lực lượng Công an giữ chức Chủ tịch nước. Trong nhiệm kỳ, ông thúc đẩy hợp tác quốc tế về an ninh, tư pháp; tiếp tục cải cách pháp luật. Từ trần ngày 21/9/2018 sau thời gian lâm bệnh nặng, hưởng thọ 61 tuổi — trở thành Chủ tịch nước thứ hai qua đời khi đương nhiệm (sau Hồ Chí Minh). Được tặng thưởng Huân chương Sao Vàng.",
+                "Tags": [
+                    "Trần Đại Quang",
+                    "Chủ tịch nước",
+                    "Công an"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: VTC News / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-04-02",
+                "Link": {
+                    "Href": "https://vtc.vn/tieu-su-19-uy-vien-bo-chinh-tri-khoa-xii-d241613.html",
+                    "Title": "VTC News",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Xuân Phúc — Thủ tướng Chính phủ (4/2016–4/2021)",
+                "Description": "Sinh 20/7/1954 tại Quế Sơn, Quảng Nam — Thủ tướng điều hành kinh tế kỷ lục 2018 và chống COVID-19",
+                "Content": "Nguyễn Xuân Phúc nhậm chức Thủ tướng ngày 7/4/2016. Tốt nghiệp Đại học Kinh tế Quốc dân Hà Nội (1978); học quản lý tại ĐH Quốc gia Singapore. Từng là Chủ tịch UBND tỉnh Quảng Nam, Phó Thủ tướng thường trực. Điều hành kinh tế đạt mức tăng trưởng 7,08% năm 2018 — cao nhất 11 năm; duy trì tăng trưởng dương 2,87% trong năm COVID-19 (2020). Đàm phán và ký CPTPP, EVFTA. Tháng 4/2021, chuyển sang làm Chủ tịch nước. Sau này (1/2023) từ chức do một số thuộc cấp vi phạm trong đại dịch COVID-19.",
+                "Tags": [
+                    "Nguyễn Xuân Phúc",
+                    "Thủ tướng",
+                    "Kinh tế",
+                    "COVID-19"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Wikipedia / daihoidang.vn",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-04-07",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Xu%C3%A2n_Ph%C3%BAc",
+                    "Title": "Nguyễn Xuân Phúc – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Thị Kim Ngân — Chủ tịch Quốc hội (3/2016–3/2021)",
+                "Description": "Sinh 12/4/1954 tại Bình Đại, Bến Tre — Nữ Chủ tịch Quốc hội đầu tiên trong lịch sử Việt Nam",
+                "Content": "Nguyễn Thị Kim Ngân được bầu làm Chủ tịch Quốc hội ngày 31/3/2016 — là nữ Chủ tịch Quốc hội đầu tiên trong lịch sử Việt Nam. Tốt nghiệp Đại học Kinh tế Quốc dân Hà Nội; Thạc sĩ kinh tế. Từng là Bộ trưởng Bộ Thương mại; Bộ trưởng Lao động–TB&XH; Phó Chủ tịch Quốc hội. Dưới sự chủ trì của bà, Quốc hội XIV thông qua nhiều luật quan trọng: Luật An ninh mạng (2018), phê chuẩn CPTPP (11/2018), EVFTA (6/2020). Nhiệm kỳ kết thúc 3/2021 tại Đại hội XIII. Là Phó Chủ tịch Ủy ban IPU thứ tư thế giới.",
+                "Tags": [
+                    "Nguyễn Thị Kim Ngân",
+                    "Quốc hội",
+                    "Nữ lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Quốc hội VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-03-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "SO_SANH_TRUOC_SAU_COVID": {
+            "TRUOC_COVID": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Giai đoạn đỉnh cao 2018–2019 — GDP vượt 7%, FTA thế hệ mới bùng nổ",
+                    "Description": "Hai năm liên tiếp tăng trưởng >7%; CPTPP ký 2018, EVFTA ký 2019; FDI đỉnh cao",
+                    "Content": "Giai đoạn 2018–2019 là đỉnh cao nhiệm kỳ XII: GDP 2018 đạt 7,08% — cao nhất 11 năm; 2019 đạt 7,02%. FDI năm 2019 đạt kỷ lục mới nhờ Mỹ–Trung chiến tranh thương mại đẩy chuỗi cung ứng dịch chuyển sang Việt Nam (Samsung, Intel, LG, Foxconn tăng mạnh). CPTPP có hiệu lực 14/1/2019; EVFTA được ký 30/6/2019. Du lịch 2019 đạt 18 triệu lượt khách — thứ 5 châu Á–Thái Bình Dương. Xuất khẩu điện tử và điện thoại di động chiếm tỷ trọng lớn nhất.",
+                    "Tags": [
+                        "2018-2019",
+                        "Tăng trưởng đỉnh cao",
+                        "CPTPP",
+                        "EVFTA"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Wikipedia Economy of Vietnam / World Bank",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2019-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                }
+            ],
+            "SAU_COVID": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "2020 Q1 — Phát hiện ca COVID đầu tiên (23/1); đóng cửa biên giới",
+                    "Description": "Phản ứng nhanh và quyết đoán — đóng cửa biên giới với Trung Quốc, sau đó toàn diện",
+                    "Content": "Ngày 23/1/2020, Việt Nam phát hiện 2 ca COVID đầu tiên tại TP.HCM (2 người Trung Quốc). Chính phủ Nguyễn Xuân Phúc phản ứng nhanh: đóng cửa biên giới đường bộ với Trung Quốc (7/2/2020), sau đó đình chỉ tất cả chuyến bay quốc tế (25/3/2020), dừng cấp thị thực du lịch (3/2020). Truy vết và cách ly tập trung toàn bộ F1. GDP quý I/2020 giảm xuống 3,82% — thấp nhất từ trước. Tuy nhiên kiểm soát dịch thành công đợt đầu.",
+                    "Tags": [
+                        "COVID-19",
+                        "Q1 2020",
+                        "Đóng cửa biên giới"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Chính phủ VN / Wikipedia",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2020-01-23",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "1–22/4/2020 — Giãn cách xã hội toàn quốc đợt 1",
+                    "Description": "Việt Nam đi trước thế giới — kiểm soát dịch thành công mà không phong tỏa hoàn toàn",
+                    "Content": "Thủ tướng Nguyễn Xuân Phúc ban hành Chỉ thị 16 (31/3/2020) về giãn cách xã hội toàn quốc từ 1–22/4/2020. Sau đó, nhiều tỉnh thành kéo dài. Mô hình: truy vết nhanh, cách ly F1 tập trung miễn phí, giãn cách có mục tiêu — không phong tỏa hoàn toàn như châu Âu. Kết quả đợt 1: gần 3 tháng không có ca tử vong. GDP quý II/2020 chỉ tăng 0,36% — nhưng kinh tế dần phục hồi. EVFTA có hiệu lực 1/8/2020 là cú huých quan trọng.",
+                    "Tags": [
+                        "Giãn cách",
+                        "Chỉ thị 16",
+                        "COVID-19 đợt 1"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Chính phủ VN / Wikipedia",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2020-04-01",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Cả năm 2020 — GDP 2,87%: Việt Nam trong nhóm hiếm có tăng trưởng dương",
+                    "Description": "GDP $271,2 tỷ USD; tăng trưởng 2,87% — thế giới -3,1%; EVFTA hiệu lực 1/8/2020",
+                    "Content": "Cả năm 2020, GDP Việt Nam tăng 2,87% — thấp nhất từ 1988 nhưng là kỳ tích trong đại dịch: GDP toàn cầu giảm 3,1%. Việt Nam nằm trong số ít quốc gia duy trì tăng trưởng dương (cùng với Trung Quốc, Đài Loan). Xuất khẩu cả năm vẫn tăng dương, đặc biệt điện tử, điện thoại di động, nông sản. EVFTA có hiệu lực 1/8/2020 thúc đẩy xuất khẩu vào EU ngay trong dịch. IMF và World Bank đánh giá Việt Nam là điểm sáng trong bức tranh u ám kinh tế toàn cầu.",
+                    "Tags": [
+                        "2020",
+                        "GDP 2,87%",
+                        "COVID-19",
+                        "EVFTA"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Macrotrends / IMF / World Bank",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2020-12-31",
+                    "Link": {
+                        "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate",
+                        "Title": "Vietnam GDP Growth – Macrotrends",
+                        "Target": "_blank"
+                    }
+                }
+            ]
+        },
+        "BANG_SO_LIEU_KINH_TE": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2015",
+                "Description": "Năm gốc — Cuối kế hoạch 5 năm 2011–2015; lạm phát kỷ lục thấp",
+                "Content": "GDP: ~$193,2 tỷ USD | Tăng trưởng: 6,68% | Lạm phát: 0,63% | Xuất khẩu: ~$162 tỷ | Nhập khẩu: ~$165 tỷ | Thu nhập BQ đầu người: ~$2.109 USD. Vượt mục tiêu 6,2%/năm. Lạm phát 0,63% — mức thấp nhất trong nhiều thập kỷ. Dân số 91,7 triệu. Tỷ lệ nghèo giảm xuống ~10%.",
+                "Tags": [
+                    "2015",
+                    "GDP"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2015-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2016",
+                "Description": "Năm khai mạc Đại hội XII — Formosa, thiên tai ảnh hưởng",
+                "Content": "GDP: ~$205,3 tỷ USD | Tăng trưởng: 6,21% | Lạm phát: 2,66% | Xuất khẩu: ~$176 tỷ | Nhập khẩu: ~$174 tỷ | Thu nhập BQ đầu người: ~$2.186 USD. Thấp hơn mục tiêu 6,7% do thiên tai hạn hán El Niño và sự cố môi trường biển Formosa (4/2016). Lần đầu đón 10 triệu du khách quốc tế.",
+                "Tags": [
+                    "2016",
+                    "GDP",
+                    "Formosa"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2017",
+                "Description": "APEC 2017; kinh tế tư nhân được NQ 10; tăng 6,81% vượt mục tiêu",
+                "Content": "GDP: ~$223,8 tỷ USD | Tăng trưởng: 6,81% | Lạm phát: 3,53% | Xuất khẩu: ~$213 tỷ | Nhập khẩu: ~$211 tỷ | Thu nhập BQ đầu người: ~$2.342 USD | FDI thực hiện: ~$17,5 tỷ. Vượt mục tiêu 6,7%. Đăng cai APEC 25 tại Đà Nẵng. World Bank nâng xếp hạng kinh doanh lên 68/190.",
+                "Tags": [
+                    "2017",
+                    "GDP",
+                    "APEC 2017"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2017-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2018",
+                "Description": "Đỉnh cao nhiệm kỳ: 7,08% — cao nhất 11 năm; CPTPP ký kết",
+                "Content": "GDP: ~$245,2 tỷ USD | Tăng trưởng: 7,08% | Lạm phát: 3,54% | Xuất khẩu: ~$243 tỷ | Nhập khẩu: ~$237 tỷ | Thu nhập BQ đầu người: ~$2.566 USD | FDI thực hiện: ~$19,1 tỷ. Cao nhất trong hơn 10 năm. CPTPP ký 8/3/2018. Chiến tranh thương mại Mỹ–Trung — cơ hội FDI cho VN. Nguyễn Phú Trọng kiêm Chủ tịch nước (10/2018).",
+                "Tags": [
+                    "2018",
+                    "GDP kỷ lục",
+                    "CPTPP"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / Macrotrends",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2018-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2019",
+                "Description": "7,02% năm thứ 2 liên tiếp vượt 7%; EVFTA ký kết; 18 triệu khách du lịch",
+                "Content": "GDP: ~$261,9 tỷ USD | Tăng trưởng: 7,02% | Lạm phát: 2,79% | Xuất khẩu: ~$264 tỷ | Nhập khẩu: ~$254 tỷ | Thu nhập BQ đầu người: ~$2.786 USD | FDI thực hiện: ~$20,4 tỷ. EVFTA ký 30/6/2019. 18 triệu khách quốc tế — thứ 5 châu Á–TBD. FDI kỷ lục mới nhờ chuỗi cung ứng dịch chuyển từ Trung Quốc.",
+                "Tags": [
+                    "2019",
+                    "GDP",
+                    "EVFTA",
+                    "FDI kỷ lục"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2019-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2020",
+                "Description": "COVID-19: GDP 2,87% — kỳ tích trong đại dịch; EVFTA có hiệu lực",
+                "Content": "GDP: ~$271,2 tỷ USD | Tăng trưởng: 2,87% | Lạm phát: 3,22% | Xuất khẩu: ~$282 tỷ | Nhập khẩu: ~$262 tỷ | Thu nhập BQ đầu người: ~$2.786 USD | FDI thực hiện: ~$19,98 tỷ. Đại dịch COVID-19 — thế giới -3,1%. Việt Nam tăng trưởng dương nhờ chống dịch hiệu quả. EVFTA hiệu lực 1/8/2020. Nghèo giảm xuống ~5% (Zitelmann/World Bank 2023).",
+                "Tags": [
+                    "2020",
+                    "COVID-19",
+                    "GDP dương",
+                    "EVFTA"
+                ],
+                "Author": [
+                    {
+                        "Name": "Macrotrends / Wikipedia / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2020-12-31",
+                "Link": {
+                    "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate",
+                    "Title": "Vietnam GDP Growth – Macrotrends",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BAI_HOC_VA_NHIEM_VU_TRONG_TAM": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 1: Xây dựng Đảng trong sạch — nền tảng vượt khó khăn, thách thức",
+                "Description": "Đặc biệt chú trọng xây dựng Đảng; phát huy dân chủ; tăng cường đại đoàn kết toàn dân",
+                "Content": "Trước những khó khăn, thách thức trên con đường đổi mới, phải hết sức chú trọng công tác xây dựng Đảng trong sạch, vững mạnh, nâng cao năng lực lãnh đạo và sức chiến đấu của Đảng. Đây là bài học được đúc kết từ 5 năm 2011–2015, khi tình trạng suy thoái, tham nhũng, 'tự diễn biến, tự chuyển hóa' trở nên nghiêm trọng — đe dọa trực tiếp vai trò lãnh đạo của Đảng. Bài học này dẫn thẳng đến NQ TW4 K.XII (10/2016) và Chiến dịch Đốt Lò — chiến dịch chống tham nhũng quy mô lớn nhất trong lịch sử.",
+                "Tags": [
+                    "Bài học 1",
+                    "Xây dựng Đảng",
+                    "Đốt Lò"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 2: Nhìn thẳng vào sự thật — bám sát thực tiễn, kịp thời điều chỉnh",
+                "Description": "Đánh giá đúng sự thật, nói rõ sự thật; nắm bắt và dự báo những diễn biến mới",
+                "Content": "Nhìn thẳng vào sự thật, đánh giá đúng sự thật, nói rõ sự thật, bám sát thực tiễn của đất nước và thế giới; đồng thời nắm bắt, dự báo những diễn biến mới để kịp thời xác định, điều chỉnh chủ trương, nhiệm vụ, giải pháp cho phù hợp. Đây là bài học phản ứng với những hạn chế trong thực hiện NQ Đại hội XI: chậm nhận ra và điều chỉnh trước những bất ổn kinh tế (lạm phát cao 2011, nợ xấu ngân hàng, DNNN kém hiệu quả). NQ 05 K.XII (11/2016) về đổi mới mô hình tăng trưởng là hiện thực hóa bài học này.",
+                "Tags": [
+                    "Bài học 2",
+                    "Thực tiễn",
+                    "Điều chỉnh chính sách"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 3: Gắn kết đồng bộ 4 trụ cột — Kinh tế, Đảng, Văn hóa, Quốc phòng",
+                "Description": "Kinh tế là trung tâm; xây dựng Đảng là then chốt; văn hóa là nền tảng; quốc phòng–an ninh là trọng yếu",
+                "Content": "Gắn kết chặt chẽ và triển khai đồng bộ: Phát triển kinh tế – xã hội là trung tâm; Xây dựng Đảng là then chốt; Phát triển văn hóa là nền tảng tinh thần; Bảo đảm quốc phòng – an ninh là nhiệm vụ trọng yếu, thường xuyên. Đây là bài học tổng hợp phản ánh nhận thức đến mức viên mãn về quan hệ 4 trụ cột này — được đúc kết qua 30 năm Đổi Mới. Mỗi trụ cột thiếu hoặc yếu đều gây ảnh hưởng dây chuyền. Bài học này được hiện thực hóa trong 6 nhiệm vụ trọng tâm nhiệm kỳ XII.",
+                "Tags": [
+                    "Bài học 3",
+                    "4 trụ cột",
+                    "Đồng bộ"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 4: Kiên trì mục tiêu lâu dài, tập trung giải quyết yếu kém và tạo đột phá",
+                "Description": "Cân bằng giữa nhiệm vụ dài hơi và xử lý dứt điểm những ách tắc trước mắt",
+                "Content": "Kiên trì thực hiện các mục tiêu lâu dài, các nhiệm vụ cơ bản, đồng thời tập trung nguồn lực thực hiện hiệu quả những nhiệm vụ cấp bách, trước mắt, giải quyết dứt điểm những yếu kém, ách tắc, tạo đột phá để giữ vững và đẩy nhanh nhịp độ phát triển. Bài học này phản ánh thực trạng những 'điểm nghẽn' dai dẳng: nợ xấu ngân hàng kéo dài từ 2011; DNNN kém hiệu quả; cải cách thủ tục hành chính chậm; nợ công tiếp cận ngưỡng giới hạn. Hai NQ TW5 K.XII (6/2017) về DNNN và kinh tế tư nhân là giải quyết trực tiếp các ách tắc này.",
+                "Tags": [
+                    "Bài học 4",
+                    "Đột phá",
+                    "Giải quyết ách tắc"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 5: Hội nhập chủ động, tích cực trên cơ sở giữ vững độc lập, tự chủ",
+                "Description": "Lợi ích quốc gia – dân tộc là mục tiêu cao nhất; hội nhập không đồng nghĩa với lệ thuộc",
+                "Content": "Chủ động, tích cực hội nhập quốc tế trên cơ sở giữ vững độc lập, tự chủ, lấy lợi ích quốc gia – dân tộc làm mục tiêu cao nhất. Bài học được hình thành từ thực tiễn WTO (2007) và những thách thức phát sinh sau gia nhập: sức ép cạnh tranh, thâm hụt thương mại, phụ thuộc vào một số thị trường. Đây là kim chỉ nam cho đàm phán CPTPP (không có Mỹ nhưng vẫn ký) và EVFTA — đặt lợi ích dân tộc và đa dạng hóa thị trường lên hàng đầu, không bị ràng buộc bởi một cường quốc đơn lẻ.",
+                "Tags": [
+                    "Bài học 5",
+                    "Hội nhập",
+                    "Độc lập tự chủ",
+                    "CPTPP",
+                    "EVFTA"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "6 Nhiệm vụ trọng tâm nhiệm kỳ XII (2016–2021)",
+                "Description": "Từ xây dựng Đảng đến phát huy nhân tố con người — 6 trụ cột hành động cụ thể",
+                "Content": "6 nhiệm vụ trọng tâm Đại hội XII: (1) Xây dựng, chỉnh đốn Đảng; ngăn chặn suy thoái, 'tự diễn biến, tự chuyển hóa'; xây dựng đội ngũ cán bộ cấp chiến lược; (2) Tinh gọn bộ máy; đấu tranh phòng, chống tham nhũng, lãng phí, quan liêu; (3) Nâng cao chất lượng tăng trưởng, năng suất, sức cạnh tranh; thực hiện 3 đột phá chiến lược; cơ cấu lại nền kinh tế; (4) Bảo vệ độc lập, chủ quyền; giữ vững hòa bình; hội nhập quốc tế hiệu quả, nâng cao vị thế; (5) Nâng cao đời sống nhân dân; an sinh xã hội; giảm nghèo bền vững; phát huy quyền làm chủ; (6) Phát huy nhân tố con người — đạo đức, nhân cách, trí tuệ; môi trường văn hóa lành mạnh.",
+                "Tags": [
+                    "6 nhiệm vụ trọng tâm",
+                    "Đại hội XII",
+                    "Hành động"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội XII",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2016-01-28",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_XII",
+                    "Title": "Đại hội XII – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Điểm mới nổi bật: Kinh tế tư nhân là 'động lực quan trọng' (NQ 10, 2017)",
+                "Description": "Bước tiến lớn nhất trong tư duy kinh tế của nhiệm kỳ XII — vượt qua nhận thức 2002 và 2006",
+                "Content": "Nếu Đại hội IX (2002) coi kinh tế tư nhân là 'bộ phận cấu thành quan trọng' và Đại hội X (2006) cho phép đảng viên làm kinh tế tư nhân thì NQ TW5 K.XII (6/2017) là bước tiến lớn nhất: chính thức gọi kinh tế tư nhân là 'một động lực quan trọng.' Cụ thể: xóa bỏ mọi rào cản và định kiến; khuyến khích 'doanh nghiệp tư nhân tham gia chuỗi giá trị khu vực, toàn cầu'; thúc đẩy hình thành 'tập đoàn kinh tế tư nhân đa sở hữu'; khuyến khích kinh tế tư nhân mua cổ phần DNNN khi cổ phần hóa. Đây là nền tảng cho sự nổi lên của các 'kỳ lân' tư nhân Việt Nam (VinGroup, Vietjet, Hòa Phát...).",
+                "Tags": [
+                    "Kinh tế tư nhân",
+                    "NQ 10",
+                    "Điểm mới",
+                    "Tư nhân hóa"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa XII, Hội nghị TW5 (6/2017)",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2017-06-03",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ]
+    }
+}

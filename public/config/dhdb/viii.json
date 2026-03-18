@@ -1,0 +1,746 @@
+{
+  "Layout": [
+    {
+      "ModuleType": "HERO",
+      "Title": "Đại hội Đại biểu Toàn quốc lần thứ VIII của Đảng (1996–2001)",
+      "Description": "Đại hội đánh dấu bước ngoặt đưa Việt Nam sang thời kỳ mới — đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước",
+      "Data": "HERO_DAI_HOI_VIII",
+      "Config": {
+        "Size": "Large",
+        "Alignment": "Center"
+      }
+    },
+    {
+      "ModuleType": "CARD",
+      "Title": "Thông tin tổng quan về Đại hội VIII",
+      "Description": "Bối cảnh, nội dung chủ yếu và các văn kiện quan trọng của Đại hội đại biểu toàn quốc lần thứ VIII",
+      "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+      "Config": {
+        "Searchable": true,
+        "Categories": [
+          "Bối cảnh",
+          "Kinh tế",
+          "Chính trị",
+          "Văn hóa – Xã hội",
+          "Giáo dục – KH&CN",
+          "Quốc phòng – An ninh"
+        ]
+      }
+    },
+    {
+      "ModuleType": "STATISTIC",
+      "Title": "Số liệu tăng trưởng GDP và lạm phát Việt Nam (1995–2001)",
+      "Description": "Tốc độ tăng trưởng GDP và các chỉ số kinh tế vĩ mô trong nhiệm kỳ Đại hội VIII — bao gồm cả tác động của khủng hoảng tài chính châu Á 1997",
+      "Data": "BIEU_DO_THONG_KE_GDP_LAM_PHAT",
+      "Config": {
+        "Variant": "Bar",
+        "Alignment": "Left"
+      }
+    },
+    {
+      "ModuleType": "TIMELINE",
+      "Title": "Dòng thời gian sự kiện nhiệm kỳ Đại hội VIII (1996–2001)",
+      "Description": "Các sự kiện, hội nghị Trung ương và mốc lịch sử quan trọng trong giai đoạn 1996–2001",
+      "Data": "DONG_THOI_GIAN_SU_KIEN",
+      "Config": {
+        "Direction": "Vertical",
+        "Alignment": "Center"
+      }
+    },
+    {
+      "ModuleType": "PROFILE",
+      "Title": "Lãnh đạo chủ chốt nhiệm kỳ Đại hội VIII",
+      "Description": "Tiểu sử tóm tắt các đồng chí lãnh đạo trong nhiệm kỳ 1996–2001",
+      "Data": "PROFILE_LANH_DAO_DAI_HOI_VIII",
+      "Config": {
+        "Scroll": {
+          "Direction": "Horizontal",
+          "Parallax": true
+        }
+      }
+    },
+    {
+      "ModuleType": "COMPARISON",
+      "Title": "Kinh tế Việt Nam trước và sau khủng hoảng tài chính châu Á 1997",
+      "Description": "So sánh các chỉ tiêu kinh tế giai đoạn tăng trưởng mạnh (1995–1996) và giai đoạn chịu tác động khủng hoảng (1997–1999)",
+      "Data": "SO_SANH_TRUOC_SAU_KHUNG_HOANG_1997",
+      "Config": {
+        "FromIndex": [0],
+        "ToIndex": [1, 2, 3, 4, 5, 6]
+      }
+    },
+    {
+      "ModuleType": "TABLE",
+      "Title": "Bảng số liệu kinh tế – xã hội Việt Nam (1995–2001)",
+      "Description": "Tổng hợp các chỉ tiêu kinh tế vĩ mô từ giai đoạn cuối Đại hội VII đến hết nhiệm kỳ Đại hội VIII",
+      "Data": "BANG_SO_LIEU_KINH_TE",
+      "Config": {
+        "Columns": ["Năm", "GDP (tỷ USD)", "Tăng trưởng GDP (%)", "Lạm phát (%)", "Xuất khẩu (tỷ USD)", "Nhập khẩu (tỷ USD)", "Thu nhập BQ đầu người (USD)"],
+        "Sortable": true,
+        "Striped": true
+      }
+    },
+    {
+      "ModuleType": "ACCORDION",
+      "Title": "Sáu bài học 10 năm Đổi Mới và quan điểm CNH–HĐH của Đại hội VIII",
+      "Description": "Bài học đúc kết 10 năm Đổi Mới (1986–1996) và các quan điểm chỉ đạo công nghiệp hóa, hiện đại hóa trong thời kỳ mới",
+      "Data": "CAC_BAI_HOC_VA_QUAN_DIEM_CNH_HĐH",
+      "Config": {
+        "DefaultExpanded": 0,
+        "Alignment": "Center"
+      }
+    }
+  ],
+  "Data": {
+    "HERO_DAI_HOI_VIII": [
+      {
+        "Image": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+        ],
+        "Video": {
+          "Src": "",
+          "Type": "youtube | file",
+          "Poster": ""
+        },
+        "Title": "Đại hội Đại biểu Toàn quốc lần thứ VIII — Đảng Cộng sản Việt Nam",
+        "Description": "Họp tại Hà Nội từ ngày 28/6 đến 1/7/1996, với 1.198 đại biểu đại diện cho hơn 2,1 triệu đảng viên toàn quốc.",
+        "Content": "Đại hội VIII diễn ra sau 10 năm Đổi Mới (1986–1996), đánh dấu bước ngoặt lịch sử đưa đất nước sang thời kỳ mới: đẩy mạnh công nghiệp hóa, hiện đại hóa. Đại hội bổ sung đặc trưng tổng quát về mục tiêu xây dựng CNXH là 'Dân giàu, nước mạnh, xã hội công bằng, văn minh.' Nhận định: sau 10 năm Đổi Mới, nhiệm vụ chuẩn bị tiền đề cho công nghiệp hóa đã cơ bản hoàn thành, cho phép chuyển sang thời kỳ đẩy mạnh CNH–HĐH. Đây cũng là đại hội đặt nền tảng cho Chiến lược phát triển KT–XH thập niên 2001–2010.",
+        "Tags": ["Đại hội VIII", "1996", "CNH-HĐH", "Đổi Mới 10 năm", "Dân giàu nước mạnh"],
+        "Author": [
+          {
+            "Name": "Đảng Cộng sản Việt Nam",
+            "Image": ""
+          }
+        ],
+        "Scale": 1,
+        "Alignment": "Center",
+        "Date": "1996-06-28",
+        "Link": {
+          "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_VIII",
+          "Title": "Xem thêm trên Wikipedia",
+          "Target": "_blank"
+        }
+      }
+    ],
+    "BLOG_CAC_THONG_TIN_CHUNG": [
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Bối cảnh quốc tế và trong nước trước thềm Đại hội VIII",
+        "Description": "10 năm Đổi Mới đã tạo thế và lực mới cho Việt Nam bước vào kỷ nguyên CNH–HĐH",
+        "Content": "Đại hội VIII diễn ra trong bối cảnh cách mạng khoa học – công nghệ phát triển với trình độ cao hơn, chủ nghĩa xã hội hiện thực lâm vào thoái trào. Trong nước, sau 10 năm Đổi Mới (1986–1996), nước ta đã ra khỏi khủng hoảng kinh tế – xã hội; GDP tăng trưởng bình quân khoảng 8%/năm giai đoạn 1990–1997; lạm phát từ hơn 300%/năm (1987) giảm xuống dưới 4% (1997). Kinh tế có bước tăng trưởng đáng kể nhưng nước ta vẫn là nước nghèo, kém phát triển. Sản xuất nông nghiệp tăng gấp đôi, đưa Việt Nam từ nước nhập khẩu lương thực trở thành nước xuất khẩu gạo lớn thứ hai thế giới.",
+        "Tags": ["Bối cảnh", "10 năm Đổi Mới", "Kinh tế"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII / US State Dept", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1996-06-28",
+        "Link": {
+          "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/31913.htm",
+          "Title": "Vietnam – US State Dept Background Note (2003)",
+          "Target": "_blank"
+        }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Tổng kết 10 năm Đổi Mới và xác định nhiệm vụ thời kỳ mới",
+        "Description": "Hoàn thành chuẩn bị tiền đề CNH — cho phép chuyển sang thời kỳ đẩy mạnh CNH–HĐH",
+        "Content": "Đại hội VIII tổng kết 10 năm Đổi Mới (1986–1996): đất nước đã ra khỏi khủng hoảng KT–XH nhưng một số mặt còn chưa vững chắc. Nhiệm vụ chuẩn bị tiền đề cho CNH đã cơ bản hoàn thành. Đại hội đã bổ sung đặc trưng tổng quát của CNXH: 'Dân giàu, nước mạnh, xã hội công bằng, văn minh.' Xác định nền kinh tế hàng hóa nhiều thành phần vận hành theo cơ chế thị trường có sự quản lý của Nhà nước theo định hướng XHCN là mô hình kinh tế của thời kỳ mới.",
+        "Tags": ["Tổng kết Đổi Mới", "CNH-HĐH", "Mô hình kinh tế"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Vượt qua khủng hoảng tài chính – tiền tệ châu Á 1997",
+        "Description": "Kinh tế Việt Nam duy trì tăng trưởng dương, giữ ổn định vĩ mô",
+        "Content": "Từ tháng 7/1997, khủng hoảng tài chính – tiền tệ lan rộng khắp châu Á, tác động mạnh đến kinh tế khu vực. Nhờ các chủ trương và biện pháp tích cực của Đảng và Nhà nước, Việt Nam vượt qua được cuộc khủng hoảng, duy trì tăng trưởng dương trong cả giai đoạn. Tuy nhiên tốc độ tăng trưởng giảm đáng kể: từ 9,34% (1996) xuống còn 8,15% (1997), 5,76% (1998), 4,77% (1999) — trước khi phục hồi lên 6,79% (2000). GDP bình quân hằng năm giai đoạn 1996–2000 đạt khoảng 7%.",
+        "Tags": ["Khủng hoảng 1997", "Tăng trưởng", "Ổn định kinh tế"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII / World Bank / US State Dept", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1997-07-01",
+        "Link": {
+          "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/31913.htm",
+          "Title": "Vietnam – US State Dept",
+          "Target": "_blank"
+        }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Phát triển kinh tế là nhiệm vụ trọng tâm — phát huy nội lực",
+        "Description": "Hướng mạnh về xuất khẩu, cần kiệm để CNH, khắc phục xu hướng 'xã hội tiêu dùng'",
+        "Content": "Sau Đại hội VIII, BCH TW Đảng xác định phát triển kinh tế là nhiệm vụ trọng tâm với các giải pháp: (1) Thúc đẩy chuyển dịch cơ cấu kinh tế — nông nghiệp CNH–HĐH, phát triển công nghiệp và dịch vụ; (2) Hướng mạnh về xuất khẩu đồng thời không coi nhẹ thị trường trong nước; (3) Đổi mới và phát triển doanh nghiệp nhà nước; (4) Lành mạnh hóa hệ thống tài chính – tiền tệ; (5) Tích cực xóa đói giảm nghèo. Kết quả: đến năm 2000, các chỉ tiêu chủ yếu đều đạt hoặc vượt kế hoạch; giá trị sản xuất công nghiệp tăng bình quân 13,5%/năm.",
+        "Tags": ["Kinh tế", "Xuất khẩu", "CNH-HĐH", "Doanh nghiệp"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII / Văn kiện Đại hội IX (đánh giá)", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Chiến lược giáo dục – đào tạo và khoa học – công nghệ (TW2 K.VIII)",
+        "Description": "Coi giáo dục – đào tạo là quốc sách hàng đầu; KH&CN là động lực CNH–HĐH",
+        "Content": "Hội nghị TW2 khóa VIII (12/1996) ban hành hai nghị quyết chiến lược: NQ 02-NQ/HNTW về định hướng chiến lược phát triển giáo dục – đào tạo: coi GD–ĐT là 'quốc sách hàng đầu'; mục tiêu xây dựng con người 'vừa hồng vừa chuyên'; 'mọi người đi học, học thường xuyên, học suốt đời.' NQ 03-NQ/HNTW về định hướng chiến lược phát triển KH&CN: khoa học và công nghệ là 'động lực của CNH–HĐH'; đẩy mạnh nghiên cứu ứng dụng trong tất cả các ngành sản xuất, kinh doanh, dịch vụ và quốc phòng – an ninh.",
+        "Tags": ["Giáo dục", "KH&CN", "Quốc sách", "TW2 K.VIII"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII, Hội nghị TW2 (12/1996)", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1996-12-24",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Xây dựng và hoàn thiện Nhà nước CHXHCN Việt Nam (TW3 K.VIII)",
+        "Description": "Phát huy quyền làm chủ nhân dân; xây dựng bộ máy nhà nước trong sạch, vững mạnh",
+        "Content": "Hội nghị TW3 khóa VIII (6/1997) thông qua NQ 08-NQ/HNTW về phát huy quyền làm chủ của nhân dân, xây dựng Nhà nước CHXHCN Việt Nam trong sạch, vững mạnh với 3 yêu cầu: (1) Phát huy quyền làm chủ nhân dân qua dân chủ đại diện và trực tiếp; (2) Xây dựng Nhà nước hoạt động có hiệu lực, hiệu quả — cán bộ công chức là 'công bộc, tận tụy phục vụ nhân dân'; (3) Tăng cường sự lãnh đạo của Đảng đối với Nhà nước. Đồng thời thông qua Chiến lược cán bộ thời kỳ CNH–HĐH — tiêu chuẩn cán bộ: 'Cần kiệm liêm chính, chí công vô tư, không tham nhũng.'",
+        "Tags": ["Nhà nước", "Cán bộ", "Dân chủ", "TW3 K.VIII"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII, Hội nghị TW3 (6/1997)", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1997-06-18",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc (TW5 K.VIII)",
+        "Description": "Nghị quyết TW5 K.VIII — Bản tuyên ngôn văn hóa của Đảng trong thời kỳ CNH–HĐH",
+        "Content": "Hội nghị TW5 khóa VIII (7/1998) ban hành NQ 05-NQ/TW về xây dựng và phát triển nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc. Quan điểm cốt lõi: 'Văn hóa là nền tảng tinh thần của xã hội, vừa là mục tiêu vừa là động lực thúc đẩy phát triển KT–XH.' Hai đặc trưng của nền văn hóa: (1) Tiên tiến — nội dung cốt lõi là lý tưởng độc lập dân tộc và CNXH; (2) Đậm đà bản sắc dân tộc — lòng yêu nước, ý chí tự cường, tinh thần đoàn kết, lòng nhân ái, khoan dung. Từ đó phát động phong trào 'Toàn dân đoàn kết, xây dựng đời sống văn hóa.'",
+        "Tags": ["Văn hóa", "Bản sắc dân tộc", "TW5 K.VIII", "Phong trào văn hóa"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII, Hội nghị TW5 (7/1998)", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1998-07-16",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Quy chế dân chủ ở cơ sở và Chỉ thị 30-CT/TW (2/1998)",
+        "Description": "Xây dựng và thực hiện dân chủ trực tiếp tại xã, phường và cơ quan, đơn vị",
+        "Content": "Trước tình hình mất dân chủ nghiêm trọng ở một số địa phương, Bộ Chính trị ban hành Chỉ thị 30-CT/TW ngày 18/2/1998 về xây dựng và thực hiện Quy chế dân chủ ở cơ sở. Sau đó, Chính phủ, Mặt trận Tổ quốc và các tổ chức trong hệ thống chính trị phối hợp ban hành Quy chế dân chủ tại xã, phường, thị trấn; tại các cơ quan, đơn vị. Đây là bước cụ thể hóa phương châm 'Dân biết, dân bàn, dân làm, dân kiểm tra' vào thực tiễn cơ sở.",
+        "Tags": ["Dân chủ cơ sở", "Chỉ thị 30", "Bộ Chính trị K.VIII"],
+        "Author": [{ "Name": "Bộ Chính trị Khóa VIII (2/1998)", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1998-02-18",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Xây dựng Đảng — Nghị quyết TW6 (lần 2) K.VIII (2/1999)",
+        "Description": "Đấu tranh đẩy lùi bốn nguy cơ; kiên định các quan điểm nguyên tắc của Đảng",
+        "Content": "Thực hiện tự phê bình và phê bình trong Đảng, Hội nghị TW6 (lần 2) K.VIII (2/1999) ban hành NQ 10-NQ/TW về một số vấn đề cơ bản và cấp bách trong công tác xây dựng Đảng. Yêu cầu: tăng cường thống nhất nhận thức – ý chí – hành động; kiên trì đấu tranh đẩy lùi bốn nguy cơ. Kiên định các quan điểm nguyên tắc: độc lập dân tộc gắn với CNXH; Đảng CSVN là lực lượng lãnh đạo duy nhất; Nhà nước của dân – do dân – vì dân; tập trung dân chủ là nguyên tắc cơ bản. Đây được xem là nghị quyết nền tảng trong công cuộc chống tham nhũng, chỉnh đốn Đảng thời kỳ CNH–HĐH.",
+        "Tags": ["Xây dựng Đảng", "Bốn nguy cơ", "TW6 (lần 2) K.VIII"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII, Hội nghị TW6 (lần 2) — 2/1999", "Image": "" }],
+        "Scale": 0.5,
+        "Alignment": "Left",
+        "Date": "1999-02-02",
+        "Link": {
+          "Href": "https://nhandan.vn/tong-bi-thu-le-kha-phieu-nha-lanh-dao-tai-nang-cua-dang-cong-san-viet-nam-post612400.html",
+          "Title": "Nhân Dân — TBT Lê Khả Phiêu",
+          "Target": "_blank"
+        }
+      }
+    ],
+    "BIEU_DO_THONG_KE_GDP_LAM_PHAT": [
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 1995 — Trước thềm Đại hội VIII",
+        "Description": "GDP: ~$20,7 tỷ USD | Tăng trưởng: 9,54% | Lạm phát: ~12,7%",
+        "Content": "Năm 1995 là năm đỉnh cao của giai đoạn tăng tốc đổi mới sau Đại hội VII: tăng trưởng đạt 9,54% — mức cao nhất trong thập kỷ 1990. Việt Nam bình thường hóa quan hệ với Hoa Kỳ (7/1995) và gia nhập ASEAN (7/1995), mở ra giai đoạn hội nhập khu vực mạnh mẽ. Thu nhập bình quân đầu người còn ở mức thấp (~$288 USD). Lạm phát ở mức tương đối cao ~12,7% đặt ra thách thức điều hành vĩ mô.",
+        "Tags": ["GDP", "1995", "Chuẩn bị Đại hội VIII"],
+        "Author": [{ "Name": "World Bank / Macrotrends", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1995-12-31",
+        "Link": { "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate", "Title": "Vietnam GDP Growth Rate – Macrotrends", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 1996 — Năm khai mạc Đại hội VIII",
+        "Description": "GDP: ~$24,7 tỷ USD | Tăng trưởng: 9,34% | Lạm phát: ~5,7%",
+        "Content": "Năm 1996, kinh tế Việt Nam đạt mức tăng trưởng 9,34% — gần chạm mục tiêu 9–10%/năm của Đại hội VIII đề ra. Đây là năm đỉnh cao nhất trong giai đoạn 1996–2000. Lạm phát kiểm soát tốt ở mức 5,7%. Đại hội VIII khai mạc trong bầu không khí kinh tế lạc quan với FDI đạt ~$2,4 tỷ USD. Tuy nhiên, dấu hiệu bất ổn từ khủng hoảng tài chính bắt đầu manh nha tại Thái Lan.",
+        "Tags": ["GDP", "1996", "Đại hội VIII"],
+        "Author": [{ "Name": "World Bank / Macrotrends", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1996-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 1997 — Khủng hoảng tài chính châu Á bùng phát",
+        "Description": "GDP: ~$26,8 tỷ USD | Tăng trưởng: 8,15% | Lạm phát: 3,6%",
+        "Content": "Tháng 7/1997, đồng Baht Thái mất giá kích hoạt khủng hoảng tài chính – tiền tệ toàn châu Á. Tăng trưởng GDP Việt Nam bắt đầu giảm, xuống còn 8,15%. Lạm phát kiểm soát tốt nhờ chính sách tiền tệ thận trọng — dưới 4%, mức thấp nhất kể từ 1987 (trước đó là 300%+). Cùng tháng, Hội nghị TW3 K.VIII bầu Chủ tịch nước Trần Đức Lương và Thủ tướng Phan Văn Khải. Hội nghị TW4 (12/1997) bầu Lê Khả Phiêu làm Tổng Bí thư.",
+        "Tags": ["GDP", "1997", "Khủng hoảng châu Á"],
+        "Author": [{ "Name": "World Bank / US State Dept 2003", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1997-12-31",
+        "Link": { "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/31913.htm", "Title": "US State Dept", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 1998 — Tác động trực tiếp của khủng hoảng",
+        "Description": "GDP: ~$27,2 tỷ USD | Tăng trưởng: 5,76% | Lạm phát: 9,2%",
+        "Content": "Năm 1998, tác động trực tiếp của khủng hoảng tài chính châu Á đẩy tăng trưởng xuống 5,76% — thấp nhất từ 1990. Lạm phát tăng mạnh lên 9,2% do áp lực nhập khẩu và chi tiêu ngân sách. FDI giảm đột ngột do nhà đầu tư nước ngoài rút khỏi khu vực. Thu nhập bình quân đầu người đạt $372 USD (năm 1999). Bộ Chính trị ban hành Chỉ thị 30 về dân chủ ở cơ sở (2/1998); Hội nghị TW5 K.VIII ban hành Nghị quyết về văn hóa (7/1998).",
+        "Tags": ["GDP", "1998", "Khủng hoảng", "FDI giảm"],
+        "Author": [{ "Name": "World Bank / US State Dept", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1998-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 1999 — Đáy tăng trưởng của nhiệm kỳ VIII",
+        "Description": "GDP: ~$28,6 tỷ USD | Tăng trưởng: 4,77% | Lạm phát: 0,1%",
+        "Content": "Năm 1999 là năm đáy tăng trưởng trong nhiệm kỳ Đại hội VIII, tăng trưởng GDP chỉ đạt 4,77% — thấp nhất trong giai đoạn 10 năm Đổi Mới. GDP danh nghĩa đạt 28,6 tỷ USD. Lạm phát xuống gần 0, phản ánh sức cầu yếu trong nền kinh tế. Hội nghị TW6 (lần 2) K.VIII (2/1999) ban hành Nghị quyết xây dựng Đảng trong bối cảnh kinh tế khó khăn. Tuy nhiên, đây là cơ sở để nền kinh tế phục hồi từ năm 2000.",
+        "Tags": ["GDP", "1999", "Đáy tăng trưởng"],
+        "Author": [{ "Name": "US State Dept 2003 / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1999-12-31",
+        "Link": { "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/31913.htm", "Title": "US State Dept", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2000 — Phục hồi, hoàn thành kế hoạch 5 năm 1996–2000",
+        "Description": "GDP: ~$31,2 tỷ USD | Tăng trưởng: 6,79% | Lạm phát: -0,6%",
+        "Content": "Năm 2000 đánh dấu sự phục hồi rõ rệt của kinh tế Việt Nam: GDP tăng trưởng 6,79%, các chỉ tiêu chủ yếu đều đạt hoặc vượt kế hoạch. GDP năm 2000 tăng hơn gấp đôi so với năm 1990. Giá trị sản xuất công nghiệp tăng bình quân 13,5%/năm giai đoạn 1996–2000. Hiệp định Thương mại Song phương Việt–Mỹ (BTA) được ký kết tháng 7/2000, tạo nền tảng cho bùng nổ xuất khẩu từ 2001. Tháng 7/2000, Việt Nam ký kết BTA với Hoa Kỳ.",
+        "Tags": ["GDP", "2000", "Phục hồi", "BTA ký kết"],
+        "Author": [{ "Name": "Văn kiện Đại hội IX (đánh giá) / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "2000-12-31",
+        "Link": { "Href": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=VN", "Title": "World Bank Data", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2001 — Năm cuối nhiệm kỳ VIII, chuyển giao sang Đại hội IX",
+        "Description": "GDP: ~$32,7 tỷ USD | Tăng trưởng: 6,19% | Lạm phát: -0,4%",
+        "Content": "Năm 2001, Đại hội IX khai mạc (4/2001) kế thừa thành tựu của Đại hội VIII. Tăng trưởng GDP đạt 6,19% — thấp hơn mục tiêu 9–10%/năm đặt ra từ Đại hội VIII nhưng vẫn dương và ổn định bất chấp suy thoái toàn cầu sau sự kiện 11/9. Tổng GDP giai đoạn 1996–2000 tăng bình quân 7%/năm. BTA Việt–Mỹ có hiệu lực tháng 12/2001, mở ra kỷ nguyên mới về xuất khẩu và hội nhập.",
+        "Tags": ["GDP", "2001", "Chuyển giao Đại hội IX"],
+        "Author": [{ "Name": "World Bank / US State Dept", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "2001-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      }
+    ],
+    "DONG_THOI_GIAN_SU_KIEN": [
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "28/6–1/7/1996 — Đại hội đại biểu toàn quốc lần thứ VIII",
+        "Description": "Khai mạc Đại hội VIII tại Hà Nội — Đỗ Mười tiếp tục làm Tổng Bí thư",
+        "Content": "Đại hội VIII họp tại Hà Nội với 1.198 đại biểu đại diện cho hơn 2,1 triệu đảng viên. Bầu BCH TW khóa VIII gồm 170 ủy viên. Đỗ Mười tiếp tục làm Tổng Bí thư. Thông qua các văn kiện trọng yếu: Báo cáo chính trị, Kế hoạch 5 năm 1996–2000, Điều lệ Đảng sửa đổi. Xác định đặc trưng mục tiêu CNXH: 'Dân giàu, nước mạnh, xã hội công bằng, văn minh.' Đánh dấu bước ngoặt chuyển sang thời kỳ đẩy mạnh CNH–HĐH.",
+        "Tags": ["Đại hội VIII", "Khai mạc", "Đỗ Mười"],
+        "Author": [{ "Name": "Đảng CSVN", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Center",
+        "Date": "1996-06-28",
+        "Link": { "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_VIII", "Title": "Đại hội VIII – Wikipedia", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "24/12/1996 — Hội nghị TW2 K.VIII về Giáo dục và KH&CN",
+        "Description": "NQ 02 và NQ 03: Coi giáo dục là 'quốc sách hàng đầu'; KH&CN là 'động lực CNH–HĐH'",
+        "Content": "Hội nghị Trung ương 2 khóa VIII (12/1996) ban hành hai nghị quyết chiến lược dài hạn: NQ 02-NQ/HNTW về định hướng chiến lược phát triển GD–ĐT; NQ 03-NQ/HNTW về định hướng chiến lược phát triển KH&CN. Hai nghị quyết đặt nền tảng cho chính sách phát triển nguồn nhân lực chất lượng cao — điều kiện tiên quyết để đẩy mạnh CNH–HĐH trong thế kỷ XXI.",
+        "Tags": ["TW2 K.VIII", "Giáo dục", "KH&CN", "Quốc sách"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1996-12-24",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "7/1997 — Khủng hoảng tài chính – tiền tệ châu Á bùng phát",
+        "Description": "Đồng Baht Thái mất giá kích hoạt domino khủng hoảng toàn khu vực",
+        "Content": "Tháng 7/1997, Thái Lan phá giá đồng Baht, châm ngòi khủng hoảng tài chính – tiền tệ lan rộng khắp châu Á: Indonesia, Malaysia, Hàn Quốc, Philippines đều chịu tác động nặng nề. Việt Nam không bị khủng hoảng trực tiếp do chính sách quản lý vốn thận trọng, nhưng tăng trưởng kinh tế giảm đáng kể từ 9,34% (1996) xuống 5,76% (1998), FDI sụt giảm mạnh. Đây là thử thách lớn nhất trong nhiệm kỳ Đại hội VIII.",
+        "Tags": ["Khủng hoảng 1997", "Châu Á", "Tác động kinh tế"],
+        "Author": [{ "Name": "US State Dept / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1997-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "18/6/1997 — Hội nghị TW3 K.VIII — Nhà nước và chiến lược cán bộ",
+        "Description": "Bầu Chủ tịch nước Trần Đức Lương và Thủ tướng Phan Văn Khải; NQ về Nhà nước và cán bộ",
+        "Content": "Hội nghị TW3 K.VIII (6/1997) ban hành NQ 08 về phát huy quyền làm chủ nhân dân và xây dựng Nhà nước trong sạch, vững mạnh. Đồng thời thông qua Chiến lược cán bộ thời kỳ CNH–HĐH — tiêu chuẩn 'cả đức và tài, lấy đức là gốc.' Hội nghị QH cùng tháng bầu Trần Đức Lương làm Chủ tịch nước (24/9/1997) và Phan Văn Khải làm Thủ tướng Chính phủ — hoàn thiện bộ tứ lãnh đạo khóa VIII.",
+        "Tags": ["TW3 K.VIII", "Chủ tịch nước", "Thủ tướng", "Cán bộ"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1997-06-18",
+        "Link": { "Href": "https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_%C4%90%E1%BB%A9c_L%C6%B0%C6%A1ng", "Title": "Trần Đức Lương – Wikipedia", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "26/12/1997 — Hội nghị TW4 K.VIII — Lê Khả Phiêu làm Tổng Bí thư",
+        "Description": "Kết thúc giai đoạn chuyển giao lãnh đạo; Lê Khả Phiêu là Tổng Bí thư xuất thân từ quân đội đầu tiên",
+        "Content": "Hội nghị TW4 K.VIII (12/1997) bầu Lê Khả Phiêu — Thượng tướng, Chủ nhiệm Tổng cục Chính trị QĐND Việt Nam — làm Tổng Bí thư thay Đỗ Mười. Đây là lần đầu tiên một sĩ quan quân đội giữ chức Tổng Bí thư. Theo Carlyle Thayer, đây là 'kết thúc giai đoạn chuyển giao lãnh đạo bắt đầu từ Đại hội VIII.' Đỗ Mười, Lê Đức Anh và Võ Văn Kiệt trở thành cố vấn Ban Chấp hành Trung ương.",
+        "Tags": ["TW4 K.VIII", "Lê Khả Phiêu", "Tổng Bí thư"],
+        "Author": [{ "Name": "Báo Nhân Dân / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1997-12-26",
+        "Link": { "Href": "https://nhandan.vn/tong-bi-thu-le-kha-phieu-nha-lanh-dao-tai-nang-cua-dang-cong-san-viet-nam-post612400.html", "Title": "Nhân Dân – Lê Khả Phiêu", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "18/2/1998 — Chỉ thị 30-CT/TW về Quy chế dân chủ ở cơ sở",
+        "Description": "Thực hiện phương châm 'Dân biết, dân bàn, dân làm, dân kiểm tra' tại xã, phường và cơ quan",
+        "Content": "Trước tình trạng mất dân chủ nghiêm trọng tại một số địa phương — điển hình là vụ Thái Bình — Bộ Chính trị ban hành Chỉ thị 30-CT/TW ngày 18/2/1998 về xây dựng và thực hiện Quy chế dân chủ ở cơ sở. Tiếp theo, Chính phủ ban hành Nghị định và các tổ chức trong hệ thống chính trị phối hợp xây dựng quy chế tại các loại hình cơ sở trên cả nước. Đây là bước thể chế hóa quan trọng quyền làm chủ trực tiếp của nhân dân.",
+        "Tags": ["Chỉ thị 30", "Dân chủ cơ sở", "Bộ Chính trị K.VIII"],
+        "Author": [{ "Name": "Bộ Chính trị Khóa VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1998-02-18",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "16/7/1998 — Hội nghị TW5 K.VIII — Nghị quyết về Văn hóa",
+        "Description": "NQ 05-NQ/TW: Bản tuyên ngôn văn hóa của Đảng trong thời kỳ CNH–HĐH",
+        "Content": "Hội nghị TW5 K.VIII (7/1998) ban hành NQ 05-NQ/TW về xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc — nghị quyết được ví như 'bản tuyên ngôn văn hóa của Đảng.' Từ đó phong trào 'Toàn dân đoàn kết, xây dựng đời sống văn hóa' được phát động rộng rãi. Nghị quyết đặt nền tảng văn hóa vững chắc cho quá trình CNH–HĐH, ngăn ngừa sự xói mòn bản sắc dân tộc trong bối cảnh hội nhập.",
+        "Tags": ["TW5 K.VIII", "Văn hóa", "Bản sắc dân tộc"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1998-07-16",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2/2/1999 — Hội nghị TW6 (lần 2) K.VIII — Xây dựng Đảng",
+        "Description": "NQ 10: Đấu tranh đẩy lùi bốn nguy cơ; kiên định nguyên tắc của Đảng",
+        "Content": "Hội nghị TW6 (lần 2) K.VIII (2/1999) ban hành NQ 10-NQ/TW về một số vấn đề cơ bản và cấp bách trong công tác xây dựng Đảng. Đây được coi là dấu ấn lớn nhất của TBT Lê Khả Phiêu: lần đầu Đảng thẳng thắn nhìn nhận và yêu cầu đấu tranh với những yếu kém nội tại. Nội dung nhấn mạnh kiên định 5 quan điểm nguyên tắc và đẩy lùi bốn nguy cơ (tụt hậu kinh tế, chệch hướng XHCN, tham nhũng – tiêu cực, 'diễn biến hòa bình').",
+        "Tags": ["TW6 (lần 2) K.VIII", "Xây dựng Đảng", "Bốn nguy cơ", "Lê Khả Phiêu"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1999-02-02",
+        "Link": { "Href": "https://nhandan.vn/tong-bi-thu-le-kha-phieu-nha-lanh-dao-tai-nang-cua-dang-cong-san-viet-nam-post612400.html", "Title": "Nhân Dân", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "8/1999 — Hội nghị TW7 K.VIII — Hệ thống chính trị và tổ chức bộ máy",
+        "Description": "Củng cố tổ chức bộ máy từ Trung ương đến cơ sở; đổi mới phương thức hoạt động các cơ quan Đảng, Nhà nước",
+        "Content": "Hội nghị TW7 K.VIII (8/1999) xác định rõ hơn chức năng, nhiệm vụ và tổ chức các ban của Đảng ở các cấp; cải tiến cách làm việc của các cơ quan Quốc hội, Chính phủ và chính quyền địa phương; sắp xếp tổ chức ngành kiểm sát và tòa án; xây dựng quy chế làm việc, đổi mới phương thức hoạt động của Mặt trận và các đoàn thể chính trị – xã hội.",
+        "Tags": ["TW7 K.VIII", "Hệ thống chính trị", "Tổ chức bộ máy"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1999-08-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "13/7/2000 — Việt Nam và Mỹ ký Hiệp định BTA",
+        "Description": "Bước đột phá ngoại giao kinh tế lớn nhất của nhiệm kỳ Đại hội VIII",
+        "Content": "Ngày 13/7/2000, Việt Nam và Hoa Kỳ ký kết Hiệp định Thương mại Song phương (BTA) — thành quả của đường lối đối ngoại đa phương hóa, đa dạng hóa được xác định từ Đại hội VIII. Hiệp định có hiệu lực tháng 12/2001, mở ra giai đoạn bùng nổ xuất khẩu 20–30%/năm sang thị trường Mỹ. Đây là hiệp định thương mại toàn diện nhất mà Việt Nam ký kết đến thời điểm đó, đặt nền tảng cho lộ trình gia nhập WTO.",
+        "Tags": ["BTA", "Việt–Mỹ", "Đối ngoại", "Hội nhập"],
+        "Author": [{ "Name": "US State Dept / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "2000-07-13",
+        "Link": { "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/31913.htm", "Title": "US State Dept – Vietnam 2003", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "19–22/4/2001 — Đại hội IX khai mạc — Kết thúc nhiệm kỳ VIII",
+        "Description": "Đại hội IX kế thừa thành tựu và rút ra bài học từ nhiệm kỳ Đại hội VIII",
+        "Content": "Đại hội IX (4/2001) đánh giá tổng kết nhiệm kỳ Đại hội VIII: GDP bình quân tăng 7%/năm trong 5 năm 1996–2000; các chỉ tiêu chủ yếu đều đạt hoặc vượt kế hoạch. Tuy nhiên, mục tiêu tăng trưởng 9–10%/năm không đạt. Nông Đức Mạnh thay Lê Khả Phiêu làm Tổng Bí thư. Đại hội IX đề ra Chiến lược PTKTXH 2001–2010, kế thừa 6 bài học của Đại hội VIII và xác định thêm mô hình kinh tế thị trường định hướng XHCN.",
+        "Tags": ["Đại hội IX", "Kết thúc nhiệm kỳ VIII", "2001"],
+        "Author": [{ "Name": "Văn kiện Đại hội IX / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "2001-04-19",
+        "Link": { "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_IX", "Title": "Đại hội IX – Wikipedia", "Target": "_blank" }
+      }
+    ],
+    "PROFILE_LANH_DAO_DAI_HOI_VIII": [
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Đỗ Mười — Tổng Bí thư BCH TW Đảng (6/1991–12/1997)",
+        "Description": "Sinh ngày 2/2/1917 tại Đông Mỹ, Thanh Trì, Hà Nội — Tổng Bí thư khai mạc Đại hội VIII",
+        "Content": "Đỗ Mười là Tổng Bí thư khóa VII và VIII, khai mạc Đại hội VIII (6/1996) rồi bàn giao cho Lê Khả Phiêu (12/1997). Trong nhiệm kỳ, ông duy trì đường lối Đổi Mới, bình thường hóa quan hệ với Trung Quốc (1991) và Mỹ (1995), đưa Việt Nam vào ASEAN (1995). Nổi tiếng với phong cách lãnh đạo có tổ chức, kỷ luật: 'Ông đưa vào hệ thống chính trị sự trật tự, thường lệ và có thể dự đoán được.' Trở thành Cố vấn Ban Chấp hành Trung ương (1997–2001). Mất ngày 1/10/2018, thọ 101 tuổi.",
+        "Tags": ["Đỗ Mười", "Tổng Bí thư", "Khóa VII-VIII"],
+        "Author": [{ "Name": "Nguồn: Wikipedia – Đỗ Mười / Nhân Dân", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1996-06-28",
+        "Link": { "Href": "https://en.wikipedia.org/wiki/%C4%90%E1%BB%97_M%C6%B0%E1%BB%9Di", "Title": "Đỗ Mười – Wikipedia", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Lê Khả Phiêu — Tổng Bí thư BCH TW Đảng (12/1997–4/2001)",
+        "Description": "Sinh ngày 27/12/1931 tại xã Đông Khê, huyện Đông Sơn, Thanh Hóa — Tổng Bí thư xuất thân quân đội đầu tiên",
+        "Content": "Lê Khả Phiêu là Tổng Bí thư BCH TW Đảng từ 26/12/1997 đến 22/4/2001. Trước đó giữ chức Thượng tướng – Chủ nhiệm Tổng cục Chính trị QĐND Việt Nam. Tốt nghiệp khóa đào tạo quân sự và chính trị tại Việt Nam và Liên Xô. Vào Đảng 19/6/1948. Dấu ấn nổi bật: chủ trì Nghị quyết TW6 (lần 2) K.VIII (1999) về xây dựng Đảng — nghị quyết đầu tiên thẳng thắn yêu cầu đấu tranh với suy thoái nội bộ; phát động 'Học tập tư tưởng đạo đức HCM.' Mất ngày 7/8/2020, thọ 89 tuổi.",
+        "Tags": ["Lê Khả Phiêu", "Tổng Bí thư", "Quân đội"],
+        "Author": [{ "Name": "Nguồn: Nhân Dân / NLĐ / Đảng CSVN online", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1997-12-26",
+        "Link": { "Href": "https://nhandan.vn/tong-bi-thu-le-kha-phieu-nha-lanh-dao-tai-nang-cua-dang-cong-san-viet-nam-post612400.html", "Title": "Lê Khả Phiêu – Báo Nhân Dân", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Lê Đức Anh — Chủ tịch nước (9/1992–9/1997)",
+        "Description": "Đại tướng, Chủ tịch nước khóa IX; Cố vấn BCH TW Đảng khóa VIII (1997–2001)",
+        "Content": "Đại tướng Lê Đức Anh (1920–2019) là Chủ tịch nước từ 9/1992 đến 9/1997 (cuối nhiệm kỳ Đại hội VII và đầu Đại hội VIII). Từng là Tổng Tư lệnh Quân đội, Bộ trưởng Quốc phòng. Sau Đại hội VIII, ông trở thành Cố vấn BCH TW cùng Đỗ Mười và Võ Văn Kiệt. Trong giai đoạn 1992–1997, dưới sự lãnh đạo bộ ba Đỗ Mười – Lê Đức Anh – Võ Văn Kiệt, Việt Nam bình thường hóa quan hệ với Trung Quốc, Mỹ và gia nhập ASEAN.",
+        "Tags": ["Lê Đức Anh", "Chủ tịch nước", "Cố vấn"],
+        "Author": [{ "Name": "Nguồn: Wikipedia / Báo Nhân Dân", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1992-09-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Trần Đức Lương — Chủ tịch nước (9/1997–6/2006)",
+        "Description": "Sinh ngày 5/5/1937 tại Đức Phổ, Quảng Ngãi — Uỷ viên Bộ Chính trị từ 6/1996",
+        "Content": "Trần Đức Lương được bầu làm Chủ tịch nước ngày 24/9/1997, giữ chức qua hai nhiệm kỳ VIII và IX. Tốt nghiệp chuyên ngành Địa chất (Đại học Mỏ – Địa chất). Vào Đảng CSVN năm 1959. Nguyên Phó Chủ tịch Hội đồng Bộ trưởng, Phó Thủ tướng. Uỷ viên Bộ Chính trị từ 6/1996. Cùng Thủ tướng Phan Văn Khải tuyên bố từ chức ngày 24/6/2006. Được tặng thưởng Huân chương Sao Vàng. Mất ngày 20/5/2025, thọ 88 tuổi.",
+        "Tags": ["Trần Đức Lương", "Chủ tịch nước", "Khóa VIII-IX"],
+        "Author": [{ "Name": "Nguồn: chinhphu.vn / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1997-09-24",
+        "Link": { "Href": "https://xaydungchinhsach.chinhphu.vn/tom-tat-tieu-su-dong-chi-tran-duc-luong-nguyen-uy-vien-bo-chinh-tri-nguyen-chu-tich-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-119250523100623105.htm", "Title": "Tiểu sử Trần Đức Lương – chinhphu.vn", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Phan Văn Khải — Thủ tướng Chính phủ (9/1997–6/2006)",
+        "Description": "Sinh ngày 25/12/1933 tại Củ Chi, TP.HCM — Thủ tướng điều hành kinh tế qua khủng hoảng châu Á",
+        "Content": "Phan Văn Khải là Thủ tướng Chính phủ từ 25/9/1997 đến 27/6/2006, điều hành kinh tế xuyên suốt giai đoạn khủng hoảng tài chính châu Á và phục hồi kinh tế. Dưới sự điều hành của ông, Việt Nam ký BTA với Mỹ (7/2000), duy trì tăng trưởng ổn định 6–7%/năm. Tháng 6/2005, ông thực hiện chuyến thăm lịch sử đến Hoa Kỳ. Cùng tuyên bố từ chức với Trần Đức Lương (24/6/2006). Mất đầu năm 2018.",
+        "Tags": ["Phan Văn Khải", "Thủ tướng", "Kinh tế"],
+        "Author": [{ "Name": "Nguồn: US State Dept / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1997-09-25",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Nông Đức Mạnh — Chủ tịch Quốc hội (9/1992–4/2001)",
+        "Description": "Sinh ngày 11/9/1939 tại Na Rì, Bắc Kạn — Chủ tịch Quốc hội hai khóa IX và X",
+        "Content": "Nông Đức Mạnh là Chủ tịch Quốc hội khóa IX (1992–1997) và X (1997–2001) trong suốt nhiệm kỳ Đại hội VIII. Dân tộc Tày, tốt nghiệp Học viện Lâm nghiệp Lê-nin-grát (Liên Xô, 1966–1971). Được bầu vào Bộ Chính trị từ Đại hội VII (1991). Lãnh đạo Quốc hội trong thời kỳ cải cách pháp luật, xây dựng Nhà nước pháp quyền XHCN. Tháng 4/2001, được bầu làm Tổng Bí thư Đại hội IX, là Tổng Bí thư dân tộc thiểu số (Tày) đầu tiên trong lịch sử Đảng.",
+        "Tags": ["Nông Đức Mạnh", "Quốc hội", "Dân tộc Tày"],
+        "Author": [{ "Name": "Nguồn: Nhân Dân / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left",
+        "Date": "1992-09-01",
+        "Link": { "Href": "https://nhandan.vn/tieu-su-tom-tat-tong-bi-thu-nong-duc-manh-post481138.html", "Title": "Tiểu sử Nông Đức Mạnh – Nhân Dân", "Target": "_blank" }
+      }
+    ],
+    "SO_SANH_TRUOC_SAU_KHUNG_HOANG_1997": {
+      "TRUOC_KHUNG_HOANG": [
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "Giai đoạn tăng trưởng mạnh 1995–1996 — Trước khủng hoảng",
+          "Description": "GDP tăng 9,5% và 9,3%; FDI đỉnh cao; lạm phát kiểm soát tốt",
+          "Content": "Giai đoạn 1995–1996 là đỉnh cao của mười năm Đổi Mới: tăng trưởng GDP đạt 9,54% (1995) và 9,34% (1996). FDI đạt ~$2,4 tỷ USD/năm. Xuất khẩu tăng mạnh nhờ dầu thô, dệt may, thủy sản. Lạm phát kiểm soát ở mức 12,7% (1995) và 5,7% (1996). Việt Nam gia nhập ASEAN (7/1995), bình thường hóa quan hệ với Mỹ (7/1995), mở ra kỷ nguyên hội nhập. Đây là nền tảng lạc quan để Đại hội VIII đặt mục tiêu tăng trưởng 9–10%/năm.",
+          "Tags": ["1995-1996", "Tăng trưởng", "FDI", "Trước khủng hoảng"],
+          "Author": [{ "Name": "World Bank / Macrotrends / US State Dept", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left",
+          "Date": "1996-12-31",
+          "Link": { "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate", "Title": "Vietnam GDP Growth – Macrotrends", "Target": "_blank" }
+        }
+      ],
+      "SAU_KHUNG_HOANG": [
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "1997 — Khủng hoảng bùng phát: tăng trưởng giảm xuống 8,15%",
+          "Description": "Đồng Baht Thái mất giá tháng 7/1997 — làn sóng khủng hoảng bắt đầu lan sang Việt Nam",
+          "Content": "Năm 1997: GDP tăng 8,15% (giảm từ 9,34% năm 1996). FDI bắt đầu giảm. Lạm phát xuống 3,6% nhờ chính sách tiền tệ thận trọng. Indonesia, Malaysia, Hàn Quốc chịu khủng hoảng nặng nề. Việt Nam giữ được ổn định nhờ quản lý vốn chặt chẽ và chưa mở hoàn toàn tài khoản vốn.",
+          "Tags": ["1997", "Khủng hoảng", "GDP giảm"],
+          "Author": [{ "Name": "World Bank / US State Dept", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left",
+          "Date": "1997-12-31",
+          "Link": { "Href": "", "Title": "", "Target": "_blank" }
+        },
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "1998 — Tác động trực tiếp: GDP chỉ còn 5,76%; lạm phát tăng vọt 9,2%",
+          "Description": "Năm khó khăn nhất: FDI giảm mạnh, xuất khẩu sụt giảm, nhu cầu khu vực yếu",
+          "Content": "Năm 1998 là năm tác động mạnh nhất của khủng hoảng: tăng trưởng GDP chỉ đạt 5,76% — thấp nhất từ 1990. Lạm phát tăng vọt lên 9,2% do áp lực nhập khẩu đắt hơn và chi tiêu ngân sách tăng. FDI giảm đột ngột do nhà đầu tư rút khỏi khu vực. Bộ Chính trị ban hành Chỉ thị 30 về dân chủ cơ sở (2/1998), Hội nghị TW5 ban hành NQ về văn hóa (7/1998) — hai dấu ấn chính trị – văn hóa lớn của năm.",
+          "Tags": ["1998", "Khủng hoảng", "FDI giảm", "Lạm phát"],
+          "Author": [{ "Name": "World Bank / US State Dept", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left",
+          "Date": "1998-12-31",
+          "Link": { "Href": "", "Title": "", "Target": "_blank" }
+        },
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "1999 — Đáy tăng trưởng: GDP chỉ 4,77%; lạm phát gần 0%",
+          "Description": "Năm đáy của nhiệm kỳ VIII — kinh tế suy yếu nhưng ổn định, không khủng hoảng",
+          "Content": "Năm 1999 là đáy của chu kỳ: GDP tăng trưởng chỉ 4,77%. Lạm phát gần bằng 0% phản ánh sức cầu yếu. GDP danh nghĩa đạt 28,6 tỷ USD — thu nhập bình quân đầu người $372 USD. Tuy nhiên, Việt Nam không rơi vào khủng hoảng như các nước trong khu vực: hệ thống ngân hàng vẫn ổn định, tỷ giá giữ được. NQ TW6 (lần 2) K.VIII (2/1999) tập trung xây dựng Đảng là phản ứng đúng đắn trong bối cảnh kinh tế khó khăn.",
+          "Tags": ["1999", "Đáy tăng trưởng", "Ổn định"],
+          "Author": [{ "Name": "US State Dept / World Bank", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left",
+          "Date": "1999-12-31",
+          "Link": { "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/31913.htm", "Title": "US State Dept Vietnam 2003", "Target": "_blank" }
+        },
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "2000 — Phục hồi: GDP 6,79%; ký kết BTA Việt–Mỹ",
+          "Description": "Kinh tế phục hồi mạnh mẽ — hoàn thành kế hoạch 5 năm 1996–2000",
+          "Content": "Năm 2000 đánh dấu sự phục hồi rõ ràng: GDP tăng 6,79%. Tất cả chỉ tiêu chủ yếu đều đạt hoặc vượt kế hoạch. GDP năm 2000 tăng hơn gấp đôi so với năm 1990. Sản xuất công nghiệp tăng bình quân 13,5%/năm. BTA Việt–Mỹ ký kết ngày 13/7/2000 mở ra thị trường xuất khẩu khổng lồ. Đây là bước đệm quan trọng để Đại hội IX kế thừa và đặt mục tiêu tăng trưởng cao hơn cho 2001–2010.",
+          "Tags": ["2000", "Phục hồi", "BTA", "Kế hoạch 5 năm"],
+          "Author": [{ "Name": "Văn kiện Đại hội IX / World Bank", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left",
+          "Date": "2000-12-31",
+          "Link": { "Href": "", "Title": "", "Target": "_blank" }
+        }
+      ]
+    },
+    "BANG_SO_LIEU_KINH_TE": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "1995",
+        "Description": "Năm gốc so sánh — Đỉnh cao Đại hội VII",
+        "Content": "GDP: ~$20,7 tỷ USD | Tăng trưởng GDP: 9,54% | Lạm phát: ~12,7% | Xuất khẩu: ~$5,4 tỷ | Nhập khẩu: ~$8,2 tỷ | Thu nhập BQ đầu người: ~$288 USD. Bình thường hóa quan hệ với Mỹ (7/1995); gia nhập ASEAN (7/1995). Đây là năm đỉnh cao tăng trưởng của thập kỷ 1990.",
+        "Tags": ["1995", "GDP", "ASEAN", "Mỹ"],
+        "Author": [{ "Name": "World Bank / US State Dept", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1995-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "1996",
+        "Description": "Năm khai mạc Đại hội VIII — tăng trưởng đỉnh cao nhiệm kỳ",
+        "Content": "GDP: ~$24,7 tỷ USD | Tăng trưởng GDP: 9,34% | Lạm phát: ~5,7% | Xuất khẩu: ~$7,3 tỷ | Nhập khẩu: ~$11,1 tỷ | Thu nhập BQ đầu người: ~$330 USD | FDI: ~$2,4 tỷ. Năm đỉnh cao của nhiệm kỳ VIII. Sản xuất dầu thô chiếm 20% tổng xuất khẩu. Mục tiêu 9–10%/năm của Đại hội VIII xem ra khả thi.",
+        "Tags": ["1996", "GDP", "Đại hội VIII"],
+        "Author": [{ "Name": "World Bank / Macrotrends", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "1997",
+        "Description": "Khủng hoảng tài chính châu Á bùng phát — tăng trưởng bắt đầu giảm",
+        "Content": "GDP: ~$26,8 tỷ USD | Tăng trưởng GDP: 8,15% | Lạm phát: 3,6% | Xuất khẩu: ~$9,2 tỷ | Nhập khẩu: ~$11,6 tỷ | Thu nhập BQ đầu người: ~$340 USD. Lạm phát xuống thấp nhất kể từ 1987. FDI bắt đầu giảm. Lê Khả Phiêu được bầu làm Tổng Bí thư (12/1997); Trần Đức Lương và Phan Văn Khải nhậm chức.",
+        "Tags": ["1997", "GDP", "Khủng hoảng châu Á"],
+        "Author": [{ "Name": "US State Dept / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1997-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "1998",
+        "Description": "Năm khó khăn nhất — tăng trưởng thấp nhất, lạm phát cao nhất nhiệm kỳ",
+        "Content": "GDP: ~$27,2 tỷ USD | Tăng trưởng GDP: 5,76% | Lạm phát: 9,2% | Xuất khẩu: ~$9,4 tỷ | Nhập khẩu: ~$11,5 tỷ | Thu nhập BQ đầu người: ~$350 USD | FDI: giảm mạnh ~$1,7 tỷ. Các sự kiện lớn: Chỉ thị 30 (2/1998), NQ Văn hóa TW5 (7/1998).",
+        "Tags": ["1998", "Khủng hoảng", "Lạm phát", "FDI"],
+        "Author": [{ "Name": "World Bank / US State Dept", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1998-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "1999",
+        "Description": "Đáy tăng trưởng 4,77% — GDP đạt $28,6 tỷ",
+        "Content": "GDP: $28,6 tỷ USD | Tăng trưởng GDP: 4,77% | Lạm phát: ~0,1% | Xuất khẩu: ~$11,5 tỷ | Nhập khẩu: ~$11,6 tỷ | Thu nhập BQ đầu người: $372 USD. Đây là năm đáy của giai đoạn khủng hoảng. Lạm phát gần bằng 0 phản ánh nhu cầu yếu. NQ TW6 (lần 2) K.VIII (2/1999) — xây dựng Đảng.",
+        "Tags": ["1999", "Đáy tăng trưởng", "GDP"],
+        "Author": [{ "Name": "US State Dept 2003 / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1999-12-31",
+        "Link": { "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/31913.htm", "Title": "US State Dept Vietnam", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2000",
+        "Description": "Phục hồi 6,79% — hoàn thành kế hoạch 5 năm, ký BTA Việt–Mỹ",
+        "Content": "GDP: ~$31,2 tỷ USD | Tăng trưởng GDP: 6,79% | Lạm phát: -0,6% | Xuất khẩu: ~$14,5 tỷ | Nhập khẩu: ~$15,6 tỷ | Thu nhập BQ đầu người: ~$402 USD | FDI: ~$2,4 tỷ. Tất cả chỉ tiêu 5 năm 1996–2000 đạt hoặc vượt. GDP tăng hơn gấp đôi so với 1990. BTA Việt–Mỹ ký 13/7/2000. Công nghiệp tăng bình quân 13,5%/năm suốt 1996–2000.",
+        "Tags": ["2000", "Phục hồi", "BTA", "Kế hoạch 5 năm"],
+        "Author": [{ "Name": "Văn kiện Đại hội IX / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2000-12-31",
+        "Link": { "Href": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=VN", "Title": "World Bank Data", "Target": "_blank" }
+      }
+    ],
+    "CAC_BAI_HOC_VA_QUAN_DIEM_CNH_HĐH": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Bài học 1: Giữ vững mục tiêu độc lập dân tộc gắn với CNXH",
+        "Description": "Kiên trì chủ nghĩa Mác–Lênin và tư tưởng HCM; nắm vững hai nhiệm vụ xây dựng và bảo vệ Tổ quốc",
+        "Content": "Trong quá trình đổi mới phải giữ vững mục tiêu độc lập dân tộc và chủ nghĩa xã hội; nắm vững hai nhiệm vụ chiến lược là xây dựng và bảo vệ Tổ quốc; kiên trì chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh. Đây là nguyên tắc bất biến bất chấp những thay đổi của thế giới và những thách thức từ 'diễn biến hòa bình.' Bài học này tiếp tục được Đại hội IX kế thừa và phát triển khi chính thức đưa tư tưởng Hồ Chí Minh thành nền tảng tư tưởng cùng chủ nghĩa Mác–Lênin.",
+        "Tags": ["Bài học 1", "Độc lập dân tộc", "CNXH", "HCM"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Bài học 2: Kết hợp đổi mới kinh tế với đổi mới chính trị, lấy kinh tế làm trọng tâm",
+        "Description": "Đổi mới kinh tế là trọng tâm, đồng thời từng bước đổi mới chính trị phù hợp",
+        "Content": "Kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới kinh tế làm trọng tâm, đồng thời từng bước đổi mới chính trị. Đây là bài học rút ra từ kinh nghiệm Liên Xô và Đông Âu — không đổi mới chính trị vội vàng đột phá trước khi củng cố kinh tế; không để đổi mới kinh tế 'chạy trước' mà thiếu đổi mới thể chế. Tăng trưởng kinh tế gắn liền với tiến bộ và công bằng xã hội, giữ gìn và phát huy bản sắc văn hóa dân tộc, bảo vệ môi trường sinh thái.",
+        "Tags": ["Bài học 2", "Đổi mới kinh tế", "Đổi mới chính trị"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Bài học 3: Kinh tế nhiều thành phần, cơ chế thị trường, Nhà nước định hướng",
+        "Description": "Xây dựng nền kinh tế hàng hóa nhiều thành phần vận hành theo cơ chế thị trường định hướng XHCN",
+        "Content": "Xây dựng nền kinh tế hàng hóa nhiều thành phần, vận hành theo cơ chế thị trường, đi đôi với tăng cường vai trò quản lý của Nhà nước theo định hướng xã hội chủ nghĩa. Đây là mô hình kinh tế tổng quát đã được thực tiễn 10 năm Đổi Mới kiểm chứng. Tăng trưởng kinh tế phải gắn với tiến bộ và công bằng xã hội, bảo vệ môi trường sinh thái. Bài học này là tiền đề trực tiếp để Đại hội IX chính thức đặt tên: 'kinh tế thị trường định hướng xã hội chủ nghĩa.'",
+        "Tags": ["Bài học 3", "Kinh tế thị trường", "Nhiều thành phần", "Nhà nước"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Bài học 4: Mở rộng và tăng cường khối đại đoàn kết toàn dân",
+        "Description": "Phát huy sức mạnh của toàn dân tộc — lực lượng và nguồn lực quyết định thắng lợi",
+        "Content": "Mở rộng và tăng cường khối đại đoàn kết toàn dân, phát huy sức mạnh của cả dân tộc. Đây là bài học rút ra từ thực tiễn Đổi Mới: những thành công lớn đều dựa trên sự đồng thuận, huy động được sức mạnh của toàn xã hội. Thất bại hoặc chậm trễ thường do thiếu đồng thuận hoặc phân tán nguồn lực. Trong bối cảnh khủng hoảng tài chính châu Á 1997–1999, chính đại đoàn kết và sự ổn định xã hội đã giúp Việt Nam duy trì tăng trưởng dương.",
+        "Tags": ["Bài học 4", "Đại đoàn kết", "Sức mạnh dân tộc"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Bài học 5: Mở rộng hợp tác quốc tế, kết hợp sức mạnh dân tộc với sức mạnh thời đại",
+        "Description": "Tranh thủ sự đồng tình, ủng hộ của nhân dân thế giới; chủ động hội nhập",
+        "Content": "Mở rộng hợp tác quốc tế, tranh thủ sự đồng tình, ủng hộ và giúp đỡ của nhân dân thế giới, kết hợp sức mạnh của dân tộc với sức mạnh thời đại. Bài học này được hiện thực hóa qua: bình thường hóa quan hệ với Trung Quốc (1991), với Mỹ (1995), gia nhập ASEAN (1995), ký BTA Việt–Mỹ (2000). Mỗi bước hội nhập đều mang lại nguồn lực và công nghệ mới. Đây là nền tảng cho đường lối 'đa phương hóa, đa dạng hóa' của Đại hội IX và lộ trình gia nhập WTO.",
+        "Tags": ["Bài học 5", "Hội nhập", "Đối ngoại", "Sức mạnh thời đại"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Bài học 6: Tăng cường vai trò lãnh đạo của Đảng — nhiệm vụ then chốt",
+        "Description": "Xây dựng Đảng ngang tầm đòi hỏi của thời kỳ đẩy mạnh CNH–HĐH",
+        "Content": "Tăng cường vai trò lãnh đạo của Đảng, coi xây dựng Đảng là nhiệm vụ then chốt. Đảng phải tiếp tục tự đổi mới, tự chỉnh đốn, nâng cao sức chiến đấu và năng lực lãnh đạo, khắc phục các biểu hiện tiêu cực và yếu kém. Cần giữ vững và tăng cường bản chất giai cấp công nhân; nâng cao bản lĩnh chính trị và phẩm chất cán bộ đảng viên. NQ TW6 (lần 2) K.VIII (2/1999) là hiện thực hóa bài học này: lần đầu tiên Đảng yêu cầu thẳng thắn đấu tranh với suy thoái tư tưởng, đạo đức.",
+        "Tags": ["Bài học 6", "Xây dựng Đảng", "Lãnh đạo", "CNH-HĐH"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII / NQ TW6 (lần 2) K.VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-07-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "6 Quan điểm CNH–HĐH của Đại hội VIII",
+        "Description": "Nội dung toàn diện của CNH–HĐH trong bối cảnh đất nước chuyển sang thời kỳ mới",
+        "Content": "Đại hội VIII đề ra 6 quan điểm chỉ đạo CNH–HĐH: (1) Độc lập tự chủ đi đôi với mở rộng hợp tác quốc tế — dựa vào nội lực là chính, tranh thủ nguồn lực bên ngoài; (2) CNH–HĐH là sự nghiệp của toàn dân, kinh tế nhà nước giữ vai trò chủ đạo; (3) Phát huy nguồn lực con người là yếu tố cơ bản; (4) KH&CN là động lực CNH–HĐH — kết hợp công nghệ truyền thống và hiện đại; (5) Lấy hiệu quả kinh tế – xã hội làm tiêu chuẩn cơ bản; (6) Kết hợp kinh tế với quốc phòng và an ninh.",
+        "Tags": ["CNH-HĐH", "6 quan điểm", "Đại hội VIII"],
+        "Author": [{ "Name": "Văn kiện Đại hội VIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "1996-07-01",
+        "Link": { "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_VIII", "Title": "Đại hội VIII – Wikipedia", "Target": "_blank" }
+      }
+    ]
+  }
+}

@@ -22,7 +22,7 @@ export default ({ item = dataItemProps, index = 0, open = false, onToggle }) => 
             borderRadius: 2,
             border: "1px solid",
             borderColor: open ? "primary.main" : "divider",
-            backgroundColor: open ? "action.selected" : "background.paper",
+            backgroundColor: "background.paper",
             overflow: "hidden",
             cursor: "pointer",
             transition: "border-color .2s, background-color .2s",
@@ -74,7 +74,14 @@ export default ({ item = dataItemProps, index = 0, open = false, onToggle }) => 
                 )}
                 {item.Content && (
                     <Box
-                        sx={{ typography: "body2", lineHeight: 1.8, "& p": { mb: 1.5 }, "& *:last-child": { mb: 0 } }}
+                        sx={{
+                            typography: "body2",
+                            lineHeight: 1.8,
+                            textAlign: "left",
+                            "& p": { mb: 1.5, textAlign: "left" },
+                            "& *": { textAlign: "left" },
+                            "& *:last-child": { mb: 0 }
+                        }}
                         dangerouslySetInnerHTML={{ __html: item.Content }}
                     />
                 )}

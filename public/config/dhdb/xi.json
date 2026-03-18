@@ -1,0 +1,574 @@
+{
+  "Layout": [
+    {
+      "ModuleType": "HERO",
+      "Title": "Đại hội Đại biểu Toàn quốc lần thứ XI của Đảng (2011–2016)",
+      "Description": "Đại hội bổ sung, phát triển Cương lĩnh năm 1991 — Thông qua Chiến lược phát triển kinh tế–xã hội 2011–2020 và Cương lĩnh 2011",
+      "Data": "HERO_DAI_HOI_XI",
+      "Config": { "Size": "Large", "Alignment": "Center" }
+    },
+    {
+      "ModuleType": "CARD",
+      "Title": "Thông tin tổng quan về Đại hội XI",
+      "Description": "Bối cảnh, nội dung chủ yếu và các văn kiện quan trọng của Đại hội đại biểu toàn quốc lần thứ XI",
+      "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+      "Config": {
+        "Searchable": true,
+        "Categories": ["Lý luận – Cương lĩnh", "Kinh tế", "Xây dựng Đảng", "Giáo dục – KH&CN", "Văn hóa – Xã hội", "Quốc phòng – Đối ngoại", "Môi trường"]
+      }
+    },
+    {
+      "ModuleType": "STATISTIC",
+      "Title": "Số liệu GDP, lạm phát và thu nhập bình quân (2010–2015)",
+      "Description": "Các chỉ số kinh tế vĩ mô nhiệm kỳ Đại hội XI — từ lạm phát đỉnh cao 2011 đến ổn định vĩ mô 2014–2015",
+      "Data": "BIEU_DO_THONG_KE_GDP_LAM_PHAT",
+      "Config": { "Variant": "Bar", "Alignment": "Left" }
+    },
+    {
+      "ModuleType": "TIMELINE",
+      "Title": "Dòng thời gian sự kiện nhiệm kỳ Đại hội XI (2011–2016)",
+      "Description": "Các sự kiện, hội nghị Trung ương và mốc lịch sử quan trọng trong giai đoạn 2011–2016",
+      "Data": "DONG_THOI_GIAN_SU_KIEN",
+      "Config": { "Direction": "Vertical", "Alignment": "Center" }
+    },
+    {
+      "ModuleType": "PROFILE",
+      "Title": "Lãnh đạo chủ chốt nhiệm kỳ Đại hội XI",
+      "Description": "Tiểu sử tóm tắt các đồng chí lãnh đạo trong nhiệm kỳ 2011–2016",
+      "Data": "PROFILE_LANH_DAO_DAI_HOI_XI",
+      "Config": { "Scroll": { "Direction": "Horizontal", "Parallax": true } }
+    },
+    {
+      "ModuleType": "COMPARISON",
+      "Title": "Kinh tế Việt Nam: Từ bất ổn vĩ mô (2011) đến ổn định và phục hồi (2015)",
+      "Description": "So sánh giai đoạn lạm phát cao, DNNN kém hiệu quả (2011–2012) với giai đoạn kiểm soát lạm phát, phục hồi tăng trưởng (2013–2015)",
+      "Data": "SO_SANH_BAT_ON_PHUC_HOI",
+      "Config": { "FromIndex": [0], "ToIndex": [1, 2, 3, 4, 5, 6] }
+    },
+    {
+      "ModuleType": "TABLE",
+      "Title": "Bảng số liệu kinh tế – xã hội Việt Nam (2010–2015)",
+      "Description": "Tổng hợp các chỉ tiêu kinh tế vĩ mô trong kế hoạch 5 năm 2011–2015",
+      "Data": "BANG_SO_LIEU_KINH_TE",
+      "Config": {
+        "Columns": ["Năm", "GDP (tỷ USD)", "Tăng trưởng GDP (%)", "Lạm phát (%)", "Xuất khẩu (tỷ USD)", "Nhập khẩu (tỷ USD)", "GDP bình quân đầu người (USD)"],
+        "Sortable": true,
+        "Striped": true
+      }
+    },
+    {
+      "ModuleType": "ACCORDION",
+      "Title": "Cương lĩnh 2011: 8 phương hướng, 8 quan hệ lớn và các điểm mới nổi bật",
+      "Description": "Nội dung cốt lõi của Cương lĩnh bổ sung phát triển năm 2011; 5 bài học kinh nghiệm; và các điểm mới về lý luận–thực tiễn của Đại hội XI",
+      "Data": "CUONG_LINH_VA_DIEM_MOI",
+      "Config": { "DefaultExpanded": 0, "Alignment": "Center" }
+    }
+  ],
+  "Data": {
+    "HERO_DAI_HOI_XI": [
+      {
+        "Image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"],
+        "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Đại hội Đại biểu Toàn quốc lần thứ XI — Đảng Cộng sản Việt Nam",
+        "Description": "Họp tại Hà Nội từ 12 đến 19/1/2011, với 1.377 đại biểu đại diện cho 3,6 triệu đảng viên. Diễn ra trong bối cảnh cả nước vừa kỷ niệm 1.000 năm Thăng Long–Hà Nội.",
+        "Content": "Đại hội XI thông qua hai văn kiện chiến lược: Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (bổ sung, phát triển năm 2011) — gọi tắt là 'Cương lĩnh 2011' — và Chiến lược phát triển kinh tế–xã hội 2011–2020. Bầu BCH TW khóa XI: 175 ủy viên chính thức, 25 ủy viên dự khuyết; Bộ Chính trị 14 đồng chí. Nguyễn Phú Trọng được bầu làm Tổng Bí thư. Cương lĩnh 2011 bổ sung thêm đặc trưng 'dân chủ' vào mục tiêu; điều chỉnh diễn đạt bài học thứ 5 từ 'bảo đảm' sang 'quyết định' để nhấn mạnh vai trò của Đảng; và bổ sung hai vấn đề toàn cầu mới: chống khủng bố và ứng phó biến đổi khí hậu.",
+        "Tags": ["Đại hội XI", "2011", "Cương lĩnh 2011", "Nguyễn Phú Trọng", "1000 năm Thăng Long"],
+        "Author": [{ "Name": "Đảng Cộng sản Việt Nam", "Image": "" }],
+        "Scale": 1, "Alignment": "Center",
+        "Date": "2011-01-12",
+        "Link": {
+          "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_XI",
+          "Title": "Đại hội XI – Wikipedia", "Target": "_blank"
+        }
+      }
+    ],
+    "BLOG_CAC_THONG_TIN_CHUNG": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Cương lĩnh 2011 — Bước phát triển lý luận 20 năm sau Cương lĩnh 1991",
+        "Description": "8 đặc trưng CNXH; 8 phương hướng; 8 quan hệ lớn — hệ thống lý luận hoàn chỉnh nhất từ trước đến nay",
+        "Content": "Cương lĩnh 2011 kế thừa Cương lĩnh 1991 với các bổ sung quan trọng: (1) Thêm 'dân chủ' vào đặc trưng tổng quát — 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' (thay 'xã hội công bằng, văn minh'); (2) Diễn đạt lại đặc trưng về 'quan hệ sản xuất tiến bộ phù hợp' thay vì 'quan hệ sản xuất tiến bộ'; (3) Bài học thứ 5: sửa từ 'bảo đảm' thành 'quyết định' — 'Sự lãnh đạo đúng đắn của Đảng là nhân tố hàng đầu quyết định thắng lợi'; (4) Bổ sung vào bài học thứ 2: 'Quan liêu, tham nhũng, xa rời nhân dân sẽ dẫn đến những tổn thất khôn lường'; (5) Bổ sung hai vấn đề toàn cầu mới: chống khủng bố và ứng phó biến đổi khí hậu.",
+        "Tags": ["Cương lĩnh 2011", "Lý luận", "CNXH", "Đặc trưng"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Chiến lược PTKTXH 2011–2020 và 3 đột phá chiến lược",
+        "Description": "Đổi mới mô hình tăng trưởng; 3 đột phá: thể chế, nhân lực, hạ tầng; GDP 2020 gấp 2,2 lần 2010",
+        "Content": "Chiến lược PTKTXH 2011–2020 đề ra mục tiêu: đến năm 2020 cơ bản trở thành nước công nghiệp theo hướng hiện đại; GDP 2020 gấp 2,2 lần 2010; GDP bình quân đầu người đạt 3.000 USD. Ba đột phá chiến lược: (1) Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; (2) Phát triển nhanh nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao — gắn với đổi mới căn bản toàn diện giáo dục; (3) Xây dựng hệ thống kết cấu hạ tầng đồng bộ — tập trung giao thông và đô thị lớn. Đây là 3 điểm nghẽn lớn nhất cần tập trung phá vỡ để tăng năng suất và sức cạnh tranh.",
+        "Tags": ["Chiến lược 2011-2020", "Đột phá chiến lược", "Kinh tế"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Xây dựng Đảng — NQ TW4 K.XI (1/2012): 3 vấn đề cấp bách",
+        "Description": "Lần đầu tiên BCT và BBT công khai tự phê bình và nhận lỗi trước Ban Chấp hành Trung ương",
+        "Content": "Hội nghị TW4 K.XI (1/2012) ban hành NQ 12-NQ/TW về 3 vấn đề cấp bách xây dựng Đảng: (1) Kiên quyết đấu tranh ngăn chặn, đẩy lùi suy thoái về tư tưởng chính trị, đạo đức, lối sống của 'một bộ phận không nhỏ cán bộ, đảng viên' — vấn đề trọng tâm, xuyên suốt; (2) Xây dựng đội ngũ cán bộ lãnh đạo, quản lý các cấp, nhất là cấp trung ương; (3) Xác định rõ thẩm quyền, trách nhiệm người đứng đầu. Đặc biệt, tại Hội nghị TW6 K.XI (10/2012), lần đầu tiên trong lịch sử, Bộ Chính trị và Ban Bí thư công khai 'tự phê bình và thành thật nhận lỗi trước Ban Chấp hành Trung ương' về không ngăn chặn được tham nhũng. Đồng thời, Trung ương quyết định thành lập Ban Chỉ đạo Trung ương về phòng, chống tham nhũng do TBT làm Trưởng ban.",
+        "Tags": ["Xây dựng Đảng", "NQ TW4 K.XI", "Tham nhũng", "Tự phê bình"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI, Hội nghị TW4 (1/2012)", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2012-01-16",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Đổi mới căn bản, toàn diện Giáo dục–Đào tạo và KH&CN (TW8 K.XI)",
+        "Description": "NQ 29 (11/2013): Chuyển từ trang bị kiến thức sang phát triển toàn diện năng lực và phẩm chất người học",
+        "Content": "Hội nghị TW8 K.XI (11/2013) ban hành NQ 29-NQ/TW về đổi mới căn bản, toàn diện giáo dục–đào tạo đáp ứng yêu cầu CNH–HĐH. Điểm mới: không chỉ đổi mới nhận thức mà cả chỉ đạo thực tiễn; đổi mới từ lãnh đạo Đảng đến quản trị cơ sở GD và sự tham gia của gia đình, xã hội. Chuyển từ trang bị kiến thức sang 'phát triển toàn diện năng lực và phẩm chất người học.' Đổi mới hệ thống theo hướng mở, linh hoạt, liên thông giữa các bậc học. Hội nghị TW6 K.XI (11/2012) ban hành NQ 20 về KH&CN: 'Phát triển và ứng dụng KH&CN là quốc sách hàng đầu, là một trong những động lực quan trọng nhất để PTKTXH'; mục tiêu 2020 đạt trình độ dẫn đầu ASEAN.",
+        "Tags": ["Giáo dục", "KH&CN", "NQ 29", "TW8 K.XI"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI — TW8 (11/2013), TW6 (11/2012)", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-11-04",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Văn hóa, con người Việt Nam — NQ 33 (6/2014)",
+        "Description": "TW9 K.XI: Văn hóa phải được đặt ngang hàng với kinh tế, chính trị, xã hội",
+        "Content": "Hội nghị TW9 K.XI (6/2014) ban hành NQ 33-NQ/TW về xây dựng và phát triển văn hóa, con người Việt Nam đáp ứng yêu cầu phát triển bền vững. Quan điểm đột phá: 'Văn hóa phải được đặt ngang hàng với kinh tế, chính trị, xã hội.' Trong xây dựng văn hóa, trọng tâm là xây dựng con người có nhân cách, lối sống tốt đẹp với 7 đặc tính: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo. Phát triển văn hóa là sự nghiệp của toàn dân do Đảng lãnh đạo, Nhà nước quản lý; 'nhân dân là chủ thể sáng tạo, đội ngũ trí thức giữ vai trò quan trọng.' Đây là nghị quyết văn hóa quan trọng nhất kể từ NQ TW5 K.VIII (1998).",
+        "Tags": ["Văn hóa", "Con người", "NQ 33", "TW9 K.XI"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI, Hội nghị TW9 (6/2014)", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2014-06-09",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Hiến pháp 2013 — Bản hiến pháp thứ 5 của nước CHXHCN Việt Nam",
+        "Description": "Quốc hội thông qua ngày 28/11/2013 — ghi nhận nhiều tiến bộ về quyền con người và kinh tế thị trường",
+        "Content": "Quốc hội khóa XIII thông qua Hiến pháp 2013 ngày 28/11/2013 sau quá trình lấy ý kiến toàn dân. Điểm mới nổi bật: (1) Chương II về Quyền con người, quyền và nghĩa vụ cơ bản của công dân được mở rộng đáng kể; (2) Ghi nhận nền kinh tế thị trường định hướng XHCN với nhiều hình thức sở hữu; (3) Kinh tế nhà nước giữ vai trò chủ đạo; các thành phần kinh tế đều bình đẳng trước pháp luật; (4) Quy định về Kiểm soát quyền lực nhà nước; phân công, phối hợp và kiểm soát giữa lập pháp, hành pháp, tư pháp; (5) Bổ sung quy định về bảo vệ môi trường và ứng phó biến đổi khí hậu. Đây là cơ sở pháp lý cao nhất cho toàn bộ hệ thống pháp luật nhiệm kỳ XII.",
+        "Tags": ["Hiến pháp 2013", "Pháp lý", "Quyền con người", "Kinh tế thị trường"],
+        "Author": [{ "Name": "Quốc hội khóa XIII (28/11/2013)", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-11-28",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Chiến lược bảo vệ Tổ quốc và đối ngoại — NQ TW8 K.XI (10/2013)",
+        "Description": "Bối cảnh Biển Đông căng thẳng; Việt Nam thiết lập quan hệ đối tác chiến lược với 15 nước đến 2015",
+        "Content": "Hội nghị TW8 K.XI (10/2013) ban hành NQ 28-NQ/TW về Chiến lược bảo vệ Tổ quốc trong tình hình mới. Kết hợp chặt chẽ hai nhiệm vụ chiến lược: xây dựng và bảo vệ Tổ quốc; phát huy nội lực kết hợp ngoại lực; tranh thủ sự ủng hộ tối đa của dư luận quốc tế. Trên mặt trận đối ngoại: đến 2015, Việt Nam thiết lập quan hệ đối tác chiến lược với 15 nước (Nga, Trung Quốc, Nhật Bản, Ấn Độ, Hàn Quốc, Tây Ban Nha, Anh, Đức, Italia, Indonesia, Thái Lan, Singapore, Pháp, Malaysia, Philippines) và đối tác toàn diện với 10 nước (gồm Mỹ, Australia...). Đặc biệt, năm 2014, Trung Quốc kéo giàn khoan HD-981 vào vùng đặc quyền kinh tế Việt Nam — thách thức an ninh biển lớn nhất nhiệm kỳ XI.",
+        "Tags": ["Quốc phòng", "Đối ngoại", "Biển Đông", "Đối tác chiến lược"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI, Hội nghị TW8 (10/2013)", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-10-25",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Ứng phó biến đổi khí hậu và quản lý tài nguyên — NQ 24 (6/2013)",
+        "Description": "TW7 K.XI: Lần đầu tiên Đảng có nghị quyết toàn diện về biến đổi khí hậu, tài nguyên và môi trường",
+        "Content": "Hội nghị TW7 K.XI (6/2013) ban hành NQ 24-NQ/TW về chủ động ứng phó với biến đổi khí hậu, tăng cường quản lý tài nguyên và bảo vệ môi trường. Quan điểm: Tài nguyên là 'tài sản quốc gia, nguồn lực, nguồn vốn tự nhiên đặc biệt quan trọng'; phải được đánh giá đầy đủ, hạch toán trong nền kinh tế; khai thác tiết kiệm, bền vững. Biến đổi khí hậu 'không chỉ là thách thức mà còn tạo cơ hội thúc đẩy chuyển đổi mô hình tăng trưởng theo hướng phát triển bền vững.' Đây là nghị quyết quan trọng trong bối cảnh Việt Nam là một trong các nước dễ bị tổn thương nhất bởi biến đổi khí hậu (World Bank xếp top 5 toàn cầu).",
+        "Tags": ["Biến đổi khí hậu", "Tài nguyên", "NQ 24", "TW7 K.XI"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI, Hội nghị TW7 (6/2013)", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-06-03",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Thành tựu kế hoạch 5 năm 2011–2015 — GDP bình quân 5,9%/năm",
+        "Description": "Kiểm soát lạm phát thành công; ổn định vĩ mô; Việt Nam vào Top đối tác chiến lược với 15 nước",
+        "Content": "Kế hoạch 5 năm 2011–2015 đạt: GDP tăng bình quân 5,9%/năm (thấp hơn mục tiêu 6,5–7% nhưng là thành tích đáng kể trong bối cảnh toàn cầu bất ổn); GDP bình quân đầu người đạt 2.109 USD (2015) — tăng gần 2 lần so với 2010 ($1.168 USD). Lạm phát kiểm soát tốt: từ 18,7% (2011) xuống 0,63% (2015). Ổn định kinh tế vĩ mô là thành tựu nổi bật nhất. Đối ngoại: quan hệ đối tác chiến lược 15 nước, toàn diện 10 nước; 36 nước công nhận cơ chế kinh tế thị trường của Việt Nam. Di sản văn hóa: UNESCO công nhận 5 di sản trong nhiệm kỳ (2011–2014).",
+        "Tags": ["Kế hoạch 5 năm", "Thành tựu", "GDP", "Lạm phát"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI / Văn kiện Đại hội XII (đánh giá)", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2015-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      }
+    ],
+    "BIEU_DO_THONG_KE_GDP_LAM_PHAT": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2010 — Năm gốc, cuối kế hoạch 5 năm 2006–2010",
+        "Description": "GDP: ~$115,9 tỷ USD | Tăng trưởng: 6,78% | Lạm phát: 11,75% | BQ đầu người: $1.168",
+        "Content": "Năm 2010 là năm cuối kế hoạch 5 năm 2006–2010, GDP đạt 101,6 tỷ USD (theo giá thực tế, văn kiện ĐHội XI). GDP bình quân đầu người 1.168 USD. Lạm phát 11,75% — đang có xu hướng tăng tạo áp lực cho năm 2011. Đây là mức nền để so sánh và đặt mục tiêu Chiến lược 2011–2020: GDP 2020 gấp 2,2 lần 2010.",
+        "Tags": ["GDP", "2010", "Nền tảng"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI / Macrotrends", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2010-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2011 — Khai mạc Đại hội XI; lạm phát đỉnh điểm 18,7%",
+        "Description": "GDP: ~$135,5 tỷ USD | Tăng trưởng: 6,24% | Lạm phát: 18,7% | BQ đầu người: ~$1.374",
+        "Content": "Năm 2011, Đại hội XI khai mạc (1/2011) và ngay lập tức đối mặt thách thức kinh tế: lạm phát leo thang lên 18,7% — mức cao nhất kể từ 1995 — do dư âm kích thích kinh tế hậu COVID và giá hàng hóa toàn cầu tăng. Tháng 10/2012, Đảng buộc phải xin lỗi trước BCH TW về quản lý kinh tế kém (DNNN phá sản, nợ xấu ngân hàng lên 15%). Mặc dù vậy, GDP tăng trưởng 6,24% — vẫn khá so với khu vực. Nguồn: Wikipedia Economy of Vietnam.",
+        "Tags": ["GDP", "2011", "Lạm phát", "DNNN"],
+        "Author": [{ "Name": "Wikipedia Economy of Vietnam / Macrotrends", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-12-31",
+        "Link": { "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam", "Title": "Wikipedia", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2012 — Tăng trưởng thấp nhất nhiệm kỳ; lạm phát kiểm soát được",
+        "Description": "GDP: ~$155,8 tỷ USD | Tăng trưởng: 5,25% | Lạm phát: 7,5% | BQ đầu người: ~$1.596",
+        "Content": "Năm 2012 là năm khó khăn nhất về tăng trưởng kinh tế trong nhiệm kỳ XI: GDP chỉ đạt 5,25% — thấp nhất từ 1999. Nguyên nhân: DNNN hoạt động kém, nợ xấu ngân hàng cao (~15%), tín dụng thắt chặt. Tuy nhiên, lạm phát giảm từ 18,7% xuống 7,5% — thành tựu kiểm soát vĩ mô quan trọng. Việt Nam lần đầu ghi nhận thặng dư thương mại ($780 triệu) kể từ 1993. Hội nghị TW4 K.XI (1/2012) và TW6 K.XI (10/2012) tập trung xây dựng Đảng và tái cơ cấu DNNN.",
+        "Tags": ["GDP", "2012", "Nợ xấu", "DNNN", "Thặng dư thương mại"],
+        "Author": [{ "Name": "Wikipedia Economy of Vietnam / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2012-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2013 — Phục hồi dần; thặng dư thương mại tiếp tục",
+        "Description": "GDP: ~$171,2 tỷ USD | Tăng trưởng: 5,42% | Lạm phát: 6% | BQ đầu người: ~$1.755",
+        "Content": "Năm 2013, tăng trưởng GDP cải thiện nhẹ lên 5,42%. Lạm phát tiếp tục giảm xuống 6% — xu hướng ổn định tích cực. Thặng dư thương mại năm thứ 2: $863 triệu. Tổng thương mại đạt $228 tỷ. FDI phục hồi — Samsung đẩy mạnh đầu tư nhà máy thứ 2 tại Thái Nguyên. Hiến pháp 2013 được thông qua (11/2013). Quan hệ đối ngoại mở rộng: Mỹ và Việt Nam thiết lập 'đối tác toàn diện' tháng 7/2013 khi TBT Nguyễn Phú Trọng thăm Washington. NQ 29 về đổi mới giáo dục (11/2013) là dấu ấn lớn năm này.",
+        "Tags": ["GDP", "2013", "Đối tác Mỹ-Việt", "Hiến pháp 2013"],
+        "Author": [{ "Name": "Wikipedia Economy of Vietnam / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2014 — Tăng tốc; thặng dư kỷ lục $2,14 tỷ; giàn khoan HD-981",
+        "Description": "GDP: ~$186,2 tỷ USD | Tăng trưởng: 5,98% | Lạm phát: 4,09% | BQ đầu người: ~$1.902",
+        "Content": "Năm 2014, kinh tế tăng tốc: GDP 5,98%; nhập khẩu tăng 12,1% lên $148 tỷ; thặng dư thương mại đạt kỷ lục $2,14 tỷ — lớn nhất trong lịch sử đến thời điểm đó. Trung Quốc tiếp tục là đối tác nhập khẩu lớn nhất ($43,7 tỷ). Tuy nhiên, tháng 5/2014, Trung Quốc kéo giàn khoan HD-981 vào vùng đặc quyền kinh tế Việt Nam, gây căng thẳng ngoại giao nghiêm trọng và biểu tình chống Trung Quốc trong nước. FDI tăng mạnh nhờ Samsung, LG, Intel. Lạm phát tiếp tục hạ xuống 4,09% — mức kiểm soát tốt.",
+        "Tags": ["GDP", "2014", "HD-981", "Biển Đông", "FDI"],
+        "Author": [{ "Name": "Wikipedia Economy of Vietnam / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2014-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "GDP 2015 — Tăng trưởng 6,68%; lạm phát kỷ lục thấp 0,63%",
+        "Description": "GDP: ~$193,2 tỷ USD | Tăng trưởng: 6,68% | Lạm phát: 0,63% | BQ đầu người: ~$2.109",
+        "Content": "Năm 2015 đánh dấu kết thúc thành công kế hoạch 5 năm 2011–2015: GDP tăng 6,68% — vượt mục tiêu 6,2%. GDP bình quân đầu người đạt 2.109 USD — tăng ~1,8 lần so với 2010 ($1.168 USD). Đặc biệt, lạm phát chỉ 0,63% — mức thấp kỷ lục nhiều thập kỷ, phản ánh kiểm soát vĩ mô thành công và giá dầu thế giới giảm mạnh. Ổn định kinh tế vĩ mô là thành tựu nổi bật nhất nhiệm kỳ XI. AEC (ASEAN Economic Community) vận hành từ 31/12/2015, mở đầu kỷ nguyên hội nhập mới.",
+        "Tags": ["GDP", "2015", "Lạm phát kỷ lục thấp", "AEC", "Thành tựu"],
+        "Author": [{ "Name": "Văn kiện Đại hội XII (đánh giá) / Wikipedia / Macrotrends", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2015-12-31",
+        "Link": { "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate", "Title": "Vietnam GDP Growth – Macrotrends", "Target": "_blank" }
+      }
+    ],
+    "DONG_THOI_GIAN_SU_KIEN": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "12–19/1/2011 — Đại hội đại biểu toàn quốc lần thứ XI tại Hà Nội",
+        "Description": "Nguyễn Phú Trọng được bầu làm Tổng Bí thư; thông qua Cương lĩnh 2011 và Chiến lược 2011–2020",
+        "Content": "Đại hội XI khai mạc 12/1/2011, bế mạc 19/1/2011. Bầu BCH TW khóa XI: 175 ủy viên chính thức, 25 ủy viên dự khuyết; Bộ Chính trị 14 đồng chí; Ban Bí thư 10 đồng chí. Nguyễn Phú Trọng được bầu làm Tổng Bí thư — từ Chủ tịch Quốc hội lên TBT. Đây là lần đầu tiên Tổng Bí thư xuất thân từ ban ngành lý luận–tuyên giáo (Tạp chí Cộng sản, Học viện Chính trị). Thông qua Cương lĩnh 2011 và Chiến lược PTKTXH 2011–2020 với 3 đột phá chiến lược.",
+        "Tags": ["Đại hội XI", "Khai mạc", "Nguyễn Phú Trọng"],
+        "Author": [{ "Name": "Đảng CSVN / baochinhphu.vn", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-12",
+        "Link": { "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_XI", "Title": "Đại hội XI – Wikipedia", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "26/7/2011 — Bộ tứ lãnh đạo khóa XI hoàn thiện",
+        "Description": "Trương Tấn Sang – CTN; Nguyễn Tấn Dũng tái đắc cử TTg; Nguyễn Sinh Hùng – CTQH",
+        "Content": "Tại kỳ họp thứ nhất Quốc hội khóa XIII: Trương Tấn Sang được bầu làm Chủ tịch nước (25/7/2011). Nguyễn Tấn Dũng được tái đắc cử Thủ tướng (26/7/2011) với 470/500 phiếu. Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội (23/7/2011). Bộ tứ lãnh đạo khóa XI hoàn chỉnh: Nguyễn Phú Trọng (TBT) – Trương Tấn Sang (CTN) – Nguyễn Tấn Dũng (TTg) – Nguyễn Sinh Hùng (CTQH). Đáng chú ý, tại Đại hội XI, ông Nguyễn Tấn Dũng xếp thứ 3 trong thứ bậc Bộ Chính trị, sau Trương Tấn Sang.",
+        "Tags": ["Bộ tứ lãnh đạo", "Trương Tấn Sang", "Nguyễn Tấn Dũng", "Nguyễn Sinh Hùng"],
+        "Author": [{ "Name": "Quốc hội XIII / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-07-26",
+        "Link": { "Href": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_T%E1%BA%A5n_D%C5%A9ng", "Title": "Nguyễn Tấn Dũng – Wikipedia", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "16/1/2012 — Hội nghị TW4 K.XI — 3 vấn đề cấp bách xây dựng Đảng",
+        "Description": "NQ 12: Đấu tranh đẩy lùi suy thoái, xây dựng cán bộ — Trung ương quyết định TBT làm Trưởng Ban Chỉ đạo PCTN",
+        "Content": "Hội nghị TW4 K.XI (1/2012) ban hành NQ 12-NQ/TW về 3 vấn đề cấp bách xây dựng Đảng. Đây là NQ có tác động sâu rộng nhất về xây dựng Đảng từ Đổi Mới đến thời điểm đó. Trung ương quyết định thành lập Ban Chỉ đạo TW về PCTN trực thuộc Bộ Chính trị, do TBT làm Trưởng ban — chuyển từ trực thuộc Chính phủ (thời Nguyễn Tấn Dũng) sang Bộ Chính trị. Đây là tiền đề trực tiếp cho Chiến dịch Đốt Lò của NQ TW4 K.XII (2016). Cũng trong TW4, chủ trương xây dựng hệ thống hạ tầng đồng bộ (đột phá thứ 3).",
+        "Tags": ["TW4 K.XI", "Xây dựng Đảng", "PCTN", "Hạ tầng"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2012-01-16",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "5/2012 — Hội nghị TW5 K.XI — Đất đai và An sinh xã hội",
+        "Description": "NQ về đất đai: sở hữu toàn dân — sẽ là nền tảng cho Luật Đất đai 2013",
+        "Content": "Hội nghị TW5 K.XI (5/2012) ban hành hai nghị quyết quan trọng: (1) NQ về chính sách đất đai: 'Đất đai là tài nguyên quốc gia vô cùng quý giá, là tư liệu sản xuất đặc biệt'; 'đất đai thuộc sở hữu toàn dân do Nhà nước đại diện.' Người sử dụng đất được giao, cho thuê ổn định lâu dài. Đây là nền tảng để ban hành Luật Đất đai 2013. (2) NQ về an sinh xã hội: hệ thống đa dạng, toàn diện, có tính chia sẻ; ưu tiên người có công, hoàn cảnh đặc biệt khó khăn, người nghèo và đồng bào dân tộc thiểu số.",
+        "Tags": ["TW5 K.XI", "Đất đai", "An sinh xã hội"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2012-05-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "10/2012 — Hội nghị TW6 K.XI — BCT tự phê bình; KH&CN; DNNN",
+        "Description": "Dấu mốc lịch sử: Bộ Chính trị lần đầu 'thành thật nhận lỗi' trước Ban Chấp hành Trung ương",
+        "Content": "Hội nghị TW6 K.XI (10/2012) có hai sự kiện lớn: (1) Lần đầu tiên trong lịch sử, Bộ Chính trị và Ban Bí thư 'nghiêm túc tự phê bình và thành thật nhận lỗi trước Ban Chấp hành Trung ương' vì không ngăn chặn được tham nhũng, lãng phí — được cộng đồng quốc tế đánh giá là bước tiến minh bạch. (2) Ban hành NQ 20-NQ/TW về KH&CN: 'là quốc sách hàng đầu, là một trong những động lực quan trọng nhất để PTKTXH'; mục tiêu 2020 đạt trình độ dẫn đầu ASEAN. (3) Kết luận về sắp xếp, đổi mới DNNN — chấm dứt đầu tư dàn trải ngoài ngành.",
+        "Tags": ["TW6 K.XI", "Tự phê bình BCT", "KH&CN", "DNNN"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI / Wikipedia Economy of Vietnam", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2012-10-01",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "3/6/2013 — Hội nghị TW7 K.XI — Dân vận, Biến đổi khí hậu",
+        "Description": "NQ 24 (biến đổi khí hậu) và NQ 25 (dân vận) — hai trụ cột phát triển bền vững và gắn bó với nhân dân",
+        "Content": "Hội nghị TW7 K.XI (6/2013): NQ 24-NQ/TW về chủ động ứng phó biến đổi khí hậu, quản lý tài nguyên và bảo vệ môi trường — lần đầu tiên Đảng có nghị quyết toàn diện về vấn đề này. Biến đổi khí hậu được xem vừa là thách thức vừa là cơ hội chuyển đổi mô hình tăng trưởng. NQ 25-NQ/TW về tăng cường và đổi mới sự lãnh đạo của Đảng đối với công tác dân vận trong tình hình mới: công tác dân vận phải gắn với xây dựng Đảng, Nhà nước trong sạch; mỗi cán bộ đảng viên phải gương mẫu; Đảng lãnh đạo – Nhà nước tổ chức thực hiện – Mặt trận làm tham mưu và nòng cốt.",
+        "Tags": ["TW7 K.XI", "Biến đổi khí hậu", "Dân vận", "Môi trường"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-06-03",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "28/11/2013 — Quốc hội thông qua Hiến pháp 2013",
+        "Description": "Bản hiến pháp thứ 5 của Việt Nam — ghi nhận tiến bộ về quyền con người và kinh tế thị trường",
+        "Content": "Quốc hội khóa XIII thông qua Hiến pháp 2013 với 486/488 phiếu tán thành (99,59%). Lần đầu có chương riêng về Quyền con người (Chương II). Ghi nhận 'nền kinh tế thị trường định hướng XHCN'; các thành phần kinh tế 'bình đẳng trước pháp luật.' Quy định kiểm soát quyền lực: 'Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp, kiểm soát giữa các cơ quan thực hiện quyền lập pháp, hành pháp, tư pháp.' Thêm quy định bảo vệ môi trường và ứng phó biến đổi khí hậu. Hiến pháp 2013 là cơ sở pháp lý cao nhất cho các cải cách giai đoạn tiếp theo.",
+        "Tags": ["Hiến pháp 2013", "Quyền con người", "Pháp luật"],
+        "Author": [{ "Name": "Quốc hội Khóa XIII", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-11-28",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "25/10/2013 — Hội nghị TW8 K.XI — Chiến lược BVTQ và Giáo dục",
+        "Description": "NQ 28 (Chiến lược BVTQ mới) và NQ 29 (đổi mới căn bản toàn diện GD-ĐT)",
+        "Content": "Hội nghị TW8 K.XI (10/2013): NQ 28-NQ/TW về Chiến lược bảo vệ Tổ quốc trong tình hình mới — kết hợp chặt chẽ xây dựng và bảo vệ Tổ quốc; phát huy nội lực và ngoại lực; tranh thủ ủng hộ quốc tế; đặc biệt coi trọng yếu tố bên trong và đoàn kết toàn dân tộc. NQ 29-NQ/TW về đổi mới căn bản, toàn diện GD-ĐT: chuyển từ trang bị kiến thức sang phát triển năng lực và phẩm chất người học; đổi mới ở tất cả các bậc học; hệ thống mở, linh hoạt, liên thông; chủ động hội nhập quốc tế.",
+        "Tags": ["TW8 K.XI", "BVTQ", "Giáo dục NQ 29"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-10-25",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "5/2014 — Trung Quốc kéo giàn khoan HD-981 vào vùng biển Việt Nam",
+        "Description": "Thách thức chủ quyền biển đảo lớn nhất trong nhiệm kỳ XI — Việt Nam kiên quyết đấu tranh ngoại giao",
+        "Content": "Ngày 2/5/2014, Trung Quốc kéo giàn khoan Hải Dương 981 (HD-981) vào vùng đặc quyền kinh tế và thềm lục địa của Việt Nam ở Biển Đông, cách đảo Lý Sơn khoảng 130 hải lý. Việt Nam phản đối mạnh mẽ; cộng đồng quốc tế lên án. Sự kiện này dẫn đến biểu tình chống Trung Quốc trong nước và gây thiệt hại một số tài sản của người Trung Quốc. Trung Quốc rút giàn khoan ngày 15/7/2014. Đây là bài kiểm tra lớn nhất cho Chiến lược bảo vệ Tổ quốc và đường lối đối ngoại 'cân bằng' trong nhiệm kỳ XI.",
+        "Tags": ["HD-981", "Biển Đông", "Chủ quyền", "Trung Quốc"],
+        "Author": [{ "Name": "Wikipedia / TTXVN", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2014-05-02",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "9/6/2014 — Hội nghị TW9 K.XI — Văn hóa, con người NQ 33",
+        "Description": "Văn hóa được đặt ngang hàng kinh tế–chính trị–xã hội; 7 đặc tính con người Việt Nam",
+        "Content": "Hội nghị TW9 K.XI (6/2014) ban hành NQ 33-NQ/TW về xây dựng và phát triển văn hóa, con người Việt Nam — nghị quyết văn hóa lớn nhất kể từ NQ TW5 K.VIII (1998). Quan điểm đột phá: 'Văn hóa phải được đặt ngang hàng với kinh tế, chính trị, xã hội.' Con người là trung tâm với 7 đặc tính: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo. Phát triển văn hóa vì sự hoàn thiện nhân cách — xây dựng con người để phát triển văn hóa. Đây là định hướng lý luận – thực tiễn sâu sắc nhất về mối quan hệ văn hóa–con người–phát triển của Đảng.",
+        "Tags": ["TW9 K.XI", "NQ 33", "Văn hóa", "Con người"],
+        "Author": [{ "Name": "BCH TW Đảng Khóa XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2014-06-09",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "31/12/2015 — AEC vận hành; Việt Nam hoàn thành kế hoạch 5 năm 2011–2015",
+        "Description": "GDP bình quân 5,9%/năm; bình quân đầu người $2.109; lạm phát 0,63% — thành tựu ổn định vĩ mô",
+        "Content": "Cuối 2015, Cộng đồng Kinh tế ASEAN (AEC) chính thức vận hành (31/12/2015), mở đầu kỷ nguyên hội nhập mới sâu hơn trong khu vực. Kế hoạch 5 năm 2011–2015 khép lại với kết quả đáng ghi nhận: GDP bình quân 5,9%/năm; lạm phát từ 18,7% (2011) xuống 0,63% (2015); GDP bình quân đầu người tăng từ $1.374 lên $2.109. Đối ngoại: 15 đối tác chiến lược, 10 đối tác toàn diện; 36 nước công nhận kinh tế thị trường. UNESCO công nhận thêm nhiều di sản Việt Nam. Chuẩn bị cho Đại hội XII (1/2016).",
+        "Tags": ["AEC", "Hoàn thành kế hoạch 5 năm", "Ổn định vĩ mô"],
+        "Author": [{ "Name": "Văn kiện Đại hội XII / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2015-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      }
+    ],
+    "PROFILE_LANH_DAO_DAI_HOI_XI": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Nguyễn Phú Trọng — Tổng Bí thư BCH TW Đảng (1/2011–7/2024)",
+        "Description": "Sinh 14/4/1944 tại Đông Hội, Đông Anh, Hà Nội — Tổng Bí thư từ Đại hội XI đến XIII; GS.TS Chính trị học",
+        "Content": "GS.TS Nguyễn Phú Trọng được bầu làm Tổng Bí thư ngày 19/1/2011 tại Đại hội XI — chuyển từ Chủ tịch Quốc hội (2006–2011). Vào Đảng 19/12/1967. Tiến sĩ Chính trị học tại Viện Hàn lâm Khoa học xã hội Liên Xô (1983). Nguyên Tổng Biên tập Tạp chí Cộng sản; Bí thư Thành ủy Hà Nội (2000–2006); Chủ tịch Quốc hội (2006–2011). Là người duy nhất được bầu TBT cả khóa XI, XII và XIII — 3 nhiệm kỳ liên tiếp (kỷ lục sau Hồ Chí Minh và Lê Duẩn). Tháng 2/2013: trực tiếp làm Trưởng Ban Chỉ đạo TW về PCTN — nền tảng Chiến dịch Đốt Lò. Mất ngày 19/7/2024, thọ 80 tuổi.",
+        "Tags": ["Nguyễn Phú Trọng", "Tổng Bí thư", "Khóa XI-XIII"],
+        "Author": [{ "Name": "Nguồn: baochinhphu.vn / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "https://baochinhphu.vn/tieu-su-tong-bi-thu-nguyen-phu-trong-102197705.htm", "Title": "Tiểu sử – baochinhphu.vn", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Trương Tấn Sang — Chủ tịch nước CHXHCN Việt Nam (7/2011–4/2016)",
+        "Description": "Sinh 21/1/1949 tại Long An — Ủy viên Bộ Chính trị từ Đại hội VIII; xếp thứ 2 tại Đại hội XI",
+        "Content": "Trương Tấn Sang được bầu làm Chủ tịch nước ngày 25/7/2011, xếp thứ 2 trong thứ bậc Bộ Chính trị khóa XI (sau TBT Nguyễn Phú Trọng). Vào Đảng 1969. Tốt nghiệp Học viện Nguyễn Ái Quốc. Nguyên Bí thư Thành ủy TP.HCM (1996–2000); Trưởng Ban Kinh tế TW. Ủy viên Bộ Chính trị từ Đại hội VIII. Trong nhiệm kỳ, ông thúc đẩy các chuyến thăm cấp cao: thăm Mỹ 7/2013 — Mỹ và Việt Nam thiết lập 'đối tác toàn diện'; thăm Nga, Trung Quốc, các nước ASEAN. Là Chủ tịch nước trong giai đoạn căng thẳng Biển Đông (HD-981, 2014). Nghỉ hưu sau Đại hội XII.",
+        "Tags": ["Trương Tấn Sang", "Chủ tịch nước", "Đối tác toàn diện Mỹ-Việt"],
+        "Author": [{ "Name": "Nguồn: chinhphu.vn / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-07-25",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Nguyễn Tấn Dũng — Thủ tướng Chính phủ (tái đắc cử 7/2011–4/2016)",
+        "Description": "Sinh 17/11/1949 tại Cà Mau — Cử nhân Luật; Thủ tướng hai nhiệm kỳ X và XI",
+        "Content": "Nguyễn Tấn Dũng được tái đắc cử Thủ tướng ngày 26/7/2011 với 470/500 phiếu QH, nhưng chỉ xếp thứ 3 trong Bộ Chính trị khóa XI (sau Trọng và Sang). Điều hành kinh tế giai đoạn bất ổn 2011–2012: lạm phát 18,7%, DNNN kém hiệu quả, nợ xấu ngân hàng 15% — BCT tự phê bình trước TW (10/2012). Tuy nhiên, cũng điều hành phục hồi 2013–2015, kiểm soát lạm phát thành công. Theo Wikipedia, tại Hội nghị TW14 K.XI (1/2016), ông Dũng không xin tái cử, chấp nhận rút lui trước Đại hội XII sau cuộc cạnh tranh quyền lực với TBT Nguyễn Phú Trọng.",
+        "Tags": ["Nguyễn Tấn Dũng", "Thủ tướng", "Kinh tế", "Lạm phát"],
+        "Author": [{ "Name": "Nguồn: baochinhphu.vn / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-07-26",
+        "Link": { "Href": "https://baochinhphu.vn/tieu-su-tom-tat-cua-thu-tuong-nguyen-tan-dung-10288370.htm", "Title": "Tiểu sử TTg – baochinhphu.vn", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Nguyễn Sinh Hùng — Chủ tịch Quốc hội khóa XIII (7/2011–3/2016)",
+        "Description": "Sinh 18/1/1946 tại Nghệ An — Cử nhân Kinh tế; Phó Thủ tướng thường trực trước khi làm CTQH",
+        "Content": "Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội ngày 23/7/2011, thay Nguyễn Phú Trọng (lên làm TBT). Vào Đảng 1966. Tốt nghiệp Đại học Kinh tế Tài chính. Nguyên Bộ trưởng Bộ Tài chính; Phó Thủ tướng thường trực. Là Chủ tịch QH trong giai đoạn ban hành nhiều luật quan trọng: Hiến pháp 2013, Luật Đất đai 2013, Luật Doanh nghiệp 2014, Luật Đầu tư 2014. Dưới sự chủ trì của ông, Quốc hội đẩy mạnh cải cách môi trường kinh doanh và hoàn thiện hệ thống pháp luật kinh tế — một trong ba đột phá chiến lược. Nghỉ hưu sau Đại hội XII (3/2016).",
+        "Tags": ["Nguyễn Sinh Hùng", "Quốc hội", "Hiến pháp 2013"],
+        "Author": [{ "Name": "Nguồn: Quốc hội VN / Wikipedia", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-07-23",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      }
+    ],
+    "SO_SANH_BAT_ON_PHUC_HOI": {
+      "BAT_ON_VI_MO": [
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "Giai đoạn bất ổn vĩ mô 2011–2012: Lạm phát 18,7%; DNNN phá sản; nợ xấu 15%",
+          "Description": "Cú sốc kép — di chứng kích thích kinh tế hậu COVID và DNNN yếu kém",
+          "Content": "Giai đoạn 2011–2012 là khó khăn nhất nhiệm kỳ XI: Lạm phát năm 2011 lên 18,7% — cao nhất từ 1995. Một số DNNN lớn phá sản (Vinashin, Vinalines thua lỗ nặng). Nợ xấu ngân hàng ước tính ~15% tổng dư nợ. Tháng 8/2012, vụ bắt giữ doanh nhân Nguyễn Đức Kiên (ACB) làm chấn động thị trường tài chính. Tăng trưởng GDP chỉ đạt 5,25% (2012) — thấp nhất từ 1999. Bộ Chính trị phải công khai 'nhận lỗi' trước BCH TW (10/2012). Đây là nền tảng để ban hành NQ TW4 K.XI về xây dựng Đảng và quyết tâm chống tham nhũng.",
+          "Tags": ["Bất ổn vĩ mô", "2011-2012", "Lạm phát", "DNNN", "Nợ xấu"],
+          "Author": [{ "Name": "Wikipedia Economy of Vietnam / BCH TW K.XI", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left", "Date": "2012-12-31",
+          "Link": { "Href": "", "Title": "", "Target": "_blank" }
+        }
+      ],
+      "PHUC_HOI_ON_DINH": [
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "2013 — Bước ngoặt: Lạm phát 6%; thặng dư thương mại; TBT thăm Mỹ",
+          "Description": "Ổn định vĩ mô phục hồi; Mỹ–Việt thiết lập 'đối tác toàn diện'; Hiến pháp 2013 thông qua",
+          "Content": "Năm 2013 là năm bước ngoặt: lạm phát giảm xuống 6%; thặng dư thương mại năm thứ 2 ($863 triệu); tổng thương mại $228 tỷ. Tháng 7/2013, TBT Nguyễn Phú Trọng thăm Washington — Mỹ và Việt Nam thiết lập 'đối tác toàn diện'. Hiến pháp 2013 thông qua (11/2013). NQ 29 về đổi mới GD-ĐT (11/2013). Nền kinh tế bắt đầu phục hồi sau giai đoạn bất ổn, nhưng tăng trưởng còn thấp (5,42%).",
+          "Tags": ["2013", "Bước ngoặt", "Lạm phát giảm", "Đối tác Mỹ-Việt"],
+          "Author": [{ "Name": "Wikipedia Economy of Vietnam", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left", "Date": "2013-12-31",
+          "Link": { "Href": "", "Title": "", "Target": "_blank" }
+        },
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "2014 — Tăng tốc 5,98%; thặng dư kỷ lục; nhưng HD-981 thách thức chủ quyền",
+          "Description": "Kinh tế tăng tốc — FDI kỷ lục; nhưng Biển Đông căng thẳng với sự kiện giàn khoan HD-981",
+          "Content": "Năm 2014, GDP tăng 5,98%; thặng dư thương mại đạt kỷ lục $2,14 tỷ; nhập khẩu tăng 12,1% lên $148 tỷ. FDI mạnh nhờ Samsung (mở nhà máy thứ 2 Thái Nguyên), Intel, LG. Tuy nhiên, sự kiện Trung Quốc kéo giàn khoan HD-981 (5–7/2014) là thách thức an ninh lớn nhất — kéo dài 2,5 tháng, gây biểu tình trong nước và bài kiểm tra khắc nghiệt cho đường lối đối ngoại. NQ 33 về văn hóa (6/2014).",
+          "Tags": ["2014", "FDI", "HD-981", "Biển Đông"],
+          "Author": [{ "Name": "Wikipedia Economy of Vietnam", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left", "Date": "2014-12-31",
+          "Link": { "Href": "", "Title": "", "Target": "_blank" }
+        },
+        {
+          "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+          "Title": "2015 — Hoàn thành kế hoạch 5 năm: 6,68%; lạm phát 0,63% kỷ lục; AEC vận hành",
+          "Description": "Ổn định vĩ mô bền vững — GDP bình quân đầu người $2.109; AEC mở ra thị trường 600 triệu dân",
+          "Content": "Năm 2015 hoàn thành xuất sắc kế hoạch 5 năm: GDP 6,68% (vượt mục tiêu 6,2%); lạm phát 0,63% — kỷ lục thấp nhiều thập kỷ. GDP bình quân đầu người $2.109. AEC vận hành 31/12/2015 — thị trường 600 triệu dân, GDP $2,6 nghìn tỷ. Đây là thành tựu ổn định vĩ mô nổi bật nhất nhiệm kỳ XI. Từ lạm phát 18,7% (2011) xuống 0,63% (2015) — mức giảm 18 điểm phần trăm trong 4 năm. Chuẩn bị cho Đại hội XII (1/2016).",
+          "Tags": ["2015", "Ổn định vĩ mô", "AEC", "Kế hoạch 5 năm"],
+          "Author": [{ "Name": "Macrotrends / Wikipedia / Văn kiện ĐH XII", "Image": "" }],
+          "Scale": 0.5, "Alignment": "Left", "Date": "2015-12-31",
+          "Link": { "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate", "Title": "Macrotrends", "Target": "_blank" }
+        }
+      ]
+    },
+    "BANG_SO_LIEU_KINH_TE": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2010",
+        "Description": "Năm gốc — Cuối kế hoạch 5 năm 2006–2010",
+        "Content": "GDP: ~$115,9 tỷ USD (giá thực tế: $101,6 tỷ theo VK ĐH XI) | Tăng trưởng: 6,78% | Lạm phát: 11,75% | Xuất khẩu: ~$72,2 tỷ | Nhập khẩu: ~$84,8 tỷ | Thu nhập BQ đầu người: $1.168 USD. Dân số 86,9 triệu. Mức nền để Chiến lược 2011–2020 đặt mục tiêu GDP 2020 gấp 2,2 lần.",
+        "Tags": ["2010", "GDP"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI / Macrotrends", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2010-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2011",
+        "Description": "Khai mạc Đại hội XI; lạm phát đỉnh điểm 18,7%",
+        "Content": "GDP: ~$135,5 tỷ USD | Tăng trưởng: 6,24% | Lạm phát: 18,7% | Xuất khẩu: ~$96,9 tỷ | Nhập khẩu: ~$106,7 tỷ | Thu nhập BQ đầu người: ~$1.374 USD. Lạm phát cao nhất từ 1995. DNNN kém hiệu quả (Vinashin, Vinalines). Nợ xấu ~15%. Hội nghị TW4 K.XI (1/2012) họp khẩn ứng phó.",
+        "Tags": ["2011", "GDP", "Lạm phát"],
+        "Author": [{ "Name": "Macrotrends / Wikipedia Economy of Vietnam", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2012",
+        "Description": "Tăng trưởng thấp nhất nhiệm kỳ 5,25%; BCT nhận lỗi; thặng dư thương mại lần đầu từ 1993",
+        "Content": "GDP: ~$155,8 tỷ USD | Tăng trưởng: 5,25% | Lạm phát: 7,5% | Xuất khẩu: ~$114,6 tỷ | Nhập khẩu: ~$113,8 tỷ (thặng dư $780 triệu — lần đầu từ 1993) | Thu nhập BQ đầu người: ~$1.596 USD. Nợ xấu ngân hàng vẫn cao. Bộ Chính trị nhận lỗi trước TW (10/2012). NQ KH&CN (11/2012).",
+        "Tags": ["2012", "GDP thấp", "Thặng dư thương mại"],
+        "Author": [{ "Name": "Wikipedia Economy of Vietnam / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2012-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2013",
+        "Description": "Bước ngoặt — lạm phát 6%; đối tác toàn diện Mỹ-Việt; Hiến pháp 2013",
+        "Content": "GDP: ~$171,2 tỷ USD | Tăng trưởng: 5,42% | Lạm phát: 6% | Xuất khẩu: ~$132,2 tỷ | Nhập khẩu: ~$131,3 tỷ (thặng dư $863 triệu) | Thu nhập BQ đầu người: ~$1.755 USD. Mỹ–Việt 'đối tác toàn diện' 7/2013. Hiến pháp 2013 (11/2013). NQ 28 BVTQ, NQ 29 GD-ĐT.",
+        "Tags": ["2013", "GDP", "Đối tác toàn diện"],
+        "Author": [{ "Name": "Wikipedia Economy of Vietnam / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2013-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2014",
+        "Description": "Tăng tốc 5,98%; thặng dư kỷ lục $2,14 tỷ; FDI mạnh; HD-981 căng thẳng",
+        "Content": "GDP: ~$186,2 tỷ USD | Tăng trưởng: 5,98% | Lạm phát: 4,09% | Xuất khẩu: ~$150 tỷ | Nhập khẩu: ~$148 tỷ (thặng dư kỷ lục $2,14 tỷ) | Thu nhập BQ đầu người: ~$1.902 USD | FDI: kỷ lục mới. Trung Quốc kéo HD-981 5–7/2014. NQ 33 văn hóa 6/2014.",
+        "Tags": ["2014", "GDP", "HD-981", "Thặng dư kỷ lục"],
+        "Author": [{ "Name": "Wikipedia Economy of Vietnam / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2014-12-31",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "2015",
+        "Description": "Hoàn thành KH 5 năm: 6,68%; lạm phát kỷ lục thấp 0,63%; GDP BQ đầu người $2.109",
+        "Content": "GDP: ~$193,2 tỷ USD | Tăng trưởng: 6,68% | Lạm phát: 0,63% | Xuất khẩu: ~$162 tỷ | Nhập khẩu: ~$165 tỷ | Thu nhập BQ đầu người: ~$2.109 USD. Vượt mục tiêu 6,2%. Lạm phát thấp kỷ lục. AEC vận hành 31/12/2015. GDP bình quân 5 năm 2011–2015 đạt 5,9%/năm (theo văn kiện Đại hội XI).",
+        "Tags": ["2015", "GDP", "Lạm phát thấp kỷ lục", "AEC"],
+        "Author": [{ "Name": "Văn kiện Đại hội XII / Macrotrends / World Bank", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2015-12-31",
+        "Link": { "Href": "https://www.macrotrends.net/global-metrics/countries/vnm/vietnam/gdp-growth-rate", "Title": "Macrotrends", "Target": "_blank" }
+      }
+    ],
+    "CUONG_LINH_VA_DIEM_MOI": [
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "8 Phương hướng cơ bản xây dựng CNXH (Cương lĩnh 2011)",
+        "Description": "Hệ thống 8 phương hướng — từ CNH–HĐH đến xây dựng Đảng",
+        "Content": "Cương lĩnh 2011 xác định 8 phương hướng cơ bản: (1) Đẩy mạnh CNH–HĐH gắn với kinh tế tri thức, bảo vệ tài nguyên, môi trường; (2) Phát triển nền kinh tế thị trường định hướng XHCN; (3) Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc; xây dựng con người, nâng cao đời sống nhân dân, thực hiện tiến bộ và công bằng xã hội; (4) Bảo đảm vững chắc quốc phòng và an ninh; (5) Thực hiện đường lối đối ngoại độc lập, tự chủ, hòa bình, hữu nghị, hợp tác và phát triển; chủ động và tích cực hội nhập quốc tế; (6) Xây dựng nền dân chủ XHCN, thực hiện đại đoàn kết toàn dân tộc; (7) Xây dựng Nhà nước pháp quyền XHCN; (8) Xây dựng Đảng trong sạch, vững mạnh.",
+        "Tags": ["Cương lĩnh 2011", "8 phương hướng", "CNXH"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI — Cương lĩnh 2011", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "8 Quan hệ lớn cần giải quyết tốt (Cương lĩnh 2011)",
+        "Description": "Các cặp quan hệ biện chứng — nền tảng tư duy lý luận cho toàn bộ đường lối",
+        "Content": "Cương lĩnh 2011 xác định 8 quan hệ lớn cần giải quyết tốt: (1) Đổi mới–Ổn định–Phát triển; (2) Đổi mới kinh tế–Đổi mới chính trị; (3) Kinh tế thị trường–Định hướng XHCN; (4) Phát triển lực lượng sản xuất–Hoàn thiện quan hệ sản xuất XHCN; (5) Tăng trưởng kinh tế–Phát triển văn hóa, tiến bộ và công bằng xã hội; (6) Xây dựng CNXH–Bảo vệ Tổ quốc XHCN; (7) Độc lập, tự chủ–Hội nhập quốc tế; (8) Đảng lãnh đạo–Nhà nước quản lý–Nhân dân làm chủ. Đây là hệ thống lý luận hoàn chỉnh nhất từ trước đến nay về những cặp quan hệ biện chứng chi phối toàn bộ đường lối Đổi Mới.",
+        "Tags": ["Cương lĩnh 2011", "8 quan hệ lớn", "Lý luận biện chứng"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI — Cương lĩnh 2011", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "5 Bài học kinh nghiệm Đại hội XI (5 năm Đại hội X; 10 năm Chiến lược 2001–2010; 20 năm Cương lĩnh 1991)",
+        "Description": "Đúc kết kinh nghiệm từ 20 năm thực tiễn thực hiện Cương lĩnh 1991",
+        "Content": "Đại hội XI nêu 5 bài học: (1) Trong bất kỳ điều kiện nào, kiên trì đường lối đổi mới, kiên định vận dụng sáng tạo chủ nghĩa Mác–Lênin, tư tưởng HCM, kiên định mục tiêu độc lập dân tộc và CNXH; (2) Thực sự coi trọng chất lượng, hiệu quả tăng trưởng và phát triển bền vững; (3) Coi trọng kết hợp chặt chẽ tăng trưởng kinh tế với tiến bộ và công bằng xã hội; (4) Chăm lo củng cố, xây dựng Đảng cả về chính trị, tư tưởng và tổ chức; (5) Trong công tác lãnh đạo và chỉ đạo phải rất nhạy bén, kiên quyết, sáng tạo.",
+        "Tags": ["Bài học", "20 năm Cương lĩnh", "Đại hội XI"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Điểm mới 1: 'Dân chủ' bổ sung vào đặc trưng tổng quát và diễn đạt lại quan hệ sản xuất",
+        "Description": "Từ 'Dân giàu, nước mạnh, xã hội công bằng, văn minh' (Đại hội X) → 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' (Cương lĩnh 2011)",
+        "Content": "Cương lĩnh 2011 bổ sung 'dân chủ' vào đặc trưng tổng quát: 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' — lần đầu tiên 'dân chủ' được đặt ngang hàng với 'giàu mạnh, công bằng, văn minh' trong mục tiêu CNXH. Thứ tự sắp xếp cũng thay đổi: dân chủ đặt trước công bằng. Đồng thời, Cương lĩnh 2011 diễn đạt lại đặc trưng về kinh tế: từ 'quan hệ sản xuất tiến bộ' sang 'quan hệ sản xuất tiến bộ phù hợp' — nhấn mạnh tính phù hợp với trình độ phát triển của lực lượng sản xuất, phản ánh nhận thức thực tiễn sâu sắc hơn.",
+        "Tags": ["Điểm mới", "Dân chủ", "Đặc trưng CNXH", "Cương lĩnh 2011"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Điểm mới 2: Bài học 5 — Từ 'bảo đảm' thành 'quyết định'; bổ sung cảnh báo tham nhũng",
+        "Description": "Nâng tầm vai trò Đảng; lần đầu bổ sung cảnh báo 'tham nhũng, xa rời nhân dân' vào Cương lĩnh",
+        "Content": "Cương lĩnh 2011 có hai điều chỉnh quan trọng ở bài học thứ 5: (1) Sửa 'bảo đảm' thành 'quyết định' — 'Sự lãnh đạo đúng đắn của Đảng là nhân tố hàng đầu quyết định thắng lợi của cách mạng Việt Nam' — nâng cao hơn vai trò quyết định của Đảng so với 'bảo đảm thắng lợi'; (2) Bổ sung vào bài học thứ 2 câu cảnh báo mạnh mẽ: 'Quan liêu, tham nhũng, xa rời nhân dân, sẽ dẫn đến những tổn thất khôn lường đối với vận mệnh của đất nước, của chế độ xã hội chủ nghĩa và của Đảng' — lần đầu tiên tham nhũng được đưa vào Cương lĩnh như một nguy cơ tầm vóc vận mệnh.",
+        "Tags": ["Điểm mới", "Bài học 5", "Tham nhũng", "Cương lĩnh 2011"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI — Cương lĩnh 2011", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "Điểm mới 3: Bổ sung 'chống khủng bố' và 'ứng phó biến đổi khí hậu' vào vấn đề toàn cầu",
+        "Description": "Cương lĩnh 2011 cập nhật hai vấn đề toàn cầu mới — phản ánh thực tiễn thế giới thay đổi sau 2001",
+        "Content": "So với Cương lĩnh 1991, Cương lĩnh 2011 bổ sung hai vấn đề toàn cầu cấp bách: (1) Chống khủng bố — phản ánh thực tiễn sau sự kiện 11/9/2001 và chủ nghĩa khủng bố toàn cầu; (2) Ứng phó với biến đổi khí hậu toàn cầu — phản ánh mối đe dọa ngày càng lớn với đặc biệt Việt Nam là một trong các nước dễ bị tổn thương nhất. Việc đưa biến đổi khí hậu vào Cương lĩnh dẫn thẳng đến NQ TW7 K.XI (6/2013) về ứng phó biến đổi khí hậu và NQ 36 K.XII về chiến lược biển bền vững 2030–2045.",
+        "Tags": ["Điểm mới", "Khủng bố", "Biến đổi khí hậu", "Cương lĩnh 2011"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI — Cương lĩnh 2011", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      },
+      {
+        "Image": [], "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
+        "Title": "3 Đột phá chiến lược (Chiến lược PTKTXH 2011–2020)",
+        "Description": "Thể chế – Nhân lực – Hạ tầng: ba điểm nghẽn lớn nhất cần phá vỡ để tăng năng suất và sức cạnh tranh",
+        "Content": "Chiến lược PTKTXH 2011–2020 xác định 3 đột phá chiến lược: (1) Hoàn thiện thể chế kinh tế thị trường định hướng XHCN, trọng tâm là tạo lập đồng bộ môi trường cạnh tranh bình đẳng và cải cách hành chính nhà nước; (2) Phát triển nhanh nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao — đổi mới căn bản và toàn diện nền giáo dục quốc dân; gắn kết chặt chẽ phát triển nguồn nhân lực với phát triển và ứng dụng KH&CN; (3) Xây dựng hệ thống kết cấu hạ tầng đồng bộ với một số công trình hiện đại — tập trung vào giao thông và hạ tầng đô thị lớn. Ba đột phá này được tiếp tục nhấn mạnh trong Đại hội XII và XIII.",
+        "Tags": ["3 đột phá chiến lược", "Thể chế", "Nhân lực", "Hạ tầng"],
+        "Author": [{ "Name": "Văn kiện Đại hội XI — Chiến lược 2011–2020", "Image": "" }],
+        "Scale": 0.5, "Alignment": "Left", "Date": "2011-01-19",
+        "Link": { "Href": "", "Title": "", "Target": "_blank" }
+      }
+    ]
+  }
+}

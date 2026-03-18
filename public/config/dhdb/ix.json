@@ -1,0 +1,1677 @@
+{
+    "Layout": [
+        {
+            "ModuleType": "HERO",
+            "Title": "Đại hội Đại biểu Toàn quốc lần thứ IX của Đảng (2001–2006)",
+            "Description": "Đại hội mở đầu thế kỷ XXI — tiếp tục đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước trong bối cảnh toàn cầu hóa",
+            "Data": "HERO_DAI_HOI_IX",
+            "Config": {
+                "Size": "Large",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "CARD",
+            "Title": "Thông tin tổng quan về Đại hội IX",
+            "Description": "Bối cảnh, nội dung chủ yếu và các văn kiện quan trọng của Đại hội đại biểu toàn quốc lần thứ IX",
+            "Data": "BLOG_CAC_THONG_TIN_CHUNG",
+            "Config": {
+                "Searchable": true,
+                "Categories": [
+                    "Bối cảnh",
+                    "Kinh tế",
+                    "Chính trị",
+                    "Đối ngoại",
+                    "Quốc phòng",
+                    "Văn hóa – Xã hội"
+                ]
+            }
+        },
+        {
+            "ModuleType": "STATISTIC",
+            "Title": "Số liệu tăng trưởng GDP và lạm phát Việt Nam (2000–2006)",
+            "Description": "Tốc độ tăng trưởng GDP và tỷ lệ lạm phát trong nhiệm kỳ Đại hội IX",
+            "Data": "BIEU_DO_THONG_KE_GDP_LAM_PHAT",
+            "Config": {
+                "Variant": "Bar",
+                "Alignment": "Left"
+            }
+        },
+        {
+            "ModuleType": "TIMELINE",
+            "Title": "Dòng thời gian sự kiện nhiệm kỳ Đại hội IX (2001–2006)",
+            "Description": "Các sự kiện, hội nghị Trung ương và mốc lịch sử quan trọng trong giai đoạn 2001–2006",
+            "Data": "DONG_THOI_GIAN_SU_KIEN",
+            "Config": {
+                "Direction": "Vertical",
+                "Alignment": "Center"
+            }
+        },
+        {
+            "ModuleType": "PROFILE",
+            "Title": "Lãnh đạo chủ chốt nhiệm kỳ Đại hội IX",
+            "Description": "Tiểu sử tóm tắt các đồng chí lãnh đạo được bầu tại Đại hội IX",
+            "Data": "PROFILE_LANH_DAO_DAI_HOI_IX",
+            "Config": {
+                "Scroll": {
+                    "Direction": "Horizontal",
+                    "Parallax": true
+                }
+            }
+        },
+        {
+            "ModuleType": "COMPARISON",
+            "Title": "Xuất nhập khẩu Việt Nam trước và sau Đổi Mới sâu (2001)",
+            "Description": "So sánh kim ngạch xuất khẩu và nhập khẩu giai đoạn trước và sau khi Đại hội IX thúc đẩy hội nhập kinh tế quốc tế",
+            "Data": "SO_SANH_XUAT_NHAP_KHAU",
+            "Config": {
+                "FromIndex": [
+                    0
+                ],
+                "ToIndex": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "ModuleType": "TABLE",
+            "Title": "Bảng số liệu kinh tế – xã hội Việt Nam (2001–2005)",
+            "Description": "Tổng hợp các chỉ tiêu kinh tế vĩ mô trong kế hoạch 5 năm 2001–2005 của Đảng",
+            "Data": "BANG_SO_LIEU_KINH_TE",
+            "Config": {
+                "Columns": [
+                    "Năm",
+                    "GDP (tỷ USD)",
+                    "Tăng trưởng GDP (%)",
+                    "Lạm phát (%)",
+                    "Xuất khẩu (tỷ USD)",
+                    "Nhập khẩu (tỷ USD)",
+                    "FDI (tỷ USD)"
+                ],
+                "Sortable": true,
+                "Striped": true
+            }
+        },
+        {
+            "ModuleType": "ACCORDION",
+            "Title": "Các nguyên tắc và bài học Đổi Mới qua Đại hội IX",
+            "Description": "Những bài học kinh nghiệm và nguyên tắc chỉ đạo đổi mới được Đại hội IX kế thừa, phát triển từ Đại hội VI, VII, VIII",
+            "Data": "CAC_NGUYEN_TAC_BAI_HOC_DOI_MOI",
+            "Config": {
+                "DefaultExpanded": 0,
+                "Alignment": "Left"
+            }
+        }
+    ],
+    "Data": {
+        "HERO_DAI_HOI_IX": [
+            {
+                "Image": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+                ],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Đại hội Đại biểu Toàn quốc lần thứ IX — Đảng Cộng sản Việt Nam",
+                "Description": "Họp tại Hà Nội từ ngày 19 đến 22 tháng 4 năm 2001, với 1.168 đại biểu đại diện cho 2.479.719 đảng viên toàn quốc.",
+                "Content": "Đại hội IX là đại hội đầu tiên của thế kỷ XXI, diễn ra trong bối cảnh cách mạng khoa học – công nghệ, kinh tế tri thức và toàn cầu hóa diễn ra mạnh mẽ. Đại hội đề ra Chiến lược phát triển kinh tế – xã hội 2001–2010, xác định mô hình kinh tế thị trường định hướng xã hội chủ nghĩa, khẳng định tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam hành động. Khẩu hiệu hành động: 'Trí tuệ – Dân chủ – Đoàn kết – Đổi mới'.",
+                "Tags": [
+                    "Đại hội IX",
+                    "2001",
+                    "Đổi Mới",
+                    "CNH-HĐH",
+                    "Kinh tế thị trường XHCN"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng Cộng sản Việt Nam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 1,
+                "Alignment": "Center",
+                "Date": "1900-04-19",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_IX",
+                    "Title": "Xem thêm trên Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BLOG_CAC_THONG_TIN_CHUNG": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bối cảnh quốc tế và trong nước",
+                "Description": "Những thuận lợi và thách thức đặt ra trước thềm thế kỷ XXI",
+                "Content": "Đại hội IX diễn ra trong bối cảnh cách mạng khoa học – công nghệ, kinh tế tri thức và toàn cầu hóa diễn ra mạnh mẽ. Sau 15 năm Đổi Mới (1986–2000), GDP Việt Nam tăng từ 15,5 tỷ USD (1991) lên hơn 35 tỷ USD (2000) — hơn gấp đôi trong một thập kỷ. Tuy nhiên, chỉ tiêu tăng trưởng 9–10%/năm của Đại hội VIII không đạt được; nền kinh tế còn hiệu quả và sức cạnh tranh thấp. Sự kiện 11/9/2001 tại Mỹ và căng thẳng địa chính trị khu vực châu Á – Thái Bình Dương là những thách thức lớn.",
+                "Tags": [
+                    "Bối cảnh",
+                    "Toàn cầu hóa",
+                    "Thách thức"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-19",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Chiến lược phát triển kinh tế – xã hội 2001–2010",
+                "Description": "Mục tiêu tổng quát đưa Việt Nam ra khỏi tình trạng kém phát triển",
+                "Content": "Đại hội IX thông qua Chiến lược phát triển kinh tế – xã hội 2001–2010 với mục tiêu: đưa GDP năm 2010 tăng ít nhất gấp đôi năm 2000; tạo nền tảng để đến năm 2020 Việt Nam cơ bản trở thành nước công nghiệp theo hướng hiện đại. Kế hoạch 5 năm 2001–2005 đặt trọng tâm công nghiệp hóa, hiện đại hóa; phát triển kinh tế nhiều thành phần; giảm tỷ lệ lao động nông nghiệp xuống 50% vào năm 2010.",
+                "Tags": [
+                    "Kinh tế",
+                    "Chiến lược 2001-2010",
+                    "CNH-HĐH"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "https://daihoidangtoanquoc.vn/chien-luoc-phat-trien-kinh-te-xa-hoi-2001-2010-post1925.html",
+                    "Title": "Đọc toàn văn chiến lược",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Mô hình kinh tế thị trường định hướng XHCN",
+                "Description": "Bước phát triển lý luận quan trọng của Đảng về mô hình kinh tế quốc dân",
+                "Content": "Đại hội IX xác định rõ: nền kinh tế thị trường định hướng xã hội chủ nghĩa là mô hình kinh tế tổng quát của thời kỳ quá độ. Đây là nền kinh tế hàng hóa nhiều thành phần vận động theo cơ chế thị trường có sự quản lý của Nhà nước. Kinh tế nhà nước giữ vai trò chủ đạo; kinh tế nhà nước cùng kinh tế tập thể ngày càng trở thành nền tảng vững chắc. Kinh tế tư nhân là 'bộ phận cấu thành quan trọng của nền kinh tế quốc dân' (Hội nghị TW5 khóa IX, 3/2002).",
+                "Tags": [
+                    "Kinh tế",
+                    "Thị trường XHCN",
+                    "Đổi Mới"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX / Hội nghị TW5 K.IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2002-03-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tư tưởng Hồ Chí Minh — Nền tảng tư tưởng chính thức",
+                "Description": "Đại hội IX lần đầu khẳng định tư tưởng Hồ Chí Minh song hành với chủ nghĩa Mác–Lênin",
+                "Content": "Đại hội IX là mốc quan trọng khi chính thức xác định 'Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam, là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác–Lênin vào điều kiện cụ thể của nước ta.' Đây là bước phát triển quan trọng trong tư duy lý luận của Đảng, đặt nền tảng cho Chỉ thị 23-CT/TW ngày 27/3/2003 về đẩy mạnh nghiên cứu, tuyên truyền, giáo dục tư tưởng Hồ Chí Minh.",
+                "Tags": [
+                    "Chính trị",
+                    "Tư tưởng HCM",
+                    "Lý luận"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX / Ban Bí thư",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Đại đoàn kết toàn dân tộc và chính sách dân tộc – tôn giáo",
+                "Description": "Hội nghị TW7 khóa IX (3/2003) và ba nghị quyết chiến lược",
+                "Content": "Hội nghị Trung ương 7 khóa IX (3/2003) ban hành ba nghị quyết trọng yếu: NQ 23-NQ/TW về đại đoàn kết toàn dân tộc 'vì Dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh'; NQ 24-NQ/TW về công tác dân tộc — 'vấn đề chiến lược cơ bản, lâu dài'; NQ 25-NQ/TW về công tác tôn giáo — 'tín ngưỡng, tôn giáo là nhu cầu tinh thần của một bộ phận nhân dân.' Cùng với NQ 36-NQ/TW (26/3/2004) về người Việt Nam ở nước ngoài, các nghị quyết này mở rộng và củng cố khối đại đoàn kết dân tộc.",
+                "Tags": [
+                    "Chính trị",
+                    "Dân tộc",
+                    "Tôn giáo",
+                    "Đoàn kết"
+                ],
+                "Author": [
+                    {
+                        "Name": "Hội nghị TW7 Khóa IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2003-03-12",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Quan hệ đối ngoại và hội nhập kinh tế quốc tế",
+                "Description": "Việt Nam sẵn sàng là bạn, đối tác tin cậy của tất cả các nước",
+                "Content": "Đại hội IX thực hiện nhất quán đường lối đối ngoại độc lập tự chủ, rộng mở, đa phương hóa, đa dạng hóa. Hiệp định Thương mại Song phương Việt–Mỹ (BTA) có hiệu lực tháng 12/2001 giúp xuất khẩu tăng 20–30% mỗi năm. Xuất khẩu chiếm đến 57% GDP năm 2004. Việt Nam chính thức gia nhập WTO vào ngày 11/1/2007 (được phê chuẩn 7/11/2006), sau 11 năm chuẩn bị và 8 năm đàm phán, là thành viên thứ 150 của WTO.",
+                "Tags": [
+                    "Đối ngoại",
+                    "Hội nhập",
+                    "WTO",
+                    "BTA"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX / Nguồn: US State Dept 2005",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-12-01",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Kinh tế Việt Nam – Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Chiến lược bảo vệ Tổ quốc trong tình hình mới",
+                "Description": "Hội nghị TW8 khóa IX (7/2003) và định hướng quốc phòng – an ninh",
+                "Content": "Hội nghị Trung ương 8 khóa IX (7/2003) ban hành Chiến lược bảo vệ Tổ quốc trong tình hình mới. Mục tiêu: bảo vệ vững chắc độc lập, chủ quyền, toàn vẹn lãnh thổ; bảo vệ Đảng, Nhà nước, nhân dân và chế độ XHCN; giữ vững môi trường hòa bình, ổn định để phát triển kinh tế – xã hội. Quan điểm chỉ đạo: kết hợp chặt chẽ hai nhiệm vụ chiến lược — xây dựng và bảo vệ Tổ quốc; phát huy nội lực đồng thời tranh thủ nguồn lực bên ngoài; chủ động phòng ngừa và triệt tiêu các nhân tố đột biến bất lợi.",
+                "Tags": [
+                    "Quốc phòng",
+                    "An ninh",
+                    "Chiến lược"
+                ],
+                "Author": [
+                    {
+                        "Name": "Hội nghị TW8 Khóa IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2003-07-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Kết quả Kế hoạch 5 năm 2001–2005",
+                "Description": "Những thành tựu nổi bật trong nhiệm kỳ Đại hội IX",
+                "Content": "Kế hoạch 5 năm 2001–2005 đạt nhiều thành tựu vượt mức: tốc độ tăng trưởng GDP bình quân đạt 7,1%/năm (2000–2004), riêng năm 2005 đạt 8,4% — mức cao thứ hai châu Á, chỉ sau Trung Quốc. GDP năm 2004 đạt 45,4 tỷ USD; thu nhập bình quân đầu người đạt 553 USD. Kinh tế tư nhân đóng góp hơn 1/4 tổng sản lượng công nghiệp (2003). Đầu tư tăng gấp ba; tiết kiệm trong nước tăng gấp năm. Sản xuất nông nghiệp tăng gấp đôi, đưa Việt Nam trở thành nước xuất khẩu gạo lớn thứ hai thế giới.",
+                "Tags": [
+                    "Kinh tế",
+                    "Thành tựu",
+                    "2001-2005"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: US State Dept 2005 / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2005-12-31",
+                "Link": {
+                    "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/47587.htm",
+                    "Title": "Vietnam – US State Dept Background Note",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "BIEU_DO_THONG_KE_GDP_LAM_PHAT": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP 2000",
+                "Description": "GDP: ~35 tỷ USD | Tăng trưởng: 6,79% | Lạm phát: -0,6%",
+                "Content": "Năm 2000 là năm cuối của Chiến lược kinh tế – xã hội 1991–2000. GDP tăng hơn gấp đôi so với năm 1990. Lạm phát ở mức âm nhẹ nhờ chính sách tiền tệ thắt chặt.",
+                "Tags": [
+                    "GDP",
+                    "2000",
+                    "Kinh tế vĩ mô"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / IMF",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2000-12-31",
+                "Link": {
+                    "Href": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=VN",
+                    "Title": "World Bank Data",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP 2001",
+                "Description": "GDP: ~32,7 tỷ USD | Tăng trưởng: 6,89% | Lạm phát: -0,4%",
+                "Content": "Dù bị ảnh hưởng bởi suy thoái kinh tế toàn cầu sau sự kiện 11/9/2001, Việt Nam duy trì tăng trưởng ổn định 6,89%. Kinh tế Việt Nam là một trong những nền kinh tế tăng trưởng nhanh thứ hai thế giới giai đoạn này, chỉ sau Trung Quốc.",
+                "Tags": [
+                    "GDP",
+                    "2001",
+                    "Kinh tế vĩ mô"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / US State Dept",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP 2002",
+                "Description": "GDP: ~35,1 tỷ USD | Tăng trưởng: 7,08% | Lạm phát: 3,8%",
+                "Content": "Năm 2002, Hiệp định Thương mại Song phương Mỹ–Việt (BTA, hiệu lực 12/2001) bắt đầu phát huy tác dụng rõ rệt, đẩy mạnh xuất khẩu. Kinh tế tư nhân tiếp tục mở rộng sau Nghị quyết TW5 khóa IX (3/2002).",
+                "Tags": [
+                    "GDP",
+                    "2002",
+                    "BTA"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2002-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP 2003",
+                "Description": "GDP: ~39,6 tỷ USD | Tăng trưởng: 7,34% | Lạm phát: 3,2%",
+                "Content": "Khu vực tư nhân chiếm hơn 1/4 tổng sản lượng công nghiệp. Xuất khẩu chiếm tỷ trọng lớn trong GDP, đẩy tăng trưởng kinh tế lên mức 7,34%. Tuy nhiên, Diễn đàn Kinh tế Thế giới xếp hạng khả năng cạnh tranh của Việt Nam giảm đáng kể do lo ngại về thể chế và tham nhũng.",
+                "Tags": [
+                    "GDP",
+                    "2003",
+                    "Cạnh tranh"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / WEF",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2003-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP 2004",
+                "Description": "GDP: ~45,4 tỷ USD | Tăng trưởng: 7,79% | Lạm phát: 9,5%",
+                "Content": "Năm 2004, GDP đạt 45,4 tỷ USD với mức tăng trưởng 7,79%. Lạm phát tăng vọt lên 9,5% — mức cao nhất kể từ năm 1998 — do giá nguyên liệu thế giới và chi phí lương thực tăng. Xuất khẩu đạt 26 tỷ USD, chiếm 57% GDP. Trung Quốc trở thành đối tác nhập khẩu lớn nhất của Việt Nam.",
+                "Tags": [
+                    "GDP",
+                    "2004",
+                    "Lạm phát",
+                    "Xuất khẩu"
+                ],
+                "Author": [
+                    {
+                        "Name": "US State Dept / World Bank",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2004-12-31",
+                "Link": {
+                    "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/47587.htm",
+                    "Title": "Vietnam Background Note – US State Dept",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP 2005",
+                "Description": "GDP: ~57,6 tỷ USD | Tăng trưởng: 8,44% | Lạm phát: 8,3%",
+                "Content": "Năm 2005, GDP tăng trưởng 8,44% — cao thứ hai châu Á, chỉ sau Trung Quốc. Thủ tướng Phan Văn Khải thăm chính thức Mỹ (6/2005), đánh dấu mốc quan hệ ngoại giao mới. Kế hoạch 5 năm 2001–2005 hoàn thành và vượt mức phần lớn chỉ tiêu. Tăng trưởng bình quân cả giai đoạn đạt 7,1%/năm.",
+                "Tags": [
+                    "GDP",
+                    "2005",
+                    "Thành tựu"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / US State Dept",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2005-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Tăng trưởng GDP 2006",
+                "Description": "GDP: ~66,4 tỷ USD | Tăng trưởng: 8,17% | Lạm phát: 6,7%",
+                "Content": "Năm 2006, chính phủ Việt Nam ước tính GDP tăng trưởng 8,17%. WTO phê chuẩn đơn gia nhập của Việt Nam vào ngày 7/11/2006. Đại hội X (4/2006) kết thúc nhiệm kỳ IX và bầu lại ông Nông Đức Mạnh làm Tổng Bí thư. Việt Nam chính thức trở thành thành viên WTO từ 11/1/2007.",
+                "Tags": [
+                    "GDP",
+                    "2006",
+                    "WTO"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "DONG_THOI_GIAN_SU_KIEN": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "19–22/4/2001 — Đại hội IX họp tại Hà Nội",
+                "Description": "Khai mạc Đại hội đại biểu toàn quốc lần thứ IX với 1.168 đại biểu",
+                "Content": "Đại hội IX họp tại Hà Nội từ ngày 19 đến 22/4/2001. Bầu BCH Trung ương khóa IX gồm 150 ủy viên; Bộ Chính trị 13 ủy viên; Ban Bí thư 9 ủy viên. Đồng chí Nông Đức Mạnh được bầu làm Tổng Bí thư. Thông qua Chiến lược PTKTXH 2001–2010 và Kế hoạch 5 năm 2001–2005. Khẩu hiệu: 'Trí tuệ – Dân chủ – Đoàn kết – Đổi mới'.",
+                "Tags": [
+                    "Đại hội IX",
+                    "Khai mạc",
+                    "Bầu cử"
+                ],
+                "Author": [
+                    {
+                        "Name": "Đảng CSVN",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-19",
+                "Link": {
+                    "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_IX",
+                    "Title": "Wikipedia",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "11/9/2001 — Sự kiện khủng bố tại Hoa Kỳ",
+                "Description": "Tác động địa chính trị toàn cầu ảnh hưởng đến bối cảnh nhiệm kỳ IX",
+                "Content": "Sau sự kiện 11/9/2001 tại Mỹ, một số nước lớn lợi dụng cuộc chiến chống khủng bố để tăng cường can thiệp vào công việc nội bộ các nước. Khu vực Đông Nam Á và châu Á – Thái Bình Dương trở thành khu vực kinh tế năng động nhưng tiềm ẩn mất ổn định. Đây là thách thức mới đặt ra cho công tác đối ngoại và bảo vệ Tổ quốc của Việt Nam.",
+                "Tags": [
+                    "Quốc tế",
+                    "11/9",
+                    "Địa chính trị"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-09-11",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+                ],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "11–13/11/2001 — Hội nghị Trung ương 4 Khóa IX",
+                "Description": "Kiểm điểm kinh tế – xã hội 2001 và xác định kế hoạch 2002",
+                "Content": "Hội nghị TW4 khóa IX kiểm điểm việc thực hiện kế hoạch kinh tế – xã hội và ngân sách 2001; xác định mục tiêu, phương hướng kế hoạch 2002; thảo luận sửa đổi Hiến pháp 1992 và phương hướng bầu cử Quốc hội khóa XI. Kinh tế năm 2001 vẫn phát triển khá ổn định; thu ngân sách vượt dự toán; quốc phòng – an ninh được củng cố.",
+                "Tags": [
+                    "Hội nghị TW4",
+                    "Kinh tế 2001",
+                    "Hiến pháp"
+                ],
+                "Author": [
+                    {
+                        "Name": "ĐSQVN tại Mỹ",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-11-11",
+                "Link": {
+                    "Href": "https://vietnamembassy-usa.org/vi/hoat-dong/2001/11/thong-bao-hoi-nghi-lan-thu-tu-ban-ch-tu-dang-khoa-ix",
+                    "Title": "Thông báo HNTW4",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "12/2001 — Hiệp định BTA Việt–Mỹ có hiệu lực",
+                "Description": "Mở ra giai đoạn xuất khẩu bùng nổ 20–30%/năm sang thị trường Mỹ",
+                "Content": "Hiệp định Thương mại Song phương Việt–Mỹ (BTA), được ký tháng 7/2000, chính thức có hiệu lực vào tháng 12/2001. BTA là cú hích lớn cho xuất khẩu Việt Nam, giúp kim ngạch xuất khẩu sang Mỹ tăng trưởng 20–30% mỗi năm trong các năm tiếp theo. Đây là bước cụ thể hóa đường lối đối ngoại đa phương hóa của Đại hội IX.",
+                "Tags": [
+                    "BTA",
+                    "Mỹ",
+                    "Xuất khẩu",
+                    "Đối ngoại"
+                ],
+                "Author": [
+                    {
+                        "Name": "US State Dept",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-12-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "3/2002 — Hội nghị Trung ương 5 Khóa IX",
+                "Description": "Nghị quyết về kinh tế tập thể, kinh tế tư nhân và tư tưởng – lý luận",
+                "Content": "Hội nghị TW5 khóa IX (3/2002) ban hành 3 nghị quyết quan trọng: (1) Về phát triển kinh tế tập thể; (2) Tiếp tục đổi mới cơ chế chính sách, khuyến khích phát triển kinh tế tư nhân — chính thức coi kinh tế tư nhân là 'bộ phận cấu thành quan trọng' của nền kinh tế; (3) Về nhiệm vụ công tác tư tưởng – lý luận. Đây là bước tiến lớn trong tư duy về kinh tế nhiều thành phần.",
+                "Tags": [
+                    "TW5 K.IX",
+                    "Kinh tế tư nhân",
+                    "Kinh tế tập thể"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2002-03-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "12/3/2003 — Hội nghị Trung ương 7 Khóa IX",
+                "Description": "Ba nghị quyết về đại đoàn kết dân tộc, công tác dân tộc và tôn giáo",
+                "Content": "Hội nghị TW7 (3/2003): NQ 23 về phát huy sức mạnh đại đoàn kết toàn dân tộc; NQ 24 về công tác dân tộc (vấn đề chiến lược cơ bản, lâu dài); NQ 25 về công tác tôn giáo. Đồng thời ban hành Nghị quyết về đất đai — khẳng định đất đai là sở hữu toàn dân, Nhà nước đại diện quản lý; tiếp tục đổi mới chính sách đất đai phục vụ CNH–HĐH.",
+                "Tags": [
+                    "TW7 K.IX",
+                    "Dân tộc",
+                    "Tôn giáo",
+                    "Đất đai"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2003-03-12",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "27/3/2003 — Chỉ thị 23-CT/TW về Tư tưởng Hồ Chí Minh",
+                "Description": "Đẩy mạnh nghiên cứu, tuyên truyền, giáo dục tư tưởng Hồ Chí Minh",
+                "Content": "Ban Bí thư ban hành Chỉ thị 23-CT/TW về đẩy mạnh nghiên cứu, tuyên truyền, giáo dục tư tưởng Hồ Chí Minh trong giai đoạn mới, nhằm làm cho chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh ngày càng giữ vai trò chủ đạo trong đời sống tinh thần của xã hội.",
+                "Tags": [
+                    "Tư tưởng HCM",
+                    "Chỉ thị 23",
+                    "Ban Bí thư"
+                ],
+                "Author": [
+                    {
+                        "Name": "Ban Bí thư Khóa IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2003-03-27",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "7/2003 — Hội nghị Trung ương 8 Khóa IX",
+                "Description": "Ban hành Chiến lược bảo vệ Tổ quốc trong tình hình mới",
+                "Content": "Hội nghị TW8 (7/2003) ban hành Chiến lược bảo vệ Tổ quốc trong tình hình mới — xác định mục tiêu bảo vệ vững chắc độc lập, chủ quyền, toàn vẹn lãnh thổ; lấy giữ vững hòa bình, ổn định để phát triển kinh tế – xã hội là lợi ích cao nhất. Tăng cường quốc phòng – an ninh, đẩy mạnh hợp tác quốc tế, ưu tiên láng giềng.",
+                "Tags": [
+                    "TW8 K.IX",
+                    "Quốc phòng",
+                    "An ninh"
+                ],
+                "Author": [
+                    {
+                        "Name": "BCH TW Đảng Khóa IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2003-07-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "26/3/2004 — Nghị quyết 36 về người Việt Nam ở nước ngoài",
+                "Description": "Cộng đồng ~2,7 triệu kiều bào được coi là 'bộ phận không tách rời' của dân tộc",
+                "Content": "Bộ Chính trị khóa IX ban hành NQ 36-NQ/TW ngày 26/3/2004 về công tác đối với người Việt Nam ở nước ngoài. Đến năm 2002, khoảng 2,7 triệu người Việt sinh sống tại gần 90 quốc gia và vùng lãnh thổ. Nghị quyết khẳng định: kiều bào là 'bộ phận không tách rời, là nguồn lực của cộng đồng dân tộc Việt Nam, là nhân tố quan trọng góp phần tăng cường quan hệ hợp tác, hữu nghị với các nước.'",
+                "Tags": [
+                    "NQ 36",
+                    "Kiều bào",
+                    "Người Việt nước ngoài"
+                ],
+                "Author": [
+                    {
+                        "Name": "Bộ Chính trị Khóa IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2004-03-26",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "6/2005 — Thủ tướng Phan Văn Khải thăm Hoa Kỳ",
+                "Description": "Chuyến thăm lịch sử của Thủ tướng Việt Nam đến Mỹ sau 30 năm bình thường hóa",
+                "Content": "Tháng 6/2005, Thủ tướng Phan Văn Khải thực hiện chuyến thăm chính thức lịch sử tới Hoa Kỳ — chuyến thăm cấp cao nhất của lãnh đạo Việt Nam kể từ khi hai nước bình thường hóa quan hệ năm 1995. Chuyến thăm được đánh giá là bước tiến lớn trong quan hệ song phương và thể hiện đường lối đối ngoại đa phương hóa, hội nhập sâu của Đại hội IX.",
+                "Tags": [
+                    "Đối ngoại",
+                    "Mỹ",
+                    "Phan Văn Khải",
+                    "2005"
+                ],
+                "Author": [
+                    {
+                        "Name": "US State Dept",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2005-06-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "18–25/4/2006 — Đại hội Đại biểu Toàn quốc lần thứ X",
+                "Description": "Kết thúc nhiệm kỳ IX — Nông Đức Mạnh được bầu lại làm Tổng Bí thư",
+                "Content": "Đại hội X (4/2006) đánh giá 5 năm thực hiện Nghị quyết Đại hội IX và 20 năm Đổi Mới. Bầu BCH TW khóa X gồm 160 ủy viên; Bộ Chính trị 14 ủy viên; Ban Bí thư 8 ủy viên. Nông Đức Mạnh được bầu lại làm Tổng Bí thư. Trần Đức Lương và Phan Văn Khải rời các chức vụ nhà nước. Mục tiêu: GDP bình quân tăng 7,5–8%/năm giai đoạn 2006–2010.",
+                "Tags": [
+                    "Đại hội X",
+                    "2006",
+                    "Kết thúc nhiệm kỳ IX"
+                ],
+                "Author": [
+                    {
+                        "Name": "ĐSQVN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-04-18",
+                "Link": {
+                    "Href": "https://nvsk.vnanet.vn/dai-hoi-dai-bieu-toan-quoc-lan-thu-x-dang-cong-san-viet-nam-1-170401.vna",
+                    "Title": "Đại hội X – TTXVN",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "7/11/2006 — WTO phê chuẩn gia nhập của Việt Nam",
+                "Description": "Sau 11 năm chuẩn bị, Việt Nam trở thành thành viên WTO thứ 150",
+                "Content": "Đại hội đồng WTO tại Geneva ngày 7/11/2006 phê chuẩn gói gia nhập của Việt Nam. Ngày 11/1/2007, Việt Nam chính thức trở thành thành viên thứ 150 của WTO sau 11 năm chuẩn bị và 8 năm đàm phán. Đây là kết quả của đường lối hội nhập kinh tế quốc tế được xác định từ Đại hội IX — 'Việt Nam sẵn sàng là bạn, là đối tác tin cậy của các nước trong cộng đồng quốc tế.'",
+                "Tags": [
+                    "WTO",
+                    "Hội nhập",
+                    "2006"
+                ],
+                "Author": [
+                    {
+                        "Name": "Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2006-11-07",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Economy of Vietnam – Wikipedia",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "PROFILE_LANH_DAO_DAI_HOI_IX": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nông Đức Mạnh — Tổng Bí thư BCH TW Đảng (2001–2011)",
+                "Description": "Dân tộc Tày, sinh ngày 11/9/1939 tại xã Cường Lợi, huyện Na Rì, tỉnh Bắc Kạn",
+                "Content": "Ông Nông Đức Mạnh là Tổng Bí thư Đảng Cộng sản Việt Nam từ 22/4/2001 đến 19/1/2011, giữ chức vụ qua hai nhiệm kỳ IX và X. Trước đó là Chủ tịch Quốc hội khóa IX (1992–1997) và X (1997–2001). Tốt nghiệp Học viện Lâm nghiệp Lê-nin-grát (Liên Xô, 1966–1971). Vào Đảng CSVN năm 1963. Được bầu vào Bộ Chính trị từ Đại hội VII (1991). Là Tổng Bí thư dân tộc thiểu số (Tày) đầu tiên trong lịch sử Đảng.",
+                "Tags": [
+                    "Nông Đức Mạnh",
+                    "Tổng Bí thư",
+                    "Lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Báo Nhân Dân / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "https://nhandan.vn/tieu-su-tom-tat-tong-bi-thu-nong-duc-manh-post481138.html",
+                    "Title": "Tiểu sử Tổng Bí thư – Nhân Dân",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Trần Đức Lương — Chủ tịch nước CHXHCN Việt Nam (1997–2006)",
+                "Description": "Chủ tịch nước kiêm Chủ tịch Hội đồng Quốc phòng và An ninh khóa X, XI",
+                "Content": "Ông Trần Đức Lương (sinh 1937) là Ủy viên Bộ Chính trị khóa VIII, IX; Chủ tịch nước từ 24/9/1997 đến 6/2006. Nguyên là Phó Thủ tướng (1987–1992) và Phó Chủ tịch Hội đồng Bộ trưởng. Tốt nghiệp chuyên ngành Địa chất (Đại học Mỏ – Địa chất). Đã cùng Thủ tướng Phan Văn Khải tuyên bố từ chức vào ngày 24/6/2006. Ông qua đời ngày 20/5/2025, hưởng thọ 88 tuổi. Được tặng thưởng Huân chương Sao Vàng.",
+                "Tags": [
+                    "Trần Đức Lương",
+                    "Chủ tịch nước",
+                    "Lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Chính phủ VN / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "1997-09-24",
+                "Link": {
+                    "Href": "https://xaydungchinhsach.chinhphu.vn/tom-tat-tieu-su-dong-chi-tran-duc-luong-nguyen-uy-vien-bo-chinh-tri-nguyen-chu-tich-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-119250523100623105.htm",
+                    "Title": "Tiểu sử Trần Đức Lương – Chính phủ VN",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Phan Văn Khải — Thủ tướng Chính phủ (1997–2006)",
+                "Description": "Sinh ngày 25/12/1933 tại Củ Chi, TP.HCM — Thủ tướng hai nhiệm kỳ VIII và IX",
+                "Content": "Ông Phan Văn Khải là Thủ tướng Chính phủ từ 1997 đến 6/2006, điều hành chính phủ trong suốt nhiệm kỳ Đại hội IX. Ông lãnh đạo quá trình triển khai Kế hoạch 5 năm 2001–2005 và thúc đẩy hội nhập kinh tế quốc tế. Tháng 6/2005, ông có chuyến thăm lịch sử tới Hoa Kỳ — chuyến thăm cấp cao nhất của Việt Nam kể từ 1975. Tuyên bố từ chức cùng ông Trần Đức Lương vào 24/6/2006.",
+                "Tags": [
+                    "Phan Văn Khải",
+                    "Thủ tướng",
+                    "Lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: US State Dept / Wikipedia",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "1997-09-25",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyễn Văn An — Chủ tịch Quốc hội (2001–2006)",
+                "Description": "Chủ tịch Quốc hội khóa XI, thay ông Nông Đức Mạnh lên làm Tổng Bí thư",
+                "Content": "Ông Nguyễn Văn An được bầu làm Chủ tịch Quốc hội khóa XI (2002–2007) sau khi ông Nông Đức Mạnh chuyển sang làm Tổng Bí thư. Nguyên Ủy viên Bộ Chính trị, Trưởng Ban Tổ chức Trung ương. Đóng vai trò quan trọng trong việc hoàn thiện hệ thống pháp luật thời kỳ CNH–HĐH, đặc biệt là Luật Đất đai năm 2003 và các cải cách thể chế kinh tế.",
+                "Tags": [
+                    "Nguyễn Văn An",
+                    "Quốc hội",
+                    "Lãnh đạo"
+                ],
+                "Author": [
+                    {
+                        "Name": "Nguồn: Quốc hội Việt Nam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2002-05-01",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "SO_SANH_XUAT_NHAP_KHAU": {
+            "TRUOC_DOI_MOI_SAU_2001": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Xuất khẩu Việt Nam trước khi tăng tốc hội nhập (1996–2000)",
+                    "Description": "Giai đoạn trước khi BTA Việt–Mỹ có hiệu lực và Đại hội IX đề ra chiến lược hội nhập",
+                    "Content": "Giai đoạn 1996–2000, xuất khẩu Việt Nam tăng trưởng nhưng còn chậm, bị ảnh hưởng nặng bởi khủng hoảng tài chính châu Á 1997–1998. Chỉ tiêu tăng trưởng kinh tế 9–10%/năm của Đại hội VIII không đạt. Năm 2000, xuất khẩu ước đạt khoảng 14,5 tỷ USD. Thị trường xuất khẩu chủ yếu là các nước ASEAN, Nhật Bản và EU, chưa tiếp cận sâu thị trường Mỹ do chưa có BTA.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "1996-2000",
+                        "Trước BTA"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Nguồn: World Bank / Tổng cục Thống kê VN",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2000-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                }
+            ],
+            "SAU_DOI_MOI_SAU_2001": [
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Xuất khẩu 2001 — $15,0 tỷ USD",
+                    "Description": "Năm đầu nhiệm kỳ IX, BTA Việt–Mỹ có hiệu lực tháng 12",
+                    "Content": "Năm 2001, tổng kim ngạch xuất khẩu đạt khoảng 15,0 tỷ USD. BTA Việt–Mỹ có hiệu lực cuối năm, tạo nền tảng cho bùng nổ xuất khẩu những năm tiếp theo. Hàng xuất khẩu chủ lực: dầu thô, dệt may, giày dép, thủy sản, gạo.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "2001"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Nguồn: Tổng cục Thống kê VN / US State Dept",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2001-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Xuất khẩu 2002 — $16,7 tỷ USD",
+                    "Description": "Tăng trưởng xuất khẩu bắt đầu tăng tốc nhờ BTA",
+                    "Content": "Năm 2002, xuất khẩu tăng khoảng 11% so với 2001. BTA phát huy tác dụng rõ rệt, đặc biệt với hàng dệt may và thủy sản xuất sang Mỹ. Cơ cấu thị trường đa dạng hóa theo đúng chủ trương đa phương hóa của Đại hội IX.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "2002"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Nguồn: Tổng cục Thống kê VN",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2002-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Xuất khẩu 2003 — $20,1 tỷ USD",
+                    "Description": "Lần đầu vượt mốc 20 tỷ USD",
+                    "Content": "Năm 2003 đánh dấu cột mốc lần đầu xuất khẩu Việt Nam vượt 20 tỷ USD. Tăng trưởng mạnh nhờ thị trường Mỹ (dệt may, giày dép), thị trường Nhật Bản (thủy sản) và EU. Trung Quốc trở thành đối tác nhập khẩu lớn nhất của Việt Nam từ năm này.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "2003"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Nguồn: US State Dept / VCCI",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2003-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Xuất khẩu 2004 — $26,0 tỷ USD (57% GDP)",
+                    "Description": "Xuất khẩu chiếm tỷ trọng kỷ lục trong GDP",
+                    "Content": "Năm 2004, xuất khẩu đạt 26 tỷ USD — chiếm đến 57% GDP, mức cao kỷ lục phản ánh sự hội nhập sâu của kinh tế Việt Nam vào thị trường thế giới. Tăng trưởng xuất khẩu đạt khoảng 30% so với năm trước. Hàng xuất khẩu chủ lực: dầu thô (lớn nhất), dệt may, giày dép, thủy sản, gỗ.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "2004",
+                        "Kỷ lục"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Nguồn: US State Dept 2005",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2004-12-31",
+                    "Link": {
+                        "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/47587.htm",
+                        "Title": "US State Dept – Vietnam 2005",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Xuất khẩu 2005 — $32,4 tỷ USD",
+                    "Description": "Hoàn thành vượt mức kế hoạch xuất khẩu 5 năm 2001–2005",
+                    "Content": "Năm 2005, xuất khẩu đạt khoảng 32,4 tỷ USD, tăng khoảng 22% so với 2004. Kế hoạch 5 năm 2001–2005 hoàn thành vượt mức về xuất khẩu. Việt Nam đẩy mạnh đàm phán gia nhập WTO; các chuẩn mực thương mại quốc tế dần được áp dụng. Nông sản, thủy sản, điện tử bắt đầu cơ cấu lại hàng xuất khẩu.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "2005",
+                        "Kế hoạch 5 năm"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Nguồn: Tổng cục Thống kê VN / World Bank",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2005-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                },
+                {
+                    "Image": [],
+                    "Video": {
+                        "Src": "",
+                        "Type": "youtube | file",
+                        "Poster": ""
+                    },
+                    "Title": "Xuất khẩu 2006 — ~$39,8 tỷ USD",
+                    "Description": "Năm cuối nhiệm kỳ IX — WTO chính thức phê chuẩn gia nhập",
+                    "Content": "Năm 2006, xuất khẩu tiếp tục tăng trưởng mạnh, ước đạt gần 40 tỷ USD. Sự kiện WTO phê chuẩn gia nhập của Việt Nam (7/11/2006) đánh dấu bước hoàn tất chiến lược hội nhập kinh tế quốc tế được đề ra từ Đại hội IX. Năm 2006 cũng là năm Đại hội X kế thừa và đặt mục tiêu tăng trưởng xuất khẩu mạnh hơn cho giai đoạn 2006–2010.",
+                    "Tags": [
+                        "Xuất khẩu",
+                        "2006",
+                        "WTO"
+                    ],
+                    "Author": [
+                        {
+                            "Name": "Nguồn: World Bank / Wikipedia",
+                            "Image": ""
+                        }
+                    ],
+                    "Scale": 0.5,
+                    "Alignment": "Left",
+                    "Date": "2006-12-31",
+                    "Link": {
+                        "Href": "",
+                        "Title": "",
+                        "Target": "_blank"
+                    }
+                }
+            ]
+        },
+        "BANG_SO_LIEU_KINH_TE": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2000",
+                "Description": "Năm gốc so sánh — Kết thúc Chiến lược KT-XH 1991–2000",
+                "Content": "GDP: ~$35,0 tỷ USD | Tăng trưởng GDP: 6,79% | Lạm phát: -0,6% | Xuất khẩu: ~$14,5 tỷ | Nhập khẩu: ~$15,6 tỷ | FDI thực hiện: ~$2,4 tỷ. Dân số: ~78,5 triệu. Thu nhập bình quân đầu người: ~$402 USD. Đây là năm cuối của Chiến lược ổn định và phát triển KT-XH 1991–2000, GDP tăng hơn gấp đôi so với năm 1990.",
+                "Tags": [
+                    "2000",
+                    "GDP",
+                    "Số liệu"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Tổng cục Thống kê VN",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2000-12-31",
+                "Link": {
+                    "Href": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=VN",
+                    "Title": "World Bank Data",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2001",
+                "Description": "Năm đầu nhiệm kỳ Đại hội IX",
+                "Content": "GDP: ~$32,7 tỷ USD | Tăng trưởng GDP: 6,89% | Lạm phát: -0,4% | Xuất khẩu: ~$15,0 tỷ | Nhập khẩu: ~$16,2 tỷ | FDI thực hiện: ~$2,4 tỷ. BTA Việt–Mỹ có hiệu lực tháng 12/2001. Kinh tế duy trì tăng trưởng tốt bất chấp suy thoái toàn cầu sau sự kiện 11/9.",
+                "Tags": [
+                    "2001",
+                    "GDP",
+                    "BTA"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / US State Dept",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2002",
+                "Description": "Kinh tế tư nhân được chính thức thừa nhận vai trò chiến lược",
+                "Content": "GDP: ~$35,1 tỷ USD | Tăng trưởng GDP: 7,08% | Lạm phát: 3,8% | Xuất khẩu: ~$16,7 tỷ | Nhập khẩu: ~$19,7 tỷ | FDI thực hiện: ~$2,6 tỷ. Hội nghị TW5 (3/2002) coi kinh tế tư nhân là 'bộ phận cấu thành quan trọng'. Kinh tế tư nhân chiếm >25% sản lượng công nghiệp.",
+                "Tags": [
+                    "2002",
+                    "GDP",
+                    "Kinh tế tư nhân"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / TCTK VN",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2002-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2003",
+                "Description": "Tăng trưởng ổn định, xuất khẩu lần đầu vượt 20 tỷ USD",
+                "Content": "GDP: ~$39,6 tỷ USD | Tăng trưởng GDP: 7,34% | Lạm phát: 3,2% | Xuất khẩu: ~$20,1 tỷ | Nhập khẩu: ~$25,2 tỷ | FDI thực hiện: ~$2,7 tỷ. Khu vực tư nhân chiếm hơn 1/4 sản lượng công nghiệp. Trung Quốc trở thành đối tác nhập khẩu lớn nhất.",
+                "Tags": [
+                    "2003",
+                    "GDP",
+                    "Xuất khẩu"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2003-12-31",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2004",
+                "Description": "GDP đạt 45 tỷ USD, lạm phát tăng cao nhất từ 1998",
+                "Content": "GDP: $45,4 tỷ USD | Tăng trưởng GDP: 7,79% | Lạm phát: 9,5% | Xuất khẩu: $26,0 tỷ (57% GDP) | Nhập khẩu: $31,5 tỷ | FDI thực hiện: ~$3,0 tỷ. Thu nhập bình quân đầu người: $553 USD. Nợ nước ngoài: 34% GDP (~$15,4 tỷ). Nông nghiệp: 21,8% GDP; Công nghiệp: 40,1%; Dịch vụ: 38,1%.",
+                "Tags": [
+                    "2004",
+                    "GDP",
+                    "FDI",
+                    "Lạm phát"
+                ],
+                "Author": [
+                    {
+                        "Name": "US State Dept – Vietnam Background Note 2005",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2004-12-31",
+                "Link": {
+                    "Href": "https://2009-2017.state.gov/outofdate/bgn/vietnam/47587.htm",
+                    "Title": "US State Dept Source",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "2005",
+                "Description": "Tăng trưởng 8,44% — cao thứ 2 châu Á; hoàn thành kế hoạch 5 năm",
+                "Content": "GDP: ~$57,6 tỷ USD | Tăng trưởng GDP: 8,44% | Lạm phát: 8,3% | Xuất khẩu: ~$32,4 tỷ | Nhập khẩu: ~$36,9 tỷ | FDI thực hiện: ~$3,3 tỷ. Là năm cuối kế hoạch 5 năm 2001–2005; phần lớn chỉ tiêu hoàn thành vượt mức. Tăng trưởng bình quân cả giai đoạn 2001–2005 đạt 7,1–7,5%/năm. GDP đang trên đà vượt mục tiêu gấp đôi năm 2000 trước năm 2010.",
+                "Tags": [
+                    "2005",
+                    "GDP",
+                    "Kế hoạch 5 năm",
+                    "Thành tựu"
+                ],
+                "Author": [
+                    {
+                        "Name": "World Bank / Wikipedia Economy of Vietnam",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2005-12-31",
+                "Link": {
+                    "Href": "https://en.wikipedia.org/wiki/Economy_of_Vietnam",
+                    "Title": "Wikipedia Economy of Vietnam",
+                    "Target": "_blank"
+                }
+            }
+        ],
+        "CAC_NGUYEN_TAC_BAI_HOC_DOI_MOI": [
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 1: Kiên định mục tiêu độc lập dân tộc gắn với CNXH",
+                "Description": "Nền tảng bất biến trên cơ sở chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh",
+                "Content": "Trong quá trình đổi mới phải kiên trì mục tiêu độc lập dân tộc và chủ nghĩa xã hội trên nền tảng chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh. Đây là bài học số một được Đại hội IX kế thừa từ các Đại hội VI, VII, VIII và tiếp tục nhấn mạnh. Con đường đi lên CNXH của Việt Nam là bỏ qua chế độ tư bản chủ nghĩa, nhưng tiếp thu những thành tựu của nhân loại đặc biệt về khoa học – công nghệ để phát triển nhanh lực lượng sản xuất.",
+                "Tags": [
+                    "Bài học",
+                    "Độc lập dân tộc",
+                    "CNXH",
+                    "Nguyên tắc"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 2: Đổi mới phải dựa vào nhân dân, vì lợi ích của nhân dân",
+                "Description": "Đổi mới phải phù hợp với thực tiễn, luôn luôn sáng tạo",
+                "Content": "Đổi mới phải dựa vào nhân dân, vì lợi ích của nhân dân, phù hợp với thực tiễn, luôn luôn sáng tạo. Động lực chủ yếu để phát triển đất nước là đại đoàn kết toàn dân trên cơ sở liên minh giữa công nhân với nông dân và trí thức do Đảng lãnh đạo, kết hợp hài hòa các lợi ích cá nhân, tập thể và xã hội. Phát huy mọi tiềm năng và nguồn lực của các thành phần kinh tế, của toàn xã hội.",
+                "Tags": [
+                    "Bài học",
+                    "Nhân dân",
+                    "Đại đoàn kết",
+                    "Nguyên tắc"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 3: Kết hợp sức mạnh dân tộc với sức mạnh thời đại",
+                "Description": "Phát huy nội lực, đồng thời tranh thủ nguồn lực và thời cơ bên ngoài",
+                "Content": "Đổi mới phải kết hợp sức mạnh dân tộc với sức mạnh thời đại. Thực hiện nhất quán đường lối đối ngoại độc lập tự chủ, rộng mở, đa phương hóa, đa dạng hóa các quan hệ quốc tế. Phát huy cao độ nội lực, đồng thời tranh thủ nguồn lực bên ngoài và chủ động hội nhập kinh tế quốc tế để phát triển nhanh, có hiệu quả và bền vững. 'Việt Nam sẵn sàng là bạn, là đối tác tin cậy của các nước trong cộng đồng quốc tế, phấn đấu vì hòa bình, độc lập và phát triển.'",
+                "Tags": [
+                    "Bài học",
+                    "Hội nhập",
+                    "Nội lực",
+                    "Đối ngoại"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Bài học 4: Đường lối đúng đắn của Đảng là nhân tố quyết định",
+                "Description": "Tăng cường xây dựng, chỉnh đốn Đảng — yêu cầu vừa cơ bản, vừa cấp bách",
+                "Content": "Đường lối đúng đắn của Đảng là nhân tố quyết định thành công của sự nghiệp đổi mới. Để làm tròn nhiệm vụ trước dân tộc, yêu cầu vừa cơ bản vừa cấp bách là tiếp tục đẩy mạnh cuộc vận động xây dựng, chỉnh đốn Đảng, làm cho Đảng luôn trong sạch và vững mạnh về chính trị, tư tưởng và tổ chức, về phẩm chất đạo đức, trí tuệ, năng lực lãnh đạo và sức chiến đấu. Chống tham nhũng, quan liêu là nhiệm vụ thường xuyên và cấp bách.",
+                "Tags": [
+                    "Bài học",
+                    "Xây dựng Đảng",
+                    "Chỉnh đốn Đảng"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX / Phát biểu bế mạc của TBT Nông Đức Mạnh",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "https://hanoimoi.vn/dai-hoi-dai-bieu-toan-quoc-lan-thu-ix-phat-trien-nen-kinh-te-thi-truong-dinh-huong-xa-hoi-chu-nghia-494775.html",
+                    "Title": "Hanoi Moi – Đại hội IX",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyên tắc 5: Kinh tế thị trường định hướng XHCN",
+                "Description": "Mô hình kinh tế tổng quát của thời kỳ quá độ lên chủ nghĩa xã hội",
+                "Content": "Nền kinh tế thị trường định hướng XHCN là mô hình kinh tế tổng quát với các đặc trưng: nhiều hình thức sở hữu, nhiều thành phần kinh tế, nhiều hình thức phân phối; chủ yếu phân phối theo kết quả lao động và hiệu quả kinh tế, đồng thời phân phối theo mức đóng góp vốn. Phát triển đồng thời cả kinh tế nhà nước (chủ đạo), kinh tế tập thể, kinh tế tư nhân, kinh tế có vốn đầu tư nước ngoài. Nhà nước quản lý thông qua pháp luật, quy hoạch và chính sách — không can thiệp trực tiếp vào vi mô.",
+                "Tags": [
+                    "Kinh tế thị trường XHCN",
+                    "Nguyên tắc",
+                    "Mô hình kinh tế"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "https://camau.gov.vn/wps/portal/?1dmy=&page=trangchitiet&urile=wcm:path:/camaulibrary/camauofsite/trangchu/thamluannghiencuu/lichsuvhtlnc/mbnmbfgdfgf",
+                    "Title": "Đại hội IX – Cà Mau",
+                    "Target": "_blank"
+                }
+            },
+            {
+                "Image": [],
+                "Video": {
+                    "Src": "",
+                    "Type": "youtube | file",
+                    "Poster": ""
+                },
+                "Title": "Nguyên tắc 6: Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc",
+                "Description": "Văn hóa vừa là mục tiêu, vừa là động lực phát triển KT-XH",
+                "Content": "Xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc là nền tảng tinh thần của xã hội, vừa là mục tiêu vừa là động lực thúc đẩy phát triển kinh tế – xã hội. Làm cho chủ nghĩa Mác–Lênin, tư tưởng Hồ Chí Minh giữ vai trò chủ đạo trong đời sống tinh thần của nhân dân. Góp phần xây dựng con người Việt Nam phát triển toàn diện về chính trị, tư tưởng, trí tuệ, đạo đức, thể chất, về năng lực sáng tạo, có ý thức cộng đồng, lòng nhân ái, khoan dung.",
+                "Tags": [
+                    "Văn hóa",
+                    "Bản sắc dân tộc",
+                    "Nguyên tắc"
+                ],
+                "Author": [
+                    {
+                        "Name": "Văn kiện Đại hội IX",
+                        "Image": ""
+                    }
+                ],
+                "Scale": 0.5,
+                "Alignment": "Left",
+                "Date": "2001-04-22",
+                "Link": {
+                    "Href": "",
+                    "Title": "",
+                    "Target": "_blank"
+                }
+            }
+        ]
+    }
+}
