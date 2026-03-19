@@ -202,7 +202,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [
+                    "/resource/vii/daihoivii.webp"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -556,7 +558,9 @@
                 }
             },
             {
-                "Image": [],
+                "Image": [ 
+                    "/resource/vii/hienphap1992.webp"
+                ],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
