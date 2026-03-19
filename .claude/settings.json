@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find d:/VNR/VNR/src -name *.tsx -o -name *.jsx)",
+      "Bash(identify \"d:/VNR/VNR/public/resource/vii/hienphap.webp\")"
+    ]
+  }
+}

@@ -558,9 +558,16 @@
                 }
             },
             {
-                "Image": [ 
-                    "/resource/vii/hienphap1992.webp"
+                "Image": [
+                    "/resource/vii/hienphap.webp"
                 ],
+                "Style": {
+                    "Image": {
+                        "objectFit": "contain",
+                        "height": 200,
+                        "background": "#f8f8f0"
+                    }
+                },
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -588,7 +595,7 @@
                 }
             },
             {
-                "Image": [],
+                "Image": ["/resource/vii/tw5.webp"],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -616,7 +623,7 @@
                 }
             },
             {
-                "Image": [],
+                "Image": ["/resource/vii/daibieu.webp"],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",
@@ -827,7 +834,7 @@
                 }
             },
             {
-                "Image": [],
+                "Image": ["/resource/vii/nguyenvanlinh.webp"],
                 "Video": {
                     "Src": "",
                     "Type": "youtube",

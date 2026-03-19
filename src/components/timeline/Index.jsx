@@ -50,7 +50,7 @@ const StyledCard = styled(Paper, {
 }))
 
 function TimelineCard({ item, alignment }) {
-    const { Image, Title, Description, Content, Tags, Author, Date: date, Link } = item
+    const { Image, Title, Description, Content, Tags, Author, Date: date, Link, Style } = item
 
     const handleClick = () => {
         if (Link?.Href) window.open(Link.Href, Link.Target || "_self")
@@ -121,7 +121,8 @@ function TimelineCard({ item, alignment }) {
                                     borderRadius: 2,
                                     justifyContent: "center",
                                     userSelect: "none",
-                                    pointerEvents: "none"
+                                    pointerEvents: "none",
+                                    ...Style?.Image
                                 }}
                             />
                         )}
