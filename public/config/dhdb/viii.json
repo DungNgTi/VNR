@@ -95,7 +95,7 @@
     "HERO_DAI_HOI_VIII": [
       {
         "Image": [
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+          "/resource/viii/daihoiVIII.web"
         ],
         "Video": {
           "Src": "",
@@ -341,7 +341,7 @@
     ],
     "DONG_THOI_GIAN_SU_KIEN": [
       {
-        "Image": [],
+        "Image": ["/resource/viii/daihoiVIII.webp"],
         "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
         "Title": "28/6–1/7/1996 — Đại hội đại biểu toàn quốc lần thứ VIII",
         "Description": "Khai mạc Đại hội VIII tại Hà Nội — Đỗ Mười tiếp tục làm Tổng Bí thư",
@@ -353,7 +353,7 @@
         "Link": { "Href": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%99i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_l%E1%BA%A7n_th%E1%BB%A9_VIII", "Title": "Đại hội VIII – Wikipedia", "Target": "_blank" }
       },
       {
-        "Image": [],
+        "Image": ["/resource/viii/292.webp"],
         "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
         "Title": "24/12/1996 — Hội nghị TW2 K.VIII về Giáo dục và KH&CN",
         "Description": "NQ 02 và NQ 03: Coi giáo dục là 'quốc sách hàng đầu'; KH&CN là 'động lực CNH–HĐH'",
@@ -365,7 +365,7 @@
         "Link": { "Href": "", "Title": "", "Target": "_blank" }
       },
       {
-        "Image": [],
+        "Image": ["/resource/viii/khunghoang.webp"],
         "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
         "Title": "7/1997 — Khủng hoảng tài chính – tiền tệ châu Á bùng phát",
         "Description": "Đồng Baht Thái mất giá kích hoạt domino khủng hoảng toàn khu vực",
@@ -377,7 +377,7 @@
         "Link": { "Href": "", "Title": "", "Target": "_blank" }
       },
       {
-        "Image": [],
+        "Image": ["/resource/viii/tranducluong.webp"],
         "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
         "Title": "18/6/1997 — Hội nghị TW3 K.VIII — Nhà nước và chiến lược cán bộ",
         "Description": "Bầu Chủ tịch nước Trần Đức Lương và Thủ tướng Phan Văn Khải; NQ về Nhà nước và cán bộ",
@@ -389,7 +389,7 @@
         "Link": { "Href": "https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_%C4%90%E1%BB%A9c_L%C6%B0%C6%A1ng", "Title": "Trần Đức Lương – Wikipedia", "Target": "_blank" }
       },
       {
-        "Image": [],
+        "Image": ["/resource/viii/lekhaphieu.webp"],
         "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
         "Title": "26/12/1997 — Hội nghị TW4 K.VIII — Lê Khả Phiêu làm Tổng Bí thư",
         "Description": "Kết thúc giai đoạn chuyển giao lãnh đạo; Lê Khả Phiêu là Tổng Bí thư xuất thân từ quân đội đầu tiên",
@@ -401,7 +401,7 @@
         "Link": { "Href": "https://nhandan.vn/tong-bi-thu-le-kha-phieu-nha-lanh-dao-tai-nang-cua-dang-cong-san-viet-nam-post612400.html", "Title": "Nhân Dân – Lê Khả Phiêu", "Target": "_blank" }
       },
       {
-        "Image": [],
+        "Image": ["/resource/viii/danbiet.webp"],
         "Video": { "Src": "", "Type": "youtube | file", "Poster": "" },
         "Title": "18/2/1998 — Chỉ thị 30-CT/TW về Quy chế dân chủ ở cơ sở",
         "Description": "Thực hiện phương châm 'Dân biết, dân bàn, dân làm, dân kiểm tra' tại xã, phường và cơ quan",
