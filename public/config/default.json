@@ -706,7 +706,7 @@
       },
       {
         "Image": [
-          "/resource/vii/Năm 1993, UNESCO công nhận vịnh Hạ Long là Di sản thiên nhiên thế giới và đến năm 2000 tiếp tục được vinh danh lần thứ hai là Di sản địa chất thế giới vì những giá trị về địa chất, địa mạo.jpg"
+          "/resource/x/vnrkng.webp"
         ],
         "Video": {
           "Src": "",
@@ -873,7 +873,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/xiii/rceppp.webp"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
@@ -892,7 +894,9 @@
         }
       },
       {
-        "Image": [],
+        "Image": [
+          "/resource/xiii/TBT Nguyễn Phú Trọng từ trần.jpg"
+        ],
         "Video": {
           "Src": "",
           "Type": "file",
