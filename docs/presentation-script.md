@@ -132,29 +132,11 @@ Thứ hai là năng suất lao động chậm cải thiện. Giai đoạn 2016-2
 
 Thứ ba là phụ thuộc vào FDI. Khối FDI chiếm 70% kim ngạch xuất khẩu, nhưng giá trị gia tăng trong nước chỉ 20-30%. Phần lớn lợi nhuận chuyển về nước ngoài.
 
-Em có một câu chuyện thực tế: Anh họ em hơn em 5 tuổi, tốt nghiệp loại giỏi Đại học Bách Khoa Hà Nội ngành AI. Năm 2018, ở Việt Nam chưa có công ty AI thực thụ. Anh xin việc vào 3 công ty phần mềm, lương cao nhất 8 triệu/tháng - không đủ sống ở Hà Nội. Anh đi du học Hàn Quốc, giờ làm ở Samsung Research, lương 100.000 USD/năm. Tết năm rồi, em hỏi anh: "Anh có muốn về nước làm không?" Anh im lặng một lúc, rồi bảo: "Em à, anh muốn về lắm. Nhưng lương AI ở Việt Nam cao lắm cũng 50-70 triệu/tháng - bằng 1/3 ở Hàn. Anh có vợ con, phải lo thực tế." Đó là "chảy máu chất xám" - nỗi đau thầm lặng.
-
 Thứ tư là chất lượng nguồn nhân lực. Lao động qua đào tạo có bằng cấp chỉ 25-30%. Thiếu kỹ sư chất lượng cao, chuyên gia đầu ngành. Kỹ năng mềm, ngoại ngữ còn hạn chế.
 
 Thứ năm là thể chế - "điểm nghẽn của điểm nghẽn". Hệ thống pháp luật còn mâu thuẫn chồng chéo. Thủ tục hành chính còn phiền hà. Cơ chế xin-cho còn tồn tại.
 
 Thứ sáu là tham nhũng lãng phí. Vẫn còn phức tạp, gây bức xúc trong dân. Làm mất lòng tin, cản trở phát triển.
-
----
-
-### 6.3. Định hướng 2030-2045
-
-Thưa thầy/cô,
-
-Đảng và Nhà nước đã đề ra mục tiêu rõ ràng.
-
-Đến năm 2030 - kỷ niệm 100 năm thành lập Đảng: Thu nhập bình quân 7.500-8.000 USD/người. Trở thành nước công nghiệp theo hướng hiện đại. Tỷ lệ đô thị hóa 50%. Tuổi thọ trung bình 75 tuổi.
-
-Đến năm 2045 - kỷ niệm 100 năm thành lập nước: Thu nhập bình quân 18.000-20.000 USD/người. Trở thành nước phát triển thu nhập cao. HDI 0,85-0,9 - nhóm Rất cao.
-
-Hiện tại 2024 là 4.700 USD. Phải tăng gấp 4 lần trong 21 năm. Điều này có khả thi không? Câu trả lời là CÓ, nếu duy trì tăng trưởng 6-7%/năm, tăng năng suất lao động 7-8%/năm, kiểm soát dân số nâng cao chất lượng nguồn nhân lực, và đẩy mạnh khoa học công nghệ đổi mới sáng tạo.
-
-Ba đột phá chiến lược: Một là đột phá về thể chế - hoàn thiện thể chế kinh tế thị trường định hướng XHCN, cải cách hành chính, chống tham nhũng. Hai là đột phá về hạ tầng - hoàn thiện cao tốc Bắc-Nam, xây dựng sân bay Long Thành, phát triển hạ tầng số 5G. Ba là đột phá về nguồn nhân lực - nâng cao chất lượng giáo dục đại học, đào tạo nhân lực chất lượng cao, thu hút nhân tài.
 
 ---
 
@@ -165,8 +147,6 @@ Thưa thầy/cô và các bạn,
 Em là sinh viên năm 3, sinh năm 2004 - sinh ra trong thời đổi mới. Em không biết cảm giác đói ăn, tem phiếu, xếp hàng mua xăng là gì. Em chỉ biết em có cơm no áo ấm, em có laptop internet, em có thể học từ giáo sư Harvard MIT miễn phí qua Coursera edX, em có thể khởi nghiệp với vài triệu đồng và một ý tưởng.
 
 Điều em hiểu sau khi tìm hiểu về 40 năm đổi mới: Những gì em đang có không phải hiển nhiên. Ông bà ba mẹ em đã đổi máu và nước mắt để em có ngày hôm nay.
-
-Là sinh viên, em tự hứa: Học tập tốt - không phụ công ông bà ba mẹ. Sáng tạo - khởi nghiệp nghiên cứu khoa học. Sống có trách nhiệm - đóng góp cho cộng đồng.
 
 Như Tổng Bí thư Tô Lâm đã nói: "Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay." Nhưng hành trình phía trước còn dài. Thế hệ em - những sinh viên sinh ra trong thời đổi mới - sẽ là người viết tiếp câu chuyện này.
 
